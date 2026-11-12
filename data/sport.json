@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-12T17:46+00:00",
+ "genere_le": "2026-11-12T17:47+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -90,6 +90,7 @@
       "nom": "Federico Valverde",
       "poste": "Latéral droit",
       "numero": "8",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 2,
       "code": "RB"
      },
@@ -97,6 +98,7 @@
       "nom": "Marc Cucurella",
       "poste": "Latéral gauche",
       "numero": "17",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg/330px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 3,
       "code": "LB"
      },
@@ -104,6 +106,7 @@
       "nom": "Aurélien Tchouaméni",
       "poste": "Milieu gauche",
       "numero": "14",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg/330px-Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 4,
       "code": "LM"
      },
@@ -159,6 +162,7 @@
       "nom": "Yan Diomande",
       "poste": "Ailier gauche",
       "numero": "25",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/330px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 11,
       "code": "AM-L"
      }
@@ -178,7 +182,8 @@
      {
       "nom": "Eduardo Camavinga",
       "poste": "Milieu",
-      "numero": "6"
+      "numero": "6",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
      },
      {
       "nom": "Carlos Espí",
@@ -627,7 +632,7 @@
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "31",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "thibaut courtois": {
    "nom": "Thibaut Courtois",
@@ -650,14 +655,14 @@
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "26",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "illia voloshyn": {
    "nom": "Illia Voloshyn",
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "39",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "antonio rudiger": {
    "nom": "Antonio Rüdiger",
@@ -712,7 +717,8 @@
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "17",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg/330px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "alvaro carreras": {
    "nom": "Álvaro Carreras",
@@ -727,7 +733,7 @@
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "33",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "dean huijsen": {
    "nom": "Dean Huijsen",
@@ -742,21 +748,21 @@
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "2",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "joan martinez": {
    "nom": "Joan Martínez",
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "30",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "jesus fortea": {
    "nom": "Jesús Fortea",
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "28",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "bernardo silva": {
    "nom": "Bernardo Silva",
@@ -771,7 +777,8 @@
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "8",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "brahim diaz": {
    "nom": "Brahim Díaz",
@@ -786,14 +793,16 @@
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "14",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg/330px-Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "eduardo camavinga": {
    "nom": "Eduardo Camavinga",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "6",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "jude bellingham": {
    "nom": "Jude Bellingham",
@@ -816,28 +825,28 @@
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "27",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "sergio martinez": {
    "nom": "Sergio Martínez",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "38",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "jorge cestero": {
    "nom": "Jorge Cestero",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "29",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "alexis ciria": {
    "nom": "Alexis Ciria",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "36",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "kylian mbappe": {
    "nom": "Kylian Mbappé",
@@ -852,14 +861,16 @@
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "7",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "rodrygo": {
    "nom": "Rodrygo",
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "11",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rodrygo_2023_%28cropped%29.jpg/330px-Rodrygo_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "endrick": {
    "nom": "Endrick",
@@ -874,21 +885,22 @@
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "35",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "carlos espi": {
    "nom": "Carlos Espí",
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "19",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "yan diomande": {
    "nom": "Yan Diomande",
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "25",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/330px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
   },
   "tj abrams": {
    "nom": "TJ Abrams",
@@ -1367,7 +1379,7 @@
    "equipe": "florida-gators",
    "poste": "Linebacker",
    "numero": "14",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "myles graham": {
    "nom": "Myles Graham",
@@ -1486,7 +1498,7 @@
    "equipe": "florida-gators",
    "poste": "Ligne défensive",
    "numero": "56",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "onis konanbanny": {
    "nom": "Onis Konanbanny",
@@ -1565,7 +1577,7 @@
    "equipe": "florida-gators",
    "poste": "Linebacker",
    "numero": "50",
-   "essai_wiki": "2026-11-12T17:38+00:00"
+   "essai_wiki": "2026-11-12T17:47+00:00"
   },
   "elijah owens": {
    "nom": "Elijah Owens",
