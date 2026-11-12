@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-12T17:06+00:00",
+ "genere_le": "2026-11-12T17:14+00:00",
  "themes": [
   {
    "id": "sport",
@@ -10,10 +10,26 @@
      "titre": "Real Madrid",
      "articles": [
       {
+       "titre": "Jose Mourinho has already fixed Real Madrid's biggest nightmare",
+       "source": "The Real Champs",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONS1zQnlFNTAtT0VOOFdQbnFEWWhqdWF2SWZEZkl5T0FtTzRTdFNjdExQM2NBalVDOHNFUmw1Q0tIdm1XY2l2V0RjT01lMU5YX1dBcS0zMWRxNTl3WVlTZTVlVHVlYm8zV0d1OTI5S2lBRkJTR0NYRnNVMFRybjBiZThJNVpieFdoZi0zM3FOWWlUSXRQVkJiRDFXOFJkcldvMG4tMA?oc=5",
+       "date": "2026-11-12T17:01+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
        "titre": "Mbappe and Diomande’s FaceTime Chat Shows a Real Madrid Bond That Could Squeeze Out Vinicius",
        "source": "Thick Accent – Football",
        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcmNodzZ1a2ZuRnRfVElWdTJMaEpiSE0tUWRLeVBsQUtmMFk5ZmZtVVJObEFiXzdCNkxjc19sYmwxNFpaY1k3X0Q4ZGswZGswaWxlTkFkVjZ2RnpYVTNiZzhKWnMwUndZVU5YTEV3WGZiT055bVp3NHNDSnI3ZTREbnNCS3lNS0h6RzMyM3U0dTJLOHdsMGNjeHdNdVdyRENtMEo3SXdqZ0o0UVRKdDI0eFl1dDA4YUQ4bGJub0RIWmVWT3YySmlfY2NBYw?oc=5",
        "date": "2026-11-12T16:59+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "1400M€ : le Real Madrid vise un nouveau record",
+       "source": "Real France",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KeHBYT2NpcXNhWVV5TElZd2FXbHExYkFmLU8zcnhIaFhRczNvMmxFcUxnQ2pPQ3laTnpsNnlGVnJ2OW9KQjlFTWtTVXZHckxqUXQtNkxrd015dmVYaFFMSndDNFNiU1hGNDB3T1dNUTB3RmlMSlZv?oc=5",
+       "date": "2026-11-12T16:51+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -194,22 +210,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Liga : Florentino Pérez intègre Rafael Nadal au conseil d’administration du Real Madrid",
-       "source": "Flashscore.fr",
-       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMENJS2ZGM2J0cVd5X05qeVV3UGVuQ3dqVTVvR3JoTW45ZFlGY2ljbFhFS2ZheUNuRXY0OUF3VjI5RWJNMG82eUdUa0F6S2psTlV3aUdvTmZ6c1FZZGRaVWNfWkV6NHlLdlcxempDUkJSOW91Wjhmb2JKZW80S3BvbXB1a09CeGpVdlB0TXJ6elVuRXFxTi1KOW9ZS2hLNUlkcElLX1NhdkFMemZtRHJpLTNSanlFUVZTMU0tS0U0OWRoSFljOHc?oc=5",
-       "date": "2026-11-12T13:52+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "VIDEO: Real Madrid's €125m signing Yan Diomande filmed handing money to young Ivory Coast fans",
-       "source": "Nogomania",
-       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXFtLWxZbmQzNGtXRGxqQjFSZ3d6YTFMY19XVC1vc3ljSkxpZ2ZxWElQMGJhTHllZkRLbGExMFFwOFlURmkyNUl3TldRRHVZY3Y4ZVkwQlFvRC1mQzFQMUs3NlFvRXpxS0xSNmotdDF5Y09ibF9XdFZrTUVUenZEMjVfRHlnMll3OGVDbzBvVC03cVdQbUNTVVYwcTJ0R3kwZVRBTGg4NS0zMXA4SjJoSVVUbG9YMmNDd0tnYnI5dw?oc=5",
-       "date": "2026-11-12T13:50+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
        "titre": "Open Thread: November 12, 2026",
        "source": "Managing Madrid",
        "url": "https://www.managingmadrid.com/general/115358/open-thread-november-12-2026",
@@ -236,6 +236,14 @@
        "source": "OnlyGators.com",
        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV3dQdG1kZVpORldqU2tVUFA0RkdfRHhVZU9Sckw0MDJ4UWk2VVZVVHNWT3ljVlN3SGxEZmFRajBNRTdaSy1KbXB4NUhmdDZWMUZkWDl1TURMN1hlSHFtWUhqdnc1M29DV1B6VGpPMUk0cFd1eHIzQ29mODhQSExxc01VMlhUZTdFWThCZjA5VEl1dm8xNWFZZXVRWVlrZw?oc=5",
        "date": "2026-11-12T15:30+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "Aaron Philo returns as Gators’ starting QB at Kentucky",
+       "source": "Orlando Sentinel",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY2wzQnRYcGpRb1ZWZnJPOC16WTYyRVdPTVhRSnR3M2hrY1JtX1VCRUo4VWxMTW84bGFnSXZWZmVRWkczQ3VJSndpWnk3ZnBtSlVway04UTl3dHV1WDM3RzR6YVdWbTJHYmlwSzlwQllmRWpGRVpFWHRHdjNCc0p1NUVIc1BFejlmUTBmVjlOMTRkU1VHVFpwd2h5OGlvTEtlclE3NklOaVllZV9vOEV6dklTWDBCZTUxNmNJRUVyZXVPOElpRThvakZtQXM?oc=5",
+       "date": "2026-11-12T15:08+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -284,14 +292,6 @@
        "source": "Sports Illustrated",
        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY0w2c3lVdHhWSWtldng5SVRKWVRHQVA2aXdkbDV1RmJrVkpHU3RSemRWUWJJLUhJaV9YWG9UbDItYjZVNU1qQmFsUkxsY2t6V0ZwdDJOV3gxWEl6Vmk4NWVfaDNDTGc4a2d3LW9rY2NvRG5FbFpiOTZRdkFUSFlMQjBRRFVDN3JJUHVvY3BSQU04M2V1bVdDZnllT0o0UHNXMmZPR2ZDaktLeG56emljcGd3V2VKSkM1bDI3VnBB?oc=5",
        "date": "2026-11-12T14:19+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Aaron Philo returns as Gators’ starting quarterback for Kentucky matchup",
-       "source": "Orlando Sentinel",
-       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY2wzQnRYcGpRb1ZWZnJPOC16WTYyRVdPTVhRSnR3M2hrY1JtX1VCRUo4VWxMTW84bGFnSXZWZmVRWkczQ3VJSndpWnk3ZnBtSlVway04UTl3dHV1WDM3RzR6YVdWbTJHYmlwSzlwQllmRWpGRVpFWHRHdjNCc0p1NUVIc1BFejlmUTBmVjlOMTRkU1VHVFpwd2h5OGlvTEtlclE3NklOaVllZV9vOEV6dklTWDBCZTUxNmNJRUVyZXVPOElpRThvakZtQXM?oc=5",
-       "date": "2026-11-12T14:06+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -559,11 +559,11 @@
       },
       {
        "titre": "Jaguars vs. Titans: Matchup History Through the Decades",
-       "source": "Yahoo Sports",
-       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYjIxOS1McE5xUmlyRnE5NkZpTnQtWDFFVmpGczFuQ0dhdk5GeF9pbERWZjRLTHFPZ0FYYi1KUlhkbmhjYXhaanFPY2FZZlFBaTZ4b1BfNTZEcnEwWTB2V044bmZZZ1pmZ1cwdXZqUXktMEJqSjJPVE85WFhMcXQ2Q1lUYUdFSnR6ZkE?oc=5",
+       "source": "Big Cat Country",
+       "url": "https://www.bigcatcountry.com/jacksonville-jaguars-history/91221/jaguars-vs-titans-matchup-history-through-the-decades",
        "date": "2026-11-12T14:04+00:00",
        "langue": "en",
-       "origine": "presse"
+       "origine": "passionnes"
       },
       {
        "titre": "Where the Jaguars, Brian Thomas Jr. Must Go From Here After Trade Deadline",
@@ -718,6 +718,14 @@
        "origine": "presse"
       },
       {
+       "titre": "Jordan Davis trade grades: Eagles celebrated, Jaguars dragged",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM29vckNIcG90RlFEMHJGd2dzcFJwdXp1R2ExOXNublp6YS11NFJoSzNPQzJBSHJlQzJ1ZWRKMUEzbVBVOXBid25KeGZWTWhBSDZkVW1pNk0xZXdfMzhMNk9EN2hOS3E2RDNwelJTci12ZnREUVlkS3kzMGJmdkNKZWRHWGVwTWVl?oc=5",
+       "date": "2026-11-12T08:12+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
        "titre": "Wednesday Insider: Davis, Godchaux Ready To Stop the Run",
        "source": "Jaguars.com (officiel)",
        "url": "https://www.jaguars.com/news/wednesday-insider-davis-godchaux-ready-to-stop-the-run",
@@ -756,6 +764,14 @@
      "titre": "Orlando Magic",
      "articles": [
       {
+       "titre": "Stephen Curry (Warriors) manquera minimum deux semaines de compétition",
+       "source": "TrashTalk",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZkhPRTBYemZubDI4NGd0NXd4dVZBSndVY2Z0NGpFU1VrY21aMEMxSGdlSTlWSnVTVy1JbGpTWnItSFBhS0ZJT2RoUUgzZ2wyMWNxeXJNY2ZuS0FWbnpEWlJVTmJidGV1NjhBRGtVZzY1Yjh3TUV2OTVuM24wcG9YY0VFM0NKSmNWZkFjUmlkLVowZU9ZX2ZhVU1zRkJfZThxd2gzMzAxUHNBVndWSnlUMw?oc=5",
+       "date": "2026-11-12T17:11+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
        "titre": "Brice Sensabaugh Pinpoints How Utah Jazz Can Snap Losing Streak",
        "source": "Sports Illustrated",
        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVNhYzljeHpXMDR2YXRyS2VubEw4OVpoSlhDZUNhS2p3QkNaZ0RDZmZqN1AzOFFzb3BSQ2FxOE1FbEdjZ3pMdnFtczdJUWhveGVkZXB1SXFYWnFnR1NiYWlRck55NUNpc2RMOTcxandUTEstNjhXU3hNcTktZkdJVndwaU5GaTRjcUlFTU94cno5d3g4OC1aWTFmbi0?oc=5",
@@ -768,14 +784,6 @@
        "source": "Orlando Sentinel",
        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMHRPNXJHektQR29WeFZkTUZ5aURTRXViWnEtaDFHeG1zV1J0b0ltVGFaZGdjaTN4eUllbGV4U2V4SWx6YUZZODBscnZWeWFTV2Q5OG41TmxtYzhLUUtCOHVQN2M4UEF1cUUybHlLMG4wVkdnbVpCa3kyc3RmXzFjUGNDYXktQkxuR0ZlSU56bFg4Y0VZRW1kY1ptdXpTenZuQlRWTnFxQTkteE9ydUtZYS1VREx2SU54ZFhhUw?oc=5",
        "date": "2026-11-12T15:58+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Wagner scores 38 as Magic send Jazz to 10th loss in row",
-       "source": "Spectrum News 13",
-       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWThlNFJXX1RXd2xobHFPZ1JzbGJzNzdKdGxGNDJtX1VpVUU0WGdZX1pidXA2VG9YZzRweE01Snc3OUhfWjE3V25VX1VBd0tzNjdMM2Iwd3c3WGZGUURaWnhhejdWaVE3aXYwN3hibkVNMzF3UHNQNG1VQlZTemsyaFd5N21WcVJQai1zMF9IMGl0THRMdTlCeDIxam5HdjFmLWcwQ05URjE?oc=5",
-       "date": "2026-11-12T14:46+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -844,14 +852,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Zion Williamson après la défaite des Pels face aux Nets : « Tout simplement inacceptable »",
-       "source": "TrashTalk",
-       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd194RUVmOWpPVm1OTXJLWUttZllNRkJBWHVfcERWc3lHME1mU3VTTzNEMU9sRHVEZ3JKaVZpdmstQU93eXhVNkNsdTB6VzhuZWFnZXE3UWsxSE9fajd2Vjk5TlV4ejZfXy0xeEFfMHVyZ2o0TVNoVHBXSnJEMkFJV3U5ajdQWG1ZQndMNnNreHU5S2VnenAzT0FXcmlzYnNwVWZmb0dUN3l5TDB0WmZnRDBEOVlGOW5s?oc=5",
-       "date": "2026-11-12T11:04+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "Boxscore → Utah - Orlando / mercredi 11 novembre 2026 | NBA",
        "source": "Basket USA",
        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40eTFDZDY3NldwT3YtMGxNSkRobzg4aGU1NzQxUXI0Wk42LVZMdHU4djZGcU9TLVdPSEg5THYwYmNYN1huOHF3WnlqWUVRMGFQTVNFMTBmNEhoaFFDU1o5d1pxdFozaUFzVi1ZTg?oc=5",
@@ -865,14 +865,6 @@
        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xVzJjVVNyX0xTM3A5S1dKdUdqeVY4a0x5X1BBZWJ1bUFKamNyRllPcWVxWncybEZWUXI0MzFSaVFpamE5Qkd0R3ppQ0NxVWNVZG5FeXRnSzlNWmxDWDRzaF9YeDdQNS1xN3U2Q2R1WFdmZ2pQTmZFN0R3?oc=5",
        "date": "2026-11-12T10:22+00:00",
        "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Nadir Hifi crucifie le Fenerbahçe au buzzer de la prolongation !",
-       "source": "TrashTalk",
-       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZW5wcjNVUzZfU1NBc0ZIZUlOekxkRTRUdThiU21LcWhldGdpV05NR0VKM2dYUk9XemxrdWNMMXdTSUt4bzdvYzNCMnZTcWlUTDhpVnBXWlpJcmZaX2dKLXZCNUlOYUtTa0RTbVVnOW1XZllJaEVQSUZ2ZklYYUxJRTBB?oc=5",
-       "date": "2026-11-12T09:58+00:00",
-       "langue": "fr",
        "origine": "presse"
       },
       {
@@ -954,6 +946,22 @@
        "date": "2026-11-12T07:38+00:00",
        "langue": "fr",
        "origine": "presse"
+      },
+      {
+       "titre": "How the Orlando Magic are building momentum despite injury woes",
+       "source": "DAZN",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNGNqRE5KM0dQSE5jc2d4UmJFSVJKVTh0bVAwYTB4VXl1Q2lWNjh6MDIxMHJwV3BsZGthRHJtWE1PSmhMdm5OQXFLeEwwZ01WYTc4TndPNjFRR2VGRW81M2M3YzBNdnJUOW44VDVfbkZOQzIwdkM5ZFliN2djemhUb1NseGd5ZzdDNzZPWUlCY1l1Yi1kYUhGVzk2cVJPMnJXR3dhQTNEd0VoYlRWQ1gzT0Vpc1RFSU1maWVVUzMyenl4UDdTMWFCSA?oc=5",
+       "date": "2026-11-12T07:27+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "Magic’s Franz Wagner ties scoring career-high with masterclass vs. Jazz",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbG9lWGQ1SDBBZVlrd2d4ZUxCNkJwemZkTy0zcFZ4eGVsR1N3R2JtOVNOeC1qMUNfZ3ZBVVZaMXU5OFBvMWpmNmRHcUkySnlOMllRMWFOeXBfOGZfNDBkWEdPYi1TbU1DRXlIQWJ3S1h1dVAzT19WYkVUM2JnMVNkVmRhbTEwN0k?oc=5",
+       "date": "2026-11-12T06:46+00:00",
+       "langue": "en",
+       "origine": "presse"
       }
      ]
     }
@@ -967,6 +975,14 @@
      "id": "anthropic",
      "titre": "Anthropic",
      "articles": [
+      {
+       "titre": "Anthropic Nears Self-Improving AI Threshold: 2026 IPO News",
+       "source": "ALM Corp",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzlHc213elp1T0dldEVEZ2l2b3Y3WlNrQVg4a25NRGNvc1FzVEhBdjl0VTJFWDM2eFpvUHc5a0JNWTNCTTVLTjlYRktrdlNITVhSUGpUa3pnV3NwRHVyTVQ2bUxDbTlWaE9FaWhYRDhNM2Z6MGFYZW0tQkt0blMxUzVqQVRXdkpaUDBTVVhVREVlS0NSQWFOWlJ2bmt3Zw?oc=5",
+       "date": "2026-11-12T17:08+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
       {
        "titre": "Why Anthropic’s IPO could put OpenAI at a disadvantage",
        "source": "Fast Company",
@@ -1004,6 +1020,14 @@
        "source": "Crypto Briefing",
        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rb3htZ2EwU3B5RE5vYXNlcGtra2NVOTA3STBHemVELVhVeHY2X3ZEZWxzRTZxTzVDbXdnRjIxSE5QdDZOa2Rad2dkX2c5VXdsUmxnbFVSNGNEdkRXaE9JOW1kaDNBV3NLUUplQVVqN2JrVGdFOGI3YUpB?oc=5",
        "date": "2026-11-12T17:00+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "J.Crew teams with Anthropic on AI styling tool",
+       "source": "Chain Store Age",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PQW5wNHk1RUhsLS1xX1liUG9iM2lEajJfZEpPTUR2Ni1UREROR3hkMzA0TFA4YU9kaGF2M05mZmczYUhRWGtFTTltRkdpYWNWNE5TUDZTcnBaSG40OGtybUpWa1lZUGlOZTJ1all1bjg?oc=5",
+       "date": "2026-11-12T16:54+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -1150,22 +1174,6 @@
        "date": "2026-11-12T15:35+00:00",
        "langue": "en",
        "origine": "presse"
-      },
-      {
-       "titre": "Dear Future Anthropic Stock Fans, Mark Your Calendars for November 19",
-       "source": "Barchart.com",
-       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdFhMTnF2WTViNEw4cE1tbXdxYVNhMkVkd3VtSUpZV2tOZkV5ZlVSNGFFUW9TWTZYMEhPX0VnakdwbERYN01tR2JLZk1uYnRMSTBQekFyOWo5QXZyOWJPMFJTV2lGWktTc2tnOU41RE45LUJNQ1AyU042T19GUExsNVllY042aUdQZG5Oa0ZfaTVhQURZeThNRTNPMWtUbEJBT01uRmlpS0NmT0RvQ1pxQlh3?oc=5",
-       "date": "2026-11-12T15:35+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Salesforce: Pay For Consensus Growth, Get Anthropic And Databricks For Free (NYSE:CRM)",
-       "source": "Seeking Alpha",
-       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX3paTmhoZnp0Y016Qi1wSHU4bmtrT2JwVGxBM3I4NWRzWUMzemhPTzRoWk94RGd2X0FTbmE2ZnpEbzB0WUYxakw0Z2gwYUpVcWxmRGU5R182UGdNTHpDVG5WSVNxcHZqTU44Y0Y5R19CNWl5M3pRNzNvQ25zd3JyNmlzOW1lWktaOG1OaUEwNnhVUUpiWVoxQThKUVJRTE5HSjBTT1ZHd1RLMEZqZ3ZlbG8zd28?oc=5",
-       "date": "2026-11-12T15:35+00:00",
-       "langue": "en",
-       "origine": "presse"
       }
      ]
     },
@@ -1173,6 +1181,14 @@
      "id": "big-tech",
      "titre": "Grands groupes tech",
      "articles": [
+      {
+       "titre": "Condamné pour agressions sexuelles, Gérard Depardieu renonce à faire appel",
+       "source": "Libération",
+       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQSjd5QWEybjlZdWdvQ3NSWFNzWDdVV0tudmFnUmlEeTBHeUFlb1VwNlBZVER3cEtva1ZQaG5fRkZ6V3VqNEFWTC1meDhOT3lXb2diV0YwR3F5eVpySlNHQXF0RW9Ob3pVV2dKU0J0LWxCVktHTXBrb0VnVHJmTTZ0blZZSzB3VmpmUldqZVJaeFcwVDNBNjcybGlBT0t0VmVZdENHaWJkalNXeGttdlFheWxqdm02SnZBaElqWVIzMFEtdlBHTDZXbE5iWk9Pd0lpMnc5VGlaRFRSaUtseWJxd3I3M1NWZkk1YTNYLVhCU0ZXMDdoNUJIazlSY0pwQzdQeFJxc1VpU21leEtJTWw0WUlvTDFFVzlIeXU3RFdqNjg5eEtMOWpF?oc=5",
+       "date": "2026-11-12T17:09+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
       {
        "titre": "From AI ambition to business impact",
        "source": "The Official Microsoft Blog",
@@ -1196,6 +1212,14 @@
        "date": "2026-11-12T17:01+00:00",
        "langue": "en",
        "origine": "passionnes"
+      },
+      {
+       "titre": "Ce soir sur Amazon Prime Video : noté 4 sur 5, c'est tout simplement l'un des meilleurs films d'action de tous les temps !",
+       "source": "AlloCiné",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5zaGh4cHdvOVpzSFdZYnNCdFowa0NQd0ZqTmdxdFp2SURacDlkWGoyOEVYeFY1Y1VaYW56NmV0eXk2QVpjMzdmZUNKV1pUR014VkhScUhKT2EwTEpHN3c2c280elFWOTYtVDZMM1U5Tm5tOTVPYjNnN1VrSGZoUQ?oc=5",
+       "date": "2026-11-12T17:00+00:00",
+       "langue": "fr",
+       "origine": "presse"
       },
       {
        "titre": "‘The end of Tesla!’: Cybertruck diehards turn on Elon Musk after he pulls the plug",
@@ -1239,9 +1263,25 @@
       },
       {
        "titre": "Le CAC 40 étire sa belle série sur fond de tempête Nvidia",
-       "source": "Zonebourse Suisse",
-       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnozR0pFTThwYnJlM2x6N3BITEFTeDFjNzlmRjJzNWdpX0dMRk4wU3lkTXdYczRpdWRSYmZLS2JaWEt2bmhjQmJkY3Zjdk1hak5yR0Z3dHBVdm9YN3RUZWZROXRjb0hZVDAzcXJTc1Vpa2ZFbFFyZ2NHN19YaHc1MVRUMzc1VVZWajNfb0hnMDNXZkxXc19KTzFwUnEtcDMtNUdpSFVqTkxpMV90UzkxaEIyZUNnZTkx?oc=5",
+       "source": "Zonebourse",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbkhEazNCMm5HYzFtNjF3ZVJWRVhMcDNUdGpFcmVtTU8zTkRxRU1xY1NPam1VcXhzZkxXN04wNUF0eGFMcEYydU51ZVJaODBhbV9nbl9DSjl1ZUM4ZnV4UlUwX3hQUGI5b0VRYi11UURqTXh3UGpobXJLSVN3MDFITDR4bEZoWVpqNk5kZU5hdWtpVTdxV1VUUk0wWGpZNU1kS2EyWXlwekZCVE5Ra1ZsTnU3V3VnQ1E5ZVE?oc=5",
        "date": "2026-11-12T16:59+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "«A long terme, le risque est qu’ils innovent moins bien» : comment Nvidia pourrait pâtir du départ de son iconique PDG-fondateur Jensen Huang, tombé pour des affaires d’infidélité et d’espionnage",
+       "source": "L'Usine Nouvelle",
+       "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPbF85N0tPcmFiWmpjWG1kNU95VlJhd21vWVk3aXlLWHhBOUpUUVRMTUlhLUNmMkhxVkFpSllCOEh2YzkyN0EwWEw0VFdfM3FIRG9EQTVQbjZCa3pVMFA2dm8yOHVzcUZNYTN2d3JReDhCY0Qtd1RsTlgwZE4zUF8zN01KbWFzeEdhOGlza1lEWDYtZ1Q0ODBGd0loQ3BEa3VOVF92ZlFzVHN5YnNlWXBJSFlkbThXOTR2eFpmOEhqN190WExyTk13eDZTalBTWVR0bU9ISk1uYlJXZmFIdFNTcW1FTmMyc2NMTlhic094SEZKRHpCYWNfZ3RDUHA1TWxDSkVKQklLeUdIdXFFeGtUMFBxU2FvenlTcHdWak9IRXA1MHRhRFJ6a2RWX1NrNFFRbXN3RWltUm52ZmdOaWczcW9uc1RucWZPQ1ItU0tmY1k3M3dMcVYxWmpTVXZ1dHRwTkVQNEM3U2dKV19idzNzZ284N3ZsM3c1WU4wLS02M3U4dnRsTU5NMFVHYkxNaXVfcmVmMk51dU9vdy1fWnlNWQ?oc=5",
+       "date": "2026-11-12T16:59+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "Séisme chez Nvidia: englué dans les scandales, Jensen Huang est évincé, Colette Kress prend les commandes",
+       "source": "Le Temps",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS0NIdlBFTlBOTlZKcUVSWlVOSloxOXhXRDNHaV9MU1BDOFhVckZiUGRCWm9laU5COG9qWHNXWHo4bHpWcmhMQ1lKQ1VEZmlSc2ViZ0FzeGpJYWhOeWVMaGcxTVJwQmdEZVpDQUF2d29UY2N1UG5LaXpjdkRlb0RFZ2phSDdMYmlKNFZoLUlMRFB3YzR3c08wX0czS19xNzJGV01kS3g2OHNYMUE0akpBV1N2Slg4dw?oc=5",
+       "date": "2026-11-12T16:58+00:00",
        "langue": "fr",
        "origine": "presse"
       },
@@ -1260,6 +1300,14 @@
        "date": "2026-11-12T16:56+00:00",
        "langue": "en",
        "origine": "passionnes"
+      },
+      {
+       "titre": "AMD en hausse : la tourmente chez Nvidia ouvre une opportunité pour ses rivaux",
+       "source": "TradingView",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4SDVDeVNLcFpKY21YMVk3MXA4U1BDcUJnenFRVlhQczBvU3RHdDBqR2VzakpSVDVvaVNHZG9uUGdrTGpFd1BjLU56bHItVjVQU2hWUVF6eVVUOHBwS0RUWGJtVEFuZw?oc=5",
+       "date": "2026-11-12T16:54+00:00",
+       "langue": "fr",
+       "origine": "presse"
       },
       {
        "titre": "Jensen Huang, a global salesman for artificial intelligence, resigns from Nvidia after affair",
@@ -1286,20 +1334,28 @@
        "origine": "presse"
       },
       {
-       "titre": "\"Le carnet de commandes de Nvidia est rempli pour les 3 à 4 années à venir\"",
-       "source": "La Libre.be",
-       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYzN3ZXNaSW5NMzQyQUk0WmxyX01VeE5BWEc3anp5NnRjZGtsQy1wYl9YdWhySVBSaVNVZXZxNzlKMENvSWJUb09WTEppX2hQQkRuc29CRGNhN0ViMF9IaElxSGptblZ3TGlQVTZqX1NsNTRRc3FyM0hRb28zclYwYTQwQjdJaXlRSUQ1X3VhXzVHNVQ1S0lUTG1ydmNieXg0RDlOVUM4dkJncDJXN3Yxb2ZvTDlTSFdUOUFDVnJhYUhiYVl0TkJuV0hQOVBiQ2xOaDZJTHdBemt0X1RyQlNhb0NidTE3ekhuWTRDNm5n?oc=5",
-       "date": "2026-11-12T16:46+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "Colette Kress may take a more conservative approach than Jensen Huang; sources say she sometimes pushed back on his riskier deals like backstopping OpenAI (Phoebe Liu/The Information)",
        "source": "Techmeme",
        "url": "https://www.techmeme.com/261112/p43#a261112p43",
        "date": "2026-11-12T16:45+00:00",
        "langue": "en",
        "origine": "passionnes"
+      },
+      {
+       "titre": "CAC 40: La Bourse de Paris a progressé, les résultats d'entreprises et Nvidia ont animé la séance",
+       "source": "ABC Bourse",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRExXN3J0NmVqd3JPMXJHYlJpT2Y4M0F1ZmJ2cEh0TUgtTXNfLTY3R2dSeU9malpqLTlBd0xOV2d6MHdQWWZORXFoeGJIOEpkbVU5QUQtby1kZnlpZ3dCOExXTFlWdHJFNDdCRDFNcFV1Q29Ic3dGbnZtWWdrRzc2S21nSnVRZzNZM0RTcVZBcVhxSGxZWGR2enFGczFTWW9QZ1FmOUFya256V1hLaVRraDdpdXh4NVQxQlFR?oc=5",
+       "date": "2026-11-12T16:44+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "États-Unis. Jensen Huang, le patron de Nvidia, démissionne après les révélations sur ses infidélités",
+       "source": "Le Dauphiné Libéré",
+       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTWltMy1CWHNVYTAwa1lRZ2tvTVRMZjd3amhnNXRQR2pHR2VpcWliZjlZTVRxYzMyQUxpejVRLTFfbU1VSWJvVGVuYWctUkpfQm1NcDBrUzRhYnBNUS1pU3pDWnpuRzQyZ00zU19zN1QydENsTllDMlRqeXhPbjZzaFdZWVdFTHRTM1BETE1ZSkZucGhmbkRaNEtwYUsycGlNWDhZWnVrTDQzZ1dZV3g4ZjljZ0N2LUZtUjE1RDZpQk9GX2JxN3V0Tk85a1BMa0YwWm1raVhVYXlKT2paVENCZQ?oc=5",
+       "date": "2026-11-12T16:43+00:00",
+       "langue": "fr",
+       "origine": "presse"
       },
       {
        "titre": "Dans la tourmente, le PDG de Nvidia, Jensen Huang, démissionne",
@@ -1334,6 +1390,22 @@
        "origine": "presse"
       },
       {
+       "titre": "Jensen Huang’s shock exit leaves Nvidia facing its biggest test in 33 years",
+       "source": "Investing.com",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRzBwMDFwVUFCT0dCaFhja3lvTXpwSVlHeUZRd1FMbDVsdmpXdV85OG1qUTQzN1ZhMU5mUjd2NzVDTnk4aUlNem5hQ1ltT2NlTHBVNFAxdElOTjJTMDdyREduTkgtZGhJS2x3SWhCbFM5cFZMZXRJSmo3WldROGtPalJQaEFfRjdYa0E?oc=5",
+       "date": "2026-11-12T16:38+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "Alphabet vs. Broadcom: the best AI stocks for risk and reward",
+       "source": "Yahoo Finance",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWDVQLTBZRE9CU051Z1N6NXVtQ2d2dlJJMW1DYmF0UXFBY0tVTWFfT3praUZYUjhCRWJON1F1R3I3Q3IzelZNbVFWekdhWEl4dXE1YTl4a3Vqa3l2M1ZlVmRLSFAwVjhZS2UzWlREVmlkNk5TeWtwdU1hRkk2MF9NZGp1QWtWRk1veEVfTnNSV3dONktjVHlVdg?oc=5",
+       "date": "2026-11-12T16:38+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
        "titre": "36 direct reports, no heir apparent: How Jensen Huang’s 'flat' org may have hampered Nvidia’s succession planning",
        "source": "Fortune",
        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPejRYNVNJT1NySVI5RVc0VHpZQW9EMDhCVXBuYmwzay1aam9QR0hpWTV5SGFiNjhFQklLOXJpQjF6LUlHaFY2cVZaRzVZdTFqNjBsdmhoVlJiejcyVEtnaGU1MlkzTl90UUxraG4ycXNldjV2NVVSNDRJc0hMR0dvczVDRGZkYWs?oc=5",
@@ -1358,6 +1430,14 @@
        "origine": "presse"
       },
       {
+       "titre": "Trump recommends Tim Cook for Nvidia CEO after Jensen Huang resigns",
+       "source": "NBC News",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMWtobkxyQkM3Q0xoVUhfLTlPVzlvSUlTTTJpZGtJMGZXU1F0d3dZQ3h4ajZXc2xnM3BLUkIxbUNORWVjN0lBd1BTZ2JGdGx6UUlSYV9xUlNldk1rRGQ3aUJUM0I3ajZ6SmdSUnNBUWppVGtQNDJ4TTRQN3JXRFhWMDJTbmVjWnp0ZE1udWo4TDdxaXVRQXlKaldOT2RIM0RFdzlPM1YyajdvSXdnb0pB?oc=5",
+       "date": "2026-11-12T16:35+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
        "titre": "US House Foreign Affairs Chairman Brian Mast says Jensen Huang has agreed to testify to Congress before Thanksgiving, likely behind closed doors (Erik Wasson/Bloomberg)",
        "source": "Techmeme",
        "url": "https://www.techmeme.com/261112/p41#a261112p41",
@@ -1374,38 +1454,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Why SpaceX Stock Popped After Nvidia's CEO News",
-       "source": "The Motley Fool",
-       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkIxLTRyQjNWUVhYY2oxTTVtNEs2VEEyU1B3eFBhU1J0OGc5VkNCSHpNYmg4MDZyQTZiVFcxcGFzRTFRck9IeGxLRDQ4UGxBc1RzVm5PNEpZVmp0N01pTG9jeXJBTThzUFM1bXl6ZHJMc1Q1STU3dWphRlJGa2FSQ0JnUERoN0dIdExIRHBvOWxlU2NM?oc=5",
-       "date": "2026-11-12T16:34+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-       "source": "TechCrunch",
-       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalZzSjh5OU5Xdjkza2oySlNWYjUyZWRMS2ZzcUt6WWZ1bWZILVhqYjBBTklMOHdFeGdiLXY2cWlmQWdBM2x1cjVWSzA1cXpKTHFpWDdPMDZuZ3Y3SThTZGg3Rk9KTm1BakRQMFBnRUU1VlRoYVp3ZGd5OGpDcWI3emZUSGFjdFZ1aDJQdy1sVTdlVXRoU2tra3Vidmh0NVU4UWt5djFIcGZ4UQ?oc=5",
-       "date": "2026-11-12T16:32+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Nvidia Without Jensen Huang? 'A Disaster,' Says Analyst",
-       "source": "Investor's Business Daily",
-       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHE1ekFlYWdtTC05U3JEeDlQWmFnUmhsZmZQMDhpTDdrMkhFTjdmOEQ3WThCQmtCRU5JZnVCSFhEWFg1LXFZVU5OQkd2UmNha1VQLVVZVzdGTXd4ZW9VRUkxNTM1UUFjUEpfa1dQQk1fNlN0OVIzX2tXVjhnTGdtbWd4YmFzNVU?oc=5",
-       "date": "2026-11-12T16:31+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "800 milliards de dollars de capitalisation partis en fumée : le coût faramineux de la démission de Jensen Huang",
-       "source": "Les Echos",
-       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcVh3akN0UVJYV1BxcjVPcHVlbDRleGgyYTRLZERTY0hZUXNXT19xYWtQUklVUFdzLVF5c0dxZDNfb3BacjFZRFl0X05ybWhYLWJkbUMxSTU0M00tMmo3ZXhORzZWQUdnQ1JTRXN4SkxFaVBzRDZxWEhVVngwMGxMMjRMYjVDN0t1enJ3dXRFMXg5cGstTEI3TWpEWXh1b2FzMlNOWkZCVFZNU29ENHhxNUx3Zk1nV0IySWhpV2x6cDJORXBia19vaDhqN1RlTXR2UzlFdVg4Znd6MnJoRy1mZjhMTEVzbUk2ZVNlWFZZbXE5am9LakN2Wk9ZcFBYRjk3YVV0UjFnaw?oc=5",
-       "date": "2026-11-12T16:30+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "Jensen Huang is out. What did China want from him?",
        "source": "The Verge",
        "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
@@ -1414,52 +1462,12 @@
        "origine": "passionnes"
       },
       {
-       "titre": "Wall Street progresse légèrement, tandis que Nvidia recule après la démission de son directeur général",
-       "source": "Boursorama",
-       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMllXdDZtRTJRTnRnaENwamdxMnRpbGgydF82WVVVcXhLQjBlT1lWcExhdXBPRTZKWFZRMXN1Yk53RHRua3d1RzMwbXpiTkNPUmV0emozODhtbXgzeG1ZVlVpNmROM3ZjSTQzazBObTRRZDE3WHM2dGhMTkV2TEc5Tk4tYlZodWhnbHBETUwyWU1lYjhrMGtMUmNjeG5kMXlyUnMwazhvNkV6Y24wWDBRaS1Fb05pLUdUWktoTERWeFR5MXM4R1p5WEIzU3dwZkstaVprcW9JVERta1BNYXBUZWNpVEtJYVlEX2JCLTBYZjJhWGlHRmVkTzNxTXp0eGZ4aVRwOTBvcWJPa1XSAZACQVVfeXFMTm1pdHd4cldoY0k4RWVHbTAtdnVZQXRGUTV6bEdyUUUwcGN0bTRyN2FXSDM0UG5nTS0tbmI2TVdFMTNPbzloT1QwMUR6STktUFY1aUxKMVJjQlBMUFAyekdiaVJKU2MyVlNKT0hnWmYzdEZvUmUySlh1Y3RrYmJIUm5kU0J1NGs0QmNwZmhFbDU0akM5TTBqaVBwbWx0SlN4YlBsQmw1OVpyTXBnZXNxRXhOUE1jTWo1S3RZNU5pWEFib3BqRV9NLUFWTWtpY0NKZTlHRWMwNGViWnBYVEU5YUlmeVRaY1ZKU0tkQjNKbEFPV1draWdWUzJCdHRZV0IyYWQ1Q1FRWTRuUnItTlhiM0I?oc=5",
-       "date": "2026-11-12T16:27+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "Chute de Jensen Huang : Nvidia victime du « syndrome de l’homme providentiel »",
-       "source": "La Croix",
-       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLXhvQm1hWVlVS1VHeTRzS0hoVzFiS1A1MHV5bnB0YndwQU9EWTFYSmdxbkdRQWVQcnNzSmppVlFFRUhKZDVGTkRRVkJVTHk2dlMxUkVSWnhqMlFYTVlXbHpZU3Z6b3pFa0s2b3RpVVdqcDdCUWIxa2FabW91MzVjU1RXNzY2b0NIck1jd2lpNmxUVXJYRExZTG5meHQ1MEUtcnRGbnNmY3Q3S1NaeUtaaTEtR09fZw?oc=5",
-       "date": "2026-11-12T16:27+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "Donald Trump calls for Tim Cook to replace Jensen Huang at Nvidia",
-       "source": "The Hill",
-       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUTNvN1lydjY5eDZuYl9ZaXJFVF9tLVlQVUdqM01kUHZTSTFOUjY4aHhuWTZBSkZaa3BXMHg1QWR0c2NicUxMX1RPZFU1S2Y0UXJKS0lkSDJFZHhSUmdEZDRLWUp3M3R2WUVYeFF3NFcwNWhIQzFsS0c1ZWVOOUo1NkJJbw?oc=5",
-       "date": "2026-11-12T16:25+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Exclusive: US DOJ probes Nvidia as fallout from Huang’s resignation ripples across Washington",
-       "source": "Semafor",
-       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ITzNoa1JXdHN3WkN2Rk9iRndzODYtblUtS1RUejhrRUZlazJ4Yk5TdEtYTkpqbVU2UHZicWRGNDVKNUk4UlhzLTJ5Y2xzMnFKM0EwTEhMZzRpNUdCSWQyU1pCb0JIc2pzcVFLaHU1NHQ?oc=5",
-       "date": "2026-11-12T16:23+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
        "titre": "Quel est ce « Feu Secret » dans Les Anneaux de pouvoir, que le magicien Gandalf dit servir ?",
        "source": "Numerama",
        "url": "https://www.numerama.com/pop-culture/1811462-quel-est-ce-feu-secret-dans-les-anneaux-de-pouvoir-que-le-magicien-gandalf-dit-servir.html",
        "date": "2026-11-12T16:23+00:00",
        "langue": "fr",
        "origine": "passionnes"
-      },
-      {
-       "titre": "Colette Kress, de directrice financière à DG par intérim de Nvidia",
-       "source": "Boursorama",
-       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbTlWa3ZydmthY3BsQ2NGS2FucWlTOUxHbERNbzJjak5rM1Q1TWRNTW1yNU1UQ2JHbVVjWTB2WWpUWFdqcTRkaWk0ZS12NmdsUmhpSDIzLTBQZzMxRDQ1cXZRQzgweGZuVlp0RkpFYXI2N3lOYTk1WGYxRndQQTdfem8yWDNscDNOOEpSWnI4ZGVzVVFES1RqY1dNellWcWFBdjVmcFJPeFZjZW1rVm5GRlFlajBpTC1rSjJXWmV0UmdWWjh5bE9ycVppTHpZU3huTVZWeUFvSVROSzTSAeABQVVfeXFMTlQ4X0I0RWVfSFEyT3NMdjU2Q0ZCbmo3eFZyYjQ2ck9lOGt4b3dRZ3o4MFhNcFh5Q3B5aEZweHl6dHpVOXZIVzFFSkx6MWNDc1kxYjM3bkVLeFFhcUhBUDFKem5nb1FLdkVnZDBTUUI1MEhIM1JJZGoxMl9lVjJEbGVaUFd5RUVUMm8wUkFWenlLdklRbU9nQ3dVRV83bVBMTmZQWlhCQTc0SEpLV3pUWFVvR2w1ekNQdUhibFNhS2dUeEZNb3JwVjZ4ZGJIcUFKR1VfOEVOQmdGT1ZPcWdZWGY?oc=5",
-       "date": "2026-11-12T16:22+00:00",
-       "langue": "fr",
-       "origine": "presse"
       },
       {
        "titre": "Whoop launches Whoop Humans, a free opt-in social network in its app that allows members at every tier to share health data with approved followers (Connie Loizos/TechCrunch)",
@@ -1516,10 +1524,26 @@
        "origine": "presse"
       },
       {
+       "titre": "Détenu, il voulait voler 2,7 millions de dollars en cryptos, une sonnette vidéo l'arrête",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb05hNHZsZ0xkUHk1MHVwVDdoRDdtd1RqUWZ2ck13eDFSc09NZ0E4elJLZ1kxamZtVlRpWjY3SlhscllvS19UYkZHUzQyNV82Wm1McUZLNEpCQ1JUQk9MMjhPMmZnTXp6eVpVNFpjU1lIeEFvUXEtV3h3dE9CT0wxc1hhRDVpOWFiMEExcA?oc=5",
+       "date": "2026-11-12T17:02+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
        "titre": "Databricks lance le nouveau Genie, l'agent IA qui travaille en arrière-plan",
        "source": "Pasquale Pillitteri",
        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFVXVVdjaUo3N3RPWWlMS2EyOFJLSVRoNG80MTM0b1VKMXhaMDNEclNadm9ZX1FGM0h3VDUwaGF2UUFLQ3hqdDk2V0hZLWZsRXNQRlVaaDRKS0xtOVBCUGJNSFNoTFZJcHdDTDk1X2hoLXJERnJjUTh2SGtXNkdETHVZWjJmR01taGc?oc=5",
        "date": "2026-11-12T17:00+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "Faille critique dans Zoom pour Windows, passez à la version 7.1.8",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOVR0MUZQaEUweGpBTUpCcWk2WlF6Mng3eDM4emJfQjFicm5UOW1KS25vbU9wanN0NVFHbThkSWVsYkN0NGJDNEdDd0N6UnA1TGUzUEN3Mm5CT29YTUlzQktDZ0hkUFc4THlzdlBPTFM0bzlIYlplejc2WUZkT1dmMTNOS2hsdC1uT3kwZFBreExUX2pI?oc=5",
+       "date": "2026-11-12T16:58+00:00",
        "langue": "fr",
        "origine": "presse"
       },
@@ -1544,6 +1568,14 @@
        "source": "Pasquale Pillitteri",
        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS05va21KTWNVbUh5QVIxWVJHMzdHSHBkNHRJWDM2ZWRIbmJZblMyS29FdlZlMTNlc0RlYV8yM3hXWF8yRERWUGpzY1NmT0dseWpBV3lKQ05KYjdEcEVVTm1NbnhKN01QcFBDSFZ6NTlyeXAyNHVmcThCaEVkVVJWYmV1TXJrUE1iaWFTWC1zRmQtQU9KZGc?oc=5",
        "date": "2026-11-12T16:50+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "Alerte à la bombe dans 1 803 écoles, le mail exige la démission de Meloni",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObEFpLXdNQ0k2SGZLOUFIMDVWbU5UNm82QVpKaEExaTd2c3dYU3FkRHlob3JULVMwTjVUVF9Mc0VPbDF5NkcxMWR0SEtsb3ZLWXNzTlV1RzdjdjBOWXR6WEEtX2xiUm5RYUk3VDJWYWhncEk1aW1oc3l2UHJ5cWVacGlyYkxuVDh5aElIaGJpdFdrVnVocG1KYXYzOVE?oc=5",
+       "date": "2026-11-12T16:48+00:00",
        "langue": "fr",
        "origine": "presse"
       },
@@ -1612,14 +1644,6 @@
        "origine": "presse"
       },
       {
-       "titre": "ElevenLabs lance Scribe v3, précis mais plus lent et plus cher",
-       "source": "Brief IA",
-       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOGJDYWFjZzRwTWNmQUlTNUd6QUl3bEFSRHR6bzBISElSdDV0eXZOYkI4UnI3UWYxTU5lMlk3dlQ1Q1g3SU1OV2U3VWhfZ245b0J4RTJYUHR2QlE2ZlVzNElFRlRHd1lhYlNUcURnZklxYklPTnpPMF95czFHZm1XRks2UDhfdlpaUWF6SktCT1hySzN3dm9Z?oc=5",
-       "date": "2026-11-12T14:04+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "Mistral et la protection des créateurs face à l'IA",
        "source": "Slash Média",
        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVnhtQXVrZUFyaWFZbUNleGVCcVd1NThKVXJCZnRQNEZybmpTcW9SbVdtb2VBMWJLOHNwWTNKVUlRWDJHU2MzQWtyclRXVk5OemJ4Rk1xVWlmVHZwLUpPT2JCOVVYNTZQOFFkLUJHYkpYbVNIV1ZrZnphNDg1RmhDMDJn?oc=5",
@@ -1640,14 +1664,6 @@
        "source": "Pasquale Pillitteri",
        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEtKazZhNlZjSHZxMmlZNEpmdE8yUXh2MzBDNFNkUENrR0dGT19WRVZsY3lITGNBcEZZNVpMNVhuQjR0cjJ5bmZMTXZ4VERXQnVSa3RfdTc0aXcwS3FqT2t1am5UUEl3dkZDNTA1NHFNMWVOMFE2b1NJbi1qWXJBLTM1ZG5VUWs3VV9fWFFkUG1xVkZNNXZ5V3NwdWY2TWx3?oc=5",
        "date": "2026-11-12T12:06+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "Australie : audits obligatoires pour l’IA de pointe",
-       "source": "Brief IA",
-       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUFR0VUlfMzF2dFNYTXRleS1ZS0h3aWVyanp5NjAyVlBseWdaM3dxVXZTYXZxOGU2VUxmTnlzWmZXYUQ3TVVoN1htU1VRLXN1Z2ZvSUltZFpXRWpyQlpQOEZxLVA2OGQyR051RjByci01WTZHc0pTYlZIVmtWVFJsYzIzVDdMUDQ?oc=5",
-       "date": "2026-11-12T11:06+00:00",
        "langue": "fr",
        "origine": "presse"
       },
@@ -1676,14 +1692,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Pénurie de fibre optique en 2026, ce qui se passe et qui en souffre",
-       "source": "Pasquale Pillitteri",
-       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNczZiOElXd1lTNDFKZ0FVTlpmWS1Lc25VdmJjdGlSVjd2Wmt5blVCbFBYaFNoVEpNeldCNTdGZlJaUXV3OGJPQW9QRG5hdFdKWFpxZ1ZVLUdvOTdzdFZJb2J5QjFZNThybHc3bHlwdE5IS1ZFQkplZzhKdkc3WG5ZTnZYUlFBOURRTTMtYnFGTQ?oc=5",
-       "date": "2026-11-12T08:31+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "Grok Build : plus de 35 000 applications IA accessibles sans authentification",
        "source": "Le Monde Informatique",
        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhnOHBJRG12N0NaeTg5QjBfMjdibXpUT25QQnhpZmUxak9aSUdwa2VlY0x6bTV2RGpITVFlUlhwd0F1VU95WkdBNHJpR1V5WHI2VE1wT2Z4Zk9HZXJlalg0SGJHQ0cwZE1HNUVpdUk2NHItZWZqbzdJTXNnaVQ3bFNrZUtpWGxWc1dhZ0xfYWlDd3JIaGpxSUlNQk9aLUxzT01KY0VRS0FkLUQ2d3pZ?oc=5",
@@ -1692,10 +1700,10 @@
        "origine": "presse"
       },
       {
-       "titre": "Abonnement Grok 2026 : Plus 8 $, Premium 30 $, jusqu'à 200 $",
-       "source": "Fello AI",
-       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE92VnN6S1lVb3hGRkdudktaSUVGQ2pENG0tWUhQZ2ZwSlBpLWExUFdtdnNPX2puMlNORUFfMlprY28tTDdLZHh2MQ?oc=5",
-       "date": "2026-11-12T07:10+00:00",
+       "titre": "Orange lance sa super-app mobile avec quatre grands modèles d'IA intégrés",
+       "source": "Génération NT",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91azRtVjI1MDJRT2RSSEhsVmRwMW9kTUJMeWNoR3dPMnNaOWl2TThRNmJTWHM2dEtvTVhscTgtUVVFQTBvMHNYT3VZRm9IY1JsdzA4M2lFT2NHZUNUMGxrdjdnOENQX285N2tVdG1TWW90YkJ3NlpOU1NtNUlTYlU?oc=5",
+       "date": "2026-11-12T06:10+00:00",
        "langue": "fr",
        "origine": "presse"
       },
@@ -1821,6 +1829,14 @@
        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUWtwWUNqdFFWYng0S1hxNmNyRTVrXzhzM3BlbTN0TXRlWGlBYWxqOHRjX2VVQ0w5R0tNUGVQZEwxS0RjYlQwSXBKRjlHMkFPekF4TUpZTVNQR1R3cGpEajFJR2Z6QW91SWN1VzV1b3FiLUtqQlEwNGU5a0FRYVY5MnkwSG9OV3hEVGY0OV9KbnNrWWFrczlfT3I5YzVlZjl5UEpJc1R3RUJUQkRkeWViY21EblBBRFBzUjZCVUhOd0Z5Z2xabmhKLWUyTkg?oc=5",
        "date": "2026-11-12T11:10+00:00",
        "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "LVMH shares among the biggest gainers on the CAC 40, up 8.5% over one month",
+       "source": "Idéal Investisseur",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcjN6UTVQVWFod3BfbW1PT3ptb0p3Ml9KYUJUSDFDZFZTYnk4M2ZRYkhnTEFHTlZwUDJ4X2RFWEN4VlhtWmdaZnNmLXo1d05Xb2xHNVJVUE1TQ1ZoYk1uemxqbXNaVVFlRE51MXI2NkRmbDZnLUc1b3hCRnRHcm5qZ1Y3YnZmNXhRRlZUZHlSdWZRSFBHZ1JTZzluaDVtaDNYS1dQc3UxTHAyNHZ0Qi1lXzhOYUg3VEVmMHVoc0dEWmcybTZMWXRzZWQ0RHQ?oc=5",
+       "date": "2026-11-12T11:10+00:00",
+       "langue": "en",
        "origine": "presse"
       },
       {
@@ -2000,14 +2016,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Kering abandonne 0,12%",
-       "source": "Boursier.com",
-       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNkVoLVF2Rl9jVmpZUGZpeGw0ZmpaeVAxVVhUN3UxRE13R3BkWDdpZHMxN1haRi1yb3BGZlp1SDZ2VmJHSUthekxCT0VWa0IxSWZENzJNRlN6aERfSFlXSDlMZ19xUTViRU5iN2lMeGJVREp2bTJrNF81cjUycHhlQUxLQks?oc=5",
-       "date": "2026-11-11T16:42+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
        "titre": "La dépréciation de Volkswagen fait basculer Porsche SE dans le rouge sur les neuf derniers mois",
        "source": "Luxus+",
        "url": "https://luxus-plus.com/la-depreciation-de-volkswagen-fait-basculer-porsche-se-dans-le-rouge-sur-les-neuf-derniers-mois/",
@@ -2062,6 +2070,14 @@
      "titre": "Parfumerie",
      "articles": [
       {
+       "titre": "Heeley Chiris ~ new fragrance",
+       "source": "Now Smell This",
+       "url": "https://nstperfume.com/2026/11/12/heeley-chiris-new-fragrance/",
+       "date": "2026-11-12T16:10+00:00",
+       "langue": "en",
+       "origine": "passionnes"
+      },
+      {
        "titre": "Alexandrite Luxury Retail redefines luxury gifting with Season of Wonder.",
        "source": "The Guardian Nigeria News",
        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcGt3bE03YklQOTMxR2FjaUIxYlp2SzBsQ2Ytc016UVJ3bDlhV2JPYXhPWlpPV3pBOEloOU93RHRSUW5nUnk0b3ZjTGpTaXBDZkpKMGdVOVh5WW1reUJCeUZhS2ZaN3hCTHo4QlhyaEpTelhhd2Q0N2JqZFBqNmtKWGFoQnI2UlBHQ1YyaUN4aF9TM1NaWlVfY01fanlJZkE?oc=5",
@@ -2075,14 +2091,6 @@
        "url": "https://nstperfume.com/2026/11/12/thursday-scent-of-the-day-11-12-2/",
        "date": "2026-11-12T15:19+00:00",
        "langue": "en",
-       "origine": "passionnes"
-      },
-      {
-       "titre": "Alexandre Mentha : « L’apprentissage ne s’arrête pas aux salles de classe »",
-       "source": "Nez, la revue",
-       "url": "https://mag.bynez.com/entretiens/alexandre-mentha-lapprentissage-ne-sarrete-pas-aux-salles-de-classe/",
-       "date": "2026-11-12T15:17+00:00",
-       "langue": "fr",
        "origine": "passionnes"
       },
       {
@@ -2134,14 +2142,6 @@
        "origine": "presse"
       },
       {
-       "titre": "Obsessions : Théo Belmas",
-       "source": "Nez, la revue",
-       "url": "https://mag.bynez.com/podcastsbynez-parfum/obsessions-theo-belmas/",
-       "date": "2026-11-12T07:31+00:00",
-       "langue": "fr",
-       "origine": "passionnes"
-      },
-      {
        "titre": "Are You Ready to Step into the Era of the Purr-fume?",
        "source": "Vogue Arabia",
        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50STRMNUU4V2RqYzJId25XaFVwb0ZJWThzSmZaVWc4Y3hWSlctaWtEUkctQVZtel9fUnhuaE5iOThic0l5X2VYMEtfak52R1ZSaElWWTRBc0F5MWFPSUVUeDhjd1VMX0ctVHc?oc=5",
@@ -2178,6 +2178,14 @@
        "source": "Marie Claire",
        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnRSQ2dhdXduOWRPd1hoVnBPcmNZaG9UVG1lT0YzWFVZTjRIVVdFbFozbE41Xy03NnhmQXFncHRySlJZQ1dxcV9NT2JEakJ6eFdFZ3F5UEFsdWczRDhUa3lfYXF6ZjJwUmJMWWxIZHdLOExxUWwxRE4wLUN2WUVEOWJFdHp4QThIUFF3aUlXbElkUWFQWDFkRUY1VWFuMTcwUUEtTmtkclo?oc=5",
        "date": "2026-11-12T00:36+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
+       "titre": "BAOBAB Collection and the Art of Atmosphere",
+       "source": "www.upscalelivingmag.com",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNnpuaUNrNnFPTHA4NjJQdFlSalh5QmZ1TmJ1UzZnQlRQNEY1SnM4cGpjWEZzV0hFTXAyTHdUMHViODVyTlVzRjNVWDdYX0ppREItTzlIUm5MdXMwck5jNTZsay1uNXViall4enhiSWZYLS1zY3dSeW8wSkx1Z2JPbGpXeEZMT1h0a0xzMExNMW9nRGVFMUc1U2RMMmE3dzAtRjNSLTlR?oc=5",
+       "date": "2026-11-12T00:32+00:00",
        "langue": "en",
        "origine": "presse"
       },
@@ -2318,14 +2326,6 @@
        "origine": "presse"
       },
       {
-       "titre": "SCAD names fragrance strategist Paul Austin as executive in residence",
-       "source": "FashionNetwork - The World's Fashion Business News",
-       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkEwdjZSS1ctU1hGMGJyZVJlTlQ2UlNNY3lJT1ZBVGlLTTVJeDZhdVZWWEdtbF93R1VPQVFNdGNfb0pIazFPX2tBd1JLRWItWUhWMW94bmRkTE1rSEFyUGpvMlRvenJ6R1hJbkxmR1h2M1EwWnNnRGk3RXNBTUtZblRCN3JHTnlJRlhIT1JPczgwWkFac1RyM2JRckVGSG1URFczekdVc2cyNnZ4MkxSOTZubUM2S1d5?oc=5",
-       "date": "2026-11-11T02:34+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
        "titre": "Aveda Ritual Bloom ~ new perfume",
        "source": "Now Smell This",
        "url": "https://nstperfume.com/2026/11/10/aveda-ritual-bloom-new-perfume/",
@@ -2346,14 +2346,6 @@
        "source": "Now Smell This",
        "url": "https://nstperfume.com/2026/11/10/tuesday-scent-of-the-day-11-10-3/",
        "date": "2026-11-10T14:47+00:00",
-       "langue": "en",
-       "origine": "passionnes"
-      },
-      {
-       "titre": "More people are wearing booze than drinking it",
-       "source": "Now Smell This",
-       "url": "https://nstperfume.com/2026/11/10/more-people-are-wearing-booze-than-drinking-it/",
-       "date": "2026-11-10T14:37+00:00",
        "langue": "en",
        "origine": "passionnes"
       }
@@ -2824,6 +2816,14 @@
      "titre": "Automobile de luxe",
      "articles": [
       {
+       "titre": "Des jantes en forme de cadran de téléphone et à peine 50 exemplaires, l’étonnante histoire de la Lamborghini Silhouette",
+       "source": "Sport Auto",
+       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ3RxaGVHbVZNSXpWZVZ0dGE2NHRoQ2UzRm1RWjRmWC1MUlc3WTZJcHM4di1UWXI5cG9MSkpYZjc4VkdoUUpTYWc0M3c4MGNudldoem0wNjFEQmxZdTBCOFNtNk02bFBGOW5oSFk4b2J1a1JTak8yQjdtRExrODROWHhtVzJLR1FtSEQ0LXlfd3hSUWNXcGVqM0ZLT2JfYV9paVNCY2dwQ010ckk1TktneDZ0dk85ZmlYVmVUX2dqemNxOW81U2J4MGlKbTZpVTJSNXNnRVFvRkVxQlRJSmpXakQ5YXFsQm9NbXFET0Jhb01CUQ?oc=5",
+       "date": "2026-11-12T17:00+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
        "titre": "Le gardien de Côme Robert Sánchez sort indemne d'un accident en Ferrari sur le circuit du Nürburgring",
        "source": "Auto Plus",
        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWFJHMDJpLV8tdEJtWmIyUTA3MjlHS2hRMWl5djZ0R0I5bE5lLXpoM2dVM3Bkd19WeTlVOWVRVVNLM19ETXJKaTZ5RHJYUHdiSTdLR3JuaHU1TUctUS1lWEtWSUhERlZrcGJIZXlJM3R5QXJFMGNnVEVDRnBabTdQZDFQSUtEQ3ZmVkZyanZFSHcyQTJnelAzM19DX2k4bU9BLVQxM2hwS3cwNDRyaHZkQTFNVnZGZlZNMndVR2pYR21COW9ydlVldUlXSlZsNE9zMW1nS0l4eGt6S0lCQW0wTWlQQVNJUk9QVHFLYQ?oc=5",
@@ -2848,9 +2848,25 @@
        "origine": "passionnes"
       },
       {
+       "titre": "Bentley rejoint BYD comme second partenaire automobile du Paris Saint-Germain",
+       "source": "AutoNext.co",
+       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPV2VoVDNRaFhVMjVpVDdpWHd6eWFSMFY2WFFZZ3lGY1hkTExzaDZWeWVUYjV4RDBYTUVlZ0g3UVpULWpQNEVNblVOUzQwVEJEbEhfd0FXWVNfd0F5QTdncGV5bVJ6OGZIOEE?oc=5",
+       "date": "2026-11-12T15:49+00:00",
+       "langue": "fr",
+       "origine": "presse"
+      },
+      {
+       "titre": "Rare Aston Martin owned by WWII Enigma decoder put up for auction",
+       "source": "The Independent",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONENmRWpZdkRIcEpQNjZhR3QwdDZFVU8xbHV4MjNOblhXMnFwQ2RSV0hybE51N0psRURZdGJDMVZhdUhrQTFwUE1abGpKVS1mWkRySl96RHppdlhNbGdyaHNCcFVHeGZvNDUtUkV4aUxaYXNvODNlS29EU1ZROFpwSEh1d0x1U2d6dThYTjNrLVRocEJ1cDFGRjlwOGt6VTliU2lEeg?oc=5",
+       "date": "2026-11-12T15:47+00:00",
+       "langue": "en",
+       "origine": "presse"
+      },
+      {
        "titre": "Lamborghini: les livraisons au Moyen-Orient semblent \"revenues à la normale\"",
        "source": "Boursorama",
-       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTW94Qzg5MGYzbkZLc3VhTVllQThLVDZsMzRtS0pFYTJueE92ZnA1NzEyNTFiUjJCalFKMGxIdHF6T015Ml82YmhhWjlINFdwUnIxTlZZelFqeGFhMVQ1UkM1U1M2X0F1aXFJVmxOSWQ2YU9DbWlxLXdGNmg2QV9zLWQxd255UFItYzhKa21KX1poLWc3aS0tbzYxbGFkMldRRS1yOEJZUk1tUmg0cHNUYUI4dEVXTGdPb0RjaEExbk02M0pDYnhxNFphcVpvWldCQ0Y3bjA3enJQTFk1OTZmX2w0dTc0TWdlWWoycEs2djVzNVhRSmR2QtIB_gFBVV95cUxOTXBOVzlKZDZwR21xOS1WMUswUnBPcmtaWUNGU25QQ0pOblVZODBfc0hnYU5GUEdKdXFPdDNlSlNZVFJzMzBCQXNCVS10NndYOEZzSEJvZnVIUXJHU3dyck80T3ZpTHBZb2lNRTA3RnJRLUZCSlpMbkFDN1haVXl4dlRxSHNLbU1GeDRZeWhzMERScUQ3SVA2ZU8zaVpOWDBKOTlCNm1HdExjYjB0eHJSQThMYWJqdEF3U1VZeFQ1X09obHBUN2RicjYzWloxcExqQm9mSl80X1U5VWhiUFVnbzVjRU1CVWlkS2IzZy1LTUxBN3FUai1FcWh6UHVBZw?oc=5",
+       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTXBOVzlKZDZwR21xOS1WMUswUnBPcmtaWUNGU25QQ0pOblVZODBfc0hnYU5GUEdKdXFPdDNlSlNZVFJzMzBCQXNCVS10NndYOEZzSEJvZnVIUXJHU3dyck80T3ZpTHBZb2lNRTA3RnJRLUZCSlpMbkFDN1haVXl4dlRxSHNLbU1GeDRZeWhzMERScUQ3SVA2ZU8zaVpOWDBKOTlCNm1HdExjYjB0eHJSQThMYWJqdEF3U1VZeFQ1X09obHBUN2RicjYzWloxcExqQm9mSl80X1U5VWhiUFVnbzVjRU1CVWlkS2IzZy1LTUxBN3FUai1FcWh6UHVBZ9IB_gFBVV95cUxOTXBOVzlKZDZwR21xOS1WMUswUnBPcmtaWUNGU25QQ0pOblVZODBfc0hnYU5GUEdKdXFPdDNlSlNZVFJzMzBCQXNCVS10NndYOEZzSEJvZnVIUXJHU3dyck80T3ZpTHBZb2lNRTA3RnJRLUZCSlpMbkFDN1haVXl4dlRxSHNLbU1GeDRZeWhzMERScUQ3SVA2ZU8zaVpOWDBKOTlCNm1HdExjYjB0eHJSQThMYWJqdEF3U1VZeFQ1X09obHBUN2RicjYzWloxcExqQm9mSl80X1U5VWhiUFVnbzVjRU1CVWlkS2IzZy1LTUxBN3FUai1FcWh6UHVBZw?oc=5",
        "date": "2026-11-12T15:46+00:00",
        "langue": "fr",
        "origine": "presse"
@@ -3000,34 +3016,10 @@
        "origine": "presse"
       },
       {
-       "titre": "Rolls-Royce annonce un rachat d'actions de 2 milliards de dollars alors que la demande augmente.",
-       "source": "Quartz en Français",
-       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wbFd1Q3JqLTR0cU1HdDFtTlN5dldiRk1oWWFraUFPY01rdkxsMG9QeU42SGNVOGRsTWVkcm4zekI1UmYwM2d6WUxUQ3FCXzdVdFo3WEZ3eVZRcXZCekRITnZ1VUpLU25CZlMxb2hwUFFXQ2M?oc=5",
-       "date": "2026-11-12T14:04+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "Bentley rend hommage aux 17 ouvriers tués en construisant des Merlin",
-       "source": "AutoNext.co",
-       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORm5RcGNldFluYkE4UmxweUw2aUo2OXhYQkV3WVRvMTRwQng1WGk3cWFySlJCTXRNZjZrbERFbTAyakwtWHh1VGwzN2hldXpGWUFUUjdBTDZ6UEJUVTRJZVg0NDZ0ZDhaelNOdGd5bVZjd2o0bmJUakFmQXNlNUJzRXZsUjhjbWxSXzhwWC1R?oc=5",
-       "date": "2026-11-12T14:03+00:00",
-       "langue": "fr",
-       "origine": "presse"
-      },
-      {
-       "titre": "Two Nearly Identical Ferraris Sold On The Same Day. One Fetched $7.6 Million More",
-       "source": "Motor1.com",
-       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoVnJ0ZDgxV1lMWE5XQ0E2OTRlMzBaRVpBWWFFSGhTbUFDTEJiQUhHN29JdWFBaDJta3JJNW9FcWQ2REowbGxYRnZ6Qk5vdUx1QTUwcWV5Ym9jNkVzN1lKRzhlUXc2QjlUZ3JqdU95T2lqWnRKeFFJdEtR?oc=5",
-       "date": "2026-11-12T14:02+00:00",
-       "langue": "en",
-       "origine": "presse"
-      },
-      {
-       "titre": "Rolls-Royce reaffirms guidance, launches new buyback",
-       "source": "Daily Business",
-       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWpsQzNvYWxUSUI0WXBfR3NlRjhtNm95dXMyOS1FNVNlX1ZnTlFFcmNHS3lqQTVKWUdndkpnaGRYSGtaVzVYMUtlSi1aQnAwMXBNeFlnTHRfOTVWeE12WXN2dWdsMUNBT01kZ1p2SzM5R1oyZmJaV25OVzhEbVlHWDIxb3VXbG1kb2FiOTQ5Z2lZeEQ5dld3VA?oc=5",
-       "date": "2026-11-12T14:01+00:00",
+       "titre": "Aston Martin tie(fighter)s up with Star Wars",
+       "source": "CompleteCar.ie",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzZDbjJicHBTdWczbFRpdldzRkxqak5KUTcyQndXU0NlbXRDUG5Pbnp4QVBxRzBxbGNWSVRjbEZRZE1wY1VudmJWUEN6UHVBdWJsOWhZZFRGb2lWUURFem05ZlNGRTBScmt3aGRUdHpvaVdjVDFtUHdYelJQV3QxbDRfcVZXX3VXS3VhRXNkSFk5ZzFSNFRV?oc=5",
+       "date": "2026-11-12T14:06+00:00",
        "langue": "en",
        "origine": "presse"
       },
