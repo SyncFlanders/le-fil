@@ -1,0 +1,2491 @@
+{
+ "genere_le": "2026-11-12T17:44+00:00",
+ "equipes": {
+  "real-madrid": {
+   "nom": "Real Madrid",
+   "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "prochains": [
+    {
+     "date": "2026-11-21T20:00Z",
+     "competition": "Spanish LALIGA",
+     "adversaire": "Celta Vigo",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+     "domicile": true,
+     "lieu": "Santiago Bernabéu",
+     "tv": [
+      "ESPN Deportes",
+      "ESPN+"
+     ],
+     "termine": false,
+     "id": "401882798",
+     "ligue": "esp.1"
+    },
+    {
+     "date": "2026-11-24T20:00Z",
+     "competition": "UEFA Champions League",
+     "adversaire": "PSV Eindhoven",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+     "domicile": true,
+     "lieu": "Santiago Bernabéu",
+     "tv": [
+      "Paramount+"
+     ],
+     "termine": false,
+     "id": "401915298",
+     "ligue": "uefa.champions"
+    },
+    {
+     "date": "2026-11-28T20:00Z",
+     "competition": "Spanish LALIGA",
+     "adversaire": "Alavés",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+     "domicile": true,
+     "lieu": "Santiago Bernabéu",
+     "tv": [
+      "ESPN+"
+     ],
+     "termine": false,
+     "id": "401882789",
+     "ligue": "esp.1"
+    }
+   ],
+   "dernier": {
+    "date": "2026-11-07T20:00Z",
+    "competition": "Spanish LALIGA",
+    "adversaire": "Valencia",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "domicile": false,
+    "lieu": "Mestalla Stadium",
+    "tv": [
+     "ESPN Deportes",
+     "ESPN+"
+    ],
+    "termine": true,
+    "id": "401882808",
+    "ligue": "esp.1",
+    "score": "3-0",
+    "resultat": "V"
+   },
+   "composition": {
+    "type": "terrain",
+    "titre": "Titulaires du dernier match",
+    "match": {
+     "adversaire": "Valencia",
+     "date": "2026-11-07T20:00Z",
+     "score": "3-0",
+     "resultat": "V",
+     "domicile": false
+    },
+    "formation": "4-2-3-1",
+    "joueurs": [
+     {
+      "nom": "Thibaut Courtois",
+      "poste": "Gardien",
+      "numero": "1",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/330px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 1,
+      "code": "G"
+     },
+     {
+      "nom": "Federico Valverde",
+      "poste": "Latéral droit",
+      "numero": "8",
+      "place": 2,
+      "code": "RB"
+     },
+     {
+      "nom": "Marc Cucurella",
+      "poste": "Latéral gauche",
+      "numero": "17",
+      "place": 3,
+      "code": "LB"
+     },
+     {
+      "nom": "Aurélien Tchouaméni",
+      "poste": "Milieu gauche",
+      "numero": "14",
+      "place": 4,
+      "code": "LM"
+     },
+     {
+      "nom": "Ibrahima Konaté",
+      "poste": "Défenseur central",
+      "numero": "16",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg/330px-Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 5,
+      "code": "CD-R"
+     },
+     {
+      "nom": "Dean Huijsen",
+      "poste": "Défenseur central",
+      "numero": "4",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dean_Huijsen_2024.jpg/330px-Dean_Huijsen_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 6,
+      "code": "CD-L"
+     },
+     {
+      "nom": "Arda Güler",
+      "poste": "Ailier droit",
+      "numero": "15",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/330px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 7,
+      "code": "AM-R"
+     },
+     {
+      "nom": "Bernardo Silva",
+      "poste": "Milieu droit",
+      "numero": "20",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg/330px-Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 8,
+      "code": "RM"
+     },
+     {
+      "nom": "Kylian Mbappé",
+      "poste": "Attaquant",
+      "numero": "10",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 9,
+      "code": "F"
+     },
+     {
+      "nom": "Jude Bellingham",
+      "poste": "Milieu offensif",
+      "numero": "5",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 10,
+      "code": "AM"
+     },
+     {
+      "nom": "Yan Diomande",
+      "poste": "Ailier gauche",
+      "numero": "25",
+      "place": 11,
+      "code": "AM-L"
+     }
+    ],
+    "remplacants": [
+     {
+      "nom": "Thiago Pitarch",
+      "poste": "Milieu",
+      "numero": "27"
+     },
+     {
+      "nom": "Endrick",
+      "poste": "Attaquant",
+      "numero": "9",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/330px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+     },
+     {
+      "nom": "Eduardo Camavinga",
+      "poste": "Milieu",
+      "numero": "6"
+     },
+     {
+      "nom": "Carlos Espí",
+      "poste": "Attaquant",
+      "numero": "19"
+     },
+     {
+      "nom": "Brahim Díaz",
+      "poste": "Milieu",
+      "numero": "21",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg/330px-Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+     }
+    ]
+   }
+  },
+  "florida-gators": {
+   "nom": "Florida Gators",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+   "prochains": [
+    {
+     "date": "2026-11-14T23:15Z",
+     "competition": "Regular Season",
+     "adversaire": "Kentucky Wildcats",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+     "domicile": false,
+     "lieu": "Kroger Field",
+     "tv": [
+      "ESPN"
+     ],
+     "termine": false,
+     "id": "401856884",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-21T17:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Vanderbilt Commodores",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+     "domicile": true,
+     "lieu": "Ben Hill Griffin Stadium",
+     "tv": [],
+     "termine": false,
+     "id": "401856748",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-27T20:30Z",
+     "competition": "Regular Season",
+     "adversaire": "Florida State Seminoles",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+     "domicile": false,
+     "lieu": "Doak Campbell Stadium",
+     "tv": [
+      "ABC"
+     ],
+     "termine": false,
+     "id": "401856759",
+     "ligue": ""
+    }
+   ],
+   "dernier": {
+    "date": "2026-11-08T00:45Z",
+    "competition": "Regular Season",
+    "adversaire": "Oklahoma Sooners",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "domicile": true,
+    "lieu": "Ben Hill Griffin Stadium",
+    "tv": [
+     "SEC Network"
+    ],
+    "termine": true,
+    "id": "401856739",
+    "ligue": "",
+    "score": "7-23",
+    "resultat": "D"
+   },
+   "composition": {
+    "type": "liste",
+    "titre": "Joueurs clés du dernier match",
+    "match": {
+     "adversaire": "Oklahoma Sooners",
+     "date": "2026-11-08T00:45Z",
+     "score": "7-23",
+     "resultat": "D",
+     "domicile": true
+    },
+    "joueurs": [
+     {
+      "nom": "Tramell Jones Jr.",
+      "poste": "Passes",
+      "numero": "9",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295814.png"
+     },
+     {
+      "nom": "Jadan Baugh",
+      "poste": "Course",
+      "numero": "13",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png"
+     },
+     {
+      "nom": "Duke Clark",
+      "poste": "Réception",
+      "numero": "20",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png"
+     },
+     {
+      "nom": "Myles Graham",
+      "poste": "Défense",
+      "numero": "5",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079480.png"
+     }
+    ]
+   }
+  },
+  "jaguars": {
+   "nom": "Jacksonville Jaguars",
+   "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+   "prochains": [
+    {
+     "date": "2026-11-15T18:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Tennessee Titans",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+     "domicile": false,
+     "lieu": "Nissan Stadium",
+     "tv": [
+      "Fox"
+     ],
+     "termine": false,
+     "id": "401873057",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-22T21:25Z",
+     "competition": "Regular Season",
+     "adversaire": "New York Giants",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+     "domicile": false,
+     "lieu": "MetLife Stadium",
+     "tv": [
+      "CBS"
+     ],
+     "termine": false,
+     "id": "401873069",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-29T21:05Z",
+     "competition": "Regular Season",
+     "adversaire": "Tennessee Titans",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+     "domicile": true,
+     "lieu": "EverBank Stadium",
+     "tv": [
+      "CBS"
+     ],
+     "termine": false,
+     "id": "401873090",
+     "ligue": ""
+    }
+   ],
+   "dernier": {
+    "date": "2026-11-06T01:15Z",
+    "competition": "Regular Season",
+    "adversaire": "Baltimore Ravens",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+    "domicile": false,
+    "lieu": "M&T Bank Stadium",
+    "tv": [
+     "Prime Video"
+    ],
+    "termine": true,
+    "id": "401873037",
+    "ligue": "",
+    "score": "33-10",
+    "resultat": "V"
+   },
+   "composition": {
+    "type": "hierarchie",
+    "titre": "Titulaires (hiérarchie actuelle)",
+    "blocs": [
+     {
+      "titre": "Attaque",
+      "schema": "3WR 1TE",
+      "joueurs": [
+       {
+        "nom": "Parker Washington",
+        "poste": "Receveur",
+        "numero": "11",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png"
+       },
+       {
+        "nom": "Jakobi Meyers",
+        "poste": "Receveur",
+        "numero": "3",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png"
+       },
+       {
+        "nom": "Brian Thomas Jr.",
+        "poste": "Receveur",
+        "numero": "7",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432773.png"
+       },
+       {
+        "nom": "Walker Little",
+        "poste": "Tackle gauche",
+        "numero": "72",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242554.png"
+       },
+       {
+        "nom": "Emmanuel Pregnon",
+        "poste": "Garde gauche",
+        "numero": "75",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4608929.png"
+       },
+       {
+        "nom": "Robert Hainsey",
+        "poste": "Centre",
+        "numero": "73",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242391.png"
+       },
+       {
+        "nom": "Ezra Cleveland",
+        "poste": "Garde droit",
+        "numero": "76",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4048231.png"
+       },
+       {
+        "nom": "Cole Van Lanen",
+        "poste": "Tackle droit",
+        "numero": "70",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4035791.png"
+       },
+       {
+        "nom": "Trevor Lawrence",
+        "poste": "Quarterback",
+        "numero": "16",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png"
+       },
+       {
+        "nom": "Brenton Strange",
+        "poste": "Tight end",
+        "numero": "85",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4430539.png"
+       },
+       {
+        "nom": "Bhayshul Tuten",
+        "poste": "Running back",
+        "numero": "33",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png"
+       }
+      ]
+     },
+     {
+      "titre": "Défense",
+      "schema": "Base 4-3 D",
+      "joueurs": [
+       {
+        "nom": "Travon Walker",
+        "poste": "Défensif gauche",
+        "numero": "44",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426349.png"
+       },
+       {
+        "nom": "Arik Armstead",
+        "poste": "Tackle défensif",
+        "numero": "91",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2971275.png"
+       },
+       {
+        "nom": "Jordan Davis",
+        "poste": "Tackle défensif",
+        "numero": "90",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4381558.png"
+       },
+       {
+        "nom": "Josh Hines-Allen",
+        "poste": "Défensif droit",
+        "numero": "41",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3915239.png"
+       },
+       {
+        "nom": "Foyesade Oluokun",
+        "poste": "Linebacker",
+        "numero": "23",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3050073.png"
+       },
+       {
+        "nom": "Ventrell Miller",
+        "poste": "Linebacker",
+        "numero": "51",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4240610.png"
+       },
+       {
+        "nom": "Dennis Gardeck",
+        "poste": "Linebacker",
+        "numero": "47",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4334300.png"
+       },
+       {
+        "nom": "Travis Hunter",
+        "poste": "Cornerback",
+        "numero": "12",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4685415.png"
+       },
+       {
+        "nom": "Jessie Bates III",
+        "poste": "Safety",
+        "numero": "30",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3919512.png"
+       },
+       {
+        "nom": "Antonio Johnson",
+        "poste": "Safety",
+        "numero": "6",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4429168.png"
+       },
+       {
+        "nom": "Montaric Brown",
+        "poste": "Cornerback",
+        "numero": "1",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242149.png"
+       },
+       {
+        "nom": "Jourdan Lewis",
+        "poste": "Nickel back",
+        "numero": "2",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3045207.png"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "orlando-magic": {
+   "nom": "Orlando Magic",
+   "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+   "prochains": [
+    {
+     "date": "2026-11-14T00:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Milwaukee Bucks",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+     "domicile": true,
+     "lieu": "Kia Center",
+     "tv": [
+      "MyMi",
+      "Bucks App"
+     ],
+     "termine": false,
+     "id": "401909297",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-17T00:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Boston Celtics",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+     "domicile": false,
+     "lieu": "TD Garden",
+     "tv": [
+      "NBCSN"
+     ],
+     "termine": false,
+     "id": "401909994",
+     "ligue": ""
+    },
+    {
+     "date": "2026-11-19T00:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Philadelphia 76ers",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+     "domicile": true,
+     "lieu": "Kia Center",
+     "tv": [],
+     "termine": false,
+     "id": "401910010",
+     "ligue": ""
+    }
+   ],
+   "dernier": {
+    "date": "2026-11-12T02:00Z",
+    "competition": "Regular Season",
+    "adversaire": "Utah Jazz",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+    "domicile": false,
+    "lieu": "Delta Center",
+    "tv": [
+     "KJZZ-TV",
+     "Jazz+"
+    ],
+    "termine": true,
+    "id": "401909973",
+    "ligue": "",
+    "score": "123-108",
+    "resultat": "V"
+   },
+   "composition": {
+    "type": "liste",
+    "titre": "Cinq de départ du dernier match",
+    "match": {
+     "adversaire": "Utah Jazz",
+     "date": "2026-11-12T02:00Z",
+     "score": "123-108",
+     "resultat": "V",
+     "domicile": false
+    },
+    "joueurs": [
+     {
+      "nom": "Franz Wagner",
+      "poste": "Ailier",
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png"
+     },
+     {
+      "nom": "Wendell Carter Jr.",
+      "poste": "Pivot",
+      "numero": "34",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png"
+     },
+     {
+      "nom": "Desmond Bane",
+      "poste": "Arrière",
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png"
+     },
+     {
+      "nom": "Alex Morales",
+      "poste": "Arrière",
+      "numero": "30",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4593034.png"
+     },
+     {
+      "nom": "Anthony Black",
+      "poste": "Arrière",
+      "numero": "0",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png"
+     }
+    ]
+   }
+  }
+ },
+ "joueurs": {
+  "javier navarro": {
+   "nom": "Javier Navarro",
+   "equipe": "real-madrid",
+   "poste": "Gardien",
+   "numero": "31",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "thibaut courtois": {
+   "nom": "Thibaut Courtois",
+   "equipe": "real-madrid",
+   "poste": "Gardien",
+   "numero": "1",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/330px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "andriy lunin": {
+   "nom": "Andriy Lunin",
+   "equipe": "real-madrid",
+   "poste": "Gardien",
+   "numero": "13",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg/330px-Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "sergio mestre": {
+   "nom": "Sergio Mestre",
+   "equipe": "real-madrid",
+   "poste": "Gardien",
+   "numero": "26",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "illia voloshyn": {
+   "nom": "Illia Voloshyn",
+   "equipe": "real-madrid",
+   "poste": "Gardien",
+   "numero": "39",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "antonio rudiger": {
+   "nom": "Antonio Rüdiger",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "22",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg/330px-Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "denzel dumfries": {
+   "nom": "Denzel Dumfries",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "24",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/213248.png",
+   "credit": "ESPN"
+  },
+  "ferland mendy": {
+   "nom": "Ferland Mendy",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "23",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "trent alexander-arnold": {
+   "nom": "Trent Alexander-Arnold",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "12",
+   "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "Wikimedia Commons"
+  },
+  "eder militao": {
+   "nom": "Éder Militão",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "3",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eder_Militao_2021.jpg/330px-Eder_Militao_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "ibrahima konate": {
+   "nom": "Ibrahima Konaté",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "16",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg/330px-Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "marc cucurella": {
+   "nom": "Marc Cucurella",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "17",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "alvaro carreras": {
+   "nom": "Álvaro Carreras",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "18",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/%C3%81lvaroCarreras.jpg/330px-%C3%81lvaroCarreras.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "mario rivas": {
+   "nom": "Mario Rivas",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "33",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "dean huijsen": {
+   "nom": "Dean Huijsen",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "4",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dean_Huijsen_2024.jpg/330px-Dean_Huijsen_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "raul asencio": {
+   "nom": "Raúl Asencio",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "2",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "joan martinez": {
+   "nom": "Joan Martínez",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "30",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "jesus fortea": {
+   "nom": "Jesús Fortea",
+   "equipe": "real-madrid",
+   "poste": "Défenseur",
+   "numero": "28",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "bernardo silva": {
+   "nom": "Bernardo Silva",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "20",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg/330px-Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "federico valverde": {
+   "nom": "Federico Valverde",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "8",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "brahim diaz": {
+   "nom": "Brahim Díaz",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "21",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg/330px-Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "aurelien tchouameni": {
+   "nom": "Aurélien Tchouaméni",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "14",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "eduardo camavinga": {
+   "nom": "Eduardo Camavinga",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "6",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "jude bellingham": {
+   "nom": "Jude Bellingham",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "5",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "arda guler": {
+   "nom": "Arda Güler",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "15",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/330px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "thiago pitarch": {
+   "nom": "Thiago Pitarch",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "27",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "sergio martinez": {
+   "nom": "Sergio Martínez",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "38",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "jorge cestero": {
+   "nom": "Jorge Cestero",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "29",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "alexis ciria": {
+   "nom": "Alexis Ciria",
+   "equipe": "real-madrid",
+   "poste": "Milieu",
+   "numero": "36",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "kylian mbappe": {
+   "nom": "Kylian Mbappé",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "10",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "vinicius junior": {
+   "nom": "Vinícius Júnior",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "7",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "rodrygo": {
+   "nom": "Rodrygo",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "11",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "endrick": {
+   "nom": "Endrick",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "9",
+   "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/330px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons"
+  },
+  "daniel yanez": {
+   "nom": "Daniel Yañez",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "35",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "carlos espi": {
+   "nom": "Carlos Espí",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "19",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "yan diomande": {
+   "nom": "Yan Diomande",
+   "equipe": "real-madrid",
+   "poste": "Attaquant",
+   "numero": "25",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "tj abrams": {
+   "nom": "TJ Abrams",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "4",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079289.png",
+   "credit": "ESPN"
+  },
+  "jadan baugh": {
+   "nom": "Jadan Baugh",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "13",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+   "credit": "ESPN"
+  },
+  "eagan boyer": {
+   "nom": "Eagan Boyer",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "64",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5143220.png",
+   "credit": "ESPN"
+  },
+  "corey brown": {
+   "nom": "Corey Brown",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "59",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391550.png",
+   "credit": "ESPN"
+  },
+  "vernell brown iii": {
+   "nom": "Vernell Brown III",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "1",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295811.png",
+   "credit": "ESPN"
+  },
+  "tripp brown jr": {
+   "nom": "Tripp Brown Jr.",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "89",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391553.png",
+   "credit": "ESPN"
+  },
+  "chancellor campbell": {
+   "nom": "Chancellor Campbell",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "79",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5270741.png",
+   "credit": "ESPN"
+  },
+  "g'nivre carr": {
+   "nom": "G'Nivre Carr",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "61",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5158942.png",
+   "credit": "ESPN"
+  },
+  "brian case": {
+   "nom": "Brian Case",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "33",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295817.png",
+   "credit": "ESPN"
+  },
+  "evan chieca": {
+   "nom": "Evan Chieca",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "85",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5303826.png",
+   "credit": "ESPN"
+  },
+  "tyler chukuyem": {
+   "nom": "Tyler Chukuyem",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "51",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5290630.png",
+   "credit": "ESPN"
+  },
+  "ace ciongoli": {
+   "nom": "Ace Ciongoli",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "82",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295267.png",
+   "credit": "ESPN"
+  },
+  "duke clark": {
+   "nom": "Duke Clark",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "20",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png",
+   "credit": "ESPN"
+  },
+  "marquez daniel": {
+   "nom": "Marquez Daniel",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "88",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5161822.png",
+   "credit": "ESPN"
+  },
+  "tj dice jr": {
+   "nom": "TJ Dice Jr.",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "55",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295821.png",
+   "credit": "ESPN"
+  },
+  "lacota dippre": {
+   "nom": "Lacota Dippre",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "17",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5121998.png",
+   "credit": "ESPN"
+  },
+  "jaden edgecombe": {
+   "nom": "Jaden Edgecombe",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "14",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5173598.png",
+   "credit": "ESPN"
+  },
+  "mark faircloth": {
+   "nom": "Mark Faircloth",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "76",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222237.png",
+   "credit": "ESPN"
+  },
+  "desmond green": {
+   "nom": "Desmond Green",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "78",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5159241.png",
+   "credit": "ESPN"
+  },
+  "will griffin": {
+   "nom": "Will Griffin",
+   "equipe": "florida-gators",
+   "poste": "Quarterback",
+   "numero": "11",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5159000.png",
+   "credit": "ESPN"
+  },
+  "davian groce": {
+   "nom": "Davian Groce",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "18",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5182334.png",
+   "credit": "ESPN"
+  },
+  "luke harpring": {
+   "nom": "Luke Harpring",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "15",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5218907.png",
+   "credit": "ESPN"
+  },
+  "knijeah harris": {
+   "nom": "Knijeah Harris",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "77",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870788.png",
+   "credit": "ESPN"
+  },
+  "amir jackson": {
+   "nom": "Amir Jackson",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "7",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5139093.png",
+   "credit": "ESPN"
+  },
+  "kahleil jackson": {
+   "nom": "Kahleil Jackson",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "22",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4693740.png",
+   "credit": "ESPN"
+  },
+  "kelvin jimenez": {
+   "nom": "Kelvin Jimenez",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "34",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5239928.png",
+   "credit": "ESPN"
+  },
+  "caden jones": {
+   "nom": "Caden Jones",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "63",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4921252.png",
+   "credit": "ESPN"
+  },
+  "micah jones": {
+   "nom": "Micah Jones",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "84",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5195483.png",
+   "credit": "ESPN"
+  },
+  "tramell jones jr": {
+   "nom": "Tramell Jones Jr.",
+   "equipe": "florida-gators",
+   "poste": "Quarterback",
+   "numero": "9",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295814.png",
+   "credit": "ESPN"
+  },
+  "mason jordan": {
+   "nom": "Mason Jordan",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "81",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391552.png",
+   "credit": "ESPN"
+  },
+  "jaylen jordon": {
+   "nom": "Jaylen Jordon",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "80",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391551.png",
+   "credit": "ESPN"
+  },
+  "roderick kearney": {
+   "nom": "Roderick Kearney",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "71",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870834.png",
+   "credit": "ESPN"
+  },
+  "heze kent": {
+   "nom": "Heze Kent",
+   "equipe": "florida-gators",
+   "poste": "Tight end",
+   "numero": "86",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5158989.png",
+   "credit": "ESPN"
+  },
+  "jaylen lloyd": {
+   "nom": "Jaylen Lloyd",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "19",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5119868.png",
+   "credit": "ESPN"
+  },
+  "byron louis": {
+   "nom": "Byron Louis",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "27",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141565.png",
+   "credit": "ESPN"
+  },
+  "bryce lovett": {
+   "nom": "Bryce Lovett",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "53",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4921261.png",
+   "credit": "ESPN"
+  },
+  "javarii luckas": {
+   "nom": "Javarii Luckas",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "54",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5272606.png",
+   "credit": "ESPN"
+  },
+  "micah mays jr": {
+   "nom": "Micah Mays Jr.",
+   "equipe": "florida-gators",
+   "poste": "Receveur",
+   "numero": "5",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870826.png",
+   "credit": "ESPN"
+  },
+  "jahari medlock": {
+   "nom": "Jahari Medlock",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "56",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5215628.png",
+   "credit": "ESPN"
+  },
+  "london montgomery": {
+   "nom": "London Montgomery",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "24",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4941012.png",
+   "credit": "ESPN"
+  },
+  "harrison moore": {
+   "nom": "Harrison Moore",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "52",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079541.png",
+   "credit": "ESPN"
+  },
+  "aaron philo": {
+   "nom": "Aaron Philo",
+   "equipe": "florida-gators",
+   "poste": "Quarterback",
+   "numero": "12",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+   "credit": "ESPN"
+  },
+  "daniel pierre louis": {
+   "nom": "Daniel Pierre Louis",
+   "equipe": "florida-gators",
+   "poste": "Ligne offensive",
+   "numero": "73",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295822.png",
+   "credit": "ESPN"
+  },
+  "evan pryor": {
+   "nom": "Evan Pryor",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "21",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4432757.png",
+   "credit": "ESPN"
+  },
+  "anthony rubio": {
+   "nom": "Anthony Rubio",
+   "equipe": "florida-gators",
+   "poste": "Running back",
+   "numero": "25",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5151893.png",
+   "credit": "ESPN"
+  },
+  "alfonzo allen jr": {
+   "nom": "Alfonzo Allen Jr.",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "43",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4685238.png",
+   "credit": "ESPN"
+  },
+  "kofi asare": {
+   "nom": "Kofi Asare",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "22",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4912316.png",
+   "credit": "ESPN"
+  },
+  "brendan bett": {
+   "nom": "Brendan Bett",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "90",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5086808.png",
+   "credit": "ESPN"
+  },
+  "cj bronaugh": {
+   "nom": "CJ Bronaugh",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "15",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5239555.png",
+   "credit": "ESPN"
+  },
+  "vincent brown jr": {
+   "nom": "Vincent Brown Jr.",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "36",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295818.png",
+   "credit": "ESPN"
+  },
+  "titus bullard": {
+   "nom": "Titus Bullard",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "17",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222235.png",
+   "credit": "ESPN"
+  },
+  "tj bullard": {
+   "nom": "TJ Bullard",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "16",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4812373.png",
+   "credit": "ESPN"
+  },
+  "aaron chiles": {
+   "nom": "Aaron Chiles",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "8",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079340.png",
+   "credit": "ESPN"
+  },
+  "kanye clark": {
+   "nom": "Kanye Clark",
+   "equipe": "florida-gators",
+   "poste": "Arrière défensif",
+   "numero": "20",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5153615.png",
+   "credit": "ESPN"
+  },
+  "mason clinton": {
+   "nom": "Mason Clinton",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "98",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5156930.png",
+   "credit": "ESPN"
+  },
+  "dj coleman": {
+   "nom": "DJ Coleman",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "33",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5159672.png",
+   "credit": "ESPN"
+  },
+  "cam dooley": {
+   "nom": "Cam Dooley",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "10",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5149513.png",
+   "credit": "ESPN"
+  },
+  "charles emanuel iii": {
+   "nom": "Charles Emanuel III",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "55",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222234.png",
+   "credit": "ESPN"
+  },
+  "j'vari flowers": {
+   "nom": "J'Vari Flowers",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "6",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5161809.png",
+   "credit": "ESPN"
+  },
+  "kj ford": {
+   "nom": "KJ Ford",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "14",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "myles graham": {
+   "nom": "Myles Graham",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "5",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079480.png",
+   "credit": "ESPN"
+  },
+  "jayden gross": {
+   "nom": "Jayden Gross",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "40",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391546.png",
+   "credit": "ESPN"
+  },
+  "kendall guervil": {
+   "nom": "Kendall Guervil",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "94",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5209354.png",
+   "credit": "ESPN"
+  },
+  "kaiden hall": {
+   "nom": "Kaiden Hall",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "34",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5200098.png",
+   "credit": "ESPN"
+  },
+  "ben hanks iii": {
+   "nom": "Ben Hanks III",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "12",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295813.png",
+   "credit": "ESPN"
+  },
+  "lagonza hayward": {
+   "nom": "Lagonza Hayward",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "2",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5195292.png",
+   "credit": "ESPN"
+  },
+  "cj hester": {
+   "nom": "CJ Hester",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "21",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5162733.png",
+   "credit": "ESPN"
+  },
+  "ty jackson": {
+   "nom": "Ty Jackson",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "7",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5167180.png",
+   "credit": "ESPN"
+  },
+  "kamran james": {
+   "nom": "Kamran James",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "24",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5083314.png",
+   "credit": "ESPN"
+  },
+  "dijon johnson": {
+   "nom": "Dijon Johnson",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "27",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4899671.png",
+   "credit": "ESPN"
+  },
+  "myles johnson": {
+   "nom": "Myles Johnson",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "44",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5149469.png",
+   "credit": "ESPN"
+  },
+  "javier jones": {
+   "nom": "Javier Jones",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "23",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391545.png",
+   "credit": "ESPN"
+  },
+  "matthew kade": {
+   "nom": "Matthew Kade",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "42",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222230.png",
+   "credit": "ESPN"
+  },
+  "dk kalu": {
+   "nom": "DK Kalu",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "93",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870873.png",
+   "credit": "ESPN"
+  },
+  "stive-bentley keumajou-yondui": {
+   "nom": "Stive-Bentley Keumajou-Yondui",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "56",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "onis konanbanny": {
+   "nom": "Onis Konanbanny",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "3",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141557.png",
+   "credit": "ESPN"
+  },
+  "dylan leighton": {
+   "nom": "Dylan Leighton",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "52",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5314702.png",
+   "credit": "ESPN"
+  },
+  "jordy lowery": {
+   "nom": "Jordy Lowery",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "13",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4812379.png",
+   "credit": "ESPN"
+  },
+  "jamari lyons": {
+   "nom": "Jamari Lyons",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "95",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4685452.png",
+   "credit": "ESPN"
+  },
+  "joseph mbatchou": {
+   "nom": "Joseph Mbatchou",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "97",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5221980.png",
+   "credit": "ESPN"
+  },
+  "cormani mcclain": {
+   "nom": "Cormani McClain",
+   "equipe": "florida-gators",
+   "poste": "Cornerback",
+   "numero": "25",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870920.png",
+   "credit": "ESPN"
+  },
+  "jeramiah mccloud": {
+   "nom": "Jeramiah McCloud",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "91",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5195951.png",
+   "credit": "ESPN"
+  },
+  "jareylan mccoy": {
+   "nom": "JaReylan McCoy",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "96",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5159067.png",
+   "credit": "ESPN"
+  },
+  "lj mccray": {
+   "nom": "LJ McCray",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "11",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079521.png",
+   "credit": "ESPN"
+  },
+  "malik morris": {
+   "nom": "Malik Morris",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "50",
+   "essai_wiki": "2026-11-12T17:38+00:00"
+  },
+  "elijah owens": {
+   "nom": "Elijah Owens",
+   "equipe": "florida-gators",
+   "poste": "Arrière défensif",
+   "numero": "28",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5331285.png",
+   "credit": "ESPN"
+  },
+  "emmanuel oyebadejo": {
+   "nom": "Emmanuel Oyebadejo",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "99",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5226569.png",
+   "credit": "ESPN"
+  },
+  "eric parks": {
+   "nom": "Eric Parks",
+   "equipe": "florida-gators",
+   "poste": "Safety",
+   "numero": "32",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5290929.png",
+   "credit": "ESPN"
+  },
+  "dylan purter": {
+   "nom": "Dylan Purter",
+   "equipe": "florida-gators",
+   "poste": "Arrière défensif",
+   "numero": "30",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5266937.png",
+   "credit": "ESPN"
+  },
+  "jaden robinson": {
+   "nom": "Jaden Robinson",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "29",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4870978.png",
+   "credit": "ESPN"
+  },
+  "sebastian scott": {
+   "nom": "Sebastian Scott",
+   "equipe": "florida-gators",
+   "poste": "Ligne défensive",
+   "numero": "92",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5151900.png",
+   "credit": "ESPN"
+  },
+  "erich seager": {
+   "nom": "Erich Seager",
+   "equipe": "florida-gators",
+   "poste": "Linebacker",
+   "numero": "48",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295820.png",
+   "credit": "ESPN"
+  },
+  "lincoln anderson": {
+   "nom": "Lincoln Anderson",
+   "equipe": "florida-gators",
+   "poste": "Long snapper",
+   "numero": "54",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391548.png",
+   "credit": "ESPN"
+  },
+  "alec clark": {
+   "nom": "Alec Clark",
+   "equipe": "florida-gators",
+   "poste": "Punter",
+   "numero": "38",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5172403.png",
+   "credit": "ESPN"
+  },
+  "patrick durkin": {
+   "nom": "Patrick Durkin",
+   "equipe": "florida-gators",
+   "poste": "Botteur",
+   "numero": "91",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5219725.png",
+   "credit": "ESPN"
+  },
+  "miller fealy": {
+   "nom": "Miller Fealy",
+   "equipe": "florida-gators",
+   "poste": "Punter",
+   "numero": "47",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5391547.png",
+   "credit": "ESPN"
+  },
+  "nicholas inglis": {
+   "nom": "Nicholas Inglis",
+   "equipe": "florida-gators",
+   "poste": "Punter",
+   "numero": "48",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222228.png",
+   "credit": "ESPN"
+  },
+  "carter milliron": {
+   "nom": "Carter Milliron",
+   "equipe": "florida-gators",
+   "poste": "Long snapper",
+   "numero": "39",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5082456.png",
+   "credit": "ESPN"
+  },
+  "liam padron": {
+   "nom": "Liam Padron",
+   "equipe": "florida-gators",
+   "poste": "Botteur",
+   "numero": "41",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5228136.png",
+   "credit": "ESPN"
+  },
+  "brandon rabasco": {
+   "nom": "Brandon Rabasco",
+   "equipe": "florida-gators",
+   "poste": "Botteur",
+   "numero": "40",
+   "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5222229.png",
+   "credit": "ESPN"
+  },
+  "ameer abdullah": {
+   "nom": "Ameer Abdullah",
+   "equipe": "jaguars",
+   "poste": "Running back",
+   "numero": "20",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2576336.png",
+   "credit": "ESPN"
+  },
+  "lequint allen jr": {
+   "nom": "LeQuint Allen Jr.",
+   "equipe": "jaguars",
+   "poste": "Running back",
+   "numero": "5",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4911851.png",
+   "credit": "ESPN"
+  },
+  "nate boerkircher": {
+   "nom": "Nate Boerkircher",
+   "equipe": "jaguars",
+   "poste": "Tight end",
+   "numero": "87",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4686248.png",
+   "credit": "ESPN"
+  },
+  "josh cameron": {
+   "nom": "Josh Cameron",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "19",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4879194.png",
+   "credit": "ESPN"
+  },
+  "ezra cleveland": {
+   "nom": "Ezra Cleveland",
+   "equipe": "jaguars",
+   "poste": "Garde",
+   "numero": "76",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4048231.png",
+   "credit": "ESPN"
+  },
+  "quinn ewers": {
+   "nom": "Quinn Ewers",
+   "equipe": "jaguars",
+   "poste": "Quarterback",
+   "numero": "10",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4889929.png",
+   "credit": "ESPN"
+  },
+  "daniel faalele": {
+   "nom": "Daniel Faalele",
+   "equipe": "jaguars",
+   "poste": "Garde",
+   "numero": "68",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360964.png",
+   "credit": "ESPN"
+  },
+  "robert hainsey": {
+   "nom": "Robert Hainsey",
+   "equipe": "jaguars",
+   "poste": "Centre",
+   "numero": "73",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242391.png",
+   "credit": "ESPN"
+  },
+  "travis hunter": {
+   "nom": "Travis Hunter",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "12",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4685415.png",
+   "credit": "ESPN"
+  },
+  "tanner koziol": {
+   "nom": "Tanner Koziol",
+   "equipe": "jaguars",
+   "poste": "Tight end",
+   "numero": "88",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4917427.png",
+   "credit": "ESPN"
+  },
+  "trevor lawrence": {
+   "nom": "Trevor Lawrence",
+   "equipe": "jaguars",
+   "poste": "Quarterback",
+   "numero": "16",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+   "credit": "ESPN"
+  },
+  "walker little": {
+   "nom": "Walker Little",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "72",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242554.png",
+   "credit": "ESPN"
+  },
+  "jakobi meyers": {
+   "nom": "Jakobi Meyers",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "3",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
+   "credit": "ESPN"
+  },
+  "wyatt milum": {
+   "nom": "Wyatt Milum",
+   "equipe": "jaguars",
+   "poste": "Garde",
+   "numero": "64",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4431463.png",
+   "credit": "ESPN"
+  },
+  "jonah monheim": {
+   "nom": "Jonah Monheim",
+   "equipe": "jaguars",
+   "poste": "Centre",
+   "numero": "60",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4430481.png",
+   "credit": "ESPN"
+  },
+  "quintin morris": {
+   "nom": "Quintin Morris",
+   "equipe": "jaguars",
+   "poste": "Tight end",
+   "numero": "80",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4244049.png",
+   "credit": "ESPN"
+  },
+  "nick mullens": {
+   "nom": "Nick Mullens",
+   "equipe": "jaguars",
+   "poste": "Quarterback",
+   "numero": "14",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3059989.png",
+   "credit": "ESPN"
+  },
+  "emmanuel pregnon": {
+   "nom": "Emmanuel Pregnon",
+   "equipe": "jaguars",
+   "poste": "Garde",
+   "numero": "75",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4608929.png",
+   "credit": "ESPN"
+  },
+  "chris rodriguez jr": {
+   "nom": "Chris Rodriguez Jr.",
+   "equipe": "jaguars",
+   "poste": "Running back",
+   "numero": "24",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4362619.png",
+   "credit": "ESPN"
+  },
+  "brenton strange": {
+   "nom": "Brenton Strange",
+   "equipe": "jaguars",
+   "poste": "Tight end",
+   "numero": "85",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4430539.png",
+   "credit": "ESPN"
+  },
+  "brian thomas jr": {
+   "nom": "Brian Thomas Jr.",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "7",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432773.png",
+   "credit": "ESPN"
+  },
+  "bhayshul tuten": {
+   "nom": "Bhayshul Tuten",
+   "equipe": "jaguars",
+   "poste": "Running back",
+   "numero": "33",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png",
+   "credit": "ESPN"
+  },
+  "cole van lanen": {
+   "nom": "Cole Van Lanen",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "70",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4035791.png",
+   "credit": "ESPN"
+  },
+  "parker washington": {
+   "nom": "Parker Washington",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "11",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
+   "credit": "ESPN"
+  },
+  "cj williams": {
+   "nom": "CJ Williams",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "18",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/5085024.png",
+   "credit": "ESPN"
+  },
+  "arik armstead": {
+   "nom": "Arik Armstead",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "91",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2971275.png",
+   "credit": "ESPN"
+  },
+  "jessie bates iii": {
+   "nom": "Jessie Bates III",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "30",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3919512.png",
+   "credit": "ESPN"
+  },
+  "montaric brown": {
+   "nom": "Montaric Brown",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "1",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242149.png",
+   "credit": "ESPN"
+  },
+  "branson combs": {
+   "nom": "Branson Combs",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "50",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4572704.png",
+   "credit": "ESPN"
+  },
+  "jordan davis": {
+   "nom": "Jordan Davis",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "90",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4381558.png",
+   "credit": "ESPN"
+  },
+  "matt dickerson": {
+   "nom": "Matt Dickerson",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "93",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3134316.png",
+   "credit": "ESPN"
+  },
+  "dennis gardeck": {
+   "nom": "Dennis Gardeck",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "47",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4334300.png",
+   "credit": "ESPN"
+  },
+  "davon godchaux": {
+   "nom": "Davon Godchaux",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "92",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3115383.png",
+   "credit": "ESPN"
+  },
+  "josh hines-allen": {
+   "nom": "Josh Hines-Allen",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "41",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3915239.png",
+   "credit": "ESPN"
+  },
+  "jalen huskey": {
+   "nom": "Jalen Huskey",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "22",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4912185.png",
+   "credit": "ESPN"
+  },
+  "antonio johnson": {
+   "nom": "Antonio Johnson",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "6",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4429168.png",
+   "credit": "ESPN"
+  },
+  "jarrian jones": {
+   "nom": "Jarrian Jones",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "4",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426448.png",
+   "credit": "ESPN"
+  },
+  "jaylon jones": {
+   "nom": "Jaylon Jones",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "36",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4047655.png",
+   "credit": "ESPN"
+  },
+  "rayuan lane iii": {
+   "nom": "Rayuan Lane III",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "25",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4880675.png",
+   "credit": "ESPN"
+  },
+  "jourdan lewis": {
+   "nom": "Jourdan Lewis",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "2",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3045207.png",
+   "credit": "ESPN"
+  },
+  "jalen mcleod": {
+   "nom": "Jalen McLeod",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "35",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4576129.png",
+   "credit": "ESPN"
+  },
+  "kaevon merriweather": {
+   "nom": "Kaevon Merriweather",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "26",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360502.png",
+   "credit": "ESPN"
+  },
+  "ventrell miller": {
+   "nom": "Ventrell Miller",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "51",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4240610.png",
+   "credit": "ESPN"
+  },
+  "jabbar muhammad": {
+   "nom": "Jabbar Muhammad",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "37",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432440.png",
+   "credit": "ESPN"
+  },
+  "foyesade oluokun": {
+   "nom": "Foyesade Oluokun",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "23",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3050073.png",
+   "credit": "ESPN"
+  },
+  "ruke orhorhoro": {
+   "nom": "Ruke Orhorhoro",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "99",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4430271.png",
+   "credit": "ESPN"
+  },
+  "albert regis": {
+   "nom": "Albert Regis",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "98",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4612298.png",
+   "credit": "ESPN"
+  },
+  "cam'ron silmon-craig": {
+   "nom": "Cam'Ron Silmon-Craig",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "42",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4877475.png",
+   "credit": "ESPN"
+  },
+  "danny striggow": {
+   "nom": "Danny Striggow",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "92",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4573319.png",
+   "credit": "ESPN"
+  },
+  "jahlani tavai": {
+   "nom": "Jahlani Tavai",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "31",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3124587.png",
+   "credit": "ESPN"
+  },
+  "bryan thomas jr": {
+   "nom": "Bryan Thomas Jr.",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "57",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4836472.png",
+   "credit": "ESPN"
+  },
+  "travon walker": {
+   "nom": "Travon Walker",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "44",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426349.png",
+   "credit": "ESPN"
+  },
+  "wesley williams": {
+   "nom": "Wesley Williams",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "90",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4832922.png",
+   "credit": "ESPN"
+  },
+  "logan cooke": {
+   "nom": "Logan Cooke",
+   "equipe": "jaguars",
+   "poste": "Punter",
+   "numero": "9",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3115480.png",
+   "credit": "ESPN"
+  },
+  "cam little": {
+   "nom": "Cam Little",
+   "equipe": "jaguars",
+   "poste": "Botteur",
+   "numero": "39",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4686361.png",
+   "credit": "ESPN"
+  },
+  "ross matiscik": {
+   "nom": "Ross Matiscik",
+   "equipe": "jaguars",
+   "poste": "Long snapper",
+   "numero": "46",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3928931.png",
+   "credit": "ESPN"
+  },
+  "jared bartlett": {
+   "nom": "Jared Bartlett",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "45",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426646.png",
+   "credit": "ESPN"
+  },
+  "garrett digiorgio": {
+   "nom": "Garrett DiGiorgio",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "74",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4684542.png",
+   "credit": "ESPN"
+  },
+  "zach durfee": {
+   "nom": "Zach Durfee",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "58",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/5121433.png",
+   "credit": "ESPN"
+  },
+  "b j green ii": {
+   "nom": "B.J. Green II",
+   "equipe": "jaguars",
+   "poste": "Défensif de ligne",
+   "numero": "95",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4875266.png",
+   "credit": "ESPN"
+  },
+  "davon hamilton": {
+   "nom": "DaVon Hamilton",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "52",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3915520.png",
+   "credit": "ESPN"
+  },
+  "anton harrison": {
+   "nom": "Anton Harrison",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "77",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4692525.png",
+   "credit": "ESPN"
+  },
+  "parker hughes": {
+   "nom": "Parker Hughes",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "53",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4880861.png",
+   "credit": "ESPN"
+  },
+  "devon marshall": {
+   "nom": "Devon Marshall",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "40",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/5083287.png",
+   "credit": "ESPN"
+  },
+  "patrick mekari": {
+   "nom": "Patrick Mekari",
+   "equipe": "jaguars",
+   "poste": "Garde",
+   "numero": "65",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3863820.png",
+   "credit": "ESPN"
+  },
+  "eric murray": {
+   "nom": "Eric Murray",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "29",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2970716.png",
+   "credit": "ESPN"
+  },
+  "sam mustipher": {
+   "nom": "Sam Mustipher",
+   "equipe": "jaguars",
+   "poste": "Centre",
+   "numero": "69",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3129307.png",
+   "credit": "ESPN"
+  },
+  "caleb ransaw": {
+   "nom": "Caleb Ransaw",
+   "equipe": "jaguars",
+   "poste": "Safety",
+   "numero": "27",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4683347.png",
+   "credit": "ESPN"
+  },
+  "brenden bates": {
+   "nom": "Brenden Bates",
+   "equipe": "jaguars",
+   "poste": "Tight end",
+   "numero": "",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4362603.png",
+   "credit": "ESPN"
+  },
+  "jacob bobenmoyer": {
+   "nom": "Jacob Bobenmoyer",
+   "equipe": "jaguars",
+   "poste": "Long snapper",
+   "numero": "55",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3925443.png",
+   "credit": "ESPN"
+  },
+  "t j bollers": {
+   "nom": "T.J. Bollers",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "94",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4431162.png",
+   "credit": "ESPN"
+  },
+  "geron christian": {
+   "nom": "Geron Christian",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "61",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3916414.png",
+   "credit": "ESPN"
+  },
+  "eli cox": {
+   "nom": "Eli Cox",
+   "equipe": "jaguars",
+   "poste": "Centre",
+   "numero": "",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426981.png",
+   "credit": "ESPN"
+  },
+  "jamal hill": {
+   "nom": "Jamal Hill",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "54",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4427479.png",
+   "credit": "ESPN"
+  },
+  "austin johnson": {
+   "nom": "Austin Johnson",
+   "equipe": "jaguars",
+   "poste": "Tackle défensif",
+   "numero": "99",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2979591.png",
+   "credit": "ESPN"
+  },
+  "tim jones": {
+   "nom": "Tim Jones",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "13",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4245131.png",
+   "credit": "ESPN"
+  },
+  "jimto obidegwu": {
+   "nom": "Jimto Obidegwu",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "62",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4684970.png",
+   "credit": "ESPN"
+  },
+  "bj ojulari": {
+   "nom": "BJ Ojulari",
+   "equipe": "jaguars",
+   "poste": "Linebacker",
+   "numero": "",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4429111.png",
+   "credit": "ESPN"
+  },
+  "trebor pena": {
+   "nom": "Trebor Pena",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "86",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4575862.png",
+   "credit": "ESPN"
+  },
+  "j'mari taylor": {
+   "nom": "J'Mari Taylor",
+   "equipe": "jaguars",
+   "poste": "Running back",
+   "numero": "30",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4713118.png",
+   "credit": "ESPN"
+  },
+  "austin trammell": {
+   "nom": "Austin Trammell",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "81",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4244856.png",
+   "credit": "ESPN"
+  },
+  "michael wortham": {
+   "nom": "Michael Wortham",
+   "equipe": "jaguars",
+   "poste": "Receveur",
+   "numero": "0",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/5152117.png",
+   "credit": "ESPN"
+  },
+  "kilian zierer": {
+   "nom": "Kilian Zierer",
+   "equipe": "jaguars",
+   "poste": "Tackle offensif",
+   "numero": "78",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4689088.png",
+   "credit": "ESPN"
+  },
+  "paolo banchero": {
+   "nom": "Paolo Banchero",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "5",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432573.png",
+   "credit": "ESPN"
+  },
+  "desmond bane": {
+   "nom": "Desmond Bane",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "3",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+   "credit": "ESPN"
+  },
+  "goga bitadze": {
+   "nom": "Goga Bitadze",
+   "equipe": "orlando-magic",
+   "poste": "Pivot",
+   "numero": "35",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4348700.png",
+   "credit": "ESPN"
+  },
+  "anthony black": {
+   "nom": "Anthony Black",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "0",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png",
+   "credit": "ESPN"
+  },
+  "jamal cain": {
+   "nom": "Jamal Cain",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "8",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4278572.png",
+   "credit": "ESPN"
+  },
+  "jevon carter": {
+   "nom": "Jevon Carter",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "2",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/3133635.png",
+   "credit": "ESPN"
+  },
+  "wendell carter jr": {
+   "nom": "Wendell Carter Jr.",
+   "equipe": "orlando-magic",
+   "poste": "Pivot",
+   "numero": "34",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png",
+   "credit": "ESPN"
+  },
+  "colin castleton": {
+   "nom": "Colin Castleton",
+   "equipe": "orlando-magic",
+   "poste": "Pivot",
+   "numero": "14",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4397204.png",
+   "credit": "ESPN"
+  },
+  "tristan da silva": {
+   "nom": "Tristan da Silva",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "23",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png",
+   "credit": "ESPN"
+  },
+  "jonathan isaac": {
+   "nom": "Jonathan Isaac",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "1",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4065654.png",
+   "credit": "ESPN"
+  },
+  "alex morales": {
+   "nom": "Alex Morales",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "30",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4593034.png",
+   "credit": "ESPN"
+  },
+  "izaiyah nelson": {
+   "nom": "Izaiyah Nelson",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "25",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5107251.png",
+   "credit": "ESPN"
+  },
+  "noah penda": {
+   "nom": "Noah Penda",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "93",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5214637.png",
+   "credit": "ESPN"
+  },
+  "jase richardson": {
+   "nom": "Jase Richardson",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "11",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5239561.png",
+   "credit": "ESPN"
+  },
+  "jalen suggs": {
+   "nom": "Jalen Suggs",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "4",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432165.png",
+   "credit": "ESPN"
+  },
+  "nikola vucevic": {
+   "nom": "Nikola Vucevic",
+   "equipe": "orlando-magic",
+   "poste": "Pivot",
+   "numero": "9",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
+   "credit": "ESPN"
+  },
+  "franz wagner": {
+   "nom": "Franz Wagner",
+   "equipe": "orlando-magic",
+   "poste": "Ailier",
+   "numero": "22",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+   "credit": "ESPN"
+  }
+ }
+}

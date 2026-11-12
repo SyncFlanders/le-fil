@@ -28,6 +28,11 @@ def norm(t: str) -> str:
     return "".join(c for c in t if not unicodedata.combining(c)).replace("’", "'")
 
 
+def cle_joueur(nom: str) -> str:
+    """Même clé que scripts/sport.py : minuscules, sans accents ni points."""
+    return " ".join(norm(nom).replace(".", " ").split())
+
+
 def main() -> int:
     brouillon = json.loads((DATA / "brouillon.json").read_text(encoding="utf-8"))
     depeches = json.loads((DATA / "depeches.json").read_text(encoding="utf-8"))
@@ -36,6 +41,8 @@ def main() -> int:
         for s in t["sujets"]:
             tous[s["id"]] = s["articles"]
     a_plat = [a for arts in tous.values() for a in arts]
+    sport_json = DATA / "sport.json"
+    joueurs = json.loads(sport_json.read_text(encoding="utf-8")).get("joueurs", {}) if sport_json.exists() else {}
 
     erreurs, avertissements = [], []
     for champ in ("date", "themes"):
@@ -56,6 +63,16 @@ def main() -> int:
                 else:
                     avertissements.append(f"{sujet['id']}: article introuvable « {ref} »")
             sujet["articles"] = resolus
+            # Joueurs cités : photo et poste depuis data/sport.json (sinon l'appli cherche sur Wikipédia)
+            fiches = []
+            for nom in sujet.get("joueurs", [])[:4]:
+                j = joueurs.get(cle_joueur(nom), {})
+                fiche = {"nom": j.get("nom", nom)}
+                for k in ("photo", "poste", "numero", "credit"):
+                    if j.get(k):
+                        fiche[k] = j[k]
+                fiches.append(fiche)
+            sujet["joueurs"] = fiches
 
     for a in avertissements:
         print("[avertissement]", a, file=sys.stderr)

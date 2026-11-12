@@ -1,5 +1,5 @@
 {
-  "_lisez_moi": "Liste des sujets suivis par Le Fil. Pour ajouter un sujet : copier un bloc sujet, changer id (unique, sans espace), titre, consigne (ce que tu veux / ne veux pas) et requetes (syntaxe Google Actualités : guillemets pour une expression exacte, OR, -mot pour exclure). langue fr = presse française, en = presse américaine. fenetre_h = combien d'heures en arrière on cherche. flux = sites de passionnés et presse spécialisée (RSS) ; filtre = ne garder que les titres contenant un de ces mots.",
+  "_lisez_moi": "Liste des sujets suivis par Le Fil. Pour ajouter un sujet : copier un bloc sujet, changer id (unique, sans espace), titre, consigne (ce que tu veux / ne veux pas) et requetes (syntaxe Google Actualités : guillemets pour une expression exacte, OR, -mot pour exclure). langue fr = presse française, en = presse américaine. fenetre_h = combien d'heures en arrière on cherche. flux = sites de passionnés et presse spécialisée (RSS) ; filtre = ne garder que les titres contenant un de ces mots. espn = identifiants ESPN de l'équipe (calendrier, résultats, photos des joueurs).",
   "themes": [
     {
       "id": "sport",
@@ -9,6 +9,12 @@
         {
           "id": "real-madrid",
           "titre": "Real Madrid",
+          "espn": {
+            "sport": "soccer",
+            "ligue": "esp.1",
+            "ligue_calendrier": "all",
+            "equipe": "86"
+          },
           "consigne": "Football, équipe première masculine uniquement : matchs, résultats, blessures, transferts, entraîneur, direction du club. Exclure le basket, la Castilla (réserve), l'équipe féminine et les pronostics de paris.",
           "fenetre_h": 24,
           "requetes": [
@@ -37,6 +43,11 @@
         {
           "id": "florida-gators",
           "titre": "Florida Gators",
+          "espn": {
+            "sport": "football",
+            "ligue": "college-football",
+            "equipe": "57"
+          },
           "consigne": "Football universitaire (college football) des Florida Gators uniquement : matchs, classement, entraîneur, joueurs, recrutement. Exclure le basket et les autres sports de l'université.",
           "fenetre_h": 48,
           "requetes": [
@@ -65,6 +76,11 @@
         {
           "id": "jaguars",
           "titre": "Jacksonville Jaguars",
+          "espn": {
+            "sport": "football",
+            "ligue": "nfl",
+            "equipe": "jax"
+          },
           "consigne": "NFL, Jacksonville Jaguars : matchs, résultats, blessures, transferts, effectif, entraîneur (Liam Coen), Trevor Lawrence.",
           "fenetre_h": 24,
           "requetes": [
@@ -98,6 +114,11 @@
         {
           "id": "orlando-magic",
           "titre": "Orlando Magic",
+          "espn": {
+            "sport": "basketball",
+            "ligue": "nba",
+            "equipe": "orl"
+          },
           "consigne": "NBA, Orlando Magic : matchs, résultats, blessures, transferts, effectif (Paolo Banchero, Franz Wagner…), entraîneur.",
           "fenetre_h": 24,
           "requetes": [

@@ -53,6 +53,18 @@
        "date": "2026-11-12T14:33+00:00",
        "origine": "presse"
       }
+     ],
+     "joueurs": [
+      {
+       "nom": "Kylian Mbappé",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Forward",
+       "numero": "10",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "Michael Olise"
+      }
      ]
     },
     {
@@ -92,6 +104,22 @@
        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTZQR3pYalVUZlJpM1gwc3laWGRybUlScFR0WW5PbWZCTkpMSGdzNERCNmZDdzNfOTZ2aVFxNEJkdUVobS1zWWMxdnFoeWs3ckRmeEdMT2VvZml6MmhRb3psM0lWZ19LV2E2aXNUY3pyZ19LMWVuOE1LZnBSSXBaV0IzYkpMdUw1X0NITVZaZzZTQ0ZCWWRpbC1CR0FHb3BQejhSdFFwTXpiSnJp?oc=5",
        "date": "2026-11-12T13:30+00:00",
        "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Aaron Philo",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+       "poste": "Quarterback",
+       "numero": "12",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Vernell Brown III",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295811.png",
+       "poste": "Wide Receiver",
+       "numero": "1",
+       "credit": "ESPN"
       }
      ]
     },
@@ -140,6 +168,29 @@
        "date": "2026-11-12T15:25+00:00",
        "origine": "passionnes"
       }
+     ],
+     "joueurs": [
+      {
+       "nom": "Jessie Bates III",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3919512.png",
+       "poste": "Safety",
+       "numero": "30",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Trevor Lawrence",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+       "poste": "Quarterback",
+       "numero": "16",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Jakobi Meyers",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
+       "poste": "Wide Receiver",
+       "numero": "3",
+       "credit": "ESPN"
+      }
      ]
     },
     {
@@ -171,6 +222,15 @@
        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS01XQ0JDcXk2aE9QZy1wVkpDSGV1VjZrN1RGWXhFSTVLRktnTmpucjVxLV9sTm1qYnNMSy1ldEdDZThTZk9xcjlDMVgtVm8yRzh2VG9tZVY4em5rWHNHWE9wUjZKMnlKUzhYZW0wYTBFdG51S3VFbURpaFJEamU3cXVXbWt0NkNyQVBCVzM5b3BfUUlu0gGaAUFVX3lxTE5qZG9ibHEyQXJNZXkxOGhmOW1pUFpqaW1qNk1rMjBpRmRKYlJWemJ5RVlSOGt3UmdyR3NEX3FjRUFxN29nWWVXX2Fxb0FBTl9xa3ZWM3hiNWFRMk9QejEzUjZta1E0bUstMEp0Z3NMWVd5dDc1VnJ5TWkzUWZjYVFBbDJsVzVlbWF1aThxS0E1THFfLU9vQUwzVmc?oc=5",
        "date": "2026-11-12T08:47+00:00",
        "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Franz Wagner",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+       "poste": "Forward",
+       "numero": "22",
+       "credit": "ESPN"
       }
      ]
     }

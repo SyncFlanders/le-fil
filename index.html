@@ -5,32 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Le Fil</title>
 <meta name="description" content="Mes nouvelles du jour, sur mes sujets.">
-<meta name="theme-color" content="#f3efe8" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f2ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icones/icone-192.png">
 <link rel="apple-touch-icon" href="icones/icone-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
 <style>
+/* Mise en page de journal : aplats, filets fins, aucune transparence floutée. */
 :root{
-  --fond:#f3efe8; --encre:#16181d; --doux:#5d616b; --pale:#8c909a;
-  --verre:rgba(255,255,255,.58); --verre-fort:rgba(255,255,255,.78);
-  --bord:rgba(255,255,255,.75); --ombre:0 1px 0 rgba(255,255,255,.6) inset, 0 10px 30px -12px rgba(30,25,15,.28);
-  --filet:rgba(22,24,29,.08);
-  --teinte:#c4552d; --teinte-2:#e7a24a;
+  --fond:#f5f2ec; --carte:#fffdf9; --encre:#16181d; --doux:#565a63; --pale:#8a8e97;
+  --filet:rgba(22,24,29,.09); --filet-fort:rgba(22,24,29,.16);
+  --ombre:0 1px 2px rgba(30,25,15,.05), 0 10px 26px -16px rgba(30,25,15,.22);
+  --creux:#ece7de;
+  --teinte:#c4552d;
   --serif:"Newsreader", ui-serif, Georgia, "Times New Roman", serif;
   --sans:system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --r:22px;
+  --r:18px;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root{
-    --fond:#0f1115; --encre:#eef0f4; --doux:#a9adb8; --pale:#7b808c;
-    --verre:rgba(32,35,43,.55); --verre-fort:rgba(38,41,50,.82);
-    --bord:rgba(255,255,255,.09); --ombre:0 1px 0 rgba(255,255,255,.06) inset, 0 12px 32px -14px rgba(0,0,0,.7);
-    --filet:rgba(255,255,255,.08);
+    --fond:#111214; --carte:#1b1c20; --encre:#eceef2; --doux:#a7abb5; --pale:#7b7f8a;
+    --filet:rgba(255,255,255,.08); --filet-fort:rgba(255,255,255,.15);
+    --ombre:0 1px 0 rgba(255,255,255,.03) inset, 0 10px 26px -16px rgba(0,0,0,.8);
+    --creux:#25262b;
     color-scheme:dark;
   }
 }
@@ -39,117 +40,161 @@ html,body{margin:0;background:var(--fond);color:var(--encre)}
 body{font:16px/1.5 var(--sans);min-height:100dvh;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+img{max-width:100%}
 
-/* Fond vivant : deux halos de la teinte du thème actif, qui glissent d'une couleur à l'autre */
-.halos{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-.halos i{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;transition:background-color .9s ease}
-.halos i:nth-child(1){width:70vmax;height:70vmax;left:-25vmax;top:-30vmax;background:var(--teinte)}
-.halos i:nth-child(2){width:55vmax;height:55vmax;right:-25vmax;top:25vh;background:var(--teinte-2);opacity:.35}
-@media (prefers-color-scheme: dark){.halos i{opacity:.28}.halos i:nth-child(2){opacity:.18}}
+.page{max-width:680px;margin:0 auto;padding:0 16px calc(104px + env(safe-area-inset-bottom))}
 
-.page{position:relative;z-index:1;max-width:680px;margin:0 auto;padding:0 16px calc(110px + env(safe-area-inset-bottom))}
-
-/* En-tête */
-header{position:sticky;top:0;z-index:5;margin:0 -16px;padding:calc(env(safe-area-inset-top) + 14px) 20px 12px;
-  backdrop-filter:blur(22px) saturate(170%);-webkit-backdrop-filter:blur(22px) saturate(170%);
-  background:linear-gradient(to bottom,color-mix(in srgb,var(--fond) 70%,transparent),color-mix(in srgb,var(--fond) 25%,transparent));
-  mask-image:linear-gradient(to bottom,#000 80%,transparent);-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent)}
+/* En-tête opaque, filet fin quand on défile */
+header{position:sticky;top:0;z-index:5;margin:0 -16px;padding:calc(env(safe-area-inset-top) + 14px) 20px 12px;background:var(--fond);
+  border-bottom:1px solid transparent;transition:border-color .2s}
+header.defile{border-bottom-color:var(--filet)}
 .ligne-haut{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
-.marque{font:600 2.1rem/1 var(--serif);letter-spacing:-.025em;margin:0}
-.marque em{font-style:normal;color:var(--teinte);transition:color .6s}
-.date-btn{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;background:var(--verre);border:1px solid var(--bord);
-  box-shadow:var(--ombre);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);font-size:.82rem;font-weight:600;white-space:nowrap}
+.marque{font:700 2.1rem/1 var(--serif);letter-spacing:-.025em;margin:0}
+.marque em{font-style:normal;color:var(--teinte);transition:color .4s}
+.date-btn{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;background:var(--carte);border:1px solid var(--filet-fort);font-size:.82rem;font-weight:600;white-space:nowrap}
 .date-btn:active{transform:scale(.96)}
-.etat{margin:6px 0 0;font-size:.78rem;color:var(--pale);letter-spacing:.01em}
+.etat{margin:6px 0 0;font-size:.78rem;color:var(--pale)}
 
-/* Cartes en verre */
-.verre{background:var(--verre);border:1px solid var(--bord);border-radius:var(--r);box-shadow:var(--ombre);
-  backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%)}
-@media (prefers-reduced-transparency: reduce){.verre,.date-btn,nav.onglets{background:var(--verre-fort);backdrop-filter:none}}
-
-h2.section{font:600 .74rem/1 var(--sans);text-transform:uppercase;letter-spacing:.12em;color:var(--doux);margin:28px 4px 12px}
+.carte{background:var(--carte);border:1px solid var(--filet);border-radius:var(--r);box-shadow:var(--ombre)}
+h2.section{display:flex;align-items:center;gap:10px;font:700 .72rem/1 var(--sans);text-transform:uppercase;letter-spacing:.14em;color:var(--encre);margin:28px 2px 12px}
+h2.section::after{content:"";flex:1;height:1px;background:var(--filet-fort)}
 
 /* À la une */
 .une{display:grid;gap:12px}
-.une-carte{padding:20px 20px 18px;position:relative;overflow:hidden}
-.une-carte .tag{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teinte)}
-.une-carte h3{font:600 1.45rem/1.15 var(--serif);letter-spacing:-.015em;margin:6px 0 8px}
-.une-carte p{margin:0;color:var(--doux);font-size:.95rem}
+.une-carte{padding:18px 20px;border-top:3px solid var(--teinte)}
+.kicker{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teinte)}
+.une-carte h3{font:600 1.42rem/1.15 var(--serif);letter-spacing:-.015em;margin:6px 0 8px}
 .une-carte:first-child h3{font-size:1.75rem}
+.une-carte p{margin:0;color:var(--doux);font-size:.95rem}
 .une-carte:active,.mini:active{transform:scale(.985);transition:transform .1s}
 
-/* Résumé condensé de l'essentiel */
-.mini{display:block;padding:14px 16px;margin-bottom:10px}
+.mini{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;margin-bottom:10px}
+.mini .txt{flex:1;min-width:0}
 .mini b{display:block;font:600 1.05rem/1.25 var(--serif);margin-bottom:3px}
-.mini span{font-size:.88rem;color:var(--doux);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mini span.r{font-size:.88rem;color:var(--doux);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mini .vignette{width:46px;height:46px;flex:none}
 
-/* Sujet */
-.sujet{padding:20px;margin-bottom:14px}
-.sujet h3{font:600 1.5rem/1.15 var(--serif);letter-spacing:-.015em;margin:0 0 10px;display:flex;align-items:center;gap:10px}
-.sujet h3::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--teinte);flex:none}
-.resume{margin:0 0 12px;font-size:1rem;line-height:1.6}
-.points{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:6px}
+/* Agenda des matchs */
+.agenda{display:grid;gap:8px}
+.agenda .ligne{display:flex;align-items:center;gap:12px;padding:12px 14px}
+.agenda .quand{width:68px;flex:none;font-size:.78rem;line-height:1.25;color:var(--doux)}
+.agenda .quand b{display:block;color:var(--encre);font-size:.9rem}
+.agenda .qui{flex:1;min-width:0;font-size:.9rem}
+.agenda .qui b{font-weight:600}
+.agenda .qui small{display:block;color:var(--pale);font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.logo{width:30px;height:30px;object-fit:contain;flex:none}
+
+/* Article de sujet */
+.sujet{padding:20px;margin-bottom:16px;scroll-margin-top:110px;overflow:hidden}
+.sujet h3{font:700 1.55rem/1.12 var(--serif);letter-spacing:-.018em;margin:4px 0 12px}
+.resume{margin:0 0 12px;font-size:1.02rem;line-height:1.62}
+.resume::after{content:"";display:block;clear:both}
+.points{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:6px;clear:both}
 .points li{position:relative;padding-left:16px;font-size:.92rem;color:var(--doux)}
-.points li::before{content:"";position:absolute;left:2px;top:.62em;width:6px;height:2px;border-radius:2px;background:var(--teinte)}
-.liens{display:grid;gap:0;margin:0 -8px}
-.lien{display:flex;flex-direction:column;gap:2px;padding:10px 8px;border-radius:12px;border-top:1px solid var(--filet)}
-.lien:active{background:color-mix(in srgb,var(--teinte) 10%,transparent)}
-.lien .t{font-size:.93rem;line-height:1.35;font-weight:500}
-.lien .m{font-size:.76rem;color:var(--pale);display:flex;gap:6px;align-items:center}
-.badge{font-size:.64rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:6px;
-  background:color-mix(in srgb,var(--teinte) 16%,transparent);color:var(--teinte)}
+.points li::before{content:"";position:absolute;left:1px;top:.62em;width:7px;height:2px;border-radius:2px;background:var(--teinte)}
 .calme{color:var(--pale);font-style:italic;margin:0}
 
-/* Dépêches brutes */
-details.depeches{margin-top:10px}
-details.depeches summary{list-style:none;display:flex;align-items:center;justify-content:space-between;cursor:pointer;
-  font-size:.84rem;font-weight:600;color:var(--teinte);padding:8px 0}
-details.depeches summary::-webkit-details-marker{display:none}
-details.depeches summary::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .25s}
-details[open].depeches summary::after{transform:rotate(-135deg)}
-.filtres{display:flex;gap:6px;margin:4px 0 6px}
-.puce{font-size:.76rem;font-weight:600;padding:6px 11px;border-radius:999px;border:1px solid var(--filet);color:var(--doux)}
+/* Photo de presse */
+figure.photo{float:right;width:38%;max-width:170px;margin:4px 0 8px 16px}
+figure.photo .cadre{aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--creux)}
+figure.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;display:block}
+figure.photo figcaption{font-size:.72rem;line-height:1.3;color:var(--doux);margin-top:6px}
+figure.photo figcaption b{display:block;color:var(--encre);font-size:.8rem}
+.credit{color:var(--pale);font-size:.64rem}
+
+/* Bloc match */
+.match{display:grid;grid-template-columns:1fr auto;gap:10px 14px;align-items:center;padding:14px 16px;margin:0 0 16px;border-radius:14px;background:var(--creux)}
+.match .lib{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teinte)}
+.match .adv{display:flex;align-items:center;gap:10px;margin-top:4px}
+.match .adv b{font:600 1.1rem/1.2 var(--serif)}
+.match .det{font-size:.8rem;color:var(--doux);margin-top:3px}
+.match .date{text-align:right}
+.match .date b{display:block;font:700 1.3rem/1 var(--serif)}
+.match .date span{font-size:.8rem;color:var(--doux)}
+.match .dernier{grid-column:1/-1;border-top:1px solid var(--filet-fort);padding-top:9px;font-size:.82rem;color:var(--doux);display:flex;align-items:center;gap:8px}
+.res{font-weight:800;font-size:.72rem;width:20px;height:20px;border-radius:6px;display:inline-grid;place-items:center;color:#fff;flex:none}
+.res.V{background:#1f8a54}.res.D{background:#c0392b}.res.N{background:#8a8e97}
+
+/* Portraits */
+.portraits{display:flex;gap:14px;overflow-x:auto;padding:2px 2px 6px;margin:0 0 14px;scrollbar-width:none}
+.portraits::-webkit-scrollbar{display:none}
+.portrait{width:66px;flex:none;text-align:center}
+.portrait .ph{width:58px;height:58px;margin:0 auto 5px}
+.portrait b{display:block;font-size:.72rem;line-height:1.2;font-weight:600}
+.portrait small{display:block;font-size:.66rem;color:var(--pale);line-height:1.2}
+.ph{border-radius:50%;overflow:hidden;background:var(--creux);display:grid;place-items:center;font:700 .85rem var(--sans);color:var(--doux)}
+.ph img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;display:block}
+
+/* Composition */
+.compo{margin:6px 0 14px;border-top:1px solid var(--filet);padding-top:14px}
+.compo-tete{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px}
+.compo-tete h4{margin:0;font:700 .72rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.compo-tete span{font-size:.76rem;color:var(--pale);text-align:right}
+.terrain{position:relative;aspect-ratio:68/88;border-radius:14px;overflow:hidden;
+  background:repeating-linear-gradient(180deg,#2e7d4f 0 12.5%,#2a7449 12.5% 25%)}
+.terrain .lignes{position:absolute;inset:0;width:100%;height:100%}
+.terrain .j{position:absolute;transform:translate(-50%,-50%);width:62px;text-align:center;color:#fff}
+.terrain .j .ph{width:40px;height:40px;margin:0 auto 3px;border:2px solid #fff;background:#e9efe9}
+.terrain .j b{display:block;font-size:.64rem;line-height:1.15;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:12px 8px}
+.grille .portrait{width:auto}
+.bloc-titre{font-size:.78rem;font-weight:700;color:var(--doux);margin:12px 0 8px}
+
+details.plie{border-top:1px solid var(--filet)}
+details.plie summary{list-style:none;display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-size:.84rem;font-weight:700;color:var(--teinte);padding:12px 0}
+details.plie summary::-webkit-details-marker{display:none}
+details.plie summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .25s}
+details[open].plie summary::after{transform:rotate(-135deg)}
+details.plie[open]{padding-bottom:10px}
+
+/* Liens */
+.liens{display:grid;margin:0 -8px}
+.lien{display:flex;flex-direction:column;gap:2px;padding:10px 8px;border-radius:10px;border-top:1px solid var(--filet)}
+.lien:active{background:var(--creux)}
+.lien .t{font-size:.93rem;line-height:1.35;font-weight:500}
+.lien .m{font-size:.76rem;color:var(--pale);display:flex;gap:6px;align-items:center}
+.badge{font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:5px;background:var(--creux);color:var(--teinte)}
+.filtres{display:flex;gap:6px;margin:0 0 6px}
+.puce{font-size:.76rem;font-weight:600;padding:6px 11px;border-radius:999px;border:1px solid var(--filet-fort);color:var(--doux)}
 .puce[aria-pressed="true"]{background:var(--teinte);border-color:var(--teinte);color:#fff}
 
-/* Barre d'onglets en verre, en bas, sous le pouce */
+/* Barre d'onglets : aplat opaque */
 nav.onglets{position:fixed;z-index:6;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));
-  display:flex;gap:4px;padding:6px;border-radius:999px;background:var(--verre);border:1px solid var(--bord);box-shadow:var(--ombre),0 18px 40px -18px rgba(0,0,0,.35);
-  backdrop-filter:blur(26px) saturate(180%);-webkit-backdrop-filter:blur(26px) saturate(180%);width:max-content;max-width:calc(100vw - 24px)}
+  display:flex;gap:2px;padding:5px;border-radius:999px;background:var(--carte);border:1px solid var(--filet-fort);
+  box-shadow:0 12px 30px -12px rgba(0,0,0,.35);width:max-content;max-width:calc(100vw - 24px)}
 .onglet{position:relative;padding:10px 15px;border-radius:999px;font-size:.84rem;font-weight:600;color:var(--doux);white-space:nowrap;transition:color .25s}
 .onglet[aria-selected="true"]{color:#fff}
-.pastille{position:absolute;z-index:-1;top:6px;bottom:6px;left:0;border-radius:999px;background:var(--teinte);
-  transition:transform .42s cubic-bezier(.3,1.3,.5,1),width .42s cubic-bezier(.3,1.3,.5,1),background-color .6s}
+.pastille{position:absolute;z-index:-1;top:5px;bottom:5px;left:0;border-radius:999px;background:var(--teinte);
+  transition:transform .4s cubic-bezier(.3,1.25,.5,1),width .4s cubic-bezier(.3,1.25,.5,1),background-color .4s}
+nav.onglets{isolation:isolate}
 .onglet:active{transform:scale(.95)}
 
-/* Feuille des éditions passées */
-.voile{position:fixed;inset:0;z-index:9;background:rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:opacity .3s}
+/* Feuille des éditions : voile uni, pas de flou */
+.voile{position:fixed;inset:0;z-index:9;background:rgba(0,0,0,.35);opacity:0;pointer-events:none;transition:opacity .25s}
 .voile.ouvert{opacity:1;pointer-events:auto}
 .feuille{position:fixed;z-index:10;left:0;right:0;bottom:0;max-width:680px;margin:0 auto;max-height:70dvh;overflow:auto;
-  border-radius:28px 28px 0 0;padding:10px 18px calc(24px + env(safe-area-inset-bottom));background:var(--verre-fort);
-  backdrop-filter:blur(30px) saturate(170%);-webkit-backdrop-filter:blur(30px) saturate(170%);border:1px solid var(--bord);
-  transform:translateY(105%);transition:transform .45s cubic-bezier(.2,.9,.25,1)}
+  border-radius:24px 24px 0 0;padding:10px 18px calc(24px + env(safe-area-inset-bottom));background:var(--carte);border-top:1px solid var(--filet-fort);
+  transform:translateY(105%);transition:transform .4s cubic-bezier(.2,.9,.25,1)}
 .feuille.ouvert{transform:none}
-.poignee{width:38px;height:5px;border-radius:5px;background:var(--pale);opacity:.5;margin:2px auto 14px}
-.feuille h4{font:600 1.3rem var(--serif);margin:0 0 10px}
+.poignee{width:38px;height:5px;border-radius:5px;background:var(--filet-fort);margin:2px auto 14px}
+.feuille h4{font:700 1.3rem var(--serif);margin:0 0 10px}
 .edition{display:flex;justify-content:space-between;width:100%;padding:13px 4px;border-top:1px solid var(--filet);font-size:.95rem;text-align:left}
 .edition[aria-current="true"]{color:var(--teinte);font-weight:700}
 
 .vide{padding:28px 22px;text-align:center;color:var(--doux)}
-.vide h3{font:600 1.4rem var(--serif);margin:0 0 6px;color:var(--encre)}
+.vide h3{font:700 1.4rem var(--serif);margin:0 0 6px;color:var(--encre)}
 
-/* Apparition douce des cartes */
-.apparait{animation:apparait .5s cubic-bezier(.2,.8,.2,1) both}
-@keyframes apparait{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.apparait{animation:apparait .45s cubic-bezier(.2,.8,.2,1) both}
+@keyframes apparait{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){
   .apparait{animation:fondu .2s both}@keyframes fondu{from{opacity:0}to{opacity:1}}
-  .pastille,.feuille,.halos i{transition:none}
+  .pastille,.feuille{transition:none}
 }
 </style>
 </head>
 <body>
-<div class="halos" aria-hidden="true"><i></i><i></i></div>
 <div class="page">
-  <header>
+  <header id="entete">
     <div class="ligne-haut">
       <h1 class="marque">Le Fil<em>.</em></h1>
       <button class="date-btn" id="btnEditions" aria-haspopup="dialog">
@@ -172,18 +217,14 @@ nav.onglets{position:fixed;z-index:6;left:50%;transform:translateX(-50%);bottom:
 </section>
 
 <script>
-const TEINTES = {
-  essentiel: ["#c4552d", "#e7a24a"],
-  sport:     ["#2f7d5b", "#7cc29a"],
-  tech:      ["#4a5bd4", "#8f7cf0"],
-  luxe:      ["#a8744a", "#d9b48a"],
-};
+const TEINTES = { essentiel: "#c4552d", sport: "#1f7a4f", tech: "#3b4cc0", luxe: "#9a6a3c" };
 const ONGLETS = [["essentiel", "L'essentiel"], ["sport", "Sport"], ["tech", "IA & tech"], ["luxe", "Luxe"]];
-const etat = { resume: null, depeches: null, editions: [], onglet: "essentiel", edition: null };
+const etat = { resume: null, depeches: null, sport: null, editions: [], onglet: "essentiel", edition: null, derniere: null };
 const $ = (s) => document.querySelector(s);
-// Espaces insécables avant % : ; ! ? » pour éviter « 8,5 » en fin de ligne et « % » au début de la suivante
-const typo = (t) => esc(t).replace(/ ([%:;!?»])/g, "\u202f$1").replace(/« /g, "«\u202f");
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+// Espaces insécables avant % : ; ! ? » pour éviter un signe seul en début de ligne
+const typo = (t) => esc(t).replace(/ ([%:;!?»])/g, " $1").replace(/« /g, "« ");
+const PARIS = { timeZone: "Europe/Paris" };
 
 function depuis(iso) {
   const min = Math.round((Date.now() - new Date(iso)) / 60000);
@@ -196,6 +237,17 @@ function depuis(iso) {
 }
 const jourLong = (d) => new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const jourCourt = (d) => new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
+const heure = (iso) => new Date(iso).toLocaleTimeString("fr-FR", { ...PARIS, hour: "2-digit", minute: "2-digit" }).replace(":", " h ");
+function jourMatch(iso) {
+  const d = new Date(iso), auj = new Date();
+  const cle = (x) => x.toLocaleDateString("fr-FR", PARIS);
+  const demain = new Date(Date.now() + 864e5);
+  if (cle(d) === cle(auj)) return "Ce soir";
+  if (cle(d) === cle(demain)) return "Demain";
+  return d.toLocaleDateString("fr-FR", { ...PARIS, weekday: "short", day: "numeric", month: "short" });
+}
+const initiales = (n) => n.split(/\s+/).filter((m) => /^[A-ZÀ-Ý]/.test(m)).slice(0, 2).map((m) => m[0]).join("");
+const nomCourt = (n) => { const m = n.replace(/ (Jr\.|III|II|IV)$/, "").split(" "); return m.length > 1 ? m.slice(1).join(" ") : n; };
 
 async function charger(url) {
   const r = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
@@ -204,17 +256,16 @@ async function charger(url) {
 }
 
 async function demarrer() {
-  try {
-    const [resume, depeches, editions] = await Promise.allSettled([
-      charger("data/resume.json"), charger("data/depeches.json"), charger("data/archives/index.json"),
-    ]);
-    etat.resume = resume.value || null;
-    etat.depeches = depeches.value || null;
-    etat.editions = editions.value || [];
-    etat.edition = etat.derniere = etat.resume?.date || null;
-  } catch (e) { console.warn(e); }
-  const depuisHash = location.hash.slice(1);
-  if (TEINTES[depuisHash]) etat.onglet = depuisHash;
+  const [resume, depeches, editions, sport] = await Promise.allSettled([
+    charger("data/resume.json"), charger("data/depeches.json"), charger("data/archives/index.json"), charger("data/sport.json"),
+  ]);
+  etat.resume = resume.value || null;
+  etat.depeches = depeches.value || null;
+  etat.editions = editions.value || [];
+  etat.sport = sport.value || null;
+  etat.edition = etat.derniere = etat.resume?.date || null;
+  const h = location.hash.slice(1);
+  if (TEINTES[h]) etat.onglet = h;
   construireOnglets();
   afficher();
 }
@@ -229,30 +280,25 @@ function construireOnglets() {
   });
 }
 
-function changerOnglet(id) {
-  if (id === etat.onglet) { window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+function changerOnglet(id, sujet) {
+  if (id === etat.onglet && !sujet) { window.scrollTo({ top: 0, behavior: "smooth" }); return; }
   etat.onglet = id;
   history.replaceState(null, "", "#" + id);
   window.scrollTo({ top: 0 });
   afficher();
+  if (sujet) requestAnimationFrame(() => document.getElementById("s-" + sujet)?.scrollIntoView({ block: "start" }));
 }
 
 function placerPastille() {
   const actif = document.querySelector(`.onglet[data-id="${etat.onglet}"]`);
-  const p = $("#pastille");
   if (!actif) return;
+  const p = $("#pastille");
   p.style.width = actif.offsetWidth + "px";
   p.style.transform = `translateX(${actif.offsetLeft}px)`;
 }
 
-function appliquerTeinte() {
-  const [a, b] = TEINTES[etat.onglet];
-  document.documentElement.style.setProperty("--teinte", a);
-  document.documentElement.style.setProperty("--teinte-2", b);
-}
-
 function afficher() {
-  appliquerTeinte();
+  document.documentElement.style.setProperty("--teinte", TEINTES[etat.onglet]);
   document.querySelectorAll(".onglet").forEach((b) => b.setAttribute("aria-selected", b.dataset.id === etat.onglet));
   requestAnimationFrame(placerPastille);
 
@@ -264,118 +310,245 @@ function afficher() {
   $("#etat").textContent = morceaux.join(" · ") || "Pas encore d'édition";
 
   const main = $("#contenu");
-  if (!r) { main.innerHTML = `<div class="vide verre apparait"><h3>Pas encore d'édition</h3><p>Le premier résumé arrive demain matin.</p></div>`; return; }
+  if (!r) { main.innerHTML = `<div class="vide carte apparait"><h3>Pas encore d'édition</h3><p>Le premier résumé arrive demain matin.</p></div>`; return; }
   main.innerHTML = etat.onglet === "essentiel" ? vueEssentiel(r) : vueTheme(r, etat.onglet);
-  main.querySelectorAll(".apparait").forEach((el, i) => (el.style.animationDelay = Math.min(i * 45, 400) + "ms"));
-  brancherFiltres();
+  main.querySelectorAll(".apparait").forEach((el, i) => (el.style.animationDelay = Math.min(i * 40, 360) + "ms"));
+  brancher(main);
+  completerPhotos(main);
 }
 
-function themeDuSujet(r, idSujet) {
-  return r.themes.find((t) => t.sujets.some((s) => s.id === idSujet));
-}
+const themeDuSujet = (r, id) => r.themes.find((t) => t.sujets.some((s) => s.id === id));
+const equipe = (id) => etat.sport?.equipes?.[id];
 
+/* ---------- L'essentiel ---------- */
 function vueEssentiel(r) {
   let h = "";
   if (r.a_la_une?.length) {
     h += `<h2 class="section">À la une</h2><div class="une">`;
     h += r.a_la_une.map((u) => {
-      const t = themeDuSujet(r, u.sujet);
-      const s = t?.sujets.find((x) => x.id === u.sujet);
-      return `<a class="une-carte verre apparait" href="#${t?.id || "essentiel"}" data-aller="${t?.id || ""}">
-        <span class="tag">${esc(s?.titre || "")}</span><h3>${esc(u.titre)}</h3><p>${typo(u.texte)}</p></a>`;
-    }).join("");
-    h += `</div>`;
+      const t = themeDuSujet(r, u.sujet), s = t?.sujets.find((x) => x.id === u.sujet);
+      return `<a class="une-carte carte apparait" href="#${t?.id}" data-aller="${t?.id || ""}" data-sujet="${u.sujet}" style="--teinte:${TEINTES[t?.id] || "var(--teinte)"}">
+        <span class="kicker">${esc(s?.titre || "")}</span><h3>${typo(u.titre)}</h3><p>${typo(u.texte)}</p></a>`;
+    }).join("") + `</div>`;
   }
+  h += agenda();
   for (const t of r.themes) {
     h += `<h2 class="section">${esc(t.titre)}</h2>`;
-    h += t.sujets.map((s) => `<a class="mini verre apparait" href="#${t.id}" data-aller="${t.id}" data-sujet="${s.id}">
-      <b>${esc(s.titre)}</b><span>${typo(s.resume || "Rien de marquant aujourd'hui.")}</span></a>`).join("");
+    h += t.sujets.map((s) => {
+      const j = (s.joueurs || [])[0];
+      return `<a class="mini carte apparait" href="#${t.id}" data-aller="${t.id}" data-sujet="${s.id}">
+        <span class="txt"><b>${esc(s.titre)}</b><span class="r">${typo(s.resume || "Rien de marquant aujourd'hui.")}</span></span>
+        ${j ? `<span class="ph vignette">${imgJoueur(j)}</span>` : ""}</a>`;
+    }).join("");
   }
-  setTimeout(() => document.querySelectorAll("[data-aller]").forEach((a) => a.addEventListener("click", (e) => {
-    e.preventDefault();
-    const id = a.dataset.aller, sujet = a.dataset.sujet;
-    if (!id) return;
-    changerOnglet(id);
-    if (sujet) requestAnimationFrame(() => document.getElementById("s-" + sujet)?.scrollIntoView({ behavior: "smooth", block: "start" }));
-  })));
   return h;
 }
 
-function ligneArticle(a) {
-  const passion = a.origine === "passionnes" ? `<span class="badge">spécialisé</span>` : "";
-  return `<a class="lien" href="${esc(a.url)}" target="_blank" rel="noopener">
-    <span class="t">${esc(a.titre)}</span>
-    <span class="m">${passion}${esc(a.source)} · ${depuis(a.date)}</span></a>`;
+function agenda() {
+  if (!etat.sport) return "";
+  const prochains = [];
+  for (const t of etat.resume.themes) for (const s of t.sujets) {
+    const eq = equipe(s.id), m = eq?.prochains?.[0];
+    if (m) prochains.push({ s, eq, m });
+  }
+  if (!prochains.length) return "";
+  prochains.sort((a, b) => a.m.date.localeCompare(b.m.date));
+  return `<h2 class="section" style="--teinte:${TEINTES.sport}">Prochains matchs</h2><div class="agenda">` + prochains.map(({ s, eq, m }) =>
+    `<a class="ligne carte apparait" href="#sport" data-aller="sport" data-sujet="${s.id}">
+      <span class="quand"><b>${esc(jourMatch(m.date))}</b>${heure(m.date)}</span>
+      ${eq.logo ? `<img class="logo" src="${esc(eq.logo)}" alt="" loading="lazy">` : ""}
+      <span class="qui"><b>${esc(s.titre)}</b> ${m.domicile ? "contre" : "à"} ${esc(m.adversaire)}<small>${esc([m.competition !== "Regular Season" ? m.competition : "", m.tv?.[0]].filter(Boolean).join(" · "))}</small></span>
+      ${m.logo_adversaire ? `<img class="logo" src="${esc(m.logo_adversaire)}" alt="" loading="lazy">` : ""}
+    </a>`).join("") + `</div>`;
+}
+
+/* ---------- Thème ---------- */
+function ligneArticle(a, avecOrigine) {
+  const spe = a.origine === "passionnes" ? `<span class="badge">spécialisé</span>` : "";
+  return `<a class="lien" href="${esc(a.url)}" target="_blank" rel="noopener"${avecOrigine ? ` data-o="${a.origine}"` : ""}>
+    <span class="t">${esc(a.titre)}</span><span class="m">${spe}${esc(a.source)} · ${depuis(a.date)}</span></a>`;
+}
+
+function imgJoueur(j, nomWiki) {
+  if (j.photo) return `<img src="${esc(j.photo)}" alt="${esc(j.nom)}" loading="lazy" onerror="this.replaceWith(document.createTextNode('${esc(initiales(j.nom))}'))">`;
+  return `<span data-wiki="${esc(nomWiki || j.nom)}">${esc(initiales(j.nom))}</span>`;
+}
+
+function blocMatch(eq) {
+  const m = eq.prochains?.[0], d = eq.dernier;
+  if (!m && !d) return "";
+  let h = `<div class="match">`;
+  if (m) {
+    h += `<div><span class="lib">Prochain match</span>
+      <div class="adv">${m.logo_adversaire ? `<img class="logo" src="${esc(m.logo_adversaire)}" alt="" loading="lazy">` : ""}<b>${m.domicile ? "contre" : "à"} ${esc(m.adversaire)}</b></div>
+      <div class="det">${esc([m.competition !== "Regular Season" ? m.competition : "", m.lieu, m.tv?.join(", ")].filter(Boolean).join(" · "))}</div></div>
+      <div class="date"><b>${esc(jourMatch(m.date))}</b><span>${heure(m.date)}</span></div>`;
+  }
+  if (d?.score) {
+    h += `<div class="dernier"><span class="res ${d.resultat}">${d.resultat}</span>
+      Dernier match : ${esc(d.score)} ${d.domicile ? "contre" : "à"} ${esc(d.adversaire)} · ${new Date(d.date).toLocaleDateString("fr-FR", { ...PARIS, day: "numeric", month: "short" })}</div>`;
+  }
+  return h + `</div>`;
+}
+
+function portrait(j) {
+  return `<div class="portrait"><div class="ph">${imgJoueur(j)}</div><b>${esc(nomCourt(j.nom))}</b><small>${esc([j.numero ? "n° " + j.numero : "", j.poste].filter(Boolean).join(" · "))}</small></div>`;
+}
+
+/* Place un joueur de foot sur le terrain d'après son poste : ligne (profondeur) et côté. */
+function placeFoot(code) {
+  const c = code || "";
+  let ligne = 2;
+  if (c === "G") ligne = 0;
+  else if (/^(LB|RB|CD|CB|LWB|RWB|SW)/.test(c)) ligne = 1;
+  else if (/^DM/.test(c)) ligne = 1.6;
+  else if (/^(CM|LM|RM)/.test(c)) ligne = 2;
+  else if (/^AM/.test(c)) ligne = 2.9;
+  else if (/^(LW|RW)/.test(c)) ligne = 3.1;
+  else if (/^(F|CF|ST|SS)/.test(c)) ligne = 3.8;
+  const cote = /^(LB|LM|LW|LWB)$/.test(c) ? 0 : /-L$/.test(c) ? 1 : /^(RB|RM|RW|RWB)$/.test(c) ? 4 : /-R$/.test(c) ? 3 : 2;
+  return { ligne, cote };
+}
+
+function terrain(c) {
+  const lignes = {};
+  c.joueurs.forEach((j) => { const p = placeFoot(j.code); (lignes[p.ligne] ||= []).push({ j, ...p }); });
+  let h = `<div class="terrain"><svg class="lignes" viewBox="0 0 68 88" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="none" stroke="rgba(255,255,255,.55)" stroke-width=".35"><rect x="2" y="2" width="64" height="84"/><line x1="2" y1="44" x2="66" y2="44"/>
+    <circle cx="34" cy="44" r="7"/><rect x="16" y="2" width="36" height="13"/><rect x="25" y="2" width="18" height="5"/>
+    <rect x="16" y="73" width="36" height="13"/><rect x="25" y="81" width="18" height="5"/></g></svg>`;
+  for (const [ligne, js] of Object.entries(lignes)) {
+    js.sort((a, b) => a.cote - b.cote || a.j.place - b.j.place);
+    const y = 90 - (parseFloat(ligne) / 4) * 76; // gardien en bas, attaquants en haut
+    js.forEach((x, i) => {
+      const xpc = ((i + 1) / (js.length + 1)) * 100;
+      h += `<div class="j" style="left:${xpc}%;top:${y}%"><div class="ph">${imgJoueur(x.j)}</div><b>${esc(nomCourt(x.j.nom))}</b></div>`;
+    });
+  }
+  return h + `</div>`;
+}
+
+function blocCompo(eq) {
+  const c = eq.composition;
+  if (!c) return "";
+  const m = c.match;
+  const legende = m ? `${m.score ? m.score + " " : ""}${m.domicile ? "contre" : "à"} ${esc(m.adversaire)}` : (c.blocs?.[0]?.schema ? "" : "");
+  let corps = "";
+  if (c.type === "terrain") corps = terrain(c) + (c.remplacants?.length ? `<p class="bloc-titre">Entrés en jeu</p><div class="portraits">${c.remplacants.map(portrait).join("")}</div>` : "");
+  else if (c.type === "hierarchie") corps = c.blocs.map((b) => `<p class="bloc-titre">${esc(b.titre)} <span class="credit">${esc(b.schema)}</span></p><div class="grille">${b.joueurs.map(portrait).join("")}</div>`).join("");
+  else corps = `<div class="grille">${c.joueurs.map(portrait).join("")}</div>`;
+  return `<div class="compo"><div class="compo-tete"><h4>${esc(c.titre)}</h4><span>${[c.formation, legende].filter(Boolean).join(" · ")}</span></div>${corps}</div>`;
+}
+
+function effectif(idSujet) {
+  const js = Object.values(etat.sport?.joueurs || {}).filter((j) => j.equipe === idSujet);
+  if (!js.length) return "";
+  js.sort((a, b) => (parseInt(a.numero) || 999) - (parseInt(b.numero) || 999));
+  return `<details class="plie"><summary>Effectif complet (${js.length})</summary><div class="grille">${js.map(portrait).join("")}</div></details>`;
 }
 
 function vueTheme(r, idTheme) {
   const t = r.themes.find((x) => x.id === idTheme);
-  if (!t) return `<div class="vide verre"><h3>Aucun sujet</h3></div>`;
+  if (!t) return `<div class="vide carte"><h3>Aucun sujet</h3></div>`;
   const tDep = etat.depeches?.themes.find((x) => x.id === idTheme);
   return `<h2 class="section">${esc(t.titre)}</h2>` + t.sujets.map((s) => {
     const dep = tDep?.sujets.find((x) => x.id === s.id)?.articles || [];
+    const eq = equipe(s.id);
+    const joueurs = s.joueurs || [];
+    const une = joueurs.find((j) => j.photo) || joueurs[0];
+    const autres = joueurs.filter((j) => j !== une);
+    const figure = une ? `<figure class="photo"><div class="cadre ph">${imgJoueur(une)}</div>
+      <figcaption><b>${esc(une.nom)}</b>${esc(une.poste || "")}${une.credit ? `<br><span class="credit">Photo : ${esc(une.credit)}</span>` : ""}</figcaption></figure>` : "";
     const points = (s.points || []).map((p) => `<li>${typo(p)}</li>`).join("");
-    const liens = (s.articles || []).map(ligneArticle).join("");
-    return `<article class="sujet verre apparait" id="s-${s.id}" style="scroll-margin-top:110px">
+    return `<article class="sujet carte apparait" id="s-${s.id}">
+      <span class="kicker">${esc(t.titre)}</span>
       <h3>${esc(s.titre)}</h3>
-      ${s.resume ? `<p class="resume">${typo(s.resume)}</p>` : `<p class="calme">Rien de marquant aujourd'hui.</p>`}
+      ${eq ? blocMatch(eq) : ""}
+      ${s.resume ? `<p class="resume">${figure}${typo(s.resume)}</p>` : `<p class="calme">Rien de marquant aujourd'hui.</p>`}
       ${points ? `<ul class="points">${points}</ul>` : ""}
-      ${liens ? `<div class="liens">${liens}</div>` : ""}
-      ${dep.length ? `<details class="depeches" data-sujet="${s.id}">
+      ${autres.length ? `<p class="bloc-titre">Aussi dans l'article</p><div class="portraits">${autres.map(portrait).join("")}</div>` : ""}
+      ${(s.articles || []).length ? `<div class="liens">${s.articles.map((a) => ligneArticle(a)).join("")}</div>` : ""}
+      ${eq ? blocCompo(eq) : ""}
+      ${eq ? effectif(s.id) : ""}
+      ${dep.length ? `<details class="plie depeches">
         <summary>Toutes les dépêches (${dep.length})</summary>
         <div class="filtres">
           <button class="puce" data-f="tout" aria-pressed="true">Tout</button>
           <button class="puce" data-f="passionnes" aria-pressed="false">Spécialisés</button>
           <button class="puce" data-f="presse" aria-pressed="false">Presse</button>
         </div>
-        <div class="liens">${dep.map((a) => ligneArticle(a).replace('<a class="lien"', `<a class="lien" data-o="${a.origine}"`)).join("")}</div>
+        <div class="liens">${dep.map((a) => ligneArticle(a, true)).join("")}</div>
       </details>` : ""}
     </article>`;
   }).join("");
 }
 
-function brancherFiltres() {
-  document.querySelectorAll("details.depeches").forEach((d) => {
-    d.querySelectorAll(".puce").forEach((b) => b.addEventListener("click", () => {
-      d.querySelectorAll(".puce").forEach((x) => x.setAttribute("aria-pressed", x === b));
-      d.querySelectorAll(".lien[data-o]").forEach((l) => (l.hidden = b.dataset.f !== "tout" && l.dataset.o !== b.dataset.f));
-    }));
+function brancher(racine) {
+  racine.querySelectorAll("[data-aller]").forEach((a) => a.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (a.dataset.aller) changerOnglet(a.dataset.aller, a.dataset.sujet);
+  }));
+  racine.querySelectorAll("details.depeches").forEach((d) => d.querySelectorAll(".puce").forEach((b) => b.addEventListener("click", () => {
+    d.querySelectorAll(".puce").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    d.querySelectorAll(".lien[data-o]").forEach((l) => (l.hidden = b.dataset.f !== "tout" && l.dataset.o !== b.dataset.f));
+  })));
+}
+
+/* Photo manquante : on la cherche sur Wikipédia (images libres), en vérifiant qu'il s'agit d'un sportif. */
+const MOTS_SPORT = /footballer|football player|soccer|basketball|american football|athlete|footballeur|joueur/i;
+function memo(cle, val) {
+  try { if (val === undefined) return JSON.parse(localStorage.getItem("wiki:" + cle)); localStorage.setItem("wiki:" + cle, JSON.stringify(val)); } catch { return null; }
+}
+async function photoWiki(nom) {
+  const m = memo(nom);
+  if (m !== null && m !== undefined) return m;
+  for (const l of ["en", "fr"]) {
+    try {
+      const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(nom.replace(/ /g, "_"))}`);
+      if (!r.ok) continue;
+      const d = await r.json();
+      if (d.type === "standard" && d.thumbnail && MOTS_SPORT.test((d.description || "") + " " + (d.extract || "").slice(0, 200))) {
+        memo(nom, d.thumbnail.source); return d.thumbnail.source;
+      }
+    } catch {}
+  }
+  memo(nom, ""); return "";
+}
+function completerPhotos(racine) {
+  racine.querySelectorAll("[data-wiki]").forEach(async (el) => {
+    const src = await photoWiki(el.dataset.wiki);
+    if (src && el.isConnected) { const img = new Image(); img.alt = el.dataset.wiki; img.src = src; img.loading = "lazy"; el.replaceWith(img); }
   });
 }
 
 /* Éditions précédentes */
-function ouvrirFeuille(ouvrir) {
-  $("#feuille").classList.toggle("ouvert", ouvrir);
-  $("#voile").classList.toggle("ouvert", ouvrir);
-}
+function ouvrirFeuille(o) { $("#feuille").classList.toggle("ouvert", o); $("#voile").classList.toggle("ouvert", o); }
 $("#btnEditions").addEventListener("click", () => {
   $("#listeEditions").innerHTML = etat.editions.length
     ? etat.editions.map((d) => `<button class="edition" data-d="${d}" aria-current="${d === etat.edition}"><span>${jourLong(d)}</span><span>›</span></button>`).join("")
     : `<p class="calme">Aucune édition pour l'instant.</p>`;
   $("#listeEditions").querySelectorAll(".edition").forEach((b) => b.addEventListener("click", async () => {
-    try {
-      etat.resume = await charger(`data/archives/${b.dataset.d}.json`);
-      etat.edition = b.dataset.d;
-      ouvrirFeuille(false); afficher();
-    } catch { b.textContent = "Édition indisponible hors ligne"; }
+    try { etat.resume = await charger(`data/archives/${b.dataset.d}.json`); etat.edition = b.dataset.d; ouvrirFeuille(false); afficher(); }
+    catch { b.textContent = "Édition indisponible hors ligne"; }
   }));
   ouvrirFeuille(true);
 });
 $("#voile").addEventListener("click", () => ouvrirFeuille(false));
 
-/* Recharge quand on revient sur l'appli */
+/* Mises à jour : quand on revient sur l'appli, on recharge les données. */
 document.addEventListener("visibilitychange", async () => {
   if (document.visibilityState !== "visible") return;
   try {
-    const [r, d] = await Promise.all([charger("data/resume.json"), charger("data/depeches.json")]);
+    const [r, d, s] = await Promise.all([charger("data/resume.json"), charger("data/depeches.json"), charger("data/sport.json").catch(() => etat.sport)]);
     const surLaDerniere = etat.edition === etat.derniere;
-    const change = d.genere_le !== etat.depeches?.genere_le || (surLaDerniere && r.genere_le !== etat.resume?.genere_le);
+    const change = d.genere_le !== etat.depeches?.genere_le || s?.genere_le !== etat.sport?.genere_le || (surLaDerniere && r.genere_le !== etat.resume?.genere_le);
     if (surLaDerniere) { etat.resume = r; etat.edition = etat.derniere = r.date; }
-    etat.depeches = d;
+    etat.depeches = d; etat.sport = s;
     if (r.date && !etat.editions.includes(r.date)) etat.editions.unshift(r.date);
     if (change) afficher();
   } catch {}
 });
+window.addEventListener("scroll", () => $("#entete").classList.toggle("defile", scrollY > 8), { passive: true });
 window.addEventListener("resize", placerPastille);
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
 demarrer();

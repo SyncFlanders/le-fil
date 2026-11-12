@@ -8,7 +8,7 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
 
 1. **Se mettre à jour.** `git pull --rebase origin main`.
 2. **Vérifier la fraîcheur des dépêches.** Lis `genere_le` dans `data/depeches.json`.
-   S'il date de plus de 6 heures, lance `python3 scripts/collecte.py`. Si la collecte échoue
+   S'il date de plus de 6 heures, lance `python3 scripts/collecte.py` puis `python3 scripts/sport.py`. Si la collecte échoue
    (réseau bloqué), continue avec les dépêches existantes et signale-le dans `note`.
 3. **Lire les consignes.** `sujets.json` donne, pour chaque sujet, ce que le lecteur veut
    et ne veut pas (`consigne`). Elles priment sur tout le reste.
@@ -36,6 +36,11 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
    Les `articles` sont des **morceaux exacts de titres** copiés depuis `data/depeches.json`
    (assez longs pour être uniques, 4 à 8 mots). Le script retrouve les liens : n'écris
    jamais d'URL toi-même. 3 à 6 articles par sujet, les plus utiles en premier.
+   `joueurs` (sujets de sport seulement) : les noms complets des joueurs **cités dans le résumé**,
+   du plus important au moins important, 4 au maximum (ex. `["Aaron Philo", "Vernell Brown III"]`).
+   Le premier aura sa photo en tête de l'article. Le script retrouve photo et poste ; n'écris
+   jamais d'URL d'image. Le prochain match, le dernier résultat et la composition s'affichent
+   tout seuls (`data/sport.json`) : inutile de les répéter, sauf si l'actualité porte dessus.
    `a_la_une` : les 3 nouvelles les plus importantes de la journée, tous sujets confondus,
    avec l'`id` du sujet.
 7. **Publier.** `python3 scripts/publier.py`. Corrige le brouillon si le script signale
@@ -68,7 +73,8 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
           "id": "real-madrid", "titre": "Real Madrid",
           "resume": "Deux à quatre phrases.",
           "points": ["Puce courte.", "Puce courte."],
-          "articles": ["morceau exact du titre d'une dépêche", "…"]
+          "articles": ["morceau exact du titre d'une dépêche", "…"],
+          "joueurs": ["Prénom Nom", "…"]
         }
       ]
     }
