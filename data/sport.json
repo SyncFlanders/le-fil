@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-12T17:47+00:00",
+ "genere_le": "2026-11-12T18:19+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -64,7 +64,30 @@
     "id": "401882808",
     "ligue": "esp.1",
     "score": "3-0",
-    "resultat": "V"
+    "resultat": "V",
+    "tops": [
+     {
+      "nom": "Federico Valverde",
+      "poste": "But",
+      "numero": "8",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "28'"
+     },
+     {
+      "nom": "Arda Güler",
+      "poste": "But",
+      "numero": "15",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/330px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "36'"
+     },
+     {
+      "nom": "Kylian Mbappé",
+      "poste": "But",
+      "numero": "10",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "75'"
+     }
+    ]
    },
    "composition": {
     "type": "terrain",
@@ -258,7 +281,37 @@
     "id": "401856739",
     "ligue": "",
     "score": "7-23",
-    "resultat": "D"
+    "resultat": "D",
+    "tops": [
+     {
+      "nom": "Tramell Jones Jr.",
+      "poste": "Passes",
+      "numero": "9",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295814.png",
+      "valeur": "10/22, 133 yds, 2 int."
+     },
+     {
+      "nom": "Jadan Baugh",
+      "poste": "Course",
+      "numero": "13",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+      "valeur": "8 courses, 35 yds, 1 TD"
+     },
+     {
+      "nom": "Duke Clark",
+      "poste": "Réception",
+      "numero": "20",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png",
+      "valeur": "4 réc., 70 yds"
+     },
+     {
+      "nom": "Kofi Asare",
+      "poste": "Sacks",
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4912316.png",
+      "valeur": "0.5"
+     }
+    ]
    },
    "composition": {
     "type": "liste",
@@ -359,7 +412,37 @@
     "id": "401873037",
     "ligue": "",
     "score": "33-10",
-    "resultat": "V"
+    "resultat": "V",
+    "tops": [
+     {
+      "nom": "Trevor Lawrence",
+      "poste": "Passes",
+      "numero": "16",
+      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+      "valeur": "16/26, 242 yds, 1 TD"
+     },
+     {
+      "nom": "Ameer Abdullah",
+      "poste": "Course",
+      "numero": "20",
+      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/2576336.png",
+      "valeur": "7 courses, 30 yds"
+     },
+     {
+      "nom": "Jakobi Meyers",
+      "poste": "Réception",
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
+      "valeur": "4 réc., 65 yds"
+     },
+     {
+      "nom": "Foyesade Oluokun",
+      "poste": "Sacks",
+      "numero": "23",
+      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3050073.png",
+      "valeur": "1"
+     }
+    ]
    },
    "composition": {
     "type": "hierarchie",
@@ -579,7 +662,30 @@
     "id": "401909973",
     "ligue": "",
     "score": "123-108",
-    "resultat": "V"
+    "resultat": "V",
+    "tops": [
+     {
+      "nom": "Franz Wagner",
+      "poste": "Points",
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+      "valeur": "38"
+     },
+     {
+      "nom": "Anthony Black",
+      "poste": "Passes déc.",
+      "numero": "0",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png",
+      "valeur": "8"
+     },
+     {
+      "nom": "Franz Wagner",
+      "poste": "Rebonds",
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+      "valeur": "8"
+     }
+    ]
    },
    "composition": {
     "type": "liste",

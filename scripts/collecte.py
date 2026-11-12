@@ -129,7 +129,8 @@ def lire_flux(url: str, langue: str, nom: str | None) -> list[dict]:
 
 def main() -> int:
     conf = json.loads(SUJETS.read_text(encoding="utf-8"))
-    exclusions = [normaliser(x) for x in conf.get("exclusions_globales", [])]
+    # Une exclusion trop courte ou faite de chiffres (« 20 ») effacerait des titres sans rapport : on l'ignore.
+    exclusions = [e for e in (normaliser(x) for x in conf.get("exclusions_globales", [])) if len(e) >= 4 and not e.isdigit()]
     sources_exclues = [normaliser(x) for x in conf.get("sources_exclues", [])]
     maintenant = datetime.now(timezone.utc)
     sortie = {"genere_le": maintenant.isoformat(timespec="minutes"), "themes": []}
@@ -141,10 +142,12 @@ def main() -> int:
             fenetre = sujet.get("fenetre_h", 24)
             limite = maintenant - timedelta(hours=fenetre)
             vus, articles = set(), []
-            for rq in sujet["requetes"] + sujet.get("flux", []):
+            # Les sources de comptes rendus de match passent en premier (le dédoublonnage garde leur version)
+            sources = sorted(sujet["requetes"], key=lambda r: not r.get("compte_rendu")) + sujet.get("flux", [])
+            for rq in sources:
                 try:
                     if "q" in rq:
-                        items = lire_google(rq["q"], rq.get("langue", "fr"), fenetre)
+                        items = lire_google(rq["q"], rq.get("langue", "fr"), rq.get("fenetre_h", fenetre))
                     else:
                         items = lire_flux(rq["flux"], rq.get("langue", "en"), rq.get("nom"))
                 except Exception as e:  # un flux en panne ne bloque pas les autres
@@ -155,7 +158,7 @@ def main() -> int:
                 for a in items:
                     if filtre and not any(f in normaliser(a["titre"]) for f in filtre):
                         continue
-                    if datetime.fromisoformat(a["date"]) < limite:
+                    if datetime.fromisoformat(a["date"]) < maintenant - timedelta(hours=rq.get("fenetre_h", fenetre)):
                         continue
                     t = normaliser(a["titre"])
                     if any(x and x in t for x in exclusions):
@@ -166,6 +169,8 @@ def main() -> int:
                     if cle in vus:
                         continue
                     vus.add(cle)
+                    if rq.get("compte_rendu"):
+                        a = dict(a, origine="passionnes", compte_rendu=True)
                     articles.append(a)
                 time.sleep(0.5)  # politesse envers Google
             articles.sort(key=lambda a: a["date"], reverse=True)
@@ -175,7 +180,8 @@ def main() -> int:
                     "titre": sujet["titre"],
                     "articles": sorted(
                         [a for a in articles if a["origine"] == "presse"][:MAX_PRESSE]
-                        + [a for a in articles if a["origine"] == "passionnes"][:MAX_PASSIONNES],
+                        + [a for a in articles if a["origine"] == "passionnes" and not a.get("compte_rendu")][:MAX_PASSIONNES]
+                        + [a for a in articles if a.get("compte_rendu")][:12],
                         key=lambda a: a["date"],
                         reverse=True,
                     ),

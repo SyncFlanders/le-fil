@@ -115,6 +115,32 @@ figure.photo figcaption b{display:block;color:var(--encre);font-size:.8rem}
 .res{font-weight:800;font-size:.72rem;width:20px;height:20px;border-radius:6px;display:inline-grid;place-items:center;color:#fff;flex:none}
 .res.V{background:#1f8a54}.res.D{background:#c0392b}.res.N{background:#8a8e97}
 
+/* Compte rendu de match */
+.cr{border-left:3px solid var(--teinte);padding:2px 0 4px 14px;margin:0 0 18px}
+.cr .lib{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teinte)}
+.cr h4{font:700 1.25rem/1.2 var(--serif);margin:6px 0 8px;letter-spacing:-.01em}
+.cr p{margin:0 0 12px;line-height:1.6}
+.tops{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:0 0 10px}
+.top{display:flex;align-items:center;gap:10px;background:var(--creux);border-radius:12px;padding:8px 10px;min-width:0}
+.top .ph{width:44px;height:44px;border-radius:50%;overflow:hidden;flex:none;background:var(--filet)}
+.top .ph img{width:100%;height:100%;object-fit:cover;object-position:top}
+.top div:last-child{display:flex;flex-direction:column;min-width:0}
+.top small{font-size:.66rem;color:var(--doux);text-transform:uppercase;letter-spacing:.06em}
+.top b{font-size:.88rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top span{font-size:.78rem;font-weight:700;font-variant-numeric:tabular-nums;color:var(--teinte)}
+.cr .liens{margin-top:4px}
+
+/* Cours de bourse */
+.tuiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:8px;margin:0 0 6px}
+.tuile{background:var(--creux);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.carte .tuile{background:var(--creux)}
+main > .tuiles .tuile{background:var(--carte);border:1px solid var(--filet)}
+.tuile .n{font-size:.72rem;color:var(--doux);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tuile b{font:700 1.15rem/1.1 var(--serif);font-variant-numeric:tabular-nums}
+.tuile .v{font-size:.78rem;font-weight:700;font-variant-numeric:tabular-nums;color:var(--doux)}
+.tuile .v.hausse{color:#1f8a54}.tuile .v.baisse{color:#c0392b}
+.source-cours{font-size:.68rem;color:var(--pale);margin:2px 0 16px}
+
 /* Portraits */
 .portraits{display:flex;gap:14px;overflow-x:auto;padding:2px 2px 6px;margin:0 0 14px;scrollbar-width:none}
 .portraits::-webkit-scrollbar{display:none}
@@ -161,8 +187,9 @@ details.plie[open]{padding-bottom:10px}
 /* Barre d'onglets : aplat opaque */
 nav.onglets{position:fixed;z-index:6;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));
   display:flex;gap:2px;padding:5px;border-radius:999px;background:var(--carte);border:1px solid var(--filet-fort);
-  box-shadow:0 12px 30px -12px rgba(0,0,0,.35);width:max-content;max-width:calc(100vw - 24px)}
-.onglet{position:relative;padding:10px 15px;border-radius:999px;font-size:.84rem;font-weight:600;color:var(--doux);white-space:nowrap;transition:color .25s}
+  box-shadow:0 12px 30px -12px rgba(0,0,0,.35);width:max-content;max-width:calc(100vw - 24px);overflow-x:auto;scrollbar-width:none}
+nav.onglets::-webkit-scrollbar{display:none}
+.onglet{position:relative;flex:none;padding:10px 12px;border-radius:999px;font-size:.8rem;font-weight:600;color:var(--doux);white-space:nowrap;transition:color .25s}
 .onglet[aria-selected="true"]{color:#fff}
 .pastille{position:absolute;z-index:-1;top:5px;bottom:5px;left:0;border-radius:999px;background:var(--teinte);
   transition:transform .4s cubic-bezier(.3,1.25,.5,1),width .4s cubic-bezier(.3,1.25,.5,1),background-color .4s}
@@ -217,9 +244,11 @@ nav.onglets{isolation:isolate}
 </section>
 
 <script>
-const TEINTES = { essentiel: "#c4552d", sport: "#1f7a4f", tech: "#3b4cc0", luxe: "#9a6a3c" };
-const ONGLETS = [["essentiel", "L'essentiel"], ["sport", "Sport"], ["tech", "IA & tech"], ["luxe", "Luxe"]];
-const etat = { resume: null, depeches: null, sport: null, editions: [], onglet: "essentiel", edition: null, derniere: null };
+const TEINTES = { essentiel: "#c4552d", sport: "#1f7a4f", tech: "#3b4cc0", luxe: "#9a6a3c", hotellerie: "#7a3e5c", marches: "#0f6e7a" };
+// Noms courts des onglets (la barre doit tenir sur un téléphone) ; les thèmes viennent des données.
+const NOMS_COURTS = { essentiel: "Essentiel", sport: "Sport", tech: "Tech", luxe: "Luxe", hotellerie: "Hôtels", marches: "Marchés" };
+const teinte = (id) => TEINTES[id] || "#5a5f6b";
+const etat = { resume: null, depeches: null, sport: null, marches: null, editions: [], onglet: "essentiel", edition: null, derniere: null, themes: [] };
 const $ = (s) => document.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 // Espaces insécables avant % : ; ! ? » pour éviter un signe seul en début de ligne
@@ -256,23 +285,26 @@ async function charger(url) {
 }
 
 async function demarrer() {
-  const [resume, depeches, editions, sport] = await Promise.allSettled([
-    charger("data/resume.json"), charger("data/depeches.json"), charger("data/archives/index.json"), charger("data/sport.json"),
+  const [resume, depeches, editions, sport, marches] = await Promise.allSettled([
+    charger("data/resume.json"), charger("data/depeches.json"), charger("data/archives/index.json"), charger("data/sport.json"), charger("data/marches.json"),
   ]);
+  etat.marches = marches.value || null;
   etat.resume = resume.value || null;
   etat.depeches = depeches.value || null;
   etat.editions = editions.value || [];
   etat.sport = sport.value || null;
   etat.edition = etat.derniere = etat.resume?.date || null;
+  etat.themes = (etat.resume?.themes || []).map((t) => t.id);
   const h = location.hash.slice(1);
-  if (TEINTES[h]) etat.onglet = h;
+  if (etat.themes.includes(h)) etat.onglet = h;
   construireOnglets();
   afficher();
 }
 
 function construireOnglets() {
   const nav = $("#onglets");
-  ONGLETS.forEach(([id, nom]) => {
+  const onglets = [["essentiel", NOMS_COURTS.essentiel], ...(etat.resume?.themes || []).map((t) => [t.id, NOMS_COURTS[t.id] || t.titre])];
+  onglets.forEach(([id, nom]) => {
     const b = document.createElement("button");
     b.className = "onglet"; b.role = "tab"; b.dataset.id = id; b.textContent = nom;
     b.addEventListener("click", () => changerOnglet(id));
@@ -292,13 +324,14 @@ function changerOnglet(id, sujet) {
 function placerPastille() {
   const actif = document.querySelector(`.onglet[data-id="${etat.onglet}"]`);
   if (!actif) return;
+  actif.scrollIntoView({ inline: "nearest", block: "nearest" });
   const p = $("#pastille");
   p.style.width = actif.offsetWidth + "px";
   p.style.transform = `translateX(${actif.offsetLeft}px)`;
 }
 
 function afficher() {
-  document.documentElement.style.setProperty("--teinte", TEINTES[etat.onglet]);
+  document.documentElement.style.setProperty("--teinte", teinte(etat.onglet));
   document.querySelectorAll(".onglet").forEach((b) => b.setAttribute("aria-selected", b.dataset.id === etat.onglet));
   requestAnimationFrame(placerPastille);
 
@@ -327,11 +360,15 @@ function vueEssentiel(r) {
     h += `<h2 class="section">À la une</h2><div class="une">`;
     h += r.a_la_une.map((u) => {
       const t = themeDuSujet(r, u.sujet), s = t?.sujets.find((x) => x.id === u.sujet);
-      return `<a class="une-carte carte apparait" href="#${t?.id}" data-aller="${t?.id || ""}" data-sujet="${u.sujet}" style="--teinte:${TEINTES[t?.id] || "var(--teinte)"}">
+      return `<a class="une-carte carte apparait" href="#${t?.id}" data-aller="${t?.id || ""}" data-sujet="${u.sujet}" style="--teinte:${t ? teinte(t.id) : "var(--teinte)"}">
         <span class="kicker">${esc(s?.titre || "")}</span><h3>${typo(u.titre)}</h3><p>${typo(u.texte)}</p></a>`;
     }).join("") + `</div>`;
   }
   h += agenda();
+  if (etat.marches?.cours?.length) {
+    const choix = ["^FCHI", "^GSPC", "^TNX", "bitcoin"];
+    h += `<h2 class="section">Les marchés</h2>` + tuiles(etat.marches.cours.filter((c) => choix.includes(c.id)));
+  }
   for (const t of r.themes) {
     h += `<h2 class="section">${esc(t.titre)}</h2>`;
     h += t.sujets.map((s) => {
@@ -353,7 +390,7 @@ function agenda() {
   }
   if (!prochains.length) return "";
   prochains.sort((a, b) => a.m.date.localeCompare(b.m.date));
-  return `<h2 class="section" style="--teinte:${TEINTES.sport}">Prochains matchs</h2><div class="agenda">` + prochains.map(({ s, eq, m }) =>
+  return `<h2 class="section" style="--teinte:${teinte("sport")}">Prochains matchs</h2><div class="agenda">` + prochains.map(({ s, eq, m }) =>
     `<a class="ligne carte apparait" href="#sport" data-aller="sport" data-sujet="${s.id}">
       <span class="quand"><b>${esc(jourMatch(m.date))}</b>${heure(m.date)}</span>
       ${eq.logo ? `<img class="logo" src="${esc(eq.logo)}" alt="" loading="lazy">` : ""}
@@ -374,6 +411,27 @@ function imgJoueur(j, nomWiki) {
   return `<span data-wiki="${esc(nomWiki || j.nom)}">${esc(initiales(j.nom))}</span>`;
 }
 
+function nombre(c) {
+  const v = c.valeur, n = (d) => v.toLocaleString("fr-FR", { minimumFractionDigits: d, maximumFractionDigits: d });
+  if (c.unite === "%") return n(2) + "\u202f%";
+  if (c.id === "EURUSD=X") return n(4) + "\u202f$";
+  if (c.unite === "pts") return n(v >= 10000 ? 0 : 2);
+  return n(v >= 1000 ? 0 : 2) + "\u202f" + c.unite;
+}
+function variation(c) {
+  if (c.variation_pb !== undefined) return `${c.variation_pb > 0 ? "+" : ""}${c.variation_pb}\u202fpb`;
+  if (c.variation === null || c.variation === undefined) return "";
+  return `${c.variation > 0 ? "+" : ""}${c.variation.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\u202f%`;
+}
+function tuiles(cours) {
+  if (!cours.length) return "";
+  const maj = cours.map((c) => c.maj).sort().pop();
+  return `<div class="tuiles">${cours.map((c) => {
+    const sens = (c.variation_pb ?? c.variation ?? 0) > 0 ? "hausse" : (c.variation_pb ?? c.variation ?? 0) < 0 ? "baisse" : "";
+    return `<div class="tuile"><span class="n">${esc(c.nom)}</span><b>${nombre(c)}</b><span class="v ${sens}">${variation(c)}${c.sur ? " · " + c.sur : ""}</span></div>`;
+  }).join("")}</div><p class="source-cours">Cours différés · mis à jour ${depuis(maj)} · Yahoo Finance, CoinGecko</p>`;
+}
+
 function blocMatch(eq) {
   const m = eq.prochains?.[0], d = eq.dernier;
   if (!m && !d) return "";
@@ -389,6 +447,23 @@ function blocMatch(eq) {
       Dernier match : ${esc(d.score)} ${d.domicile ? "contre" : "à"} ${esc(d.adversaire)} · ${new Date(d.date).toLocaleDateString("fr-FR", { ...PARIS, day: "numeric", month: "short" })}</div>`;
   }
   return h + `</div>`;
+}
+
+/* Compte rendu du dernier match, ton TrashTalk ; meilleurs joueurs (ou buteurs) tirés d'ESPN. */
+function compteRendu(s, eq) {
+  const cr = s.compte_rendu, d = eq?.dernier, tops = d?.tops || [];
+  if (!cr?.texte && !tops.length) return "";
+  const titreMatch = d?.score ? `${d.resultat === "V" ? "Victoire" : d.resultat === "D" ? "Défaite" : "Nul"} ${esc(d.score)} ${d.domicile ? "contre" : "à"} ${esc(d.adversaire)}` : "";
+  const top = tops.length ? `<div class="tops">${tops.map((j) => `<div class="top"><div class="ph">${imgJoueur(j)}</div>
+      <div><small>${esc(j.poste || "")}</small><b>${esc(nomCourt(j.nom))}</b><span>${esc(j.valeur || "")}</span></div></div>`).join("")}</div>` : "";
+  const srcs = (cr?.sources || []).map((a) => ligneArticle(a)).join("");
+  return `<section class="cr">
+    <span class="lib">Le match${titreMatch ? " · " + titreMatch : ""}</span>
+    ${cr?.titre ? `<h4>${typo(cr.titre)}</h4>` : ""}
+    ${cr?.texte ? `<p>${typo(cr.texte)}</p>` : ""}
+    ${top}
+    ${srcs ? `<div class="liens">${srcs}</div>` : ""}
+  </section>`;
 }
 
 function portrait(j) {
@@ -464,6 +539,8 @@ function vueTheme(r, idTheme) {
       <span class="kicker">${esc(t.titre)}</span>
       <h3>${esc(s.titre)}</h3>
       ${eq ? blocMatch(eq) : ""}
+      ${eq ? compteRendu(s, eq) : ""}
+      ${etat.marches ? tuiles(etat.marches.cours.filter((c) => c.sujet === s.id)) : ""}
       ${s.resume ? `<p class="resume">${figure}${typo(s.resume)}</p>` : `<p class="calme">Rien de marquant aujourd'hui.</p>`}
       ${points ? `<ul class="points">${points}</ul>` : ""}
       ${autres.length ? `<p class="bloc-titre">Aussi dans l'article</p><div class="portraits">${autres.map(portrait).join("")}</div>` : ""}
@@ -539,9 +616,11 @@ $("#voile").addEventListener("click", () => ouvrirFeuille(false));
 document.addEventListener("visibilitychange", async () => {
   if (document.visibilityState !== "visible") return;
   try {
-    const [r, d, s] = await Promise.all([charger("data/resume.json"), charger("data/depeches.json"), charger("data/sport.json").catch(() => etat.sport)]);
+    const [r, d, s, m] = await Promise.all([charger("data/resume.json"), charger("data/depeches.json"), charger("data/sport.json").catch(() => etat.sport), charger("data/marches.json").catch(() => etat.marches)]);
+    const coursChange = m?.genere_le !== etat.marches?.genere_le;
+    etat.marches = m;
     const surLaDerniere = etat.edition === etat.derniere;
-    const change = d.genere_le !== etat.depeches?.genere_le || s?.genere_le !== etat.sport?.genere_le || (surLaDerniere && r.genere_le !== etat.resume?.genere_le);
+    const change = coursChange || d.genere_le !== etat.depeches?.genere_le || s?.genere_le !== etat.sport?.genere_le || (surLaDerniere && r.genere_le !== etat.resume?.genere_le);
     if (surLaDerniere) { etat.resume = r; etat.edition = etat.derniere = r.date; }
     etat.depeches = d; etat.sport = s;
     if (r.date && !etat.editions.includes(r.date)) etat.editions.unshift(r.date);

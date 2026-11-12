@@ -63,6 +63,20 @@ def main() -> int:
                 else:
                     avertissements.append(f"{sujet['id']}: article introuvable « {ref} »")
             sujet["articles"] = resolus
+            # Compte rendu du dernier match : ses sources sont des morceaux de titres, comme les articles
+            cr = sujet.get("compte_rendu")
+            if cr:
+                if not cr.get("texte"):
+                    sujet.pop("compte_rendu")
+                else:
+                    srcs = []
+                    for ref in cr.get("sources", []):
+                        trouve = next((a for a in tous.get(sujet["id"], []) if norm(ref) in norm(a["titre"])), None)
+                        if trouve:
+                            srcs.append({k: trouve[k] for k in ("titre", "source", "url", "date", "origine")})
+                        else:
+                            avertissements.append(f"{sujet['id']}: source de compte rendu introuvable « {ref} »")
+                    cr["sources"] = srcs
             # Joueurs cités : photo et poste depuis data/sport.json (sinon l'appli cherche sur Wikipédia)
             fiches = []
             for nom in sujet.get("joueurs", [])[:4]:

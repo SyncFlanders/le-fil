@@ -25,6 +25,48 @@
             {
               "q": "\"Real Madrid\" -basketball -Castilla -women",
               "langue": "en"
+            },
+            {
+              "q": "\"Real Madrid\" site:madeinreal.fr",
+              "langue": "fr",
+              "fenetre_h": 168,
+              "compte_rendu": true,
+              "filtre": [
+                "Real",
+                "Madrid",
+                "Mbappé",
+                "Mbappe",
+                "Merengue",
+                "Bernabéu"
+              ]
+            },
+            {
+              "q": "\"Real Madrid\" site:lequipe.fr",
+              "langue": "fr",
+              "fenetre_h": 168,
+              "compte_rendu": true,
+              "filtre": [
+                "Real",
+                "Madrid",
+                "Mbappé",
+                "Mbappe",
+                "Merengue",
+                "Bernabéu"
+              ]
+            },
+            {
+              "q": "\"Real Madrid\" site:footmercato.net",
+              "langue": "fr",
+              "fenetre_h": 168,
+              "compte_rendu": true,
+              "filtre": [
+                "Real",
+                "Madrid",
+                "Mbappé",
+                "Mbappe",
+                "Merengue",
+                "Bernabéu"
+              ]
             }
           ],
           "flux": [
@@ -58,6 +100,32 @@
             {
               "q": "\"Gators\" football Sumrall OR quarterback OR SEC",
               "langue": "en"
+            },
+            {
+              "q": "Gators site:gatorcountry.com",
+              "langue": "en",
+              "fenetre_h": 120,
+              "compte_rendu": true,
+              "filtre": [
+                "Gators",
+                "Florida",
+                "Sumrall",
+                "Philo",
+                "UF "
+              ]
+            },
+            {
+              "q": "Gators site:onlygators.com",
+              "langue": "en",
+              "fenetre_h": 120,
+              "compte_rendu": true,
+              "filtre": [
+                "Gators",
+                "Florida",
+                "Sumrall",
+                "Philo",
+                "UF "
+              ]
             }
           ],
           "flux": [
@@ -91,6 +159,17 @@
             {
               "q": "\"Jaguars de Jacksonville\" OR \"Jacksonville Jaguars\"",
               "langue": "fr"
+            },
+            {
+              "q": "Jaguars site:touchdownactu.com",
+              "langue": "fr",
+              "fenetre_h": 192,
+              "compte_rendu": true,
+              "filtre": [
+                "Jaguars",
+                "Jacksonville",
+                "Trevor Lawrence"
+              ]
             }
           ],
           "flux": [
@@ -129,6 +208,18 @@
             {
               "q": "\"Orlando Magic\"",
               "langue": "en"
+            },
+            {
+              "q": "Magic site:trashtalk.co",
+              "langue": "fr",
+              "fenetre_h": 72,
+              "compte_rendu": true,
+              "filtre": [
+                "Magic",
+                "Orlando",
+                "Banchero",
+                "Wagner"
+              ]
             }
           ],
           "flux": [
@@ -338,55 +429,6 @@
           ]
         },
         {
-          "id": "hotellerie",
-          "titre": "Hôtellerie de luxe",
-          "consigne": "Hôtellerie de luxe : palaces, ouvertures, rachats, groupes (Aman, Four Seasons, Cheval Blanc, Rosewood, Belmond, Accor luxe, Ritz-Carlton…), classements.",
-          "fenetre_h": 72,
-          "requetes": [
-            {
-              "q": "\"hôtel de luxe\" OR \"hôtel palace\" OR \"distinction Palace\" OR \"Cheval Blanc\" OR \"Aman Resorts\" OR \"Four Seasons\" OR \"Rosewood Hotels\" -\"Crystal Palace\"",
-              "langue": "fr"
-            },
-            {
-              "q": "\"luxury hotel\" OR \"Aman Resorts\" OR \"Four Seasons Hotels\" OR \"Rosewood Hotels\" OR Belmond OR \"Ritz-Carlton\" -\"Crystal Palace\"",
-              "langue": "en"
-            }
-          ],
-          "flux": [
-            {
-              "flux": "https://skift.com/feed/",
-              "nom": "Skift",
-              "langue": "en",
-              "filtre": [
-                "luxury",
-                "hotel",
-                "resort",
-                "Aman",
-                "Four Seasons",
-                "Rosewood",
-                "Ritz",
-                "Belmond"
-              ]
-            },
-            {
-              "flux": "https://www.luxurytraveladvisor.com/rss.xml",
-              "nom": "Luxury Travel Advisor",
-              "langue": "en"
-            },
-            {
-              "flux": "https://robbreport.com/feed/",
-              "nom": "Robb Report",
-              "langue": "en",
-              "filtre": [
-                "hotel",
-                "resort",
-                "suite",
-                "villa"
-              ]
-            }
-          ]
-        },
-        {
           "id": "automobile",
           "titre": "Automobile de luxe",
           "consigne": "Automobile de luxe et de prestige : Ferrari, Lamborghini, Porsche, Rolls-Royce, Bentley, Aston Martin, Bugatti, McLaren, Maserati : nouveaux modèles, résultats, stratégie, ventes aux enchères notables.",
@@ -472,6 +514,214 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hotellerie",
+      "titre": "Hôtellerie",
+      "teinte": "#7a3e5c",
+      "sujets": [
+        {
+          "id": "hotellerie-luxe",
+          "titre": "Hôtellerie de luxe",
+          "consigne": "Hôtellerie de luxe : palaces, ouvertures, rachats, groupes (Aman, Four Seasons, Cheval Blanc, Rosewood, Belmond, Accor luxe, Ritz-Carlton…), classements.",
+          "fenetre_h": 72,
+          "requetes": [
+            {
+              "q": "\"hôtel de luxe\" OR \"hôtel palace\" OR \"distinction Palace\" OR \"Cheval Blanc\" OR \"Aman Resorts\" OR \"Four Seasons\" OR \"Rosewood Hotels\" -\"Crystal Palace\"",
+              "langue": "fr"
+            },
+            {
+              "q": "\"luxury hotel\" OR \"Aman Resorts\" OR \"Four Seasons Hotels\" OR \"Rosewood Hotels\" OR Belmond OR \"Ritz-Carlton\" -\"Crystal Palace\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://skift.com/feed/",
+              "nom": "Skift",
+              "langue": "en",
+              "filtre": [
+                "luxury",
+                "hotel",
+                "resort",
+                "Aman",
+                "Four Seasons",
+                "Rosewood",
+                "Ritz",
+                "Belmond"
+              ]
+            },
+            {
+              "flux": "https://www.luxurytraveladvisor.com/rss.xml",
+              "nom": "Luxury Travel Advisor",
+              "langue": "en"
+            },
+            {
+              "flux": "https://robbreport.com/feed/",
+              "nom": "Robb Report",
+              "langue": "en",
+              "filtre": [
+                "hotel",
+                "resort",
+                "suite",
+                "villa"
+              ]
+            },
+            {
+              "flux": "https://www.hospitalitynet.org/news/global.xml",
+              "nom": "Hospitality Net",
+              "langue": "en",
+              "filtre": [
+                "luxury",
+                "palace",
+                "Aman",
+                "Four Seasons",
+                "Rosewood",
+                "Ritz",
+                "Belmond",
+                "Mandarin",
+                "Peninsula",
+                "Six Senses",
+                "Bulgari",
+                "Cheval Blanc",
+                "St. Regis",
+                "Waldorf"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "industrie-hoteliere",
+          "titre": "Industrie hôtelière",
+          "consigne": "L'hôtellerie en général, hors luxe : grands groupes (Accor, Marriott, Hilton, Hyatt, IHG, Wyndham, Louvre Hotels, B&B…), résultats et chiffres de fréquentation (taux d'occupation, RevPAR, prix moyen), ouvertures et rachats notables, nouvelles marques, technologie hôtelière, réglementation (locations courte durée, Airbnb), emploi et formation dans le secteur. Exclure les offres d'emploi, les avis d'hôtels et les bons plans de séjour.",
+          "fenetre_h": 48,
+          "requetes": [
+            {
+              "q": "hôtellerie OR \"groupe Accor\" OR \"groupe hôtelier\" OR \"taux d'occupation\" OR hôteliers -\"Accor Arena\" -\"offre d'emploi\"",
+              "langue": "fr"
+            },
+            {
+              "q": "\"hotel industry\" OR \"Marriott International\" OR \"Hilton Worldwide\" OR Hyatt OR IHG OR RevPAR OR \"hotel brand\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.hospitalitynet.org/news/global.xml",
+              "nom": "Hospitality Net",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.hoteldive.com/feeds/news/",
+              "nom": "Hotel Dive",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.hotelmanagement.net/rss.xml",
+              "nom": "Hotel Management",
+              "langue": "en"
+            },
+            {
+              "flux": "https://hoteltechnologynews.com/feed/",
+              "nom": "Hotel Technology News",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.tourmag.com/xml/syndication.rss",
+              "nom": "TourMaG",
+              "langue": "fr",
+              "filtre": [
+                "hôtel",
+                "hôtelier",
+                "hôtellerie",
+                "Accor",
+                "hébergement",
+                "Airbnb",
+                "Marriott",
+                "Hilton"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marches",
+      "titre": "Marchés",
+      "teinte": "#0f6e7a",
+      "sujets": [
+        {
+          "id": "bourse",
+          "titre": "Bourse & marchés",
+          "consigne": "Marchés financiers : CAC 40 et Bourse de Paris, Wall Street, Europe et Asie ; banques centrales (Fed, BCE), taux, inflation, emploi ; pétrole, or, devises ; résultats d'entreprises qui font bouger les marchés. Garder les faits et les chiffres (variation des indices, décisions, publications), pas les conseils d'achat, les « actions à acheter » ni les analyses techniques.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "\"CAC 40\" OR \"Bourse de Paris\" OR \"Wall Street\" OR \"la Fed\" OR \"la BCE\" -conseil",
+              "langue": "fr"
+            },
+            {
+              "q": "\"stock market\" OR \"Wall Street\" OR \"Federal Reserve\" OR \"Treasury yields\" OR \"S&P 500\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.lefigaro.fr/rss/figaro_bourse.xml",
+              "nom": "Le Figaro Bourse",
+              "langue": "fr"
+            },
+            {
+              "flux": "https://feeds.marketwatch.com/marketwatch/topstories/",
+              "nom": "MarketWatch",
+              "langue": "en"
+            },
+            {
+              "flux": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+              "nom": "CNBC Markets",
+              "langue": "en"
+            }
+          ]
+        },
+        {
+          "id": "crypto",
+          "titre": "Crypto",
+          "consigne": "Cryptomonnaies : Bitcoin, Ethereum, Solana et grandes cryptos ; ETF, régulation (MiCA, SEC, AMF), piratages, faillites, grands mouvements de cours, adoption par les entreprises et les États. Memecoins seulement s'ils font l'actualité générale. Exclure les promotions de jetons, les préventes, les prédictions de cours et les contenus sponsorisés.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "Bitcoin OR Ethereum OR cryptomonnaie OR \"crypto-actifs\"",
+              "langue": "fr"
+            },
+            {
+              "q": "Bitcoin OR Ethereum OR crypto SEC OR ETF OR hack",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://journalducoin.com/feed/",
+              "nom": "Journal du Coin",
+              "langue": "fr"
+            },
+            {
+              "flux": "https://cryptoast.fr/feed/",
+              "nom": "Cryptoast",
+              "langue": "fr"
+            },
+            {
+              "flux": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+              "nom": "CoinDesk",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.theblock.co/rss.xml",
+              "nom": "The Block",
+              "langue": "en"
+            }
+          ]
+        }
+      ]
     }
   ],
   "exclusions_globales": [
@@ -492,7 +742,23 @@
     "Specialist",
     "Manager —",
     "offre d'emploi",
-    "job"
+    "job",
+    "price prediction",
+    "presale",
+    "prévente",
+    "airdrop",
+    "sponsorisé",
+    "sponsored",
+    "meilleure crypto à acheter",
+    "best crypto to buy",
+    "actions à acheter",
+    "Accor Arena",
+    "Hilton Head",
+    "Nicky Hilton",
+    "Paris Hilton",
+    "Obituar",
+    "Statistiques de la saison",
+    "Black Month"
   ],
   "sources_exclues": [
     "horticulture-abadie-pyrenees.com",

@@ -231,6 +231,51 @@ def composition(e: dict, eq: dict, joueurs: dict, maintenant) -> dict | None:
     return None
 
 
+CATEGORIES_FR = {"Points": "Points", "Assists": "Passes déc.", "Rebounds": "Rebonds", "Sacks": "Sacks", "Tackles": "Plaquages",
+                 "Passing Yards": "Passes", "Rushing Yards": "Course", "Receiving Yards": "Réception"}
+
+
+def tops(e: dict, eq: dict, joueurs: dict) -> list:
+    """Meilleurs joueurs de l'équipe au dernier match (NBA, NFL, NCAA) ou buteurs (football)."""
+    m = eq.get("dernier")
+    if not m:
+        return []
+    ligues = ([m.get("ligue")] + LIGUES_FOOT) if e["sport"] == "soccer" else [e["ligue"]]
+    for lg in [l for l in ligues if l]:
+        try:
+            s = get(f"{ESPN}/{e['sport']}/{lg}/summary?event={m['id']}")
+        except Exception:
+            continue
+        if e["sport"] == "soccer":
+            buts = []
+            for k in s.get("keyEvents", []):
+                if "goal" in ((k.get("type") or {}).get("text") or "").lower() and (k.get("team") or {}).get("displayName") == eq["nom"]:
+                    for p in (k.get("participants") or [])[:1]:
+                        nom = p["athlete"]["displayName"]
+                        f = fiche_joueur(nom, "But", "", joueurs)
+                        f["valeur"] = (k.get("clock") or {}).get("displayValue", "")
+                        buts.append(f)
+            if s.get("keyEvents") is not None:
+                return buts
+            continue
+        for t in s.get("leaders", []):
+            if (t.get("team") or {}).get("displayName") != eq["nom"]:
+                continue
+            res = []
+            for cat in t.get("leaders", []):
+                if not cat.get("leaders"):
+                    continue
+                l = cat["leaders"][0]
+                f = fiche_joueur(l["athlete"]["displayName"], CATEGORIES_FR.get(cat.get("displayName"), cat.get("displayName", "")), l["athlete"].get("jersey"), joueurs, (l["athlete"].get("headshot") or {}).get("href"))
+                v = l.get("displayValue", "")
+                for en, fr in ((" YDS", " yds"), (" CAR", " courses"), (" REC", " réc."), (" INT", " int."), (" TD", " TD")):
+                    v = v.replace(en, fr)
+                f["valeur"] = v
+                res.append(f)
+            return res[:4]
+    return []
+
+
 def main() -> int:
     conf = json.loads(SUJETS.read_text(encoding="utf-8"))
     ancien = json.loads(SORTIE.read_text(encoding="utf-8")) if SORTIE.exists() else {}
@@ -327,6 +372,11 @@ def main() -> int:
             eq = sortie["equipes"].get(sujet["id"])
             if not e or not eq:
                 continue
+            try:
+                if eq.get("dernier"):
+                    eq["dernier"]["tops"] = tops(e, eq, sortie["joueurs"])
+            except Exception as ex:
+                print(f"[erreur] tops {sujet['id']}: {ex}", file=sys.stderr)
             try:
                 eq["composition"] = composition(e, eq, sortie["joueurs"], maintenant)
             except Exception as ex:

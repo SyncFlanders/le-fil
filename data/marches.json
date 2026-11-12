@@ -1,0 +1,108 @@
+{
+ "genere_le": "2026-11-12T18:09+00:00",
+ "cours": [
+  {
+   "id": "^FCHI",
+   "sujet": "bourse",
+   "nom": "CAC 40",
+   "valeur": 8361.36,
+   "unite": "pts",
+   "variation": 0.34,
+   "maj": "2026-11-12T17:05+00:00"
+  },
+  {
+   "id": "^STOXX50E",
+   "sujet": "bourse",
+   "nom": "Euro Stoxx 50",
+   "valeur": 6398.98,
+   "unite": "pts",
+   "variation": 0.09,
+   "maj": "2026-11-12T17:00+00:00"
+  },
+  {
+   "id": "^GSPC",
+   "sujet": "bourse",
+   "nom": "S&P 500",
+   "valeur": 7625.94,
+   "unite": "pts",
+   "variation": 0.09,
+   "maj": "2026-11-12T18:09+00:00"
+  },
+  {
+   "id": "^IXIC",
+   "sujet": "bourse",
+   "nom": "Nasdaq",
+   "valeur": 25458.223,
+   "unite": "pts",
+   "variation": -0.03,
+   "maj": "2026-11-12T18:09+00:00"
+  },
+  {
+   "id": "^TNX",
+   "sujet": "bourse",
+   "nom": "Taux US 10 ans",
+   "valeur": 5.107,
+   "unite": "%",
+   "variation": 2.18,
+   "maj": "2026-11-12T17:54+00:00",
+   "variation_pb": 11
+  },
+  {
+   "id": "EURUSD=X",
+   "sujet": "bourse",
+   "nom": "Euro / dollar",
+   "valeur": 1.1055,
+   "unite": "$",
+   "variation": -1.02,
+   "maj": "2026-11-12T18:08+00:00"
+  },
+  {
+   "id": "BZ=F",
+   "sujet": "bourse",
+   "nom": "Pétrole Brent",
+   "valeur": 95.16,
+   "unite": "$",
+   "variation": 2.59,
+   "maj": "2026-11-12T17:59+00:00"
+  },
+  {
+   "id": "GC=F",
+   "sujet": "bourse",
+   "nom": "Or (once)",
+   "valeur": 3878.4,
+   "unite": "$",
+   "variation": -3.05,
+   "maj": "2026-11-12T17:59+00:00"
+  },
+  {
+   "id": "bitcoin",
+   "sujet": "crypto",
+   "nom": "Bitcoin",
+   "valeur": 65029,
+   "unite": "€",
+   "variation": -2.98,
+   "sur": "24 h",
+   "maj": "2026-11-12T18:08+00:00"
+  },
+  {
+   "id": "ethereum",
+   "sujet": "crypto",
+   "nom": "Ethereum",
+   "valeur": 1823.88,
+   "unite": "€",
+   "variation": -2.98,
+   "sur": "24 h",
+   "maj": "2026-11-12T18:09+00:00"
+  },
+  {
+   "id": "solana",
+   "sujet": "crypto",
+   "nom": "Solana",
+   "valeur": 73.9,
+   "unite": "€",
+   "variation": -3.73,
+   "sur": "24 h",
+   "maj": "2026-11-12T18:09+00:00"
+  }
+ ]
+}

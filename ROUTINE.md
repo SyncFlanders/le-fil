@@ -8,7 +8,7 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
 
 1. **Se mettre à jour.** `git pull --rebase origin main`.
 2. **Vérifier la fraîcheur des dépêches.** Lis `genere_le` dans `data/depeches.json`.
-   S'il date de plus de 6 heures, lance `python3 scripts/collecte.py` puis `python3 scripts/sport.py`. Si la collecte échoue
+   S'il date de plus de 6 heures, lance `python3 scripts/collecte.py`, `python3 scripts/sport.py` puis `python3 scripts/marches.py`. Si la collecte échoue
    (réseau bloqué), continue avec les dépêches existantes et signale-le dans `note`.
 3. **Lire les consignes.** `sujets.json` donne, pour chaque sujet, ce que le lecteur veut
    et ne veut pas (`consigne`). Elles priment sur tout le reste.
@@ -41,6 +41,16 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
    Le premier aura sa photo en tête de l'article. Le script retrouve photo et poste ; n'écris
    jamais d'URL d'image. Le prochain match, le dernier résultat et la composition s'affichent
    tout seuls (`data/sport.json`) : inutile de les répéter, sauf si l'actualité porte dessus.
+   `compte_rendu` (sujets de sport) : le récit du **dernier match**, tant qu'il date de moins
+   de 8 jours (le même récit peut revenir plusieurs jours de suite pendant une trêve) ; sinon ne mets pas le champ.
+   Score, tournant du match, joueurs décisifs : prends les faits dans `data/sport.json`
+   (`equipes.<sujet>.dernier` : score, adversaire, `tops` = meilleurs joueurs ou buteurs) et dans
+   les dépêches marquées `"compte_rendu": true` (TrashTalk pour la NBA, Touchdown Actu pour la NFL,
+   presse spécialisée pour le reste), dont tu peux lire l'article avec WebFetch si besoin.
+   **Ton : celui de TrashTalk** — vivant, imagé, un brin chambreur, en français, avec des
+   surnoms et des formules, mais **chaque fait est exact** (aucun chiffre inventé, pas de
+   moquerie blessante). 4 à 6 phrases, un titre accrocheur. Format :
+   `{"titre": "…", "texte": "…", "sources": ["morceau exact de titre d'une dépêche"]}`.
    `a_la_une` : les 3 nouvelles les plus importantes de la journée, tous sujets confondus,
    avec l'`id` du sujet.
 7. **Publier.** `python3 scripts/publier.py`. Corrige le brouillon si le script signale
@@ -74,7 +84,8 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
           "resume": "Deux à quatre phrases.",
           "points": ["Puce courte.", "Puce courte."],
           "articles": ["morceau exact du titre d'une dépêche", "…"],
-          "joueurs": ["Prénom Nom", "…"]
+          "joueurs": ["Prénom Nom", "…"],
+          "compte_rendu": { "titre": "…", "texte": "…", "sources": ["…"] }
         }
       ]
     }
