@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-12T18:19+00:00",
+ "genere_le": "2026-11-12T22:46+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -2395,6 +2395,14 @@
    "poste": "Linebacker",
    "numero": "54",
    "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4427479.png",
+   "credit": "ESPN"
+  },
+  "alijah huzzie": {
+   "nom": "Alijah Huzzie",
+   "equipe": "jaguars",
+   "poste": "Cornerback",
+   "numero": "21",
+   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4577494.png",
    "credit": "ESPN"
   },
   "austin johnson": {
