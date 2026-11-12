@@ -36,7 +36,7 @@ en deux minutes, ce qui s'est passé d'important sur ses sujets, en français.
    Les `articles` sont des **morceaux exacts de titres** copiés depuis `data/depeches.json`
    (assez longs pour être uniques, 4 à 8 mots). Le script retrouve les liens : n'écris
    jamais d'URL toi-même. 3 à 6 articles par sujet, les plus utiles en premier.
-   `joueurs` (sujets de sport seulement) : les noms complets des joueurs **cités dans le résumé**,
+   `joueurs` (sujets de sport seulement, **obligatoire dès que le résumé nomme un joueur**) : les noms complets des joueurs cités dans le résumé,
    du plus important au moins important, 4 au maximum (ex. `["Aaron Philo", "Vernell Brown III"]`).
    Le premier aura sa photo en tête de l'article. Le script retrouve photo et poste ; n'écris
    jamais d'URL d'image. Le prochain match, le dernier résultat et la composition s'affichent
