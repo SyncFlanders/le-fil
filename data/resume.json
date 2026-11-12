@@ -1,0 +1,549 @@
+{
+ "date": "2026-11-12",
+ "a_la_une": [
+  {
+   "sujet": "big-tech",
+   "titre": "Jensen Huang quitte la direction de Nvidia",
+   "texte": "Le patron historique de Nvidia démissionne après une liaison avec une personne soupçonnée d'espionnage. Colette Kress assure l'intérim, le ministère américain de la Justice ouvre des enquêtes et l'action chute."
+  },
+  {
+   "sujet": "anthropic",
+   "titre": "Anthropic à quelques jours de sa Bourse",
+   "texte": "L'introduction en Bourse se précise : les contrats qui s'échangent avant la cotation dépassent d'un tiers la fourchette de prix annoncée, et Anthropic multiplie les lancements (Claude pour l'industrie, Sheets, Whiteboards, Data)."
+  },
+  {
+   "sujet": "florida-gators",
+   "titre": "Les Gators changent de quarterback",
+   "texte": "Aaron Philo redevient titulaire pour le déplacement à Kentucky samedi. Le receveur Vernell Brown III est forfait."
+  }
+ ],
+ "themes": [
+  {
+   "id": "sport",
+   "titre": "Sport",
+   "sujets": [
+    {
+     "id": "real-madrid",
+     "titre": "Real Madrid",
+     "resume": "Journée de trêve internationale, donc surtout du mercato et des Bleus. Le Real relance son intérêt pour Michael Olise, l'ailier du Bayern, également courtisé par les équipementiers. Kylian Mbappé est retenu avec l'équipe de France pour le choc contre l'Italie malgré des doutes sur sa forme. Côté institution, le Bernabéu est cité pour accueillir la finale de la Ligue des nations 2027.",
+     "points": [
+      "Mercato : intérêt relancé pour Michael Olise (Bayern).",
+      "Mbappé dans le groupe France contre l'Italie ce soir.",
+      "Bernabéu candidat à la finale de Ligue des nations 2027 (selon Madrid Universal)."
+     ],
+     "articles": [
+      {
+       "titre": "Le Real Madrid relance son intérêt pour Michael Olise, l’ailier du Bayern Munich",
+       "source": "Tribuna.com",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmVWaTgzcHgzY0dpMG9HUWgxUGExT3I1MXdYVERla0k5d0thbTgzRHFEbFRsckVXemN0Z0lTT1pydWt5VVBpTnBDZTk0WlFBNUFfTUxjelRuTUJQcFphQkNtMDMxdmpUeklaUWF2dFhVbXd2QmhzaE9xMFBUaWNzdXlqT3lpUm1aVnF5Z3hvcUYzLUxpSFBJNWstRml0QU84UGVDMVJPWC02R3B2SzlydHF5c0FkcEhoUkHSAb8BQVVfeXFMT3JCRGV5djFpT1BOUUx3blVfTlRpNnlZM2NQODUzU3dqQVFISnlMM1dVTlhpMGQxclYwcGE0aldaQlVTY0Y4Q2FvcHVqaG1leERmZGFEWTBLUDZFVEFRZE9xM19fR3dBUGhXdFBERy0zSHVvV1FoS0VrYWxmenl3ZXo0RVB6MHZXb1JiM3REWUtLZ0hwVUFDMHFSSFpwMURGeWUxSFdtUC1SWTdnN3BXc1VMd0VmUGk3WkduQzY1cWc?oc=5",
+       "date": "2026-11-12T14:44+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Mbappé retenu dans le groupe de l’équipe de France face à l’Italie malgré les incertitudes liées à sa blessure",
+       "source": "Tribuna.com",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQzNyWnZWMnpmck83YnZfMnVwSE0xZjZFRUdJSkZvSzNLbzByMTBSNldpNTExWjRldXMzY3ZLalVKSFNJdDhpOG0wTjRjbnVRUVZfeTZDUS1rdzJ4RGJrNHdJZjFKRE1WbGVxWE9ieHJGODNvS0pGbWlZbmFwWjVqREEwVG1ENWZSNWlzMzBfNlJ2amdBRFhxb1lPV0U2Umh2TDUyNHQ5aUhwc0puU1k2dXNQWGlDSkhLSlJFbGJaYnV0SmNwZTZz0gHMAUFVX3lxTE95eEctcDdQc1lBVEhGYjBCaGdmNEZSTWR5aklpdTJ3X29ldWN5NDkyRC1wSW43dmpvYWRkZG9IaDhkOENKcnZfOFo3MkJJUGNBLUExeDFrSjh0b3pwbmwtZUZSRHl5NV9OOWJpS1VENWtuOGZtX3JuVC1ILUpGOXQ0NUZ6RFJkdTlEMzN6NlRWRjJpdjUwZHFXUjBiTUFXX1FMN3A3dXMwS085b3RweHBXbVhUcURiWlpfc0VkekJHRUFjMkFlRmxpVVZGWQ?oc=5",
+       "date": "2026-11-12T14:18+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Real Madrid's Santiago Bernabeu emerges as potential host for 2027 Nations League final - report",
+       "source": "Madrid Universal",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMHVhdW5GYnFQUThYUTFQazgzd0FVRWVVc0VnZm92ajM3ZDkya2wzSkZLNWhIVkhiMnJIekloWGFOb29Wa0pIQzd3X1VWb21Bdk5WQnRVSV9oNWZQYVNWb1VycE0yOW1Xd18yT2tLTGtHS2s4Q1NvRGxOWFFMM0RmUERoZVpOdXBiTXlGM19QX2xhM2N3QUZ5UzNaZ0NhV2w2UDFtbDRKOFpPTW94M210Q3hoc1J2aUtZckNVNEtpVQ?oc=5",
+       "date": "2026-11-12T14:33+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "florida-gators",
+     "titre": "Florida Gators",
+     "resume": "Avant le déplacement à Kentucky (n°11) samedi, Florida revient à Aaron Philo comme quarterback titulaire, après une période d'hésitation avec Jones et une attaque en difficulté. Le receveur Vernell Brown III et Bryce Thornton sont forfaits ; six joueurs figurent sur le premier rapport de disponibilité de la SEC.",
+     "points": [
+      "Aaron Philo titulaire contre Kentucky samedi.",
+      "Forfaits : Vernell Brown III (WR) et Bryce Thornton.",
+      "Le match est vu comme un test direct pour Jon Sumrall face au Kentucky de Will Stein."
+     ],
+     "articles": [
+      {
+       "titre": "Florida football going back to Aaron Philo as starter at QB for Kentucky",
+       "source": "Gainesville Sun",
+       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNckZNWFRzVUk0X0dzZUVheHpObTZwM1NvOElCaDIxZC1HZm5iUUVOZDZYVkNZZTR2NG1SMVhkTHNiM2dITDJqaURyajZzTzd5a3N1Z2s3TTFXZC1oYVBaNU44cXRCaTBRaHBDTks2LWE2SnF0OFFVWDB6ZmpJeGk4LVNrZ3ByN2cyYmxNdm1wSnVjNE9tYU5ua2o3TXVUT3VhMEdyREtJczZEc1FxUGg3VWJEVzJhQmlpLWVXb2hRX0ppNHlDanZmeXE0RlRHeTVKLU1yeDZ5RU0?oc=5",
+       "date": "2026-11-12T14:51+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Florida goes back to QB Aaron Philo as starter; WR Vernell Brown III already ruled out at No. 11 Kentucky",
+       "source": "OnlyGators.com",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV3dQdG1kZVpORldqU2tVUFA0RkdfRHhVZU9Sckw0MDJ4UWk2VVZVVHNWT3ljVlN3SGxEZmFRajBNRTdaSy1KbXB4NUhmdDZWMUZkWDl1TURMN1hlSHFtWUhqdnc1M29DV1B6VGpPMUk0cFd1eHIzQ29mODhQSExxc01VMlhUZTdFWThCZjA5VEl1dm8xNWFZZXVRWVlrZw?oc=5",
+       "date": "2026-11-12T15:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Florida football injury report: VBIII, Bryce Thornton out for UF vs UK",
+       "source": "Gainesville Sun",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUEVNN2JGbERrOEkyLWNqSXhmb2F0U3VmMS1keGJIcW5nV2RHY043UWhuZXJOY3lHc1pGYldEb2M1YUQxNjJTcmF2clFzSThQVi1xYzkzZFNROTQ3Vm5hV3ljZmJKdlJUbTFCd1BmRTFWazFpbTZzX0VkcVhwdjNLRzV0bjh2TlBDNlI5d2NaZ2ZMak8xZW1Wc3BjcUZuOV9SZW9FQ3hIdlpRR2RucHpzd0loNkppZ3BqUm91dzRGdWVTSlR5RzRuLThjUFowa1JGUVJuRXY1NDFJcjRlbjVR?oc=5",
+       "date": "2026-11-12T01:36+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Will Stein’s Kentucky gives Jon Sumrall another apples-to-apples test at Florida",
+       "source": "Hail Florida Hail",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTZQR3pYalVUZlJpM1gwc3laWGRybUlScFR0WW5PbWZCTkpMSGdzNERCNmZDdzNfOTZ2aVFxNEJkdUVobS1zWWMxdnFoeWs3ckRmeEdMT2VvZml6MmhRb3psM0lWZ19LV2E2aXNUY3pyZ19LMWVuOE1LZnBSSXBaV0IzYkpMdUw1X0NITVZaZzZTQ0ZCWWRpbC1CR0FHb3BQejhSdFFwTXpiSnJp?oc=5",
+       "date": "2026-11-12T13:30+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "jaguars",
+     "titre": "Jacksonville Jaguars",
+     "resume": "Les Jaguars préparent la semaine 10 face aux Titans en sortant d'une date limite des transferts très offensive : l'arrivée de la safety Jessie Bates III est saluée comme un « jackpot ». Trevor Lawrence a commenté ces renforts, et l'équipe apparaît dans le trio de tête de certains classements. Point d'inquiétude : l'état de santé du receveur Jakobi Meyers.",
+     "points": [
+      "Semaine 10 : Jaguars – Titans.",
+      "Jessie Bates III, la grosse recrue de la date limite.",
+      "Blessure de Jakobi Meyers à surveiller ; CB Alijah Huzzie re-signé (équipe d'entraînement)."
+     ],
+     "articles": [
+      {
+       "titre": "5 Questions About Jessie Bates III: Jaguars ‘Hit the Jackpot’",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMFpLa3dWRmpGNmc0TFhndkxaVUlpOThpMDNFUjdqVFhxSEtKbmNpZFV1cF92UHpheXdCbnVFUDBCUnJuY2FZYjRaNUxrcGs2VTNjTzdESThJRHFDWHVGQlhqcHdOOHR4dmVpUDZRYlNFVndxZ2lFcDVhOGpOQ3lwLWxEOA?oc=5",
+       "date": "2026-11-12T15:01+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Trevor Lawrence weighs in on Jaguars trade deadline moves",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVXJ2a2daTEQ3XzlkVDg1MjVvLWZmU3Z4UFRDa053dEdPS1RkaFhTeWVDcjVlRkVFWnBKa2wzREZyZll3SzNSSzQzT0w1N1JzM3llTFRlbXBKVDE4WW9KTEJlT3ZOVmlrMVVGUmttb0p1WWF1WU83TS1ZYnRBMzBCRGtKaXlkcUdiNVE2UVJ3?oc=5",
+       "date": "2026-11-12T12:42+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jakobi Meyers Injury Update Takes Concerning Turn for Jaguars Before Week 10 vs. Titans",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaTlOZkhXd2pQazcwOWxsSFpubTNmcV9qOVY3OVl3RHVfeFZ2aVBVamJpQTRCb2F4YXhrSzJvMmtkQm5rZ29LSVR3TlB3bDZmdGt4Rl8wVlZwbzlpTWZlWS1tWERuQ0F4VWt3VEw5VUZPS0J6MWZjT2RpaERCRkJpd2J2QUJGeDB3UENkVUNvTQ?oc=5",
+       "date": "2026-11-12T13:27+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Roster Moves: Jaguars Sign CB Alijah Huzzie",
+       "source": "Jacksonville Jaguars",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yWDFteVJxNE1LWW81Z25pMkRmZGN4YkZkSV9CWkVoQnpPd3BOaC1abWg2VlBRWFhxWTRackppaVFaQ1ZMekRub2tSeWNfZjVkcFBhRkZyYzR5djJDTE1tWEVIRk9GS2p3UVNvYi1ldmgwQ3pvc2FsUDZyWQ?oc=5",
+       "date": "2026-11-12T15:47+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Quick Thoughts Before Week 10 vs. Titans: No Time to Look Ahead",
+       "source": "Jaguars.com (officiel)",
+       "url": "https://www.jaguars.com/news/quick-thoughts-before-week-10-vs-titans-no-time-to-look-ahead",
+       "date": "2026-11-12T15:25+00:00",
+       "origine": "passionnes"
+      }
+     ]
+    },
+    {
+     "id": "orlando-magic",
+     "titre": "Orlando Magic",
+     "resume": "Victoire 123-108 à Utah, qui enchaîne une dixième défaite. Franz Wagner a marqué 38 points et ne descend plus sous les 30, de quoi relancer un Magic parti difficilement. Prochain rendez-vous : les Bucks de Milwaukee vendredi, en phase de groupes de la Coupe NBA.",
+     "points": [
+      "Magic 123 – Jazz 108, Franz Wagner 38 points.",
+      "Vendredi : Magic – Bucks (Coupe NBA)."
+     ],
+     "articles": [
+      {
+       "titre": "Wagner scores 38 as Magic send Jazz to 10th loss in row",
+       "source": "Spectrum News 13",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWThlNFJXX1RXd2xobHFPZ1JzbGJzNzdKdGxGNDJtX1VpVUU0WGdZX1pidXA2VG9YZzRweE01Snc3OUhfWjE3V25VX1VBd0tzNjdMM2Iwd3c3WGZGUURaWnhhejdWaVE3aXYwN3hibkVNMzF3UHNQNG1VQlZTemsyaFd5N21WcVJQai1zMF9IMGl0THRMdTlCeDIxam5HdjFmLWcwQ05URjE?oc=5",
+       "date": "2026-11-12T14:46+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Franz Wagner ne descend plus sous les 30 points",
+       "source": "Basket USA",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWHlPNktINUJOVHR0YWxqbnp6MEtRb0swZU5BeG1Nc3R1MmY4S1hUaWg5dUNOS3ZHdGFpRTR5ODhQVU9nWnVGaXhLQ0lDdno0dDN3M3dkeC1YUXlvdm9Pc2RCR1lLV29JaUdDMWpKaHFMaUcyZnlLV2NLRHhLaUhvU0RGaEpsWkNTNkQ2TkJ5dw?oc=5",
+       "date": "2026-11-12T09:17+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Magic and Bucks meet Friday in NBA Cup group stage",
+       "source": "ABC News - Breaking News, Latest News and Videos",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS01XQ0JDcXk2aE9QZy1wVkpDSGV1VjZrN1RGWXhFSTVLRktnTmpucjVxLV9sTm1qYnNMSy1ldEdDZThTZk9xcjlDMVgtVm8yRzh2VG9tZVY4em5rWHNHWE9wUjZKMnlKUzhYZW0wYTBFdG51S3VFbURpaFJEamU3cXVXbWt0NkNyQVBCVzM5b3BfUUlu0gGaAUFVX3lxTE5qZG9ibHEyQXJNZXkxOGhmOW1pUFpqaW1qNk1rMjBpRmRKYlJWemJ5RVlSOGt3UmdyR3NEX3FjRUFxN29nWWVXX2Fxb0FBTl9xa3ZWM3hiNWFRMk9QejEzUjZta1E0bUstMEp0Z3NMWVd5dDc1VnJ5TWkzUWZjYVFBbDJsVzVlbWF1aThxS0E1THFfLU9vQUwzVmc?oc=5",
+       "date": "2026-11-12T08:47+00:00",
+       "origine": "presse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "titre": "IA & tech",
+   "sujets": [
+    {
+     "id": "anthropic",
+     "titre": "Anthropic",
+     "resume": "L'introduction en Bourse approche et domine l'actualité : les contrats échangés avant la cotation ont clôturé à 103,93 $, 33 % au-dessus de la fourchette déposée, et plusieurs analyses (Fast Company, Morningstar) jugent qu'elle pourrait désavantager OpenAI. Côté produits, Anthropic lance une offre Claude pour l'industrie manufacturière ainsi que Claude Sheets, Whiteboards et Data. Ses chercheurs ont aussi trouvé, avec Google, une faille critique corrigée dans le serveur web Apache.",
+     "points": [
+      "Bourse : pré-cotation 33 % au-dessus de la fourchette.",
+      "Nouveaux produits : Claude pour l'industrie, Sheets, Whiteboards, Data.",
+      "Nouvelle règle d'usage interdisant d'insulter Claude (La Croix).",
+      "Faille critique d'Apache HTTP Server découverte par Anthropic et Google."
+     ],
+     "articles": [
+      {
+       "titre": "Anthropic’s pre-IPO perp closes at $103.93, 33% above its filed range",
+       "source": "Crypto Briefing",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9feUFxZDZSclpkaGJKRHgxOUdsTjMzWE1GUU5GUGw4bFNIaWEtQWJvbkFfOENldGlhdkdSa1N5TEE1V29ZbS1KdVZwNDVpMzJna2NNd0t6eHVNSWJGd1kzZ3RDZmVQWnFWOUxHZDd5bmtNQ0VKZkY0Mktn?oc=5",
+       "date": "2026-11-12T16:46+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Why Anthropic’s IPO could put OpenAI at a disadvantage",
+       "source": "Fast Company",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOHVXWDVZQjItWDNRQmJuM0JYVl9kMnJ6Q3l6ZDdqY1RVaDlyRzkybnFSZlpVZGlDQWhTOGp2UUZsTlRvUjVxbDBFZkozNVBuUWVqQUFERGhISXoxUmNVaUx1eFVVTzRnQ2hRaXdhZ2ZJbWRtRU1hU1NKbTJoVERGT2VtVC1Na0YxajFWZENMZXJhUGdh?oc=5",
+       "date": "2026-11-12T17:03+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "With IPO looming, Anthropic launches Claude product for manufacturers",
+       "source": "Business Insider",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVFzTkpNdV9uc2JnQUFWcTF0c0Y1UnRVcU1ETUZHRGZVUjlRNGpBWXI5UGF4TThRWEFEc1J2alNTbmFYSUEzXzNhb1p4RlRpRDdmd1BSdi1xeXB4aFgwQTlUalZYc19yM2U1S2JYWFVWQWRvSUM3RF9ETkN2bWY0T2g1ZEtWemNpYThCM3lBZFhMRlM5VHRuTG94WDA?oc=5",
+       "date": "2026-11-12T17:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Intelligence artificielle : pourquoi Anthropic refuse que l’on insulte son système Claude",
+       "source": "La Croix",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcGtFTEpkbVJrTFZyMGtHLTFVMmlfNkVTOElBZUFyYjBLZlRvT0o3Y1JzWDZRYUV4R0l2MDNjOXVEaEY0ZW1TTTRlVmZCUFJJNDVQalJFMkRRbVlwYlJ5S3FIRDhDdlBJN2hxS1U4NzVOMUJGd29YTjk5Z3lGUFhzMXlvdVRQd2xHNENIVGV3dTl1b2xfNmFQMXI1dnFkUmdSQnZNSWlUaGtWVFgtT21mNU54ekdmdDJfd0ZHQ0V6b1FnT01SMHRRVQ?oc=5",
+       "date": "2026-11-12T16:38+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+       "source": "SecurityWeek",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVW13Z05ibUNrVHhYa19FSTFPTnVOQTA0LTdXVFhJelo3VVN4UFl4VVF3a09BVC0yMlBXNFNHVUp5MWtQTTBsenllTlZxclFUWWJyb00tRzIwWDMtZVM3T0hzY1I0UmtFNldVSkpvNEhROFVDb2xaVnozQjZHVHdlbmlhckN0YWhUZjU1Z3d2T1o1d3NLYXNlTWZucw?oc=5",
+       "date": "2026-11-12T15:38+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "big-tech",
+     "titre": "Grands groupes tech",
+     "resume": "Séisme chez Nvidia : Jensen Huang démissionne après une liaison avec une personne soupçonnée d'espionnage. Colette Kress devient PDG par intérim, le ministère de la Justice ouvre plusieurs enquêtes et Huang doit témoigner devant le Congrès avant Thanksgiving. Les Echos chiffrent à 800 milliards de dollars la capitalisation perdue ; Donald Trump propose Tim Cook pour lui succéder. Ailleurs, Tesla arrête le Cybertruck.",
+     "points": [
+      "Nvidia : démission de Jensen Huang, Colette Kress PDG par intérim.",
+      "Enquêtes du DOJ ; audition au Congrès avant Thanksgiving.",
+      "Tesla met fin au Cybertruck, colère des fans."
+     ],
+     "articles": [
+      {
+       "titre": "Jensen Huang resigns as Nvidia CEO after affair with alleged spy",
+       "source": "The Washington Post",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON3JKUXVHNjJUMW81T2xYbUdKNlpJVlExQlkxMTFxOHNMZHVvUG1EREhNVkZMamlKTk9BWVBOZ2d3bUdNMmozY3VUbGhBQUFJS0o5YmZYdk5KZDVDdzAtTklCT1VUbTYyVnZsSkx1TGFaVElwQ08zTG5HelRveUlTNDVlRkZ6M254Mmw5UVVtdWxkY3M2R3pjR21OWllrQW5ZLVktOGxzZXFaM3hPcEdoYUxNdkQ4dUJyZE9wQjhoTWdDNjRzc1lKXzJjNA?oc=5",
+       "date": "2026-11-12T17:02+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "800 milliards de dollars de capitalisation partis en fumée : le coût faramineux de la démission de Jensen Huang",
+       "source": "Les Echos",
+       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcVh3akN0UVJYV1BxcjVPcHVlbDRleGgyYTRLZERTY0hZUXNXT19xYWtQUklVUFdzLVF5c0dxZDNfb3BacjFZRFl0X05ybWhYLWJkbUMxSTU0M00tMmo3ZXhORzZWQUdnQ1JTRXN4SkxFaVBzRDZxWEhVVngwMGxMMjRMYjVDN0t1enJ3dXRFMXg5cGstTEI3TWpEWXh1b2FzMlNOWkZCVFZNU29ENHhxNUx3Zk1nV0IySWhpV2x6cDJORXBia19vaDhqN1RlTXR2UzlFdVg4Znd6MnJoRy1mZjhMTEVzbUk2ZVNlWFZZbXE5am9LakN2Wk9ZcFBYRjk3YVV0UjFnaw?oc=5",
+       "date": "2026-11-12T16:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Exclusive: US DOJ probes Nvidia as fallout from Huang’s resignation ripples across Washington",
+       "source": "Semafor",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ITzNoa1JXdHN3WkN2Rk9iRndzODYtblUtS1RUejhrRUZlazJ4Yk5TdEtYTkpqbVU2UHZicWRGNDVKNUk4UlhzLTJ5Y2xzMnFKM0EwTEhMZzRpNUdCSWQyU1pCb0JIc2pzcVFLaHU1NHQ?oc=5",
+       "date": "2026-11-12T16:23+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Donald Trump calls for Tim Cook to replace Jensen Huang at Nvidia",
+       "source": "The Hill",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUTNvN1lydjY5eDZuYl9ZaXJFVF9tLVlQVUdqM01kUHZTSTFOUjY4aHhuWTZBSkZaa3BXMHg1QWR0c2NicUxMX1RPZFU1S2Y0UXJKS0lkSDJFZHhSUmdEZDRLWUp3M3R2WUVYeFF3NFcwNWhIQzFsS0c1ZWVOOUo1NkJJbw?oc=5",
+       "date": "2026-11-12T16:25+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "‘The end of Tesla!’: Cybertruck diehards turn on Elon Musk after he pulls the plug",
+       "source": "The Verge",
+       "url": "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash",
+       "date": "2026-11-12T17:00+00:00",
+       "origine": "passionnes"
+      }
+     ]
+    },
+    {
+     "id": "ia-monde",
+     "titre": "IA dans le monde",
+     "resume": "Google lancera ses lunettes Gemini le 10 décembre, à partir de 395 dollars, et DeepMind présente AlphaGenome 2, qui lit l'ADN cellule par cellule. L'Australie impose des audits obligatoires aux modèles d'IA les plus avancés, et United Airlines interdit aux agents IA de réserver ses vols. Plusieurs de ces titres viennent d'un même agrégateur : à confirmer.",
+     "points": [
+      "Lunettes Gemini de Google le 10 décembre (dès 395 $).",
+      "DeepMind : AlphaGenome 2.",
+      "Australie : audits obligatoires pour l'IA de pointe."
+     ],
+     "articles": [
+      {
+       "titre": "Les lunettes Gemini de Google arrivent le 10 décembre, dès 395 dollars",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzROcC1oTFdfZ3EycXJ4Nk5OZjl5dDZ2cldwU1hHTnBiUmY5Z0FIRlJfaGRlaFdlN0xZVjdYRi1yc3NzaDRMbk5KS1RzZGxVd2pvbVIzSzYwXzFHcWFGNmtGbkhTV0hoVGtwVDJJbEVEWXRxaDI5WllrZHM1NndyVXZqNWFvdXVncTNYcXFmNDZuQ0FD?oc=5",
+       "date": "2026-11-12T16:42+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "DeepMind dévoile AlphaGenome 2, l'IA qui lit l'ADN cellule par cellule",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0dRX09iSW55WG5QcW1kNDNVc1J5NFNEZjVHSDYxc0JCRkVISW1kTkRYck56aXUxNzI1YkZMZVhVNkhjOGJZY2UyZVJxNlhEVDBsdjdQSEhDeVlpTmk1Z21uSHU0RnFyazF1bWNJQm9FTTIxUmNnLTIwSUkyUkt4WXh2UGkxdw?oc=5",
+       "date": "2026-11-12T16:01+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Australie : audits obligatoires pour l’IA de pointe",
+       "source": "Brief IA",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUFR0VUlfMzF2dFNYTXRleS1ZS0h3aWVyanp5NjAyVlBseWdaM3dxVXZTYXZxOGU2VUxmTnlzWmZXYUQ3TVVoN1htU1VRLXN1Z2ZvSUltZFpXRWpyQlpQOEZxLVA2OGQyR051RjByci01WTZHc0pTYlZIVmtWVFJsYzIzVDdMUDQ?oc=5",
+       "date": "2026-11-12T11:06+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "United Airlines interdit aux agents IA de réserver ses vols",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWE5YT2x0QllSZEdTMXBMVERmYUNBdUdtYzFBSUp5eVc4RE5nb2NDQ0s0a0J1c2RZQnB0eVRBeGVIZzlMekU4b0tVSkc5bTE5ZFJpd1FZelczSkZhdWlmNkltMHc5d3ViUnJDR3ptQkw3WWlkdmhJYTRjWm14RDRxNzI1c2RxWjNEZHpHU0hZYWdnNDhZNXJj?oc=5",
+       "date": "2026-11-12T15:59+00:00",
+       "origine": "presse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "luxe",
+   "titre": "Luxe",
+   "sujets": [
+    {
+     "id": "maisons",
+     "titre": "Maisons & groupes",
+     "resume": "Les valeurs du luxe rebondissent à Paris : LVMH reprend 8,5 % sur un mois et Hermès 7,5 %, tandis que Kering reste en baisse de 32 % sur trois mois. Burberry renoue avec les bénéfices au premier semestre, Richemont publie demain des résultats attendus en hausse, et Capri Holdings nomme Justin Boxford, venu d'Estée Lauder, à sa direction générale. LVMH discute avec Hyundai d'un projet d'hôtel et de commerces à Séoul.",
+     "points": [
+      "Rebond boursier de LVMH et Hermès ; Kering toujours à la traîne.",
+      "Burberry de nouveau bénéficiaire ; Richemont publie vendredi.",
+      "Capri Holdings : Justin Boxford directeur général."
+     ],
+     "articles": [
+      {
+       "titre": "L'action LVMH parmi les plus fortes hausses du CAC 40 et reprend 8,5 % sur un mois",
+       "source": "Idéal Investisseur",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGRZTzMxNUxIa3lVS2x0U0l1ZEh2M2h6REs5ZUdUTUszMUFqNFNyelFKOUUwUE5JZnVMQXZpVjdra0ExY3JieThLU2dLd2pjcnJLY01xTlhEM2FBSW9HYk9KOEthOEctbk90dzJPR3VVNzd2aThmQ0FvdjJ2MmRlMU0zLXFJdUo3MGtpdTJkdE5sMlF4STF2SE5WOUNHWlRKNWctc1VvVXozWVQwR0htSlFreWZ1TjRDeUEtaHVzSkxpVUVSTTh2em9MbVhEQQ?oc=5",
+       "date": "2026-11-12T11:10+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "L'action Kering parmi les plus fortes hausses du CAC 40, mais -32 % sur trois mois",
+       "source": "Idéal Investisseur",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUWtwWUNqdFFWYng0S1hxNmNyRTVrXzhzM3BlbTN0TXRlWGlBYWxqOHRjX2VVQ0w5R0tNUGVQZEwxS0RjYlQwSXBKRjlHMkFPekF4TUpZTVNQR1R3cGpEajFJR2Z6QW91SWN1VzV1b3FiLUtqQlEwNGU5a0FRYVY5MnkwSG9OV3hEVGY0OV9KbnNrWWFrczlfT3I5YzVlZjl5UEpJc1R3RUJUQkRkeWViY21EblBBRFBzUjZCVUhOd0Z5Z2xabmhKLWUyTkg?oc=5",
+       "date": "2026-11-12T11:10+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Burberry renoue avec les bénéfices pour son premier semestre",
+       "source": "Luxus+",
+       "url": "https://luxus-plus.com/burberry-renoue-avec-les-benefices-pour-son-premier-semestre/",
+       "date": "2026-11-12T11:05+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Prévisions Richemont: résultats attendus en hausse au premier semestre",
+       "source": "Zonebourse Suisse",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmxWRUNkQ3lGaEpJeVVkSEd4MEhwd2JRbjdhc0RoZDJBMUtaUHVXZ1dLWEUwVjN0ZGczVDQxRUNoTEdGY3N0bDFYT3duREw3MkNRam1vRXhxcnhuaHVLQWtXRENUWjNSUVB1SFJsaDMxQkJsQWZlcDBEUG1MVUU0UnBIcDJwb2trU0g4am5VOVJYOE1IWUh3VjJ5S05HZlRsNGVUVzAzN2xqSVRqWUltMmRMTkpJbmUwUDI2bnFRTl90MmRvVGF0dg?oc=5",
+       "date": "2026-11-12T13:01+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Capri Holdings nomme Justin Boxford, ex-Estée Lauder, à sa direction générale",
+       "source": "Luxus+",
+       "url": "https://luxus-plus.com/capri-holdings-nomme-justin-boxford-ex-estee-lauder-a-sa-direction-generale/",
+       "date": "2026-11-12T15:12+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Hyundai Motor weighs LVMH partnership for GBC hotels and retail in Seoul",
+       "source": "Chosunbiz",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTBJWkhubzhFMzN6eWxJX0J0eDdQTmtQcWdCWHFoUmgyOFNBMHVBV0RMUE1CckQxNmtoUXV2V1BqVmNobXNRSFdDcnFMYUpzaEVuNzZrbVVBMHNreUNpLVNfOUhIejMyWDdRYllvQlM4TWdrVno3Y0R0Qjk1cjdnMFdR0gGWAUFVX3lxTE9TUDlkRzRKV1Jtb2E4UFJ0Skx0TnppU185c29SRUlwZ1BLY0cwMTh1UUM4dElhOG5jWmhwLUttRXE4bGo0eHh1VTdkWklHbC1Kd2tLZnJvR2VCQmJCTVhPYVYtUThrVnR0MGRHRmtXVFBKbVlTMVlZZkZ0c3dDMktCZGNDN3Nma3RBZnhRN1V2SExRUkh2Zw?oc=5",
+       "date": "2026-11-12T08:27+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "parfumerie",
+     "titre": "Parfumerie",
+     "resume": "Rita Ora et Taika Waititi lancent leur maison de parfum chez Harrods, Max Mara sort son tout premier parfum et Loewe présente Moonlight. Le milieu rend hommage à Christian Astuguevieille, disparu. À Nantes, la maison Sarradin rouvre rue Contrescarpe, 71 ans après sa fermeture.",
+     "points": [
+      "Lancements : maison Rita Ora × Taika Waititi (Harrods), Max Mara, Loewe Moonlight.",
+      "Disparition de Christian Astuguevieille.",
+      "Renaissance de la maison Sarradin à Nantes."
+     ],
+     "articles": [
+      {
+       "titre": "Rita Ora and Taika Waititi Launch Perfume House at Harrods",
+       "source": "BeautyNewsDaily",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RHROOXFRN25FUm0xQTNuSjB4bGlmOTJIUl9mZjFEUlZ1TzQ0OXY3Y3N2X19LU05yYXRJdk1sUUtvM0FRWWkxRy0wNldKS3RhaTJodkZTRWk4Ti1sd1labG1RWmwyOXo2UnZrcXpRMmJ4Sm5xSmo3Yg?oc=5",
+       "date": "2026-11-12T11:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Max Mara's Inaugural Perfume Is the Perfect Gift for the Woman Who Has Everything",
+       "source": "Marie Claire",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnRSQ2dhdXduOWRPd1hoVnBPcmNZaG9UVG1lT0YzWFVZTjRIVVdFbFozbE41Xy03NnhmQXFncHRySlJZQ1dxcV9NT2JEakJ6eFdFZ3F5UEFsdWczRDhUa3lfYXF6ZjJwUmJMWWxIZHdLOExxUWwxRE4wLUN2WUVEOWJFdHp4QThIUFF3aUlXbElkUWFQWDFkRUY1VWFuMTcwUUEtTmtkclo?oc=5",
+       "date": "2026-11-12T00:36+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Loewe Moonlight ~ new fragrance",
+       "source": "Now Smell This",
+       "url": "https://nstperfume.com/2026/11/11/loewe-moonlight-new-fragrance/",
+       "date": "2026-11-11T16:17+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Disparition de Christian Astuguevieille, comme un parfum d’absence",
+       "source": "Auparfum",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVGt6c0QzcnhJWFpEa2xNLVdfQkxCQVowMzRtb2xoWUlHVnFyLUtoamp6Ylp6TGJtdHF6N2U1ZEt2MWlHajJrR185bjA4VFZKemV6b3lTU3BzS2Z3eTNPREEtU3BoSlVET0ZPYmJYYUNkbEMyQW1SeVBwdGhOSmhUeDBWeXZMQkRTVXhWSktSSm9icXA3VFhTNmh6eThiUQ?oc=5",
+       "date": "2026-11-11T17:57+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nantes : les parfums Sarradin reviennent rue Contrescarpe, 71 ans après la fermeture de la maison",
+       "source": "infos-media-nantes.fr",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbzAzNi14cXVseUluRkhKVlhzc1NTNVJtODI4Zm5nTWxvcUdpdldWcmljc1Y1dUhfN0RDME44bGdQbWduSUVsd3BXdUNWajUyVDBJWk8yQXllUTNyelpiMnhRRkxMSlRjVm51UmRUZUxBVVlmdW5GZFVRbHd5aWVzdDNHODRwSFM1Q1psUGtNNDJGdGt1a0xrUVF0d2VBcEJGS0Nz?oc=5",
+       "date": "2026-11-11T23:43+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "mode",
+     "titre": "Mode",
+     "resume": "Martine Rose devient la première femme directrice artistique de Balenciaga, qui sort aussi une collection avec Damien Hirst. Jonathan Anderson attribue ses débuts chez Dior à la collaboration et à la technologie. Viktor&Rolf deviennent mentors à l'Istituto Marangoni à Paris.",
+     "points": [
+      "Balenciaga : Martine Rose directrice artistique.",
+      "Jonathan Anderson parle de sa méthode chez Dior.",
+      "Viktor&Rolf mentors à l'Istituto Marangoni."
+     ],
+     "articles": [
+      {
+       "titre": "Martine Rose, Jamaican-British Designer, Balenciaga’s Creative Director",
+       "source": "NY Carib News",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGgtT0ZBaDVBU0Jwc2d5YU52OHQzSU9iU29OWmEwT2hPX3BrZjZEazhjclFSZ2U4c0NoSHluREdFbk54MWxuVXlEZG00R254WGlOUDhaaVRnQzdJb194aUl0akhwWXN4RkR5NlVNQ2NnMV9ST0V4QkZrZjVPNXNkNk0wRWJNUG9yaDgtVFdYVmNjbGpXdmJSRg?oc=5",
+       "date": "2026-11-11T20:02+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jonathan Anderson credits collaboration and technology as drivers at Dior",
+       "source": "Chosunbiz",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQVFduTnFJbHhEWE9RTDhlbG9ESzVlM1d5Z3hQSTI3ZTNxSTVkVmVjd2h4Rkpmd1AzLTlwcEFSVEFKQi1OOUo5eTVRWThvX1NyejNfMVA2eWxadkR3Y0prQXVYQ015bkRxbzd6NDVERmtIQjJXMk40S0Fn0gGOAUFVX3lxTE4wVzBYSHl4eHZlajJjTU90MmhYaUJLQUR6NnBubWZMOE1pS01LSjd3dEVxV2ZMbEFJc1NxUDZhR2pBUFF5SUtBTUV5LTNPWmpYd3V1ZWFiTF90LUVNZjhTeUNPeFZCdUV1dVVrV1J3Nml6UXJVbmRIMWFnQmdzX2tFWWdrejBNNEdaTnlJRVE?oc=5",
+       "date": "2026-11-11T20:02+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "FASHION DATE – Viktor&Rolf, nouveaux mentors de l’Istituto Marangoni à Paris : “Dès nos débuts, nous voulions faire parler de nous”",
+       "source": "Gala",
+       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcUFKZ2xzWFYzWFNOODJ1ZTFaQlNKZmVielBJXzhCT0lmWnJyMHZLMkRhY2o2dlFQUUpSX2FOeHE2dzlyVkhfNjVLMkIwdm56TUZjMHIwa3FSZnk1SjJNVTFnU1hSMnVxdU82SmtMVnNSeGN3T0hwTHRDTWdKX05qcVFmczZaTDc5S3AxbkdzelhRRGhULTFVQ0dPajJlTkItVkptTy1nQ1ZLRXl5LU1pYXowb3h2U01IWlRrR2VnN2hvakRTVlRKc2RMaVVvNDl1Wk53M2VEMXRPRVJLWFc5S2cwdFBIdXlDZFE5R2tFVnozSFhNamM5Z3NhdEEzdGpLY1E?oc=5",
+       "date": "2026-11-12T14:44+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "hotellerie",
+     "titre": "Hôtellerie de luxe",
+     "resume": "L'université de Californie rachète le Ritz-Carlton de Half Moon Bay pour 193 millions de dollars. Sofitel ouvre en Croatie avec Sofitel Kaštela, et Romain Chanet prend la tête du Four Seasons de Rabat. Côté mer, la Ritz-Carlton Yacht Collection change de dirigeants.",
+     "points": [
+      "Ritz-Carlton Half Moon Bay vendu 193 M$.",
+      "Nominations : Four Seasons Rabat, Ritz-Carlton Yacht Collection.",
+      "Ouverture : Sofitel Kaštela (Croatie)."
+     ],
+     "articles": [
+      {
+       "titre": "UC system buys Ritz-Carlton hotel in Half Moon Bay for $193 million",
+       "source": "Sacramento Bee",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XRk1hYjlKWlJhc0dWanJySU5TVUF0Z3RaLTduMDh3OTlndkd2MTRBeUJ5NFkxN0RkaE5YdXJ4aVItR3FQcGlBdldDMVczOTczWGlwZUEwNmZ3YkVXdElXNDdiU0pzeVdCdTFmcDNFeDZ2UWPSAXNBVV95cUxQTWRfZElqYnRNUU9MV01WOVJxSk04TDFSbko0X3lXUlQ0Y1hIckFpMFZoQjYtaVNTNGR0N2s3ZXc2R0RZOGRBblVXbkRVWmcxOGozemwzQkNpWUUyTDZET0xaMi1SRUl2ZEhkTm5WbTltcE9v?oc=5",
+       "date": "2026-11-12T14:45+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Sofitel Announces Sofitel Kaštela, Introducing the First International Luxury Hotel Brand to Croatia",
+       "source": "Hospitality Net",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOODgyQ3ZNaE5KVVBwOEpYb1Ntc1gwc3pOU1ZiYXRGNHFQSzJzMjA4MHZCX3ZiQkhDU0FncEdzRENKNkhOTzVDUThyam5LV0x2VlhvVlJPR3FXdzhPQ0hveVRKNU1FNHdNWGpFNU5Xak9FUENzN2t2SF9QLWhFUVZwcnAzZ3Fnc2xvSVFXRW4tbEpfNmFVcm9POWhGaHVZQ1RtSGp3XzFRTUNTSjNPUkVYaUhQNzVGclROS2hzWUFic3NaVjZQSXFaaW5sZnJ6a2UtM3J4RnJNdzVKZHExQ0lLd2xKZ3pjZXc?oc=5",
+       "date": "2026-11-12T15:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Maroc, Nomination | Romain Chanet à la tête du Four Seasons Hotel Rabat at Kasr Al Bahr",
+       "source": "La Tribune de l'Hôtellerie",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRlJrZVltRVpvLTZLOWpVSHRsWjU0M3U1Mkx3UXZONnF5MG8yWTFIV3I1LVUyUHBuMWJDVmJtUUtfa0VsQ3JPczhoc3pFeEVvRk15bEE5dXdLSGJGWXZCY2xzU0EtSy1pTnVBaWN1OVpPN2U2LTkyUV92Q2huSlpzU1NSUnhlNmFLSGFpU2RrQQ?oc=5",
+       "date": "2026-11-12T10:39+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "The Ritz-Carlton Yacht Collection appoints Alan Leibman as CEO and Tatiana Ferreira as President",
+       "source": "Travel Trade Journal",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGJLNWZTU2lES0xmdlNFRjM4TjNrN3hSTHZ2YUd4SXV6ZzQwVXkxX2d3QnA2SFVFVng1bWNySlFvTHY5a2t0dmxuaFdKUk5HQnBGNWFlNG5KQURrU1lVaGp0NVRaOUhXYThwdkNtdm54UF93SkNvOVhZQ1RuYXpyTTB6ZVpRRXo4YU5qU2FaTWxqVWZ4UU9Jek1SMF9kRHQ1Z3hKUE5zZkNHZEFIMnc2dVhFSzZpMjl4VFpYb0RfZm8yLUZVa0Zr?oc=5",
+       "date": "2026-11-12T10:03+00:00",
+       "origine": "presse"
+      }
+     ]
+    },
+    {
+     "id": "automobile",
+     "titre": "Automobile de luxe",
+     "resume": "Lamborghini annonce un nouveau modèle pour la semaine prochaine (peut-être une Temerario Spyder) et constate des livraisons revenues à la normale au Moyen-Orient. Bentley devient partenaire automobile du Paris Saint-Germain, Aston Martin s'associe à Star Wars, et Maserati construit une île privée de 840 logements à Dubaï.",
+     "points": [
+      "Lamborghini : nouveau modèle la semaine prochaine.",
+      "Bentley partenaire du PSG ; Aston Martin × Star Wars.",
+      "Maserati : île privée à Dubaï."
+     ],
+     "articles": [
+      {
+       "titre": "Lamborghini confirme un nouveau modèle la semaine prochaine, et cela pourrait être une Spyder V8 de 920 ch",
+       "source": "ItalPassion",
+       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV2kzMnJrMTFqbGNNWWx4Um0yRnBwMTFhQXZJallFWTJ1Ny1wWkdNSTk5MURRUG1zb1FrVHZGQkRjaFNDSjB2Z0dKQWNad3JxbEFOZ1hzSi1fMjJoa0FuR2NFVnZweElJWk1EZUV1eGdqeUlVMnN6M3hMWXVTV1BxTTA4b1lWVGJnRDZRdHRqVDBUcnJHY1c3Q0RfdThDbjNpbW15a3NVQjl0dzFMY3pFQW9BbXNiclhRV0xvM3pHZFFEMWlHeDN5Wm44eHFBWGR6dDBoeFQ4OVcyY2QyZXc?oc=5",
+       "date": "2026-11-12T14:54+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Lamborghini: les livraisons au Moyen-Orient semblent \"revenues à la normale\"",
+       "source": "Boursorama",
+       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTW94Qzg5MGYzbkZLc3VhTVllQThLVDZsMzRtS0pFYTJueE92ZnA1NzEyNTFiUjJCalFKMGxIdHF6T015Ml82YmhhWjlINFdwUnIxTlZZelFqeGFhMVQ1UkM1U1M2X0F1aXFJVmxOSWQ2YU9DbWlxLXdGNmg2QV9zLWQxd255UFItYzhKa21KX1poLWc3aS0tbzYxbGFkMldRRS1yOEJZUk1tUmg0cHNUYUI4dEVXTGdPb0RjaEExbk02M0pDYnhxNFphcVpvWldCQ0Y3bjA3enJQTFk1OTZmX2w0dTc0TWdlWWoycEs2djVzNVhRSmR2QtIB_gFBVV95cUxOTXBOVzlKZDZwR21xOS1WMUswUnBPcmtaWUNGU25QQ0pOblVZODBfc0hnYU5GUEdKdXFPdDNlSlNZVFJzMzBCQXNCVS10NndYOEZzSEJvZnVIUXJHU3dyck80T3ZpTHBZb2lNRTA3RnJRLUZCSlpMbkFDN1haVXl4dlRxSHNLbU1GeDRZeWhzMERScUQ3SVA2ZU8zaVpOWDBKOTlCNm1HdExjYjB0eHJSQThMYWJqdEF3U1VZeFQ1X09obHBUN2RicjYzWloxcExqQm9mSl80X1U5VWhiUFVnbzVjRU1CVWlkS2IzZy1LTUxBN3FUai1FcWh6UHVBZw?oc=5",
+       "date": "2026-11-12T15:46+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Bentley becomes official automotive partner of Paris Saint-Germain",
+       "source": "Luxury Daily",
+       "url": "https://www.luxurydaily.com/bentley-becomes-official-automotive-partner-of-paris-saint-germain/",
+       "date": "2026-11-12T09:45+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Aston Martin Goes From James Bond To Darth Vader With New Star Wars Collab",
+       "source": "CarScoops",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0taExPNmpzeHVyaGpkQnV6dGh2VmxQdDl6a0o1c010T205SjIyNnRKMV9PcEM1YkJXbS1TS0xsNDljQWYyUDNVZE4zdENOdVBDaVBPV0FuNGdqRTJhTExsQ0liYzRvU2ZLM1d0VzNJV2dXQWZQWlJYRQ?oc=5",
+       "date": "2026-11-12T14:06+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Maserati construit sa propre île privée à Dubaï avec 840 logements",
+       "source": "Auto Plus",
+       "url": "https://www.autoplus.fr/actualite/insolite/maserati-construit-sa-propre-ile-privee-a-dubai-avec-840-logements-1476615.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+       "date": "2026-11-12T16:15+00:00",
+       "origine": "passionnes"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "genere_le": "2026-11-12T17:08+00:00"
+}

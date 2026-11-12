@@ -1,0 +1,56 @@
+# Le Fil — collecte des dépêches toutes les 3 heures et mise en ligne du site.
+# Gratuit : GitHub Actions et GitHub Pages sont gratuits pour un dépôt public.
+name: Collecte et mise en ligne
+
+on:
+  schedule:
+    # Heures UTC. 05:20 UTC = 6 h 20 à Paris (hiver) : dépêches fraîches pour le résumé de 7 h.
+    - cron: "20 5,8,11,14,17,20 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  collecte-et-publication:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collecter les dépêches
+        if: github.event_name != 'push'
+        run: python3 scripts/collecte.py
+
+      - name: Enregistrer les dépêches dans le dépôt
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "le-fil-robot"
+          git config user.email "le-fil-robot@users.noreply.github.com"
+          git add data/depeches.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Dépêches $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploiement
+        uses: actions/deploy-pages@v4

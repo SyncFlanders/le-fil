@@ -1,0 +1,484 @@
+{
+  "_lisez_moi": "Liste des sujets suivis par Le Fil. Pour ajouter un sujet : copier un bloc sujet, changer id (unique, sans espace), titre, consigne (ce que tu veux / ne veux pas) et requetes (syntaxe Google Actualités : guillemets pour une expression exacte, OR, -mot pour exclure). langue fr = presse française, en = presse américaine. fenetre_h = combien d'heures en arrière on cherche. flux = sites de passionnés et presse spécialisée (RSS) ; filtre = ne garder que les titres contenant un de ces mots.",
+  "themes": [
+    {
+      "id": "sport",
+      "titre": "Sport",
+      "teinte": "#2f7d5b",
+      "sujets": [
+        {
+          "id": "real-madrid",
+          "titre": "Real Madrid",
+          "consigne": "Football, équipe première masculine uniquement : matchs, résultats, blessures, transferts, entraîneur, direction du club. Exclure le basket, la Castilla (réserve), l'équipe féminine et les pronostics de paris.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "\"Real Madrid\" -basket -Castilla -féminine",
+              "langue": "fr"
+            },
+            {
+              "q": "\"Real Madrid\" -basketball -Castilla -women",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.managingmadrid.com/rss/index.xml",
+              "nom": "Managing Madrid",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.madridistareal.com/feed/",
+              "nom": "Madridista Real",
+              "langue": "en"
+            }
+          ]
+        },
+        {
+          "id": "florida-gators",
+          "titre": "Florida Gators",
+          "consigne": "Football universitaire (college football) des Florida Gators uniquement : matchs, classement, entraîneur, joueurs, recrutement. Exclure le basket et les autres sports de l'université.",
+          "fenetre_h": 48,
+          "requetes": [
+            {
+              "q": "\"Florida Gators\" football",
+              "langue": "en"
+            },
+            {
+              "q": "\"Gators\" football Sumrall OR quarterback OR SEC",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.gatorcountry.com/feed/",
+              "nom": "Gator Country",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.onlygators.com/feed/",
+              "nom": "OnlyGators",
+              "langue": "en"
+            }
+          ]
+        },
+        {
+          "id": "jaguars",
+          "titre": "Jacksonville Jaguars",
+          "consigne": "NFL, Jacksonville Jaguars : matchs, résultats, blessures, transferts, effectif, entraîneur (Liam Coen), Trevor Lawrence.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "\"Jacksonville Jaguars\" OR \"Jaguars\" NFL",
+              "langue": "en"
+            },
+            {
+              "q": "\"Jaguars de Jacksonville\" OR \"Jacksonville Jaguars\"",
+              "langue": "fr"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.jaguars.com/rss/news",
+              "nom": "Jaguars.com (officiel)",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.bigcatcountry.com/rss/index.xml",
+              "nom": "Big Cat Country",
+              "langue": "en"
+            },
+            {
+              "flux": "https://blackandteal.com/feed",
+              "nom": "Black and Teal",
+              "langue": "en"
+            }
+          ]
+        },
+        {
+          "id": "orlando-magic",
+          "titre": "Orlando Magic",
+          "consigne": "NBA, Orlando Magic : matchs, résultats, blessures, transferts, effectif (Paolo Banchero, Franz Wagner…), entraîneur.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "\"Orlando Magic\"",
+              "langue": "fr"
+            },
+            {
+              "q": "\"Orlando Magic\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://orlandomagicdaily.com/feed",
+              "nom": "Orlando Magic Daily",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.basketusa.com/feed/",
+              "nom": "Basket USA",
+              "langue": "fr",
+              "filtre": [
+                "Magic",
+                "Orlando",
+                "Banchero",
+                "Wagner",
+                "Suggs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "titre": "IA & tech",
+      "teinte": "#4a5bd4",
+      "sujets": [
+        {
+          "id": "anthropic",
+          "titre": "Anthropic",
+          "consigne": "Tout ce qui touche Anthropic et Claude : nouveaux modèles et produits, introduction en Bourse, financement, partenariats, procès, régulation. Sujet prioritaire : ne rien manquer d'important.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "Anthropic",
+              "langue": "fr"
+            },
+            {
+              "q": "Anthropic OR \"Claude AI\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://simonwillison.net/atom/everything/",
+              "nom": "Simon Willison",
+              "langue": "en",
+              "filtre": [
+                "Anthropic",
+                "Claude"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "big-tech",
+          "titre": "Grands groupes tech",
+          "consigne": "Les nouvelles importantes des grands groupes tech mondiaux (Apple, Google/Alphabet, Microsoft, Meta, Amazon, Nvidia, OpenAI, Tesla, Samsung, TSMC…) : produits, résultats, rachats, régulation, Bourse. Garder ce qui compte, pas les tests de produits ni les bons plans.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "Apple OR Google OR Microsoft OR Meta OR Amazon OR Nvidia OR OpenAI -promo -\"bon plan\"",
+              "langue": "fr"
+            },
+            {
+              "q": "Apple OR Alphabet OR Microsoft OR Meta OR Amazon OR Nvidia OR OpenAI OR TSMC",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.techmeme.com/feed.xml",
+              "nom": "Techmeme",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.theverge.com/rss/index.xml",
+              "nom": "The Verge",
+              "langue": "en"
+            },
+            {
+              "flux": "https://www.numerama.com/feed/",
+              "nom": "Numerama",
+              "langue": "fr"
+            }
+          ]
+        },
+        {
+          "id": "ia-monde",
+          "titre": "IA dans le monde",
+          "consigne": "L'actualité de l'intelligence artificielle au-delà d'Anthropic et des grands groupes : régulation (AI Act, États-Unis, Chine), recherche, startups (Mistral, xAI, DeepSeek…), puces et centres de données.",
+          "fenetre_h": 24,
+          "requetes": [
+            {
+              "q": "\"intelligence artificielle\" OR IA Mistral OR DeepSeek OR xAI OR \"AI Act\"",
+              "langue": "fr"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://simonwillison.net/atom/everything/",
+              "nom": "Simon Willison",
+              "langue": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luxe",
+      "titre": "Luxe",
+      "teinte": "#a8744a",
+      "sujets": [
+        {
+          "id": "maisons",
+          "titre": "Maisons & groupes",
+          "consigne": "Les grands groupes et maisons de luxe (LVMH, Hermès, Kering, Chanel, Richemont, Prada, Moncler…) : résultats, Bourse, nominations, rachats, stratégie, ouvertures de boutiques notables. Exclure les simples cotations sans information.",
+          "fenetre_h": 48,
+          "requetes": [
+            {
+              "q": "LVMH OR Hermès OR Kering OR Chanel OR Richemont OR Prada OR Moncler -\"cours action\"",
+              "langue": "fr"
+            },
+            {
+              "q": "LVMH OR Hermes OR Kering OR Chanel OR Richemont luxury",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.luxurydaily.com/feed/",
+              "nom": "Luxury Daily",
+              "langue": "en"
+            },
+            {
+              "flux": "https://luxus-plus.com/feed/",
+              "nom": "Luxus+",
+              "langue": "fr"
+            }
+          ]
+        },
+        {
+          "id": "parfumerie",
+          "titre": "Parfumerie",
+          "consigne": "Parfumerie de luxe et de niche : lancements notables, nez, maisons (Dior, Chanel, Guerlain, Hermès, Frédéric Malle, Le Labo…), marché et groupes (Puig, L'Oréal Luxe, Estée Lauder, Interparfums). Exclure les bons plans et promotions.",
+          "fenetre_h": 72,
+          "requetes": [
+            {
+              "q": "parfumerie OR \"parfum de luxe\" OR parfumeur OR \"maison de parfum\" -promo -soldes",
+              "langue": "fr"
+            },
+            {
+              "q": "fragrance luxury OR perfume house OR Puig OR \"Estee Lauder\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.nez-larevue.fr/feed/",
+              "nom": "Nez, la revue",
+              "langue": "fr"
+            },
+            {
+              "flux": "https://nstperfume.com/feed/",
+              "nom": "Now Smell This",
+              "langue": "en"
+            }
+          ]
+        },
+        {
+          "id": "mode",
+          "titre": "Mode",
+          "consigne": "Mode de luxe : directeurs artistiques (arrivées, départs), défilés et collections marquantes, collaborations, tendances du marché. Exclure les conseils de style et les sélections shopping.",
+          "fenetre_h": 48,
+          "requetes": [
+            {
+              "q": "\"directeur artistique\" OR \"directrice artistique\" OR défilé maison luxe OR haute couture",
+              "langue": "fr"
+            },
+            {
+              "q": "\"creative director\" luxury fashion house OR runway",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://wwd.com/feed/",
+              "nom": "WWD",
+              "langue": "en"
+            },
+            {
+              "flux": "https://luxus-plus.com/feed/",
+              "nom": "Luxus+",
+              "langue": "fr",
+              "filtre": [
+                "mode",
+                "défilé",
+                "collection",
+                "directeur",
+                "directrice",
+                "couture",
+                "fashion"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hotellerie",
+          "titre": "Hôtellerie de luxe",
+          "consigne": "Hôtellerie de luxe : palaces, ouvertures, rachats, groupes (Aman, Four Seasons, Cheval Blanc, Rosewood, Belmond, Accor luxe, Ritz-Carlton…), classements.",
+          "fenetre_h": 72,
+          "requetes": [
+            {
+              "q": "\"hôtel de luxe\" OR \"hôtel palace\" OR \"distinction Palace\" OR \"Cheval Blanc\" OR \"Aman Resorts\" OR \"Four Seasons\" OR \"Rosewood Hotels\" -\"Crystal Palace\"",
+              "langue": "fr"
+            },
+            {
+              "q": "\"luxury hotel\" OR \"Aman Resorts\" OR \"Four Seasons Hotels\" OR \"Rosewood Hotels\" OR Belmond OR \"Ritz-Carlton\" -\"Crystal Palace\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://skift.com/feed/",
+              "nom": "Skift",
+              "langue": "en",
+              "filtre": [
+                "luxury",
+                "hotel",
+                "resort",
+                "Aman",
+                "Four Seasons",
+                "Rosewood",
+                "Ritz",
+                "Belmond"
+              ]
+            },
+            {
+              "flux": "https://www.luxurytraveladvisor.com/rss.xml",
+              "nom": "Luxury Travel Advisor",
+              "langue": "en"
+            },
+            {
+              "flux": "https://robbreport.com/feed/",
+              "nom": "Robb Report",
+              "langue": "en",
+              "filtre": [
+                "hotel",
+                "resort",
+                "suite",
+                "villa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "automobile",
+          "titre": "Automobile de luxe",
+          "consigne": "Automobile de luxe et de prestige : Ferrari, Lamborghini, Porsche, Rolls-Royce, Bentley, Aston Martin, Bugatti, McLaren, Maserati : nouveaux modèles, résultats, stratégie, ventes aux enchères notables.",
+          "fenetre_h": 48,
+          "requetes": [
+            {
+              "q": "Ferrari OR Lamborghini OR \"Rolls-Royce\" OR Bentley OR \"Aston Martin\" OR Bugatti OR McLaren -F1 -\"Formule 1\"",
+              "langue": "fr"
+            },
+            {
+              "q": "Ferrari OR Lamborghini OR \"Rolls-Royce\" OR Bentley OR \"Aston Martin\" OR Bugatti -F1 -\"Formula 1\"",
+              "langue": "en"
+            }
+          ],
+          "flux": [
+            {
+              "flux": "https://www.carscoops.com/feed/",
+              "nom": "Carscoops",
+              "langue": "en",
+              "filtre": [
+                "Ferrari",
+                "Lamborghini",
+                "Porsche",
+                "Rolls",
+                "Bentley",
+                "Aston",
+                "Bugatti",
+                "McLaren",
+                "Maserati",
+                "Pagani",
+                "Koenigsegg"
+              ]
+            },
+            {
+              "flux": "https://www.motor1.com/rss/news/all/",
+              "nom": "Motor1",
+              "langue": "en",
+              "filtre": [
+                "Ferrari",
+                "Lamborghini",
+                "Porsche",
+                "Rolls",
+                "Bentley",
+                "Aston",
+                "Bugatti",
+                "McLaren",
+                "Maserati",
+                "Pagani",
+                "Koenigsegg"
+              ]
+            },
+            {
+              "flux": "https://www.autoplus.fr/feed",
+              "nom": "Auto Plus",
+              "langue": "fr",
+              "filtre": [
+                "Ferrari",
+                "Lamborghini",
+                "Porsche",
+                "Rolls",
+                "Bentley",
+                "Aston",
+                "Bugatti",
+                "McLaren",
+                "Maserati"
+              ]
+            },
+            {
+              "flux": "https://robbreport.com/feed/",
+              "nom": "Robb Report",
+              "langue": "en",
+              "filtre": [
+                "Ferrari",
+                "Lamborghini",
+                "Porsche",
+                "Rolls",
+                "Bentley",
+                "Aston",
+                "Bugatti",
+                "McLaren"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions_globales": [
+    "pronostic",
+    "pronostics",
+    "cotes",
+    "paris sportifs",
+    "Analyse IA",
+    "odds",
+    "betting",
+    "best bets",
+    "picks",
+    "code promo",
+    "bon plan",
+    "prediction",
+    "Crystal Palace",
+    "Store Director",
+    "Specialist",
+    "Manager —",
+    "offre d'emploi",
+    "job"
+  ],
+  "sources_exclues": [
+    "horticulture-abadie-pyrenees.com",
+    "horticulture",
+    "YSscores",
+    "Yalla Shoot",
+    "BVM Sports",
+    "Kering"
+  ]
+}
