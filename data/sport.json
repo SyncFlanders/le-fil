@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13T20:56+00:00",
+ "genere_le": "2026-11-14T12:15+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -606,21 +606,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
    "prochains": [
     {
-     "date": "2026-11-14T00:00Z",
-     "competition": "Regular Season",
-     "adversaire": "Milwaukee Bucks",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-     "domicile": true,
-     "lieu": "Kia Center",
-     "tv": [
-      "MyMi",
-      "Bucks App"
-     ],
-     "termine": false,
-     "id": "401909297",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-17T00:00Z",
      "competition": "Regular Season",
      "adversaire": "Boston Celtics",
@@ -645,23 +630,37 @@
      "termine": false,
      "id": "401910010",
      "ligue": ""
+    },
+    {
+     "date": "2026-11-21T00:30Z",
+     "competition": "Regular Season",
+     "adversaire": "Brooklyn Nets",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+     "domicile": false,
+     "lieu": "Barclays Center",
+     "tv": [
+      "DAZN (YES)"
+     ],
+     "termine": false,
+     "id": "401909306",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-12T02:00Z",
+    "date": "2026-11-14T00:00Z",
     "competition": "Regular Season",
-    "adversaire": "Utah Jazz",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-    "domicile": false,
-    "lieu": "Delta Center",
+    "adversaire": "Milwaukee Bucks",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+    "domicile": true,
+    "lieu": "Kia Center",
     "tv": [
-     "KJZZ-TV",
-     "Jazz+"
+     "MyMi",
+     "Bucks App"
     ],
     "termine": true,
-    "id": "401909973",
+    "id": "401909297",
     "ligue": "",
-    "score": "123-108",
+    "score": "107-99",
     "resultat": "V",
     "tops": [
      {
@@ -669,21 +668,21 @@
       "poste": "Points",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "38"
+      "valeur": "35"
      },
      {
-      "nom": "Anthony Black",
+      "nom": "Franz Wagner",
       "poste": "Passes déc.",
-      "numero": "0",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4712849.png",
-      "valeur": "8"
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+      "valeur": "12"
      },
      {
       "nom": "Franz Wagner",
       "poste": "Rebonds",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "8"
+      "valeur": "9"
      }
     ]
    },
@@ -691,11 +690,11 @@
     "type": "liste",
     "titre": "Cinq de départ du dernier match",
     "match": {
-     "adversaire": "Utah Jazz",
-     "date": "2026-11-12T02:00Z",
-     "score": "123-108",
+     "adversaire": "Milwaukee Bucks",
+     "date": "2026-11-14T00:00Z",
+     "score": "107-99",
      "resultat": "V",
-     "domicile": false
+     "domicile": true
     },
     "joueurs": [
      {
@@ -703,6 +702,12 @@
       "poste": "Ailier",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png"
+     },
+     {
+      "nom": "Tristan da Silva",
+      "poste": "Ailier",
+      "numero": "23",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png"
      },
      {
       "nom": "Wendell Carter Jr.",
@@ -715,12 +720,6 @@
       "poste": "Arrière",
       "numero": "3",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png"
-     },
-     {
-      "nom": "Alex Morales",
-      "poste": "Arrière",
-      "numero": "30",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4593034.png"
      },
      {
       "nom": "Anthony Black",

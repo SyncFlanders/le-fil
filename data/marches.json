@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13T20:56+00:00",
+ "genere_le": "2026-11-14T12:15+00:00",
  "cours": [
   {
    "id": "^FCHI",
@@ -23,19 +23,19 @@
    "id": "^GSPC",
    "sujet": "bourse",
    "nom": "S&P 500",
-   "valeur": 7560.19,
+   "valeur": 7561.67,
    "unite": "pts",
-   "variation": -0.42,
-   "maj": "2026-11-13T20:56+00:00"
+   "variation": -0.4,
+   "maj": "2026-11-13T21:43+00:00"
   },
   {
    "id": "^IXIC",
    "sujet": "bourse",
    "nom": "Nasdaq",
-   "valeur": 25138.184,
+   "valeur": 25136.273,
    "unite": "pts",
-   "variation": -0.9,
-   "maj": "2026-11-13T20:56+00:00"
+   "variation": -0.91,
+   "maj": "2026-11-13T22:15+00:00"
   },
   {
    "id": "^TNX",
@@ -51,58 +51,58 @@
    "id": "EURUSD=X",
    "sujet": "bourse",
    "nom": "Euro / dollar",
-   "valeur": 1.1025,
+   "valeur": 1.1028,
    "unite": "$",
-   "variation": -0.63,
-   "maj": "2026-11-13T20:56+00:00"
+   "variation": -0.61,
+   "maj": "2026-11-13T22:29+00:00"
   },
   {
    "id": "BZ=F",
    "sujet": "bourse",
    "nom": "Pétrole Brent",
-   "valeur": 96.05,
+   "valeur": 95.84,
    "unite": "$",
-   "variation": 0.24,
-   "maj": "2026-11-13T20:45+00:00"
+   "variation": 0.02,
+   "maj": "2026-11-13T21:59+00:00"
   },
   {
    "id": "GC=F",
    "sujet": "bourse",
    "nom": "Or (once)",
-   "valeur": 3878.2,
+   "valeur": 3886.3,
    "unite": "$",
-   "variation": -0.18,
-   "maj": "2026-11-13T20:46+00:00"
+   "variation": 0.03,
+   "maj": "2026-11-13T21:59+00:00"
   },
   {
    "id": "bitcoin",
    "sujet": "crypto",
    "nom": "Bitcoin",
-   "valeur": 62511,
+   "valeur": 60921,
    "unite": "€",
-   "variation": -3.26,
+   "variation": -3.01,
    "sur": "24 h",
-   "maj": "2026-11-13T20:55+00:00"
+   "maj": "2026-11-14T12:15+00:00"
   },
   {
    "id": "ethereum",
    "sujet": "crypto",
    "nom": "Ethereum",
-   "valeur": 1768.01,
+   "valeur": 1729.42,
    "unite": "€",
-   "variation": -2.98,
+   "variation": -2.56,
    "sur": "24 h",
-   "maj": "2026-11-13T20:55+00:00"
+   "maj": "2026-11-14T12:14+00:00"
   },
   {
    "id": "solana",
    "sujet": "crypto",
    "nom": "Solana",
-   "valeur": 72.65,
+   "valeur": 68.73,
    "unite": "€",
-   "variation": -1.27,
+   "variation": -5.92,
    "sur": "24 h",
-   "maj": "2026-11-13T20:55+00:00"
+   "maj": "2026-11-14T12:15+00:00"
   }
  ]
 }
