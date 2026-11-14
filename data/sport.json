@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-14T19:13+00:00",
+ "genere_le": "2026-11-14T23:58+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -317,36 +317,36 @@
     "type": "liste",
     "titre": "Joueurs clés du dernier match",
     "match": {
-     "adversaire": "Oklahoma Sooners",
-     "date": "2026-11-08T00:45Z",
-     "score": "7-23",
-     "resultat": "D",
-     "domicile": true
+     "adversaire": "Kentucky Wildcats",
+     "date": "2026-11-14T23:15Z",
+     "score": null,
+     "resultat": null,
+     "domicile": false
     },
     "joueurs": [
      {
-      "nom": "Tramell Jones Jr.",
+      "nom": "Aaron Philo",
       "poste": "Passes",
-      "numero": "9",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295814.png"
-     },
-     {
-      "nom": "Jadan Baugh",
-      "poste": "Course",
-      "numero": "13",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png"
+      "numero": "12",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png"
      },
      {
       "nom": "Duke Clark",
-      "poste": "Réception",
+      "poste": "Course",
       "numero": "20",
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png"
      },
      {
-      "nom": "Myles Graham",
+      "nom": "Dallas Wilson",
+      "poste": "Réception",
+      "numero": "6",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141723.png"
+     },
+     {
+      "nom": "Ben Hanks III",
       "poste": "Défense",
-      "numero": "5",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079480.png"
+      "numero": "12",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295813.png"
      }
     ]
    }
