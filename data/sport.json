@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-14T23:58+00:00",
+ "genere_le": "2026-11-15T12:48+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -227,20 +227,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
    "prochains": [
     {
-     "date": "2026-11-14T23:15Z",
-     "competition": "Regular Season",
-     "adversaire": "Kentucky Wildcats",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-     "domicile": false,
-     "lieu": "Kroger Field",
-     "tv": [
-      "ESPN"
-     ],
-     "termine": false,
-     "id": "401856884",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-21T17:00Z",
      "competition": "Regular Season",
      "adversaire": "Vanderbilt Commodores",
@@ -268,48 +254,48 @@
     }
    ],
    "dernier": {
-    "date": "2026-11-08T00:45Z",
+    "date": "2026-11-14T23:15Z",
     "competition": "Regular Season",
-    "adversaire": "Oklahoma Sooners",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-    "domicile": true,
-    "lieu": "Ben Hill Griffin Stadium",
+    "adversaire": "Kentucky Wildcats",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "domicile": false,
+    "lieu": "Kroger Field",
     "tv": [
-     "SEC Network"
+     "ESPN"
     ],
     "termine": true,
-    "id": "401856739",
+    "id": "401856884",
     "ligue": "",
-    "score": "7-23",
-    "resultat": "D",
+    "score": "21-14",
+    "resultat": "V",
     "tops": [
      {
-      "nom": "Tramell Jones Jr.",
+      "nom": "Aaron Philo",
       "poste": "Passes",
-      "numero": "9",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295814.png",
-      "valeur": "10/22, 133 yds, 2 int."
+      "numero": "12",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+      "valeur": "16/24, 119 yds"
      },
      {
-      "nom": "Jadan Baugh",
+      "nom": "Aaron Philo",
       "poste": "Course",
-      "numero": "13",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
-      "valeur": "8 courses, 35 yds, 1 TD"
+      "numero": "12",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+      "valeur": "15 courses, 102 yds, 1 TD"
      },
      {
-      "nom": "Duke Clark",
+      "nom": "Bailey Stockton",
       "poste": "Réception",
-      "numero": "20",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png",
-      "valeur": "4 réc., 70 yds"
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5125593.png",
+      "valeur": "4 réc., 34 yds"
      },
      {
-      "nom": "Kofi Asare",
+      "nom": "Jayden Woods",
       "poste": "Sacks",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4912316.png",
-      "valeur": "0.5"
+      "numero": "0",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141766.png",
+      "valeur": "1.5"
      }
     ]
    },
@@ -319,8 +305,8 @@
     "match": {
      "adversaire": "Kentucky Wildcats",
      "date": "2026-11-14T23:15Z",
-     "score": null,
-     "resultat": null,
+     "score": "21-14",
+     "resultat": "V",
      "domicile": false
     },
     "joueurs": [
@@ -331,16 +317,16 @@
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png"
      },
      {
-      "nom": "Duke Clark",
+      "nom": "Aaron Philo",
       "poste": "Course",
-      "numero": "20",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5295815.png"
+      "numero": "12",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png"
      },
      {
-      "nom": "Dallas Wilson",
+      "nom": "Bailey Stockton",
       "poste": "Réception",
-      "numero": "6",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141723.png"
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5125593.png"
      },
      {
       "nom": "Ben Hanks III",
@@ -2354,14 +2340,6 @@
    "poste": "Tight end",
    "numero": "",
    "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4362603.png",
-   "credit": "ESPN"
-  },
-  "jacob bobenmoyer": {
-   "nom": "Jacob Bobenmoyer",
-   "equipe": "jaguars",
-   "poste": "Long snapper",
-   "numero": "55",
-   "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3925443.png",
    "credit": "ESPN"
   },
   "t j bollers": {
