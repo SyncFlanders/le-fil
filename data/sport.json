@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-15T23:59+00:00",
+ "genere_le": "2026-11-16T13:43+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -233,7 +233,9 @@
      "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
      "domicile": true,
      "lieu": "Ben Hill Griffin Stadium",
-     "tv": [],
+     "tv": [
+      "SEC Network"
+     ],
      "termine": false,
      "id": "401856748",
      "ligue": ""
