@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-16T13:43+00:00",
+ "genere_le": "2026-11-16T23:26+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -42,6 +42,7 @@
      "domicile": true,
      "lieu": "Santiago Bernabéu",
      "tv": [
+      "ESPN Deportes",
       "ESPN+"
      ],
      "termine": false,
@@ -579,10 +580,10 @@
         "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4242149.png"
        },
        {
-        "nom": "Jourdan Lewis",
+        "nom": "Jarrian Jones",
         "poste": "Nickel back",
-        "numero": "2",
-        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3045207.png"
+        "numero": "4",
+        "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4426448.png"
        }
       ]
      }
