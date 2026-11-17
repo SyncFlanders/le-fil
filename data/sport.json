@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-17T14:30+00:00",
+ "genere_le": "2026-11-17T23:52+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -359,14 +359,14 @@
      "ligue": ""
     },
     {
-     "date": "2026-11-29T21:05Z",
+     "date": "2026-11-29T18:00Z",
      "competition": "Regular Season",
      "adversaire": "Tennessee Titans",
      "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
      "domicile": true,
      "lieu": "EverBank Stadium",
      "tv": [
-      "CBS"
+      "Fox"
      ],
      "termine": false,
      "id": "401873090",
@@ -2594,14 +2594,14 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-17T14:30+00:00",
+  "genere_le": "2026-11-17T23:52+00:00",
   "matchs": [
    {
     "id": "401866465",
     "date": "2026-11-17T23:00Z",
     "chaine": "ESPN2",
-    "etat": "pre",
-    "detail": "11/17 - 6:00 PM EST",
+    "etat": "in",
+    "detail": "11:26 - 2nd",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2611,7 +2611,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
      "rang": null,
      "bilan": "7-3",
-     "score": null
+     "score": "14"
     },
     "ext": {
      "nom": "Eastern Michigan",
@@ -2620,7 +2620,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
      "rang": null,
      "bilan": "4-6",
-     "score": null
+     "score": "7"
     }
    },
    {
