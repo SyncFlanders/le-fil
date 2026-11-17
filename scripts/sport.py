@@ -276,6 +276,69 @@ def tops(e: dict, eq: dict, joueurs: dict) -> list:
     return []
 
 
+# College football sur Disney+ (France) : depuis avril 2026, l'espace ESPN de Disney+ reprend les
+# matchs diffusés aux États-Unis sur les chaînes du groupe Disney, mais ne les met pas en avant (on ne
+# les trouve qu'en cherchant une équipe). On les liste à partir de la chaîne indiquée par ESPN.
+# Règle vérifiée le 2026-11-17 en cherchant 15 matchs dans Disney+ France :
+# - chaînes ESPN/ABC, SEC Network, ACC Network, SECN+ : tous présents ;
+# - ESPN+ : présents seulement quand l'équipe qui reçoit est en SEC, ACC, Big 12 ou American (3/3) ;
+#   absents pour la Sun Belt, la Conference USA et la MAC (0/4).
+CHAINES_DISNEY = {"ABC", "ESPN", "ESPN2", "ESPNU", "ESPNEWS", "SEC Network", "ACC Network", "SECN+", "ACCNX", "ACCN+", "LHN", "Disney+"}
+CONF_ESPN_PLUS = {"1", "4", "8", "151"}  # identifiants ESPN : ACC, Big 12, SEC, American
+
+
+def college_disney(maintenant: datetime, jours: int = 9) -> list:
+    matchs = {}
+    for i in range(jours):
+        # Journées américaines : un match du samedi soir aux États-Unis tombe le dimanche à Paris.
+        jour = (maintenant - timedelta(hours=8) + timedelta(days=i)).strftime("%Y%m%d")
+        d = get(f"{ESPN}/football/college-football/scoreboard?dates={jour}&groups=80&limit=300")
+        for ev in d.get("events", []):
+            comp = ev["competitions"][0]
+            chaines = []
+            for b in comp.get("geoBroadcasts", []) + comp.get("broadcasts", []):
+                n = (b.get("media") or {}).get("shortName") or ((b.get("names") or [None])[0])
+                if n and n not in chaines:
+                    chaines.append(n)
+            recoit = next((c for c in comp["competitors"] if c.get("homeAway") == "home"), comp["competitors"][0])
+            tv = [c for c in chaines if c in CHAINES_DISNEY]
+            if not tv and "ESPN+" in chaines and str(recoit["team"].get("conferenceId")) in CONF_ESPN_PLUS:
+                tv = ["ESPN+"]
+            if not tv:
+                continue
+            statut = comp.get("status", {}).get("type", {})
+            debut = datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+            if statut.get("completed") and debut < maintenant - timedelta(hours=12):
+                continue
+            equipes = {}
+            for c in comp["competitors"]:
+                t = c["team"]
+                rang = (c.get("curatedRank") or {}).get("current") or 99
+                equipes[c.get("homeAway", "home")] = {
+                    "nom": t.get("location") or t.get("displayName"),
+                    "surnom": t.get("name") or "",
+                    "abr": t.get("abbreviation") or "",
+                    "logo": t.get("logo") or "",
+                    "rang": rang if rang <= 25 else None,
+                    "bilan": ((c.get("records") or [{}])[0]).get("summary") or "",
+                    "score": score(c) if statut.get("state") != "pre" else None,
+                }
+            if "home" not in equipes or "away" not in equipes:
+                continue
+            matchs[ev["id"]] = {
+                "id": ev["id"],
+                "date": ev["date"],
+                "chaine": tv[0],
+                "etat": statut.get("state"),  # pre, in, post
+                "detail": statut.get("shortDetail") or "",
+                "neutre": bool(comp.get("neutralSite")),
+                "titre": ((comp.get("notes") or [{}])[0]).get("headline", ""),  # nom du bowl, finale…
+                "dom": equipes["home"],
+                "ext": equipes["away"],
+            }
+    return sorted(matchs.values(), key=lambda m: m["date"])
+
+
 def main() -> int:
     conf = json.loads(SUJETS.read_text(encoding="utf-8"))
     ancien = json.loads(SORTIE.read_text(encoding="utf-8")) if SORTIE.exists() else {}
@@ -383,6 +446,16 @@ def main() -> int:
                 erreurs += 1
                 print(f"[erreur] composition {sujet['id']}: {ex}", file=sys.stderr)
                 eq["composition"] = (ancien.get("equipes", {}).get(sujet["id"]) or {}).get("composition")
+
+    try:
+        cfb = college_disney(maintenant)
+        sortie["college_disney"] = {"genere_le": maintenant.isoformat(timespec="minutes"), "matchs": cfb}
+        print(f"college football sur Disney+ : {len(cfb)} matchs")
+    except Exception as ex:
+        erreurs += 1
+        print(f"[erreur] college football Disney+: {ex}", file=sys.stderr)
+        if "college_disney" in ancien:
+            sortie["college_disney"] = ancien["college_disney"]
 
     # Joueurs ajoutés à la main par la routine (cités dans un résumé, hors effectif) : on les garde.
     for k, v in joueurs_avant.items():

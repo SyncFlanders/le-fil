@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-16T23:26+00:00",
+ "genere_le": "2026-11-17T05:48+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -595,20 +595,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
    "prochains": [
     {
-     "date": "2026-11-17T00:00Z",
-     "competition": "Regular Season",
-     "adversaire": "Boston Celtics",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-     "domicile": false,
-     "lieu": "TD Garden",
-     "tv": [
-      "NBCSN"
-     ],
-     "termine": false,
-     "id": "401909994",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-19T00:00Z",
      "competition": "Regular Season",
      "adversaire": "Philadelphia 76ers",
@@ -633,45 +619,58 @@
      "termine": false,
      "id": "401909306",
      "ligue": ""
+    },
+    {
+     "date": "2026-11-23T00:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Washington Wizards",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+     "domicile": false,
+     "lieu": "Capital One Arena",
+     "tv": [
+      "MNMT"
+     ],
+     "termine": false,
+     "id": "401910031",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-14T00:00Z",
+    "date": "2026-11-17T00:00Z",
     "competition": "Regular Season",
-    "adversaire": "Milwaukee Bucks",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-    "domicile": true,
-    "lieu": "Kia Center",
+    "adversaire": "Boston Celtics",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+    "domicile": false,
+    "lieu": "TD Garden",
     "tv": [
-     "MyMi",
-     "Bucks App"
+     "NBCSN"
     ],
     "termine": true,
-    "id": "401909297",
+    "id": "401909994",
     "ligue": "",
-    "score": "107-99",
+    "score": "115-105",
     "resultat": "V",
     "tops": [
      {
-      "nom": "Franz Wagner",
+      "nom": "Desmond Bane",
       "poste": "Points",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "35"
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+      "valeur": "24"
      },
      {
       "nom": "Franz Wagner",
       "poste": "Passes déc.",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "12"
+      "valeur": "9"
      },
      {
-      "nom": "Franz Wagner",
+      "nom": "Desmond Bane",
       "poste": "Rebonds",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "9"
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+      "valeur": "8"
      }
     ]
    },
@@ -679,11 +678,11 @@
     "type": "liste",
     "titre": "Cinq de départ du dernier match",
     "match": {
-     "adversaire": "Milwaukee Bucks",
-     "date": "2026-11-14T00:00Z",
-     "score": "107-99",
+     "adversaire": "Boston Celtics",
+     "date": "2026-11-17T00:00Z",
+     "score": "115-105",
      "resultat": "V",
-     "domicile": true
+     "domicile": false
     },
     "joueurs": [
      {
@@ -691,12 +690,6 @@
       "poste": "Ailier",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png"
-     },
-     {
-      "nom": "Tristan da Silva",
-      "poste": "Ailier",
-      "numero": "23",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png"
      },
      {
       "nom": "Wendell Carter Jr.",
@@ -709,6 +702,12 @@
       "poste": "Arrière",
       "numero": "3",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png"
+     },
+     {
+      "nom": "Jalen Suggs",
+      "poste": "Arrière",
+      "numero": "4",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4432165.png"
      },
      {
       "nom": "Anthony Black",
@@ -2593,5 +2592,847 @@
    "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
    "credit": "ESPN"
   }
+ },
+ "college_disney": {
+  "genere_le": "2026-11-17T05:48+00:00",
+  "matchs": [
+   {
+    "id": "401866465",
+    "date": "2026-11-17T23:00Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/17 - 6:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Western Michigan",
+     "surnom": "Broncos",
+     "abr": "WMU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    },
+    "ext": {
+     "nom": "Eastern Michigan",
+     "surnom": "Eagles",
+     "abr": "EMU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401866466",
+    "date": "2026-11-18T00:00Z",
+    "chaine": "ESPNU",
+    "etat": "pre",
+    "detail": "11/17 - 7:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Kent State",
+     "surnom": "Golden Flashes",
+     "abr": "KENT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+     "rang": null,
+     "bilan": "3-7",
+     "score": null
+    },
+    "ext": {
+     "nom": "Miami (OH)",
+     "surnom": "RedHawks",
+     "abr": "M-OH",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401866469",
+    "date": "2026-11-19T00:30Z",
+    "chaine": "ESPNU",
+    "etat": "pre",
+    "detail": "11/18 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Buffalo",
+     "surnom": "Bulls",
+     "abr": "BUFF",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    },
+    "ext": {
+     "nom": "Central Michigan",
+     "surnom": "Chippewas",
+     "abr": "CMU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    }
+   },
+   {
+    "id": "401862830",
+    "date": "2026-11-20T00:30Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/19 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Temple",
+     "surnom": "Owls",
+     "abr": "TEM",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+     "rang": null,
+     "bilan": "2-8",
+     "score": null
+    },
+    "ext": {
+     "nom": "Rice",
+     "surnom": "Owls",
+     "abr": "RICE",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+     "rang": null,
+     "bilan": "1-9",
+     "score": null
+    }
+   },
+   {
+    "id": "401858303",
+    "date": "2026-11-21T00:30Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/20 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Duke",
+     "surnom": "Blue Devils",
+     "abr": "DUKE",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    },
+    "ext": {
+     "nom": "Clemson",
+     "surnom": "Tigers",
+     "abr": "CLEM",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401866468",
+    "date": "2026-11-21T00:30Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/20 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Toledo",
+     "surnom": "Rockets",
+     "abr": "TOL",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+     "rang": null,
+     "bilan": "8-2",
+     "score": null
+    },
+    "ext": {
+     "nom": "Bowling Green",
+     "surnom": "Falcons",
+     "abr": "BGSU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+     "rang": null,
+     "bilan": "3-7",
+     "score": null
+    }
+   },
+   {
+    "id": "401856866",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ABC",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Kansas",
+     "surnom": "Jayhawks",
+     "abr": "KU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    },
+    "ext": {
+     "nom": "BYU",
+     "surnom": "Cougars",
+     "abr": "BYU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+     "rang": 10,
+     "bilan": "8-2",
+     "score": null
+    }
+   },
+   {
+    "id": "401858310",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Georgia Tech",
+     "surnom": "Yellow Jackets",
+     "abr": "GT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+     "rang": null,
+     "bilan": "3-7",
+     "score": null
+    },
+    "ext": {
+     "nom": "Wake Forest",
+     "surnom": "Demon Deacons",
+     "abr": "WAKE",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+     "rang": 13,
+     "bilan": "9-1",
+     "score": null
+    }
+   },
+   {
+    "id": "401856749",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "SECN+",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Ole Miss",
+     "surnom": "Rebels",
+     "abr": "MISS",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+     "rang": 19,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Wofford",
+     "surnom": "Terriers",
+     "abr": "WOF",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+     "rang": null,
+     "bilan": "5-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401856748",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "SEC Network",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Florida",
+     "surnom": "Gators",
+     "abr": "FLA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Vanderbilt",
+     "surnom": "Commodores",
+     "abr": "VAN",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401856867",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ESPN+",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Cincinnati",
+     "surnom": "Bearcats",
+     "abr": "CIN",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    },
+    "ext": {
+     "nom": "Colorado",
+     "surnom": "Buffaloes",
+     "abr": "COLO",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401858309",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ACC Network",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Boston College",
+     "surnom": "Eagles",
+     "abr": "BC",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    },
+    "ext": {
+     "nom": "Syracuse",
+     "surnom": "Orange",
+     "abr": "SYR",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    }
+   },
+   {
+    "id": "401862834",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Navy",
+     "surnom": "Midshipmen",
+     "abr": "NAVY",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+     "rang": null,
+     "bilan": "3-6",
+     "score": null
+    },
+    "ext": {
+     "nom": "Memphis",
+     "surnom": "Tigers",
+     "abr": "MEM",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+     "rang": null,
+     "bilan": "8-2",
+     "score": null
+    }
+   },
+   {
+    "id": "401862835",
+    "date": "2026-11-21T17:00Z",
+    "chaine": "ESPNU",
+    "etat": "pre",
+    "detail": "11/21 - 12:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Tulane",
+     "surnom": "Green Wave",
+     "abr": "TULN",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    },
+    "ext": {
+     "nom": "North Texas",
+     "surnom": "Mean Green",
+     "abr": "UNT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    }
+   },
+   {
+    "id": "401856750",
+    "date": "2026-11-21T18:00Z",
+    "chaine": "SECN+",
+    "etat": "pre",
+    "detail": "11/21 - 1:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Mississippi State",
+     "surnom": "Bulldogs",
+     "abr": "MSST",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    },
+    "ext": {
+     "nom": "Tennessee Tech",
+     "surnom": "Golden Eagles",
+     "abr": "TNTC",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+     "rang": null,
+     "bilan": "9-2",
+     "score": null
+    }
+   },
+   {
+    "id": "401856746",
+    "date": "2026-11-21T19:00Z",
+    "chaine": "SECN+",
+    "etat": "pre",
+    "detail": "11/21 - 2:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Alabama",
+     "surnom": "Crimson Tide",
+     "abr": "ALA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+     "rang": 3,
+     "bilan": "8-2",
+     "score": null
+    },
+    "ext": {
+     "nom": "Chattanooga",
+     "surnom": "Mocs",
+     "abr": "UTC",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
+     "rang": null,
+     "bilan": "7-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401862832",
+    "date": "2026-11-21T19:00Z",
+    "chaine": "ESPN+",
+    "etat": "pre",
+    "detail": "11/21 - 2:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Tulsa",
+     "surnom": "Golden Hurricane",
+     "abr": "TLSA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Charlotte",
+     "surnom": "49ers",
+     "abr": "CLT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+     "rang": null,
+     "bilan": "1-9",
+     "score": null
+    }
+   },
+   {
+    "id": "401862833",
+    "date": "2026-11-21T19:30Z",
+    "chaine": "ESPN+",
+    "etat": "pre",
+    "detail": "11/21 - 2:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Florida Atlantic",
+     "surnom": "Owls",
+     "abr": "FAU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "South Florida",
+     "surnom": "Bulls",
+     "abr": "USF",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401856755",
+    "date": "2026-11-21T20:30Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/21 - 3:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Texas",
+     "surnom": "Longhorns",
+     "abr": "TEX",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+     "rang": 6,
+     "bilan": "8-2",
+     "score": null
+    },
+    "ext": {
+     "nom": "Arkansas",
+     "surnom": "Razorbacks",
+     "abr": "ARK",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401856754",
+    "date": "2026-11-21T20:30Z",
+    "chaine": "ABC",
+    "etat": "pre",
+    "detail": "11/21 - 3:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Tennessee",
+     "surnom": "Volunteers",
+     "abr": "TENN",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+     "rang": 8,
+     "bilan": "8-2",
+     "score": null
+    },
+    "ext": {
+     "nom": "LSU",
+     "surnom": "Tigers",
+     "abr": "LSU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+     "rang": 21,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401856747",
+    "date": "2026-11-21T20:30Z",
+    "chaine": "SEC Network",
+    "etat": "pre",
+    "detail": "11/21 - 3:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Auburn",
+     "surnom": "Tigers",
+     "abr": "AUB",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Samford",
+     "surnom": "Bulldogs",
+     "abr": "SAM",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+     "rang": null,
+     "bilan": "4-7",
+     "score": null
+    }
+   },
+   {
+    "id": "401858304",
+    "date": "2026-11-21T20:30Z",
+    "chaine": "ACC Network",
+    "etat": "pre",
+    "detail": "11/21 - 3:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Florida State",
+     "surnom": "Seminoles",
+     "abr": "FSU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    },
+    "ext": {
+     "nom": "NC State",
+     "surnom": "Wolfpack",
+     "abr": "NCSU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401856752",
+    "date": "2026-11-21T20:45Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/21 - 3:45 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Oklahoma",
+     "surnom": "Sooners",
+     "abr": "OU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Texas A&M",
+     "surnom": "Aggies",
+     "abr": "TA&M",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+     "rang": null,
+     "bilan": "4-6",
+     "score": null
+    }
+   },
+   {
+    "id": "401858302",
+    "date": "2026-11-22T00:00Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/21 - 7:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Miami",
+     "surnom": "Hurricanes",
+     "abr": "MIA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+     "rang": 7,
+     "bilan": "9-1",
+     "score": null
+    },
+    "ext": {
+     "nom": "Virginia Tech",
+     "surnom": "Hokies",
+     "abr": "VT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401856753",
+    "date": "2026-11-22T00:30Z",
+    "chaine": "ABC",
+    "etat": "pre",
+    "detail": "11/21 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "South Carolina",
+     "surnom": "Gamecocks",
+     "abr": "SC",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+     "rang": 17,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Georgia",
+     "surnom": "Bulldogs",
+     "abr": "UGA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+     "rang": 1,
+     "bilan": "9-1",
+     "score": null
+    }
+   },
+   {
+    "id": "401856751",
+    "date": "2026-11-22T00:30Z",
+    "chaine": "SEC Network",
+    "etat": "pre",
+    "detail": "11/21 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Missouri",
+     "surnom": "Tigers",
+     "abr": "MIZ",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+     "rang": 22,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Kentucky",
+     "surnom": "Wildcats",
+     "abr": "UK",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+     "rang": 11,
+     "bilan": "7-3",
+     "score": null
+    }
+   },
+   {
+    "id": "401858306",
+    "date": "2026-11-22T00:30Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/21 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Louisville",
+     "surnom": "Cardinals",
+     "abr": "LOU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    },
+    "ext": {
+     "nom": "Pittsburgh",
+     "surnom": "Panthers",
+     "abr": "PITT",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401858308",
+    "date": "2026-11-22T00:30Z",
+    "chaine": "ACC Network",
+    "etat": "pre",
+    "detail": "11/21 - 7:30 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "California",
+     "surnom": "Golden Bears",
+     "abr": "CAL",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+     "rang": null,
+     "bilan": "3-7",
+     "score": null
+    },
+    "ext": {
+     "nom": "Stanford",
+     "surnom": "Cardinal",
+     "abr": "STAN",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+     "rang": null,
+     "bilan": "5-5",
+     "score": null
+    }
+   },
+   {
+    "id": "401862836",
+    "date": "2026-11-22T01:00Z",
+    "chaine": "ESPNU",
+    "etat": "pre",
+    "detail": "11/21 - 8:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "UAB",
+     "surnom": "Blazers",
+     "abr": "UAB",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "UTSA",
+     "surnom": "Roadrunners",
+     "abr": "UTSA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+     "rang": null,
+     "bilan": "8-2",
+     "score": null
+    }
+   },
+   {
+    "id": "401856870",
+    "date": "2026-11-22T03:15Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "11/21 - 10:15 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Arizona State",
+     "surnom": "Sun Devils",
+     "abr": "ASU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    },
+    "ext": {
+     "nom": "Oklahoma State",
+     "surnom": "Cowboys",
+     "abr": "OKST",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+     "rang": 25,
+     "bilan": "6-4",
+     "score": null
+    }
+   },
+   {
+    "id": "401866471",
+    "date": "2026-11-25T00:00Z",
+    "chaine": "ESPN2",
+    "etat": "pre",
+    "detail": "11/24 - 7:00 PM EST",
+    "neutre": false,
+    "titre": "",
+    "dom": {
+     "nom": "Western Michigan",
+     "surnom": "Broncos",
+     "abr": "WMU",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+     "rang": null,
+     "bilan": "7-3",
+     "score": null
+    },
+    "ext": {
+     "nom": "Miami (OH)",
+     "surnom": "RedHawks",
+     "abr": "M-OH",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+     "rang": null,
+     "bilan": "6-4",
+     "score": null
+    }
+   }
+  ]
  }
 }

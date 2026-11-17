@@ -173,6 +173,31 @@ details.plie summary::after{content:"";width:7px;height:7px;border-right:2px sol
 details[open].plie summary::after{transform:rotate(-135deg)}
 details.plie[open]{padding-bottom:10px}
 
+/* College football sur Disney+ */
+.cfb{padding:18px 16px 8px;margin-bottom:16px;scroll-margin-top:110px}
+.cfb h3{font:700 1.45rem/1.12 var(--serif);letter-spacing:-.018em;margin:4px 0 6px}
+.cfb .intro{font-size:.84rem;color:var(--doux);margin:0 0 12px;line-height:1.45}
+.cfb .filtres{flex-wrap:wrap;margin-bottom:4px}
+.cfb-jour{font:700 .7rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--teinte);margin:18px 2px 8px}
+.cfb-m{display:grid;grid-template-columns:54px 1fr;gap:4px 12px;padding:11px 0;border-top:1px solid var(--filet)}
+.cfb-m .h{font:700 .95rem/1.2 var(--serif);font-variant-numeric:tabular-nums;padding-top:3px}
+.cfb-m .h small{display:block;font:600 .64rem/1.3 var(--sans);color:var(--pale);margin-top:3px}
+.cfb-m .eqs{display:grid;gap:4px;min-width:0}
+.cfb-eq{display:flex;align-items:center;gap:9px;text-align:left;min-width:0;border-radius:8px}
+.cfb-eq:active{background:var(--creux)}
+.cfb-eq img{width:24px;height:24px;object-fit:contain;flex:none}
+.cfb-eq b{font-weight:600;font-size:.93rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cfb-eq .surnom{font-size:.78rem;color:var(--pale);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+.cfb-eq .rg{font-size:.68rem;font-weight:800;color:var(--teinte);font-variant-numeric:tabular-nums;min-width:20px}
+.cfb-eq .sc{font:700 .95rem var(--serif);font-variant-numeric:tabular-nums;margin-left:auto}
+.cfb-m .pied{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.72rem;color:var(--pale)}
+.chaine{font-size:.62rem;font-weight:700;letter-spacing:.04em;padding:2px 6px;border-radius:5px;background:var(--creux);color:var(--encre)}
+.direct{font-size:.62rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:5px;background:#c0392b;color:#fff}
+.cfb-m.suivi{border-left:3px solid var(--teinte);padding-left:10px;margin-left:-13px}
+.copie{position:fixed;z-index:11;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translate(-50%,10px);opacity:0;
+  background:var(--encre);color:var(--fond);font-size:.84rem;font-weight:600;padding:10px 16px;border-radius:999px;transition:opacity .2s,transform .2s;pointer-events:none;white-space:nowrap}
+.copie.vu{opacity:1;transform:translate(-50%,0)}
+
 /* Liens */
 .liens{display:grid;margin:0 -8px}
 .lien{display:flex;flex-direction:column;gap:2px;padding:10px 8px;border-radius:10px;border-top:1px solid var(--filet)}
@@ -388,9 +413,9 @@ function agenda() {
     const eq = equipe(s.id), m = eq?.prochains?.[0];
     if (m) prochains.push({ s, eq, m });
   }
-  if (!prochains.length) return "";
+  if (!prochains.length && !lienCollege()) return "";
   prochains.sort((a, b) => a.m.date.localeCompare(b.m.date));
-  return `<h2 class="section" style="--teinte:${teinte("sport")}">Prochains matchs</h2><div class="agenda">` + prochains.map(({ s, eq, m }) =>
+  return `<h2 class="section" style="--teinte:${teinte("sport")}">Prochains matchs</h2><div class="agenda">` + lienCollege() + prochains.map(({ s, eq, m }) =>
     `<a class="ligne carte apparait" href="#sport" data-aller="sport" data-sujet="${s.id}">
       <span class="quand"><b>${esc(jourMatch(m.date))}</b>${heure(m.date)}</span>
       ${eq.logo ? `<img class="logo" src="${esc(eq.logo)}" alt="" loading="lazy">` : ""}
@@ -556,11 +581,90 @@ function vueTheme(r, idTheme) {
         </div>
         <div class="liens">${dep.map((a) => ligneArticle(a, true)).join("")}</div>
       </details>` : ""}
-    </article>`;
-  }).join("");
+    </article>${s.id === "florida-gators" ? blocCollege() : ""}`;
+  }).join("") + (t.sujets.some((s) => s.id === "florida-gators") ? "" : idTheme === "sport" ? blocCollege() : "");
+}
+
+/* ---------- College football sur Disney+ ----------
+   Disney+ ne met pas ces matchs en avant : on les retrouve en cherchant le nom d'une équipe.
+   Liste tirée de la chaîne américaine donnée par ESPN (groupe Disney = espace ESPN de Disney+). */
+const cfbFiltre = { f: "tout" };
+const jourParis = (iso) => new Date(iso).toLocaleDateString("fr-CA", PARIS);
+function equipesSuivies() {
+  return Object.values(etat.sport?.equipes || {}).map((e) => e.nom).filter(Boolean);
+}
+function cfbEquipe(e, suivies) {
+  const complet = `${e.nom} ${e.surnom}`.trim();
+  return `<button class="cfb-eq" data-copier="${esc(e.nom)}" aria-label="Copier « ${esc(e.nom)} » pour la recherche Disney+">
+    <span class="rg">${e.rang ? "#" + e.rang : ""}</span>
+    ${e.logo ? `<img src="${esc(e.logo)}" alt="" loading="lazy">` : ""}
+    <b>${esc(e.nom)}</b><span class="surnom">${esc(e.surnom)}${e.bilan ? " · " + esc(e.bilan) : ""}</span>
+    ${e.score != null ? `<span class="sc">${esc(e.score)}</span>` : ""}</button>`;
+}
+function blocCollege() {
+  const cd = etat.sport?.college_disney;
+  const tous = (cd?.matchs || []).filter((m) => m.etat !== "post" || Date.now() - new Date(m.date) < 15 * 36e5);
+  if (!tous.length) return "";
+  const suivies = equipesSuivies();
+  const estSuivi = (m) => suivies.includes(`${m.dom.nom} ${m.dom.surnom}`) || suivies.includes(`${m.ext.nom} ${m.ext.surnom}`);
+  const garde = { tout: () => true, top: (m) => m.dom.rang || m.ext.rang, suivi: estSuivi };
+  const liste = tous.filter(garde[cfbFiltre.f]);
+  const nb = (f) => tous.filter(garde[f]).length;
+  const jours = {};
+  liste.forEach((m) => (jours[jourParis(m.date)] ||= []).push(m));
+  const ligne = (m) => `<div class="cfb-m${estSuivi(m) ? " suivi" : ""}">
+      <span class="h">${m.etat === "in" ? `<span class="direct">Direct</span>` : heure(m.date).replace(" h ", ":")}<small>${m.etat === "post" ? "Terminé" : ""}</small></span>
+      <div class="eqs">${cfbEquipe(m.ext, suivies)}${cfbEquipe(m.dom, suivies)}</div>
+      <div class="pied"><span class="chaine">${esc(m.chaine)}</span>${m.titre ? esc(m.titre) : ""}${m.neutre && !m.titre ? "terrain neutre" : ""}</div>
+    </div>`;
+  const corps = Object.entries(jours).map(([j, ms]) =>
+    `<p class="cfb-jour">${new Date(j + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" })} · ${ms.length}</p>${ms.map(ligne).join("")}`).join("");
+  return `<section class="cfb carte apparait" id="s-college">
+    <span class="kicker">College football</span>
+    <h3>Les matchs sur Disney+</h3>
+    <p class="intro">Disney+ ne les met pas en avant : on ne les trouve qu'en cherchant une équipe. Touchez une équipe pour copier son nom, puis collez-le dans la recherche Disney+. Heures de Paris ; la chaîne indiquée est la chaîne américaine.</p>
+    <div class="filtres">
+      <button class="puce" data-cfb="tout" aria-pressed="${cfbFiltre.f === "tout"}">Tous · ${nb("tout")}</button>
+      <button class="puce" data-cfb="top" aria-pressed="${cfbFiltre.f === "top"}">Top 25 · ${nb("top")}</button>
+      ${nb("suivi") ? `<button class="puce" data-cfb="suivi" aria-pressed="${cfbFiltre.f === "suivi"}">Mes équipes · ${nb("suivi")}</button>` : ""}
+    </div>
+    ${corps || `<p class="calme" style="margin-top:14px">Aucun match pour ce filtre.</p>`}
+  </section>`;
+}
+function brancherCollege(racine) {
+  const sec = racine.querySelector("#s-college");
+  if (!sec) return;
+  sec.querySelectorAll("[data-cfb]").forEach((b) => b.addEventListener("click", () => {
+    cfbFiltre.f = b.dataset.cfb;
+    const neuf = document.createElement("div"); neuf.innerHTML = blocCollege();
+    sec.replaceWith(neuf.firstElementChild);
+    brancherCollege(racine);
+  }));
+  sec.querySelectorAll("[data-copier]").forEach((b) => b.addEventListener("click", async () => {
+    const t = b.dataset.copier;
+    let ok = false;
+    try { await navigator.clipboard.writeText(t); ok = true; } catch {}
+    bulle(ok ? `« ${t} » copié : collez-le dans Disney+` : `Cherchez « ${t} » dans Disney+`);
+  }));
+}
+function bulle(texte) {
+  let el = $("#copie");
+  if (!el) { el = document.createElement("div"); el.id = "copie"; el.className = "copie"; el.setAttribute("role", "status"); document.body.appendChild(el); }
+  el.textContent = texte; el.classList.add("vu");
+  clearTimeout(bulle.t); bulle.t = setTimeout(() => el.classList.remove("vu"), 2200);
+}
+function lienCollege() {
+  const ms = (etat.sport?.college_disney?.matchs || []).filter((m) => m.etat !== "post");
+  if (!ms.length) return "";
+  const top = ms.filter((m) => m.dom.rang || m.ext.rang).length;
+  return `<a class="ligne carte apparait" href="#sport" data-aller="sport" data-sujet="college">
+      <span class="quand"><b>9 jours</b>Disney+</span>
+      <span class="qui"><b>College football</b> : ${ms.length} matchs à voir sur Disney+<small>dont ${top} avec une équipe du Top 25</small></span>
+    </a>`;
 }
 
 function brancher(racine) {
+  brancherCollege(racine);
   racine.querySelectorAll("[data-aller]").forEach((a) => a.addEventListener("click", (e) => {
     e.preventDefault();
     if (a.dataset.aller) changerOnglet(a.dataset.aller, a.dataset.sujet);

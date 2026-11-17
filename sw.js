@@ -1,5 +1,5 @@
 // Le Fil — service worker : l'appli s'ouvre même sans réseau (dernière édition lue).
-const VERSION = "lefil-v3";
+const VERSION = "lefil-v4";
 const COQUILLE = ["./", "index.html", "manifest.webmanifest", "icones/icone-192.png", "icones/icone-512.png"];
 
 self.addEventListener("install", (e) => {

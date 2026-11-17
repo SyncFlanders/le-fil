@@ -15,6 +15,13 @@ toute la journée.
 | `scripts/publier.py` | relie le résumé aux vrais liens, archive l'édition | appelé par la routine |
 | `index.html` + `sw.js` | l'appli (PWA), lisible hors ligne | — |
 
+## College football sur Disney+
+
+Disney+ ne met pas en avant les matchs de football universitaire : on ne les trouve qu'en cherchant une
+équipe. `scripts/sport.py` liste ceux des 9 prochains jours d'après la chaîne américaine donnée par ESPN
+(règle vérifiée le 17/11/2026 dans Disney+ France : chaînes ESPN/ABC, SEC Network, ACC Network, SECN+ ;
+ESPN+ seulement quand l'équipe qui reçoit est en SEC, ACC, Big 12 ou American). Onglet Sport, sous les Gators.
+
 ## Ajouter ou modifier un sujet
 
 Tout est dans `sujets.json` : demander à Claude Code « ajoute le sujet X à Le Fil ».
