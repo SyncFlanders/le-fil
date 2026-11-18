@@ -1,0 +1,722 @@
+{
+ "date": "2026-11-18",
+ "note": "Collecte impossible ce matin (réseau bloqué, erreur 403) : édition rédigée à partir des dépêches de la veille (17 novembre, 23 h 51 UTC). Calendriers sport et indices boursiers de la veille ; Brent, or et cryptos du jour indisponibles.",
+ "a_la_une": [
+  {
+   "sujet": "anthropic",
+   "titre": "Anthropic : débuts en Bourse attendus le 19",
+   "texte": "L'entrée au Nasdaq sous le symbole « ANT » est annoncée pour jeudi ; Amazon et Google en détiendraient près de 30 %."
+  },
+  {
+   "sujet": "big-tech",
+   "titre": "Nvidia dépasse les attentes sans Huang",
+   "texte": "Résultats supérieurs aux prévisions et objectifs relevés ; le conseil exclut le retour de Jensen Huang."
+  },
+  {
+   "sujet": "bourse",
+   "titre": "Séance noire en Europe et à Wall Street",
+   "texte": "CAC 40 −1,82 %, Euro Stoxx 50 −2,74 %, S&P 500 −1,03 % lundi."
+  }
+ ],
+ "themes": [
+  {
+   "id": "sport",
+   "titre": "Sport",
+   "sujets": [
+    {
+     "id": "real-madrid",
+     "titre": "Real Madrid",
+     "resume": "Un supporter du Real Oviedo a été condamné à onze mois de prison avec sursis pour les insultes racistes proférées contre Kylian Mbappé, selon plusieurs médias. Côté mercato, JJ Gabriel a fait ses adieux à Manchester United sans avoir joué en équipe première ; la presse (The Times, Managing Madrid) annonce son arrivée au Real, sans confirmation officielle. Endrick dit espérer rester, tout en reconnaissant que « Mou » décide de son temps de jeu.",
+     "points": [
+      "Prochain match : Celta Vigo, samedi 21 novembre au Bernabéu.",
+      "Dernier résultat : victoire 3-0 à Valence le 7 novembre."
+     ],
+     "articles": [
+      {
+       "titre": "Fan convicted of hate crime for racially abusing Mbappe",
+       "source": "RTE.ie",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWVBfaVRaZWppR0JjYmgza1FneDNaU3F5N0w1bHUwY1NqdnJEQmtIeXZROC1MZWQxUjQxQjdNczBzTDN6YW42dm9qZVBQMFAtbGVaTDM4OGplQXJtSHNpY3RFWUh1TnBTbW5ZYjlWbDBGUk42MzNxRHBTaWFFR2poYzhIWjZzbDN4M1FKX3RGZS1zdXVuZUhEYTB3ck5vUU1rR1FGa2Znc2JSZw?oc=5",
+       "date": "2026-11-17T22:04+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "JJ Gabriel confirms Man United departure as dream Real Madrid move looms",
+       "source": "The Times",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObHNRckZWUktTYk5NRXN5YXQ4ZVpuZnhjTjRNNzNndzBXa1pCNkc0Ujh6VVM0QnZGZmpmYkJwaHBBVWdTMEN5ZDAydGM4dFNDMk5yMzNCWnZWQTF3MXQ1dUQ1TGpUVWQyNm1yeW1FUGlaRjhKRElCUUxSUURXX25qc2NrRDFRNTJMbllkUVN0QXZLLWRXSmd6UnJVZ2tUWVk?oc=5",
+       "date": "2026-11-17T20:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Mercato Real Madrid : JJ Gabriel fait ses adieux à Manchester United",
+       "source": "DailyMercato",
+       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOWZQbjlTVlRnaTZpd2JHSHJKUXBkeEZEbmx1T0hUWkt1eHJLNVhiQlhDNlhYRXVPQWZGbUxCaU1mcGVMSU56a3RidjhTTGJwRTNvazJ3Tmd2Vm5uUHBfUVI3eHFsSzdpeWtmSjBOYWNtVVVTZnBmWXFIeWJORE5kQkdubkdZQ2ZyUTBFLUlBVVdFSFE?oc=5",
+       "date": "2026-11-17T21:32+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Endrick: \"I hope to stay at Real, but Mou decides my minutes.\"",
+       "source": "RomaPress",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWnVna0l6SlpTeXNSR05YUG83bE5KaEFkZnk4LVMwbkhfeGUxaEdyd1AxSG1PWUFCX1hzUDhaajQ5bFQ0d2NHanJQU3B5dVhSV0NxLXNWUGFEMXd6djVuc2xYRHR1Ul80Z2ZtMEplUENoNG81aFR4eTAxbkVtVTk4QlpxOXpaWGc?oc=5",
+       "date": "2026-11-17T21:25+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Kylian Mbappé",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Attaquant",
+       "numero": "10",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "JJ Gabriel"
+      },
+      {
+       "nom": "Endrick",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/330px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Attaquant",
+       "numero": "9",
+       "credit": "Wikimedia Commons"
+      }
+     ]
+    },
+    {
+     "id": "florida-gators",
+     "titre": "Florida Gators",
+     "resume": "Les Gators sont revenus dans le Top 25 AP après leur victoire 21-14 à Kentucky. Aaron Philo, désigné meilleur joueur offensif de la semaine en SEC, a aussi été remarqué pour sa course ; le running back Jadan Baugh est demi-finaliste du Doak Walker Award. Prochain rendez-vous : Vanderbilt samedi à domicile.",
+     "points": [
+      "Les Gators ont aussi fait basculer le running back Terrance Grant Jr. (ex-engagé à Maryland) dans leur classe 2027.",
+      "Prochains matchs : Vanderbilt (21 nov.) puis Florida State (27 nov.)."
+     ],
+     "articles": [
+      {
+       "titre": "Florida Football’s Aaron Philo named SEC Offensive Player of Week",
+       "source": "WRUF 98.1 FM",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa1Iwb1Q4bUpvaWZSQ256MTlQVEJqQVgwc1N3TDNGaS0yNWRIaTN5SEdoWFA0N2w2S1VJRWR4V0Q0QmdjaUxQc3NqOTN3aC1ENHBacEhMQ0UwX3h6ZUNmMk1ScW41OUU0OGw0cTZMUVFhekV1ZURmdWtCeGhOVHlyRGN5MzJubnhOSXluNlR1a2ZoVWFvT1NtaEgzTFg3Q0FJSy1uUzlNSHFmUQ?oc=5",
+       "date": "2026-11-17T14:49+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Baugh Named Doak Walker Award Semifinalist",
+       "source": "Florida Gators",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVVRfLUpzRmhIWDhDaWh4d19iOWptYVBTOHBKcXNlQU5MWWd5NjF6NlQtYVcyU21LME54aV9ZaVR4cGxpMGFlSXc2SEFJM2JxTXdIanZUNlhUX2dSWFdDTXREMDBSaWlEckRObjcycm1nVnMzT1Z6VnRmc3VIM0ZnaTdxOFdVQV9KbkRBeWlKaHFRZ1p4OWViTQ?oc=5",
+       "date": "2026-11-17T16:59+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Florida flips 3-star RB Terrance Grant Jr. from Maryland as Jon Sumrall adds to 2027 class",
+       "source": "Hail Florida Hail",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYWZydC1qT042YkJHck5QVjBjaVlsVjhjMmxQdnREdTN1MHRZU0dkRnpzdHBKVFlzXzBwUzlyWUxsUWNrWWNSZHJfVVJOUmY5Qk5JTmlkZ2RWY2F3X2tINWl5bFRibXlLTEN2QUhQMTlRc21mbDFXdHBxbWQwemtqRjJOYUJhdFMzOG04bGo0UGVnZGRnZGZPdkZmaUtVOWtLV0NmdGZaaWxrMnJzY1FWeTdCdkl1aWl6bHVXeTJwTE9xZXBoeG9mZ2RB?oc=5",
+       "date": "2026-11-17T16:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "College football rankings: Florida Gators return to AP Top 25, again, after win at Kentucky",
+       "source": "OnlyGators.com",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM1dSVjdhTEVxNThmcHRaZHhTYTJKYXZ4MHcxOEhSWnV0Y3hQX2llWk1faUVSZXNuY2ZrWmtQWFp1TmZ0MUE0aWFPNnkxYkNkcjJVSlJBQXlrejhPTWJfb0FqSXRPQUFINEh3emdkSEJUUXF3RTVpNXhTMTZKSkYtY2kzVTBEdVBLNm0tSm1pb08xTzZ0MWFEU0gwVHlrLTRfZXp5RUFTZU54OG5WUS1MTThEcXZ1N1NPN1FMLU8ydko1ZzRzM0E?oc=5",
+       "date": "2026-11-16T19:05+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Aaron Philo",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+       "poste": "Quarterback",
+       "numero": "12",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Jadan Baugh",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+       "poste": "Running back",
+       "numero": "13",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Les Gators remettent les Wildcats à leur place",
+      "texte": "Florida est reparti de Lexington avec un succès 21-14, pas le plus confortable mais le plus utile : retour dans le Top 25 AP. Aaron Philo a tout fait : 16 passes réussies sur 24 pour 119 yards, et 102 yards à la course sur 15 portés, avec un touchdown. Bailey Stockton a pris 4 réceptions pour 34 yards, et Jayden Woods a planté 1,5 sack. Philo a même été élu meilleur joueur offensif de la semaine en SEC.",
+      "sources": [
+       {
+        "titre": "College football rankings: Florida Gators return to AP Top 25, again, after win at Kentucky",
+        "source": "OnlyGators.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM1dSVjdhTEVxNThmcHRaZHhTYTJKYXZ4MHcxOEhSWnV0Y3hQX2llWk1faUVSZXNuY2ZrWmtQWFp1TmZ0MUE0aWFPNnkxYkNkcjJVSlJBQXlrejhPTWJfb0FqSXRPQUFINEh3emdkSEJUUXF3RTVpNXhTMTZKSkYtY2kzVTBEdVBLNm0tSm1pb08xTzZ0MWFEU0gwVHlrLTRfZXp5RUFTZU54OG5WUS1MTThEcXZ1N1NPN1FMLU8ydko1ZzRzM0E?oc=5",
+        "date": "2026-11-16T19:05+00:00",
+        "origine": "passionnes"
+       },
+       {
+        "titre": "Florida Football’s Aaron Philo named SEC Offensive Player of Week",
+        "source": "WRUF 98.1 FM",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa1Iwb1Q4bUpvaWZSQ256MTlQVEJqQVgwc1N3TDNGaS0yNWRIaTN5SEdoWFA0N2w2S1VJRWR4V0Q0QmdjaUxQc3NqOTN3aC1ENHBacEhMQ0UwX3h6ZUNmMk1ScW41OUU0OGw0cTZMUVFhekV1ZURmdWtCeGhOVHlyRGN5MzJubnhOSXluNlR1a2ZoVWFvT1NtaEgzTFg3Q0FJSy1uUzlNSHFmUQ?oc=5",
+        "date": "2026-11-17T14:49+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    },
+    {
+     "id": "jaguars",
+     "titre": "Jacksonville Jaguars",
+     "resume": "Les Jaguars restent dans le top 3 des classements de puissance NFL après leur large victoire sur les Titans (40-23). Ils ont battu leurs adversaires 115-40 depuis la semaine de repos. Dimanche, Jacksonville reçoit les Giants ; le match de la semaine 12 contre Tennessee est avancé à 13 h (heure de l'Est) le 29 novembre.",
+     "points": [
+      "Liam Coen salue la saison de Parker Washington.",
+      "Trevor Lawrence est présenté comme candidat au MVP par la presse new-yorkaise."
+     ],
+     "articles": [
+      {
+       "titre": "Jaguars Remain Top-3 in NFL Power Rankings, Have Non-QB MVP Chosen",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MOHB6SngySEpKSE42QmZmdjY4UnVJeG1hdVpjYVFPbTQyX1k0RFprUzVHOFhLMGVES3laNm53Tk40TnRJaVNfT0F5YWh6aDBELUt1ck1uN3J0b2FKZXcyZjVaRm43Zkg0cFhWeDd5RkhjYUlMS3FfT2J2OElRUQ?oc=5",
+       "date": "2026-11-17T23:14+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jaguars Have Outscored Opponents 115-40 Since Their Bye Week",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYW1pM2NYZ3VRX2N4NmEtMmZRQll4Q0xFOXlnSmlxcFQwREQxS2FqNDFBUk1Hc2hGa0NTQmNxR3NTcFpjdmxKc0wzSXR4SlNldXZKTEh4eWY2OUczT3R6ay05aXhiM0tsamlvZENEQk14elNfblNDbGFIN0h4d1pnUEhxalhfZEpJZnZn?oc=5",
+       "date": "2026-11-17T19:53+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jacksonville Jaguars - Tennessee Titans Game on Nov. 29 to Move to 1 p.m. Kickoff",
+       "source": "Jaguars.com (officiel)",
+       "url": "https://www.jaguars.com/news/jacksonville-jaguars-tennessee-titans-game-on-nov-29-to-move-to-1-p-m-kickoff",
+       "date": "2026-11-17T19:47+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Giants’ tough stretch begins with MVP candidate Trevor Lawrence and the surging Jaguars",
+       "source": "New York Daily News",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGpFTlB4V1FEeHBKbmtVUmFOa1hWTXQ5Z05NU1NoQzFLQmU3a3dpRGRvVWU1ajhETThLam83OHVLYTFMVEJlVEp1MlZYM2tEN3RnNXpXdVRuN0llWEg1Mk9CVzdaYkxkVHZfMm5xUHRmVVhiRWtxVVhvQVdrb05NcUs2ZG1JZU1ISU04WTlqdUExdw?oc=5",
+       "date": "2026-11-17T20:49+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Trevor Lawrence",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+       "poste": "Quarterback",
+       "numero": "16",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Parker Washington",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
+       "poste": "Receveur",
+       "numero": "11",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Les Jaguars passent la tondeuse sur les Titans",
+      "texte": "40-23 : les Titans ont pris la facture. Trevor Lawrence a sorti le grand jeu, 25 passes réussies sur 35 pour 352 yards et 3 touchdowns, avec une seule interception pour la forme. Parker Washington a régalé avec 7 réceptions pour 152 yards et un touchdown, tandis que Bhayshul Tuten a bossé au sol : 26 courses, 88 yards, 1 touchdown. Derrière, Antonio Johnson a ajouté un sack. Jacksonville enchaîne et reste dans le haut du panier de la ligue.",
+      "sources": [
+       {
+        "titre": "Jaguars Have Outscored Opponents 115-40 Since Their Bye Week",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYW1pM2NYZ3VRX2N4NmEtMmZRQll4Q0xFOXlnSmlxcFQwREQxS2FqNDFBUk1Hc2hGa0NTQmNxR3NTcFpjdmxKc0wzSXR4SlNldXZKTEh4eWY2OUczT3R6ay05aXhiM0tsamlvZENEQk14elNfblNDbGFIN0h4d1pnUEhxalhfZEpJZnZn?oc=5",
+        "date": "2026-11-17T19:53+00:00",
+        "origine": "presse"
+       },
+       {
+        "titre": "Jaguars’ Liam Coen gets completely real on Parker Washington’s huge season",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUZvQ0lpV2phaHlJX2ttY2YwSEtyRWdxcTlGbk5QMVhRNDZhTzBJUmFtYVZyMWxpUDN6a0tnRnVDSG1qLWpnZmxBeUo2bHRlSDI2dDAwTFhZOS1oWEVrMEdWWVhCSjlseUh5MFNkdGp2Sk1JSGFlWHM4eUR1ZlA4eXpGTHRtbkVDTFE?oc=5",
+        "date": "2026-11-17T20:29+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    },
+    {
+     "id": "orlando-magic",
+     "titre": "Orlando Magic",
+     "resume": "Le Magic a battu Boston 115-105 et mis fin à la série de six victoires des Celtics, grâce à un bon dernier quart-temps. Orlando met aussi fin à 1 429 jours sans victoire au TD Garden. Prochain match : les 76ers, sans Jaylen Brown (ischio-jambiers) selon ESPN.",
+     "points": [
+      "Franz Wagner a signé une grosse soirée à Boston.",
+      "Prochain match : Philadelphie, mercredi soir (heure locale)."
+     ],
+     "articles": [
+      {
+       "titre": "Magic use strong fourth quarter to end Celtics’ 6-game win streak",
+       "source": "Field Level Media",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUU9FTVZsOUM3WWE0TWtLOTFUUFl3aDN4amVpMnRxcTNjRmZCeU1mdF9ybFBUSk52cFYtVURqeWtSV3EwY2lzdUZYZ1ludnE1Z3FYZlVibVRHSmljS09qTzBpYnF0eE8zRjluV2publZJTVlCQ2dlbXJWRFo0dmhzUDZHb2VHLV9CbEJqLWpwTmY2d3JJYlY0eXNVdFdzQQ?oc=5",
+       "date": "2026-11-17T20:44+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Magic End 1,429-Day TD Garden Winless Streak With Physical Play",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13azk1YWR4ZE12MDZvV3BVenJnbXNNLVM2a01QY0o5Y1M2eWE4Z0s0aXV6WlFUbGkxNE1DbFEzNXNEQjdqTmNEdWpnMVV1TkMzR3JHRVlyd2hRQjcyYm1IVlhaWHZuWllGdFFoUU5DSjdvcS1VSDZj?oc=5",
+       "date": "2026-11-17T22:31+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "76ers' Brown (hamstring) to miss Wednesday's game vs. Magic",
+       "source": "ESPN",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUDY3Q05Cd1IwTTlWNHJYck9IaG9HMW1NQkVib3lENUE5TFppdEZlWFNjcXlJbWhJNEJHYW9jUmZrRHJySzBQRk5ZZVNvQk5fT0NVY2c5NWFKYnZmYWp1R3pIY2xLQ2ZYZXRHNnpwQmtEaWQydWxVOXl3M2dSWE1obmVLY0EzNVZvVHNDaEtNdjh1V2xkckV3R2x5WQ?oc=5",
+       "date": "2026-11-17T22:34+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Franz Wagner gives Orlando Magic offense exactly what it needs",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdG1yOV94YXgwZExzekE5RHZDT3pFLWUxSGt4azZDUldlZGNWWVZXSkRPMGpXdGVpbWcxbWtJbUpCRXRJbHAwZWxUYlBiNlZkT3FiUjZ1dlFVQnppSWd1Xy11cWZqbXk3ZEpYWFBfaTd5cDFRODJMQ0pRLUpMMEwyOHNLOS1vV0xu?oc=5",
+       "date": "2026-11-17T17:25+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Franz Wagner",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+       "poste": "Ailier",
+       "numero": "22",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Desmond Bane",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+       "poste": "Arrière",
+       "numero": "3",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Le Magic casse la baraque au TD Garden",
+      "texte": "Boston sur six victoires de suite, et puis le Magic est passé par là. 115-105, avec un dernier quart-temps costaud et une défense physique. Desmond Bane a mené la danse avec 24 points et 8 rebonds, pendant que Franz Wagner distribuait 9 passes. Orlando efface ainsi 1 429 jours de disette dans la salle des Celtics.",
+      "sources": [
+       {
+        "titre": "Résumé de la nuit en NBA : Orlando enchaine à Boston et le Heat va beaucoup mieux",
+        "source": "TrashTalk",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeWJvY2VReVZScV9vbnN2ZVBfb1UxRkVOaWdpUWoxRWZJSUg4Nko3cmdxOXRJcWpoMmd3RXlXRkdQQVVuUnZ4NEFZMjk0ZFZmd0VucnlJbHhSUkJ1aTRscmwtYlBSTVVSaGJqZ0dfOVJvUkNSNEJMU0lBZGtCYWhhSGlkbTAtS1BNZHRsc3NxalFWYUhxVmc0UHRaZEN6ZmQxRExOTTJrVHZGclhHN3g1UGpR?oc=5",
+        "date": "2026-11-17T05:39+00:00",
+        "origine": "passionnes"
+       },
+       {
+        "titre": "Magic End 1,429-Day TD Garden Winless Streak With Physical Play",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13azk1YWR4ZE12MDZvV3BVenJnbXNNLVM2a01QY0o5Y1M2eWE4Z0s0aXV6WlFUbGkxNE1DbFEzNXNEQjdqTmNEdWpnMVV1TkMzR3JHRVlyd2hRQjcyYm1IVlhaWHZuWllGdFFoUU5DSjdvcS1VSDZj?oc=5",
+        "date": "2026-11-17T22:31+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "titre": "IA & tech",
+   "sujets": [
+    {
+     "id": "anthropic",
+     "titre": "Anthropic",
+     "resume": "L'introduction en Bourse d'Anthropic approche : selon la presse financière, les débuts au Nasdaq sont attendus le 19 novembre sous le symbole « ANT ». Amazon et Google détiendraient ensemble près de 30 % du capital après l'opération (TechCrunch). Wall Street termine en baisse en attendant ces débuts.",
+     "points": [
+      "Les marchés surveillent l'effet de l'IPO sur le cycle d'investissement dans l'IA.",
+      "Anthropic avertit que les tests de sécurité des IA deviennent trop faciles."
+     ],
+     "articles": [
+      {
+       "titre": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+       "source": "TechCrunch",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdzVoTDBKTEpPYWdHVlhXOFdqd3Z2bUNtb3Vkbnp5NHlSMW1HOUR0d0VnWmtBVDdHQjdiUklzcE5kTWV2RllEcFRQVHZCWkp5b1hEVHc1bDFDZWtHQks4OGlWeE5oa0NxV0xpcnJha29OTldUTmVYNldkaHdSb1JFY19vSTFQYjlndDJidTQ2MTk0Nmd5Wkxyd0lVRWI4TW5wNXJRVkp0Sk1sWWs?oc=5",
+       "date": "2026-11-17T22:29+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
+       "source": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
+       "date": "2026-11-17T21:52+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Anthropic Is Shooting for the IPO Pricing Moon: Evening Briefing Americas",
+       "source": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdDBZbFpMQUEyM0t2NVdMQjBkZ2Eya3lFVUEwRW9zOEdlb1plVGNmbGs1T0hsT1M3R05zM2FTUUthMkZScjBRU19BQTVJMVRQWkRfQVJ3SEZGNUZaMi1fR2xSeUZWeDhTU3VIcWZ4UGtNbzBoUm5lSFpKUzFaTUZVZkdBVmo4SXpKUHFkSF9QaFltTFR3cWhyc3cxOG5kX2lyNWJCbkx1T2NDajlDaElZd1djZGpoRmFZdksyN0RWNDdzdTQx?oc=5",
+       "date": "2026-11-17T22:52+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Anthropic Warns AI Safety Tests Are Becoming Too Easy",
+       "source": "BankInfoSecurity",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWRfYUxkREFsR1k3QjdFMVpXUEI3YWNpTFhEb3RhQkdSanBKNnJyU19zODU4cFNOREFDa0M5cDNyY2VLSm5aa1pCdG10SzNSV00xTG9iaHl2cnZRS3VGYThlX0J4dkZFM0hhZmVseWw2NUNtbG1femNFc05IWHBDbi1RRS1WSkJnN2RjSDVtV2l3SU9mNkE5OEd3?oc=5",
+       "date": "2026-11-17T21:57+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "big-tech",
+     "titre": "Grands groupes tech",
+     "resume": "Nvidia a publié ses premiers résultats sans Jensen Huang : ils dépassent les attentes et les prévisions sont relevées, avec une croissance du chiffre d'affaires de 103 %. Le président du conseil exclut de réintégrer Jensen Huang. L'action a rebondi d'environ 4 % après la clôture. Par ailleurs, Apple a connu des pannes touchant Apple Pay et iCloud.",
+     "points": [
+      "Les datacenters ont pesé 107,6 Md$ de ventes.",
+      "Microsoft 365 a aussi connu une panne, partie de Suisse selon Techmeme."
+     ],
+     "articles": [
+      {
+       "titre": "Nvidia results beat expectations as ousted CEO told no way back",
+       "source": "AFP.com",
+       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONldaZjFPdUtpRmN1OXFZVVRQYWQ0TDFPbjVEb1RuV0xQWVZyTVViVl9FYjF3SklrUXlackIzb3JlbVYtTGc5bElHVlBMX0M0SzREQUZUNkxvMlJxVFBPOWVidnlodGZ6aW84YVNHTnA2Wm1lV0RPR3ZaeFc2ckpwME11V2FLc0x2YnhJ?oc=5",
+       "date": "2026-11-17T23:03+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
+       "source": "AP News",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
+       "date": "2026-11-17T23:36+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nvidia’s 103% Revenue Growth Took a Backseat to Its Internal Drama",
+       "source": "The Motley Fool",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0dENVJCNHdyRXB6dkNyaHNuZFZVaUxHY1o2LWIxb250clpKcVVocUI4cV85dlJxR2RCeTBrWXFCZF82NFl1clItUFJERmhtTU9MYndDdnZOa0tjV042OGdGWVYxekxjQnhmWkZ1bGhOY1VVYy1wUGk2Z2ZJaXhSZHNsUVo1eTNjLXd1NWNvVXdZS0dPYS1DbkpIbl9wcDF3VW44cFVQa2xjd00?oc=5",
+       "date": "2026-11-17T23:15+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
+       "source": "The New York Times",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVdkd0RiSEp5RzQ2WmNEZWNRM1JoYlhOekYzajU3amxGNXJLa2xVUUdFLUYtTmEyMTZqQXpfZk9KbExPbXYtZ1cySjlKQkdNOU1Wdkc1N19XOVV0d2dFUGJCNklJTVFxa0lEd1l3aDdZZE9ONWFDZW9CbjVqeUFHaw?oc=5",
+       "date": "2026-11-17T23:17+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "ia-monde",
+     "titre": "IA dans le monde",
+     "resume": "OVHcloud lance Olala mini, son premier modèle d'IA open source, qui tient dans 8 Go de GPU. Des laboratoires chinois visent la bureautique et les agents avec de petits modèles à prix cassés. OpenAI présente GPT-6.2 Astra et Sol selon Simon Willison.",
+     "points": [
+      "La proposition de loi Darcos sur l'IA et le droit d'auteur reste enlisée à l'Assemblée."
+     ],
+     "articles": [
+      {
+       "titre": "OVHcloud lance «Olala», son tout premier modèle d'intelligence artificielle",
+       "source": "Capital.fr",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcUtZaTdOVFZTRWtWcDNkYWRvM0xEMjJKMDh2TWxxRlNlNlRWTUJscTM2X2dJUkpZZTZQTm9rR2llajB2ZzJQTHpvbmFMcXR3MWJra2hnYmRlNHRHQUdSQWM2OXJuVXN3Z0JvN0N4bl9heERjSnBfbFpPa2pUWGxSS2l0MWY5MGljenB6NmJhbjd1NVMyWVQ2Vkk5NmJBcVM5NnppY3NYU1FxaDF3azJOUVFuMklBVTF3cUo5QUFFWFI?oc=5",
+       "date": "2026-11-17T11:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "OVHcloud dévoile Olala mini, un modèle ouvert qui tient dans 8 Go de GPU",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZHgzWTBGelZNT2FWa3k4MVdVLTJHbzNTOS0zTlBRWXVIZldhanVvdmV1YjQ0ZFJOcG9pS0VKWVZBWEJ6SnNCN0k4SGNhdlg0bEp4ZkJEeHNoOWhadEptU3ZaZEVXVDUxNU9oS0Vic3paZnc0WlVReFBocW5kc3VFUkxpemVZU0hGbWUycmpvWTZFUmxXQl9aTHZB?oc=5",
+       "date": "2026-11-17T17:22+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Avec de petits modèles à prix cassés, des laboratoires chinois visent la bureautique et les agents",
+       "source": "it social",
+       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeEhMbnphampveDQ1a2FtVHdmSW9JVDlCeUFub3lZMk1hMlpKckp3RG81TzZIdi1pUDRzbWh4QlZXR25nRlRxM1lOODlja2VhalVKM0tFOHljZV9uOG9HNFlza2JGbEh3VkZDenRPdWtMeEYzUXp4X2dOclpmRXVCLUhGNzF2NFZGY1ZJNHJoaDhtMHNBdWQ2aFgxSXplMzFPbFk1TWNEMHcxYjBKQlRaS09STTYzX1JWS1gyVklJdEp5Zk5INW5EYVRndEFjMk8tRXZ5TmU4Qk5IUGd6X2xpeHpzWEljM3ZRVGhaYXdOY2dwWU5VakpLOGtfaDRJOHVrSVlfTGQ2bjM1UVU?oc=5",
+       "date": "2026-11-17T14:02+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+       "source": "Simon Willison",
+       "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+       "date": "2026-11-17T22:38+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "luxe",
+   "titre": "Luxe",
+   "sujets": [
+    {
+     "id": "maisons",
+     "titre": "Maisons & groupes",
+     "resume": "LVMH Médias a signé un accord avec OpenAI, et Gonzague de Pirey devient Chief Digital & Innovation Officer du groupe. Kering recrute chez Nike un directeur du pricing. Les valeurs du luxe européennes reculent, Hermès perdant plus de 5 % lundi selon Les Echos, sur fond de craintes liées à l'IA.",
+     "points": [
+      "Richemont : bénéfice semestriel en hausse.",
+      "Le Prix LVMH ouvre les candidatures de sa 14e édition."
+     ],
+     "articles": [
+      {
+       "titre": "LVMH Médias signe un accord avec OpenAI",
+       "source": "La lettre de l'audiovisuel",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAybk8yNEVCUnNsMGE4eWJNbGM4eGhJR21xUzI5OEFJOHBIMGQtanVTM01Celg0c0gzVUZGNml3NEwtNmFFVWg3T3NSaFRaT2NIVk84Qzg2RUY5MVpUM2xmQTNfYlViZTlZcWxvZzNhWThQMjNyV0Nkcml3?oc=5",
+       "date": "2026-11-17T20:17+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Gonzague de Pirey, nouveau Chief Digital & Innovation Officer de LVMH",
+       "source": "Alliancy",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTW1ST1A3STdCVjB6aW5sd3FBYW54Q1pxVjU5RUhMeTRtYzRhOUhNdThZcVNacjNuT0w0Q2FvZjJKakNQTU5WSzB0MEZuOU5LOW8zdlRHekE3UjQxMTBwdk5ucGtiSnhFMUlfYmZXLU5tLWF3ZDhnam9YbWVnSTZ3UUEzdGZXdU5uck0zRTFDVDAwNGppM0xUa1RVWkl3QmV2RnJ3cHE0em5IbWNiTkpKcU4yUm1UNnJNOWdOb010cGFjWlFZQ1E?oc=5",
+       "date": "2026-11-17T17:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Kering recrute un directeur du pricing venu de chez Nike",
+       "source": "FashionNetwork France",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVXg4ZVhIdU4xOHVrMEdfdWd2dTRwZ0J1c2JkOTctZ2drOF9GaGoxc0cwZWEySE1BbmRtM1E3RE5DTGotQUNkQjdRamdKeWpiNTEzWlJhT3p5T295Wk8zTTd4N0Y0SHlLa3hwMVU0SVNfaFNsbnVQWWhwZFJFdWpvMlB5QUZaSjQ4cHpmR0Z1c1VKUmlVeEUyRUVuNElEbGNVelV4QXpmdw?oc=5",
+       "date": "2026-11-17T17:12+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Le Cac 40 finit en baisse de 1,6%, Hermès a perdu plus de 5%",
+       "source": "Investir Les Echos",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd1lEWGFWUFdaZWJmbWNhZFFiLXVucktUUXFuS3liQlZjTThUWEYwNGRFdUE3dVdIcEdGUzIyZG5pSTZrblFUMHVSOUNwaVNHQVczMjlrZFdqTW9VV29XbVlRdWJRd2gyUzBoY1puNjNoaDhZMEZkMjhpU3NodDR6cjVZZmRkbTFIbUltZFpNSUxmOV9OazZFc3dod2hkRDFoWVZvOGxhcWxnV2NtVVVDbnR4S2VwN1FrNmljdHRfdlJmWVVVQVE?oc=5",
+       "date": "2026-11-17T16:47+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "parfumerie",
+     "titre": "Parfumerie",
+     "resume": "Hermès recrute le parfumeur Yann Vasnier pour renforcer son équipe olfactive. WWD évoque un possible rachat de Parfums de Marly par Puig : information à confirmer, source unique.",
+     "points": [
+      "Fragonard fête ses 100 ans."
+     ],
+     "articles": [
+      {
+       "titre": "Hermès recrute le parfumeur Yann Vasnier pour renforcer son équipe olfactive",
+       "source": "Journal du Luxe",
+       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQzFXRGc3MUJNYVBjT3BmRFN4dHpMaktIb2ZBOW5BZ2ZkVVNvUWE0bjRXaFZMZ0hQY1p1TnN1RmVTQWZOeUlEcXhzZU9pZnRkSFRQbXY2TW04YmNxN2RhOU5oY2lJTVJrQTRLM0gtSlZjNEdlMEx2STZKQ2JOZ3Q2c1RWSWI4dXREUXRvTnlidlFnaWNaLVVz0gGcAUFVX3lxTE42NElRdmI0QUFjSWpZcFhaejhkSnE3bk16a1FyZUt6enlEY2ZROUZ0RGtVT3IwX0UtNmFtcVc5VHEzOHBjT2pZUzllTW93Y3NqNGlGb0F6TEI2R0V1WWxCSFVWT2k2NTlLalllak1HcFQxdXJUbmVTektuMWJPa01iaU54WjBOcG42dFV2czJWbERFcldyNnBvN05DYw?oc=5",
+       "date": "2026-11-17T05:32+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Is Puig Poised to Acquire Parfums de Marly?",
+       "source": "WWD",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3d2YUw2VHZ6LXNIbFctcGdObzVjaXAtaHF5em1jUlJzUkNxbXpDLUJiUC1lOUtvd3hvN0lxcktUMFBtbnlDeXVSaGF4NnNUbFZyRVo3cC1keTNoM05GVnVYRlR3cGRPVHZFTXNxMDZKZDZpd0huVmFPUUlfQnM2SEJBTEFUa3JmSDQ3VmdGdnp5Y2Y1TnBvbHFJdTJYdy12NG9XUFdhRTFyUFBlblFheU5RN21aRkhE?oc=5",
+       "date": "2026-11-17T16:29+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Fragonard fête ses 100 ans d’art de vivre à la française",
+       "source": "Luxus Magazine",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGd3MWxVZFNOSnhTTHFEbEtSVWdrWmVGVVNXblVFcmg3RUUyaGlzZ1ZzLWJreE5ZSHhCSHZrN3Y4WThDZUFTY0FNdjBwQWZWTm5ob25wdUM0elY3RkV5bkZ6aGxhUU4zaXo5R0NaeXlkWTNBTzhzeDk4UWVUM01iSHpYV1VRZFpfTGdya0pROTUwZw?oc=5",
+       "date": "2026-11-17T09:18+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "mode",
+     "titre": "Mode",
+     "resume": "Peu de nouvelles marquantes : Amina Muaddi explique dans WWD vouloir garder sa marque de chaussures indépendante, et Prada ouvre à Milan une exposition retraçant un siècle de mode.",
+     "points": [],
+     "articles": [
+      {
+       "titre": "Amina Muaddi Opens Up About Keeping Her Shoe Brand Independent and Being Her Own Boss: ‘Nobody Tells Me What to Do’",
+       "source": "WWD",
+       "url": "https://wwd.com/footwear-news/shoe-trends/amina-muaddi-emma-grede-podcast-shoe-brand-1239421323/",
+       "date": "2026-11-17T22:37+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Prada’s new Milan exhibition turns a century of fashion into fresh discoveries",
+       "source": "Boston Herald",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VNHphcS1BSW9lVmYya0laNWJDeEQ3Ml9pQUU3TnhzbERIY3hia0NVemI5XzROUG1CTzVzd3VIci1mRFJUcGpIaVUxN1hncmpNNEFoMkJjUVJnajBHeFcyTzZITGw2V0EtYmE0eF9aemVTTTRVWWpwLQ?oc=5",
+       "date": "2026-11-17T15:41+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "automobile",
+     "titre": "Automobile de luxe",
+     "resume": "La première voiture électrique de Bentley est vendue jusqu'en 2027. BYD prépare la Yangwang Altior, présentée comme une rivale de la Rolls-Royce Ghost. La plus ancienne Bugatti Type 37 connue passe aux enchères à Paris (Broad Arrow).",
+     "points": [],
+     "articles": [
+      {
+       "titre": "Bentley's First EV Is Sold Out Through 2027",
+       "source": "Yahoo Autos",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNXzdiSk9MdUJUbHVqTGd1dktSdzhVb3RHWDE3THhDaTlsX3JmMUdITDRJb05Vb1RwUmZWdzlqamR5TkZkTEhKWnhSYWNXdHhfX2xQRGdrY011VTVnWG9xdmNHbHU1NFZwZzRmWm92enZfQkdXRnZvT1V4eWtoalJGaXNJRzZoczNHcnJzbXJvVkFVeTh4ckpINHR3?oc=5",
+       "date": "2026-11-17T21:41+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "BYD prépare le Yangwang Altior, un concurrent de la Rolls-Royce Ghost",
+       "source": "IDNFinancials",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMXhwRURDaXVJanR1djlTYnpVWktHbXRYRm5pR09qY0xwcm03ZkdBVjNfQk01Qjgzdk1yU2NWTVhtV0J5WVhBT1ZYODJmR3pDTVRrMC1ZcGk0VzFMaXdCNmdHRkZMUVMxd0xKSUdJVkMyTmVLZ0Y4WWhkazYtdFpOUlhpckY3bmwweGNha3E3bHZ2cGZVZTN1VnJIRzBQZFVXX0ZYTDF3YVVLSF9MTkpEM0RBZ0V5WlVf?oc=5",
+       "date": "2026-11-17T23:20+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Oldest Surviving Bugatti Type 37 Heads to Broad Arrow's Paris Auction After Nearly 50 Years in One Family",
+       "source": "Motorious",
+       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOWxPZ05kWkc0ZUMtOTZZdVpDZVo0Ym5KOTJ2OERiRDVVbDhRUGJ0OUVhUkd2V05OLTBuMkJUYnhWRVlIWUJxdkdHYnY1YzRjRWFuX2pJM2JxakNsdWRaVzFfcHJHNllpN1I5cks5Vnlub1VIUmlwc2tFLWpUUktMV1E2YnA2VVhJbXdtN2dTdFdGZC0xd2RjUVpUX245dWZUaWxKQWRUVTN6M3k5VzFIYnlYQ0t4LVM2MlpWZnJVUERzODV3VGc1T2RQMGE3VWVYbU5sbVlVb09IcE91UTNBMzFB?oc=5",
+       "date": "2026-11-17T22:03+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "hotellerie",
+   "titre": "Hôtellerie",
+   "sujets": [
+    {
+     "id": "hotellerie-luxe",
+     "titre": "Hôtellerie de luxe",
+     "resume": "Ryan Grande est nommé directeur général du Four Seasons Hualalai. Stonebridge ajoute le Sofitel Chicago Magnificent Mile à son portefeuille de luxe.",
+     "points": [],
+     "articles": [
+      {
+       "titre": "Four Seasons Hualalai : Ryan Grande nommé directeur général",
+       "source": "La Revue des Hôtels",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSE5INHVkcjhFTmZ3WmZjMlhmSVIxc3V6ZnIwNTJYOVJlV3pVYTJYOVdUc3ZhRkw1R1ZEbWlaNXdoRVVtdktqRVdMLWxyZ19RWlVBQmZBR25XNm00RGxWYlFueUFrbUppeUNLTUNtUVJraUVXWjVDQkhrTFVKYjdPY2ZERW1pY2ZXNFZ2Q01yWkIzbkNzZ3dmNEFB?oc=5",
+       "date": "2026-11-17T10:25+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Stonebridge Adds Sofitel Chicago Magnificent Mile to Its Growing Luxury Portfolio",
+       "source": "Hospitality Net",
+       "url": "https://www.hospitalitynet.org/news/4135521/stonebridge-adds-sofitel-chicago-magnificent-mile-to-its-growing-luxury-portfolio",
+       "date": "2026-11-17T14:34+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "industrie-hoteliere",
+     "titre": "Industrie hôtelière",
+     "resume": "Delta Air Lines et Hyatt lancent un partenariat de fidélité permettant aux membres élites de cumuler des points dans les deux programmes. Skift rapporte que les retards de construction et les sorties de parc obligent les grands groupes à réduire leurs prévisions de croissance du nombre de chambres.",
+     "points": [
+      "Les hôteliers peinent à recruter (Noovo Info)."
+     ],
+     "articles": [
+      {
+       "titre": "Delta Air Lines and Hyatt Launch World of Hyatt and SkyMiles Partnership",
+       "source": "TRAICY Global",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40THFOMXU2Wk5kck5iMjZlak1KbkVhQ2NrTjcxUnJpVTNlNzlsTk9IVThKYlM5cVRBZTBSaG9XdDAweURlTmlnSGxNUHNKWWdrU1kybg?oc=5",
+       "date": "2026-11-17T23:20+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Delta and Hyatt add cross-program rewards for elites",
+       "source": "www.insideflyer.com",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2J6anBmeWJXeFpoLWdid1lfWVh6YmZwQjV4NXFxTXJPRmhqRjc1Sk9ZNnVsNk1hQWJxcVhnckdQamgwa0tCVjVkUUppZUtEdWs1SGtoeG45eFQyYzFEWVEySGpVVmZqa1VySmphQkRXOVRpMG94LXJNa0pObk1iNk43dDlLVUJPbHBJblpFVVk?oc=5",
+       "date": "2026-11-17T20:41+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Construction Delays and Exits Force Hotel Giants to Cut Room Growth Forecasts",
+       "source": "Skift",
+       "url": "https://skift.com/2026/11/17/construction-delays-and-exits-force-hotel-giants-to-cut-room-growth-forecasts/",
+       "date": "2026-11-17T11:30+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Pénurie de main-d'œuvre: les hôteliers peinent à recruter des employés",
+       "source": "Noovo Info",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc005TWxHNWYzeXVKR3RUaWlnVWhjN2pfbUx0cGdBMERJT2xkSmgwMXh5cVBYSDlNX05Oa21jSWpydXFlMG0yWkg0d1lSYU1aQ1lwTmJJTkt6aV94X0djU2Y2ZDFTVFBqRDNEaGxhR1VsamlEOTVESGFtQ2FvVFlkdUstRmNCbGV4ZnhjeFgzOWtrQUQ0NFRwWFZlbFE3TXprU1NtUnA0Q3R3RkhKLVlocg?oc=5",
+       "date": "2026-11-17T21:18+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "marches",
+   "titre": "Marchés",
+   "sujets": [
+    {
+     "id": "bourse",
+     "titre": "Bourse & marchés",
+     "resume": "Lundi, la séance a été nette : CAC 40 −1,82 % à 8 216,78 points, Euro Stoxx 50 −2,74 %, S&P 500 −1,03 %, Nasdaq −0,74 %. Salesforce a lâché 9 % et Nike 6,3 %. Après la clôture, Nvidia a battu les attentes et relevé ses prévisions, ce qui a fait monter son titre.",
+     "points": [
+      "Taux US à 10 ans : 5,10 %.",
+      "Euro/dollar : 1,0997."
+     ],
+     "articles": [
+      {
+       "titre": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
+       "source": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
+       "date": "2026-11-17T21:52+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nvidia Beats Estimates, Raises Guidance in First Earnings Report After Huang’s Ouster",
+       "source": "WSJ",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY?oc=5",
+       "date": "2026-11-17T22:39+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Stock Market Today, Nov. 17: Stocks Slide on AI Chip and Tech Pressures, Salesforce Plummets 9%",
+       "source": "The Motley Fool",
+       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPd2dPMjV5TWtvN2VNM3l2eWptN2RGc3F6ZHVUcGR3OUhneEFsbDFvQmliV3Q0VWRSZ2o0S1MweWVzZ3BYRHBwdi1yMDZxS2JQaVd6cG1WakpqZmNKWTl4eXVvSndkcjJhcXRTZ1NtSDE3bTB4T3ZuM04zSTRrdkc4VG1Tdnh2ZkRaWUNnbUloRnpRTXdwYTdrT2ZIbVlBdkZGdXVxMmVsam1Qd0Rla1hkNldKWU1yR3RjYVk3STZ6NVZ1eHE4NmF4VENhaXRwOXB3eURZZXdUaGpmclloeGw5R1c4bWtRdw?oc=5",
+       "date": "2026-11-17T22:23+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
+       "source": "The Motley Fool",
+       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZVVfTG13LUN5SUNqTjJaOEdKdTRCMmVPWm1OSWVrWWxuQUxncjJhSzZURVBzQS1wNm5TOHR3OVhlT3hTcWtSOS1ZZ05aUE4wNm9tYjZOWngxS2ppVkZ0ZnJpd3hxQVlpMHZnQjBya2tZMTdNQ0V5dFpOU1laZ2FRNmY0WXYydjlyc0VKMWwyS3N6MXJHcFhkMTdCaG10Mk9kSnJwNmdOaHhvZzNhZlRna2pEMEFXeXREM0t3YjNMRDJ5Z1I3ajZfcE9hRG5SZW1HaVZSOEVqcHNQS3pKdlY5Nlhzb0VHcTJLN3pZMw?oc=5",
+       "date": "2026-11-17T22:01+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "crypto",
+     "titre": "Crypto",
+     "resume": "Le bitcoin passe sous 60 000 € (59 045 € au dernier relevé) et 51 % de l'offre est désormais à perte. Le piratage de Binance (6,3 Md$) alimente les inquiétudes, et le gouverneur de la Fed Waller met en garde contre les marchés tokenisés.",
+     "points": [
+      "Ethereum se tient autour de 1 800 $."
+     ],
+     "articles": [
+      {
+       "titre": "Bitcoin sell-off deepens as 51% of supply falls underwater",
+       "source": "FXStreet",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRk5md2xOY2lRUFNzVzk4b0MxZGN6Z3p1Tzd3bEFicDlsanVRcTVFVGN4bXp3ZzhUV0NiYzU5XzhaNDhnMWdPU2FzTllfQkUtaDEzYWVWbzRjNmR2VThsLXBnczlVOXVUSnV4UUR0czJCbE1DanpsVkE4LXVJcnM0bTRLSlZKWTc0dFJqWkgyYWVueGg3aWlpbzdjZkoyeTRxei1KeEdMbVJtQ2lXSExTc2F6UkZOOHpm?oc=5",
+       "date": "2026-11-17T21:43+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "What the $6.3bn Binance hack tells us about crypto risk",
+       "source": "OMFIF",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkVxcmxPQU5ZQ3psZHU5M1VCdGJGOF83alprSjNKY0FhTnM5OE5PUTFyTm5CQ0x4RmpjX2lsUmpaanRjZDNzeFNuQmIySVAxTm9wcDBOTE9fV1BBdHRIQnJQLWpkc0U5QjM2bmRjQVZLTEN4Y0x3ZHkxbHZuSGVENUljR2RjRUxMSTBxS0ZR?oc=5",
+       "date": "2026-11-17T21:18+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Fed Governor Waller warns of risks in tokenized markets, cites Binance hack",
+       "source": "Cryptonews.net",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rU0plV2cwdU5pUG1uTlplai15VldqRDJSbk9kRHNxMDBDTDNQS0d1dncxWFZROUxvWHFHZEZqeEdXUXhwMEpLME9paTJGOGRUQ0VzUFdRZjhyQQ?oc=5",
+       "date": "2026-11-17T20:57+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Ethereum Holds Near $1,800 as Hack-Linked Wallets Shift $137M in ETH",
+       "source": "BigGo Finance",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NYUV3VkN6Zkg5c1VKb3JxTFNUNG80eEFyS09hRkkwbnRfZkR6RjVpQ0FKYXN1VXlpbGxlZERuRTFscmNPUEZNdHp0MTdvUXR4UXlpWmtKX2V0ZkVCYVNwbC1kMU9fSkJiN3hNMTU4WFY4VGhVcFE?oc=5",
+       "date": "2026-11-17T19:55+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  }
+ ],
+ "genere_le": "2026-11-18T06:14+00:00"
+}
