@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-18T14:05+00:00",
+ "genere_le": "2026-11-18T22:00+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -2594,7 +2594,7 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-18T14:05+00:00",
+  "genere_le": "2026-11-18T22:00+00:00",
   "matchs": [
    {
     "id": "401866469",
