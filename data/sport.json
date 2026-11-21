@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-20T21:52+00:00",
+ "genere_le": "2026-11-21T13:31+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -595,20 +595,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
    "prochains": [
     {
-     "date": "2026-11-21T00:30Z",
-     "competition": "Regular Season",
-     "adversaire": "Brooklyn Nets",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-     "domicile": false,
-     "lieu": "Barclays Center",
-     "tv": [
-      "DAZN (YES)"
-     ],
-     "termine": false,
-     "id": "401909306",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-23T00:00Z",
      "competition": "Regular Season",
      "adversaire": "Washington Wizards",
@@ -633,41 +619,57 @@
      "termine": false,
      "id": "401909314",
      "ligue": ""
+    },
+    {
+     "date": "2026-11-28T22:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Washington Wizards",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+     "domicile": false,
+     "lieu": "Capital One Arena",
+     "tv": [
+      "MNMT"
+     ],
+     "termine": false,
+     "id": "401910046",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-19T00:00Z",
+    "date": "2026-11-21T00:30Z",
     "competition": "Regular Season",
-    "adversaire": "Philadelphia 76ers",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
-    "domicile": true,
-    "lieu": "Kia Center",
-    "tv": [],
+    "adversaire": "Brooklyn Nets",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+    "domicile": false,
+    "lieu": "Barclays Center",
+    "tv": [
+     "DAZN (YES)"
+    ],
     "termine": true,
-    "id": "401910010",
+    "id": "401909306",
     "ligue": "",
-    "score": "116-121",
-    "resultat": "D",
+    "score": "113-111",
+    "resultat": "V",
     "tops": [
      {
       "nom": "Franz Wagner",
       "poste": "Points",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "27"
+      "valeur": "35"
      },
      {
       "nom": "Franz Wagner",
       "poste": "Passes déc.",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "11"
+      "valeur": "7"
      },
      {
-      "nom": "Franz Wagner",
+      "nom": "Nikola Vucevic",
       "poste": "Rebonds",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+      "numero": "9",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
       "valeur": "8"
      }
     ]
@@ -676,11 +678,11 @@
     "type": "liste",
     "titre": "Cinq de départ du dernier match",
     "match": {
-     "adversaire": "Philadelphia 76ers",
-     "date": "2026-11-19T00:00Z",
-     "score": "116-121",
-     "resultat": "D",
-     "domicile": true
+     "adversaire": "Brooklyn Nets",
+     "date": "2026-11-21T00:30Z",
+     "score": "113-111",
+     "resultat": "V",
+     "domicile": false
     },
     "joueurs": [
      {
@@ -2592,62 +2594,8 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-20T21:52+00:00",
+  "genere_le": "2026-11-21T13:31+00:00",
   "matchs": [
-   {
-    "id": "401858303",
-    "date": "2026-11-21T00:30Z",
-    "chaine": "ESPN",
-    "etat": "pre",
-    "detail": "11/20 - 7:30 PM EST",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Duke",
-     "surnom": "Blue Devils",
-     "abr": "DUKE",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-     "rang": null,
-     "bilan": "7-3",
-     "score": null
-    },
-    "ext": {
-     "nom": "Clemson",
-     "surnom": "Tigers",
-     "abr": "CLEM",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-     "rang": null,
-     "bilan": "6-4",
-     "score": null
-    }
-   },
-   {
-    "id": "401866468",
-    "date": "2026-11-21T00:30Z",
-    "chaine": "ESPN2",
-    "etat": "pre",
-    "detail": "11/20 - 7:30 PM EST",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Toledo",
-     "surnom": "Rockets",
-     "abr": "TOL",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
-     "rang": null,
-     "bilan": "8-2",
-     "score": null
-    },
-    "ext": {
-     "nom": "Bowling Green",
-     "surnom": "Falcons",
-     "abr": "BGSU",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-     "rang": null,
-     "bilan": "3-7",
-     "score": null
-    }
-   },
    {
     "id": "401856866",
     "date": "2026-11-21T17:00Z",
@@ -3427,7 +3375,7 @@
      "abr": "TOL",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
      "rang": null,
-     "bilan": "8-2",
+     "bilan": "9-2",
      "score": null
     }
    },
@@ -3715,7 +3663,7 @@
      "abr": "ISU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
      "rang": null,
-     "bilan": "5-5",
+     "bilan": "5-6",
      "score": null
     },
     "ext": {
