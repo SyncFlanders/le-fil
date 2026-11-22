@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-22T13:25+00:00",
+ "genere_le": "2026-11-22T20:45+00:00",
  "cours": [
   {
    "id": "^FCHI",
@@ -78,31 +78,31 @@
    "id": "bitcoin",
    "sujet": "crypto",
    "nom": "Bitcoin",
-   "valeur": 55325,
+   "valeur": 55210,
    "unite": "€",
-   "variation": 2.19,
+   "variation": 0.37,
    "sur": "24 h",
-   "maj": "2026-11-22T13:25+00:00"
+   "maj": "2026-11-22T20:44+00:00"
   },
   {
    "id": "ethereum",
    "sujet": "crypto",
    "nom": "Ethereum",
-   "valeur": 1552.34,
+   "valeur": 1561.68,
    "unite": "€",
-   "variation": 1.8,
+   "variation": 1.73,
    "sur": "24 h",
-   "maj": "2026-11-22T13:24+00:00"
+   "maj": "2026-11-22T20:45+00:00"
   },
   {
    "id": "solana",
    "sujet": "crypto",
    "nom": "Solana",
-   "valeur": 63.9,
+   "valeur": 63.81,
    "unite": "€",
-   "variation": 0.71,
+   "variation": -0.61,
    "sur": "24 h",
-   "maj": "2026-11-22T13:24+00:00"
+   "maj": "2026-11-22T20:45+00:00"
   }
  ]
 }
