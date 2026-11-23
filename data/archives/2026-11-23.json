@@ -1,0 +1,690 @@
+{
+ "date": "2026-11-23",
+ "note": "Collecte des dépêches impossible ce matin (réseau bloqué, erreur 403 du proxy) : l'édition s'appuie sur les dépêches de dimanche soir (20 h 44 UTC). Le résultat de Jaguars–Giants, joué dimanche, n'était pas encore disponible.",
+ "a_la_une": [
+  {
+   "sujet": "anthropic",
+   "titre": "Anthropic : une entrée en Bourse record, mais agitée",
+   "texte": "Anthropic a fixé le prix de la plus grosse introduction en Bourse de l'histoire. Les débuts de l'action sont jugés turbulents, dans un marché tech sous tension."
+  },
+  {
+   "sujet": "bourse",
+   "titre": "Wall Street dans le rouge vendredi",
+   "texte": "Vendredi, le Nasdaq a perdu 5,28 % et le S&P 500 3,7 %, le CAC 40 reculant de 1,89 %. La presse américaine parle d'une correction du Nasdaq et d'un « AI trade » qui se défait."
+  },
+  {
+   "sujet": "real-madrid",
+   "titre": "Le Real s'impose 2-1 face au Celta, le Barça passe devant",
+   "texte": "Bellingham et Espí (pour le Celta) ont marqué au Bernabéu, mais Barcelone, vainqueur de Villarreal, reprend trois points d'avance en Liga."
+  }
+ ],
+ "themes": [
+  {
+   "id": "sport",
+   "titre": "Sport",
+   "sujets": [
+    {
+     "id": "real-madrid",
+     "titre": "Real Madrid",
+     "resume": "Le Real Madrid a battu le Celta Vigo 2-1 samedi au Bernabéu, avec un but de Jude Bellingham à la 66e minute. Carlos Espí a réduit l'écart pour le Celta à la 85e. Le FC Barcelone a de son côté renversé Villarreal et reprend trois points d'avance en Liga. José Mourinho reconnaît qu'il est « plus compliqué » de faire jouer ensemble deux de ses stars.",
+     "points": [
+      "Real Madrid 2-1 Celta Vigo (Bellingham 66', Espí 85').",
+      "Le Barça renverse Villarreal et compte trois points d'avance.",
+      "Prochain rendez-vous européen : le PSV Eindhoven en Ligue des champions."
+     ],
+     "articles": [
+      {
+       "titre": "José Mourinho après Real Madrid - Celta Vigo : « J’ai vu des joueurs qui se sont surpassés »",
+       "source": "L'Équipe",
+       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXZYV3ZuLU8zREJNeXFtbkgzQnRtMlZfOFI4UDd6WUVrd2t1M3ZjRzZlamhjYVBYV2JhdThDYXRlZjZ2aFpWMk5BSzFIWlp4NG42TFdTSzJfRVRyTFhraE1TV1FvNTlzZG1PaEdQYm1mNjdFUVFtTzhVQjFTTWpPZFhkek8xT3F2VGQxY0RvMzdMbUdVSXFjSDJKMEZKZlNtSHcydkRSLTFRRDFWU0tyQS1sblRFQWljekJKYVVSRmNPeFRiNTI1WWFJLXJGU0UxOF9BUlA1X2licEc4TEo5SUJB?oc=5",
+       "date": "2026-11-22T13:34+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Le Barça renverse Villarreal après une entame cauchemardesque et un penalty manqué par Lamine Yamal",
+       "source": "L'Équipe",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORE1iM3hqVEpHQjhiUFEyR3ZaNXJlTE01QzZFQlVhRUh2eE1NaEVza05VYzlGUHduYmdVMGZmVm1rWFlQdmxTU2RabTM0Vm5PQTJycnMxNk5ySTUyT0ltMld3YzFKN21MTGlIZVdDWmEyWmFMZVRPaENOa3Vha1puWkx1blZqMjVPZHo3c2RCQ0FWLW1zaGx1M0VUR3B6NmV0UDBDYWdtOHFkSzlkWDBQdjllUkQ2SDVzdzFnX0tLd093MkdYQTlHOVRoQ0NCMloyb1plbktGQkpndWZQdHk1N0Ewdw?oc=5",
+       "date": "2026-11-22T15:07+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Referee named for Champions League match between Real Madrid and PSV Eindhoven",
+       "source": "Managing Madrid",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kWG50b0tJRXBTRWRwOE9IekJ3YU03S203ZFYyY010TEtvSmprV0gwTFFGREdDTUVIOXQwbER6VU53TmRocmkxU0pSQnJTVkZsa1gzT2xvVlZzV2RRUmVndUFFX1M4UGhyaEYtNWF0M0E3WVZP?oc=5",
+       "date": "2026-11-22T20:34+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "‘More Complicated’—Jose Mourinho Names Two Real Madrid Stars That Cannot Play Together",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY1hGZW93TmhSNFFJdEw2Rjd3Znk5VWFzMTVPbDA5THhIRG1ZZFdQdjMzZkhzelBkZFN4Z2VIZERncEllaGxLd19sSkFLUzRIZGFNMk9vbjdxZVRGYVY5M1VRMHJBcGtPLTJoZEFQS3B2ZDRYSkhwZnVmZkVGeEVDbzBpd242YjR5cFBTVXZHZ2ZRYk0zNkdXTXA1VDVZUVMy?oc=5",
+       "date": "2026-11-22T17:21+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Jude Bellingham",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Milieu",
+       "numero": "5",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "Kylian Mbappé",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Attaquant",
+       "numero": "10",
+       "credit": "Wikimedia Commons"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Le Real tient bon face au Celta",
+      "texte": "Le Bernabéu a dû s'accrocher, mais le Real a fini par empocher les trois points face au Celta Vigo (2-1). Jude Bellingham a débloqué la situation à la 66e minute. Carlos Espí a bien fait trembler tout le monde en réduisant le score à la 85e, sans que cela suffise. Mourinho a salué des joueurs « qui se sont surpassés ». Dommage : le Barça a gagné de son côté et repasse devant.",
+      "sources": [
+       {
+        "titre": "José Mourinho après Real Madrid - Celta Vigo : « J’ai vu des joueurs qui se sont surpassés »",
+        "source": "L'Équipe",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXZYV3ZuLU8zREJNeXFtbkgzQnRtMlZfOFI4UDd6WUVrd2t1M3ZjRzZlamhjYVBYV2JhdThDYXRlZjZ2aFpWMk5BSzFIWlp4NG42TFdTSzJfRVRyTFhraE1TV1FvNTlzZG1PaEdQYm1mNjdFUVFtTzhVQjFTTWpPZFhkek8xT3F2VGQxY0RvMzdMbUdVSXFjSDJKMEZKZlNtSHcydkRSLTFRRDFWU0tyQS1sblRFQWljekJKYVVSRmNPeFRiNTI1WWFJLXJGU0UxOF9BUlA1X2licEc4TEo5SUJB?oc=5",
+        "date": "2026-11-22T13:34+00:00",
+        "origine": "passionnes"
+       }
+      ]
+     }
+    },
+    {
+     "id": "florida-gators",
+     "titre": "Florida Gators",
+     "resume": "Florida a battu Vanderbilt 34-27 à domicile en semaine 12 de college football. Les Gators remontent à la 20e place des classements AP et des entraîneurs. Aaron Philo a bouclé 20 passes sur 26 pour 241 yards, et Eric Singleton Jr. a réussi 6 réceptions pour 117 yards.",
+     "points": [
+      "Victoire 34-27 contre Vanderbilt, bilan de 5-4 en SEC.",
+      "Retour dans le top 20 des classements AP et des entraîneurs.",
+      "Un bowl face à Clemson envisagé par CBS Sports."
+     ],
+     "articles": [
+      {
+       "titre": "Rapid Reaction to Florida's 34-27 win vs. Vandy",
+       "source": "On3",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRE5XXzIzejBFWFFTYnJvVy1lOUw1VEwxM2dhdzAxMXdUTzZHTjBqVk1zSVF0bkM1NGp4MTBwU2MxZ2F5OWZBUWVBRFljNTVQUHNGNTJSdXI0NEV6Ulk3OFRMQmZ0NC1pRHVSczFwS3k3QlVqSDRZRjBQVnlTSFRvalRKekhleGd4LVNydm8tRk1PMzFzeWlsYkx3Njk?oc=5",
+       "date": "2026-11-22T06:38+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Florida Gators move up to No. 20 in both polls after beating Vandy",
+       "source": "On3",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOXzJzaE81RWVpektnaTZHaEg5VzhBMndBeDUyb3hZN2RZR1FSamQ1ZzhqamwySkxUaW9YZmpBbmtPSGZFR0JvdmlJajdJdXBOdC1vZ19wQU9YQ3ViQVhLakFiUTFmUk1zczdHUkR1WkduX00xcENoM3pQSmxtWDY2dlFocm1Wb2lKTEFUQ2piMzJrcGFWV3AtRlVjQVc4T3lsQXZqcVlpTUZKX0h4NERMZ19R?oc=5",
+       "date": "2026-11-22T19:50+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Aaron Philo Explains What It Took to Lead Gators Past Vanderbilt",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS1FsMVMyR2VrSXNqQXZWY05jU0FqenVaTVFTNXhib2VadjFieU1lT3hXeGd0Z0ROZmswdmk0UC1vUlZpRzhkY2RpemhveURUWGlKTklBOVlaMEtRbjNlcWxIdWh0ODBYUjJNdTEyam5oLU8tS2hQWlBMdmJ6dEdzWlNNLVpCOS1IbUNuaVZndkZqODN3QmVEdkg5UmM3aWw2emcwR0FsMzZrZld3?oc=5",
+       "date": "2026-11-22T13:35+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "CBS Sports Projects Gators vs. Clemson in Notable In-State Bowl",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzJZdy02S2psV0ZtamhpQVREWl9wc2YyUVhzbENXeVBBdVVBekhEUFRFT3lfTFBwQ3hNX1YtZnR1VWhPdlBSZy1MSl9RT0Uyc25jZ0M2N2tyVWhMZVZPV3dzNzhhbG9sTUNoY2ZfSHc0ZnJFVGE0M0Z6c1RfczVxeGJDOFFZeGp0TlFLc0FGdUJ6OEkwQ1dqTVNsRGF1amJLaW1oYmlXSEExdw?oc=5",
+       "date": "2026-11-22T20:00+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Aaron Philo",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+       "poste": "Quarterback",
+       "numero": "12",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Eric Singleton Jr."
+      },
+      {
+       "nom": "Jadan Baugh",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+       "poste": "Running back",
+       "numero": "13",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Les Gators s'en sortent contre Vanderbilt",
+      "texte": "Il a fallu s'accrocher, mais les Gators ont fini par plier Vanderbilt 34-27 dans le Swamp. Aaron Philo a tenu la baraque (20/26, 241 yards) et Eric Singleton Jr. a enfin sorti le grand jeu avec 117 yards à la réception. Jadan Baugh a ajouté un touchdown au sol. Ce n'était pas toujours joli, la défense contre la course a pris l'eau, mais Florida remonte au 20e rang des classements.",
+      "sources": [
+       {
+        "titre": "Rapid Reaction to Florida's 34-27 win vs. Vandy",
+        "source": "On3",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRE5XXzIzejBFWFFTYnJvVy1lOUw1VEwxM2dhdzAxMXdUTzZHTjBqVk1zSVF0bkM1NGp4MTBwU2MxZ2F5OWZBUWVBRFljNTVQUHNGNTJSdXI0NEV6Ulk3OFRMQmZ0NC1pRHVSczFwS3k3QlVqSDRZRjBQVnlTSFRvalRKekhleGd4LVNydm8tRk1PMzFzeWlsYkx3Njk?oc=5",
+        "date": "2026-11-22T06:38+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    },
+    {
+     "id": "jaguars",
+     "titre": "Jacksonville Jaguars",
+     "resume": "Les Jaguars affrontaient dimanche les Giants à New York en semaine 11 ; le résultat n'était pas encore connu au moment de la collecte. Jacksonville restait sur une victoire 40-23 à Tennessee, avec 352 yards et 3 touchdowns de Trevor Lawrence.",
+     "points": [
+      "Match à New York contre les Giants, par météo difficile.",
+      "Danny Striggow forfait selon Black and Teal."
+     ],
+     "articles": [
+      {
+       "titre": "Jaguars Face Tough-Weather Test vs. Giants in Week 11",
+       "source": "Heavy.com",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzZVdGVWaFd5NHVMeGJVbWo5WlNwVWNTX0p3Y2U0TndBSzlzXzgwWDQ1M0tFcEtJT0o5UV9NWUswUHBHaWg5QVJVLUwyazFPMHZCWUFFckFIVGRMbmJ4eVRseHVBMmk0Q1picTE2Yjh4RXkxNV9TdnRCYmpSZm4yOHVpUG9QZWJsMkhRMQ?oc=5",
+       "date": "2026-11-22T20:24+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jaguars inactives against Giants in Week 11: Danny Striggow is out",
+       "source": "Black and Teal",
+       "url": "https://blackandteal.com/jaguars-inactives-against-giants-in-week-11-danny-striggow-is-out?utm_source=RSS",
+       "date": "2026-11-22T19:00+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Jacksonville Jaguars have left themselves no room for a short January",
+       "source": "TWSN",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVXZ3SGlRTVRjUXZneHo4UnN5OXJqYWQ0V0RGd1JkWlFDX1c0TGhwWGhGUzNfTGNfZjd6WW5iVzBrT2x6Q20yMXljNm9oZTNtOURUYW9STzBiWkFYTTZKdHZ5dy1idGF0elRrLVFZaEs3OUlPYko0a1AyUmxER1JldnRpTDIxWWQzdkhCTnE4T2FyYkpnWkViQk1QZzdSUQ?oc=5",
+       "date": "2026-11-22T19:34+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Reacts Survey Results: Parker Washington is the real MVP",
+       "source": "Big Cat Country",
+       "url": "https://www.bigcatcountry.com/jacksonville-jaguars-discussion/91699/reacts-survey-results-parker-washington-midseason-mvp",
+       "date": "2026-11-22T16:04+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Trevor Lawrence",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+       "poste": "Quarterback",
+       "numero": "16",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Parker Washington",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
+       "poste": "Receveur",
+       "numero": "11",
+       "credit": "ESPN"
+      }
+     ]
+    },
+    {
+     "id": "orlando-magic",
+     "titre": "Orlando Magic",
+     "resume": "Le Magic a battu les Nets 113-111 à Brooklyn vendredi soir, avec 35 points et 7 passes de Franz Wagner. Orlando recevait ensuite les Wizards samedi 22 novembre, avec une série de victoires à l'extérieur en cours ; le résultat n'était pas encore connu.",
+     "points": [
+      "Nets 111, Magic 113 : Wagner 35 points, Vucevic 8 rebonds.",
+      "Match suivant à Washington contre AJ Dybantsa et les Wizards."
+     ],
+     "articles": [
+      {
+       "titre": "The Magic Bring Road Win Streak to the Wizards’ House",
+       "source": "Athlon Sports",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeEZvRURFdkVpSHRrWXJHQ1lDVXZ5TTFuYWlPbkRYSnNRZ21HN19wcUVDOEpaMllMMi1tdVl5YWVsRkFTbjFzOG1uNXlkZk5mODhTWFFHQ0k5SHFWTnFzZEhNakxmWjJTYk93MUFGakd5bU9fWjFLNVV6bTZGOFZaeHBNUUxmbVdzemRKSXI5RWNZZzk2U2VQbnNOQWZDR1VvX0ZB?oc=5",
+       "date": "2026-11-22T20:10+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "What To Look For As Franz Wagner, Magic Take On AJ Dybantsa, Wizards",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQckNaQWluNFhVYURUOTZzMDZJR1hEekZxN0FPeWNwV0pILUhZLXlzaTVOdy11dDBtUVgwcUlQMXh1bkFJOG5ycmoyY05FVUtQeTFxZ0ZrbVkwemEySlJpR2VHMmIxRGdfWTE4UFNpYmlhMnZ3RUJ0T2hkSHJQM21UdzlHMm84VnMzMkI2aHFYQ19YLXg0ZExYcFNUUmJhaHVtVE43dElWZVRsbmlGNXVwWXFNUQ?oc=5",
+       "date": "2026-11-22T19:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Match du 20 novembre 2026 : Brooklyn Nets vs Orlando Magic",
+       "source": "TrashTalk",
+       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42RExVUGx0VzNhdTFURmRReWhhZHVsSGwxcmFqOEFVN0NUZ3lDWHd3WC05Y1JrNjExRUl6cVhYVnlGV2pHZklTcXlhMzhFS1lxcmVneTJuR3pKTE5ENFhZSUg0VQ?oc=5",
+       "date": "2026-11-20T23:05+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Orlando Magic @ Washington Wizards: Live game updates, stats, play-by-play",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uUTAxbW1YWTh4bHdBYWJIaTZaSUt5VTYtcWpkbFZJOXcyTWNqQmhXTi1lX2U4YzAteEIzTGxWREJkTWpWYmdQVll3eXc2S1R1TGQ0QUpWUkMzX3RoaHp3bnU4dnFhcXg5SC12SDNTUTg0YTZ4OGFqVTRlaFIxZw?oc=5",
+       "date": "2026-11-22T18:33+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Franz Wagner",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+       "poste": "Ailier",
+       "numero": "22",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Nikola Vucevic",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
+       "poste": "Pivot",
+       "numero": "9",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Wagner sauve le Magic à Brooklyn",
+      "texte": "Franz Wagner a pris le Barclays Center en otage : 35 points et 7 passes pour arracher le succès 113-111 contre les Nets. Nikola Vucevic a gratté 8 rebonds et le Magic repart de Brooklyn avec la victoire dans les valises, d'extrême justesse.",
+      "sources": [
+       {
+        "titre": "Match du 20 novembre 2026 : Brooklyn Nets vs Orlando Magic",
+        "source": "TrashTalk",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42RExVUGx0VzNhdTFURmRReWhhZHVsSGwxcmFqOEFVN0NUZ3lDWHd3WC05Y1JrNjExRUl6cVhYVnlGV2pHZklTcXlhMzhFS1lxcmVneTJuR3pKTE5ENFhZSUg0VQ?oc=5",
+        "date": "2026-11-20T23:05+00:00",
+        "origine": "passionnes"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "titre": "IA & tech",
+   "sujets": [
+    {
+     "id": "anthropic",
+     "titre": "Anthropic",
+     "resume": "Anthropic a fixé le prix de la plus grande introduction en Bourse de l'histoire, sous le symbole ANT. Les débuts sont décrits comme turbulents par le Wall Street Journal, et plusieurs médias financiers estiment que l'opération n'a pas calmé les inquiétudes sur l'IA. Des ETF à effet de levier sur Anthropic commencent à être échangés lundi 23 novembre.",
+     "points": [
+      "Plus grosse IPO de l'histoire, selon Crypto Briefing.",
+      "Des ETF 2X long et short démarrent lundi.",
+      "Une preuve sur Navier-Stokes assistée par Claude, présentée par des chercheurs d'Anthropic et de NYU (à confirmer)."
+     ],
+     "articles": [
+      {
+       "titre": "Anthropic prices the largest IPO in history as AI rivals close in",
+       "source": "Crypto Briefing",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44QlJDeTJEQ3NmZWkySTc1dWdfb2VSODBHaGFGdENWX2lYbWhiZ0tiMjVxMC05bTdUVFV3djViakVYd1g0UEFLajkzSkNBeXkyN2VhSHNnWTB4STBfVW9abHk4VWtxR2RSZzNqYw?oc=5",
+       "date": "2026-11-22T20:33+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut",
+       "source": "WSJ",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd0p4QVlqUGxNcEQwUVJFWkU2cnBwOGRoMjk0ZDRSaFlNZzZMdmt5d3p0QzZzeDZXZks1TGhyN1JPNDI0clRKSHMtSWpOdHNMeUMyNHU5YlpJY0NITnJ4MUhJeTByWmtKdU9QdlZIZGtvYmJlZW1oTjVKZ25WRGowQVRXSWp1cDZYLTRONXRoVkRSc3ZjdDNvWE5jLUhnY2lHd202LXd5Umk3ZlQt?oc=5",
+       "date": "2026-11-22T18:47+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Defiance 2X Long and 2X Short Daily Anthropic ETFs, ANTC and ANTQ, Begin Trading Monday, Nov. 23",
+       "source": "GlobeNewswire",
+       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZXlIaEJPTGFNcW9IN3dBR295U3o3ZER0MllFeUhMaE5BN29EOW9ySFNXTl83NTg0NE5hanByc2pOOGhueHNnSTlTWmVHbjYzX2tyRkhORWYtRGQ2WnRpa0JfTkZBS3NCQTVWLWY3QVhIZllPcVRabnNHT0dJUTJSc2htVkNLMDQxbmNKVUJLb0RwZkVMYkZtNU5BanB3Y0lkZ2Jla3A4Y0pxTTVLS2ZZd3RJMHZjbElxSEg4a3dKWHoySUFOVXRNeE5qTnREN1lVYzZkdEJnTFJ3WlE2c29ya284ODFXTUFKQUVQRWZoekxET0xPV3ZV?oc=5",
+       "date": "2026-11-22T20:23+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Anthropic's Levent Alpöge and NYU's Tristan Buckmaster post a claimed Claude-aided proof that the Navier-Stokes equations can blow up",
+       "source": "MLQ.ai",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUnZzQWZhTXdqbG5GNTRfbnpPSTZjbVE5Z1dKWDJXRFB1Y3BUTkE0TDYzaXAxRUZubEhCMC1YUXE2b0tyaGJqWnhwWEl4Mk1xWF9YVUdlamxvLXhxRzRiTHVudFJZX3I3cGhmaHQtdWRPVG9pMlBVM29rWE9TN3R1WmlYRmNTMngxdE1lUS1laWNSdDdwVE9qY1V1V3poc0lxU0R0UlRrQy0zYW9jMVZFS1JfSFBhUk5IbkNjSExwRjZtRmdoU1Q3R3o3OUktUXFqUVQtWjJPYktYU2Y4Y1BsNXhiX21TNXM?oc=5",
+       "date": "2026-11-22T18:02+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "big-tech",
+     "titre": "Grands groupes tech",
+     "resume": "Nvidia est sous pression à Washington : le sénateur Kennedy veut interroger sous serment deux ministres sur les exportations de puces, et le secrétaire au Trésor Scott Bessent refuse de soutenir le retour de Jensen Huang. Plusieurs pannes (FAA, Microsoft, banques) ont aussi été évoquées par le directeur du renseignement national.",
+     "points": [
+      "Nvidia : enquêtes et questions sur les exportations de puces.",
+      "Pannes de la FAA, de Microsoft et de banques."
+     ],
+     "articles": [
+      {
+       "titre": "Bessent Declines to Back Huang’s Return Amid Nvidia Investigations",
+       "source": "Unite.AI",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3diRW00T0pudHZEbXYwSGdYOWwtekQ0YlN6SXZyNTdYZzZBclVuRU1MWldlNnhDRHdSc3NTM29GU0RPeXF4dHBnblNCTE9JQzRZUk5oVFYwWjRBbnFKWk5xcEF0Wk1kZ0REdmRQS0xWd2RYT0pqMmtfMnNKT3ZoMmdyTVRIYmIzcWpiSWU0aTM?oc=5",
+       "date": "2026-11-22T20:10+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Senator Kennedy wants Lutnick and Bessent questioned under oath over Nvidia chip exports",
+       "source": "Superpower Daily",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUN6MkJ2WS1vaEJkeWs1SVlldFVNU0dTVXBtSVNpMWpFUWlmU1d0UG1wVFphWTBMN2RVN0hvRFFCNXUxY0RqUlZvakJ0QkhueVgxaEdDemJsT3M1Z1ZEblhabjZBc0ZPaXdwZ053UGFaRXdCVVM0SHlmY1hBcGwzSl82Yms4THlsV0V3d0ZUT19DMERlYXVaUUNuM1Jjd2VrZXpMTVRPNDg2ZGZlNUxEeGlleVVPOEZtODVQZzdGYw?oc=5",
+       "date": "2026-11-22T20:18+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for \"bumps in the road\" as systems are upgraded to adapt to the AI age (Garrett Downs/CNBC)",
+       "source": "Techmeme",
+       "url": "https://www.techmeme.com/261122/p11#a261122p11",
+       "date": "2026-11-22T20:35+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "What Is Apple (AAPL) Planning With Its New Autonomous AI Agent?",
+       "source": "Yahoo Finance",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZkZLdmwyWGlObEo1YVNleUhDTEtRYlFmSUd5TUkwUUNOcm4wUi1ubVJGS2UwTjFtVWZoNHI0OUhELUNlTURHNmlCdVhrbVVUQmppRXk3OVJqX051VkpSOGZYeWlnVlc3aHRSeUZjYU02Y21uR0s3LWd4d3AzNjBEQ0MxZ2E1WE5qOWdya1VoZFd3b0VwTlNSQ0NzdE9BUQ?oc=5",
+       "date": "2026-11-22T20:06+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "ia-monde",
+     "titre": "IA dans le monde",
+     "resume": "Peu de faits marquants. DeepSeek supprime la facturation séparée des recherches web automatiques, et Samsung confirme 10 contrats sur la mémoire.",
+     "points": [
+      "DeepSeek simplifie sa facturation.",
+      "Samsung annonce 10 contrats sur la mémoire."
+     ],
+     "articles": [
+      {
+       "titre": "DeepSeek supprime la facturation séparée des recherches web automatiques",
+       "source": "Foro3D",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN2dUYmtsUG1QRU9fZHdzUFNNeFZydVpaay1XWFNhLUliUms0TVhFdWhrd1hYUTdJVm15LWdmLTNfcXZhMEVzcE1yWnNIWXFISi1UN1dtRTdXd1dEb2g2UGU1WnZiMWNyUVZqTnFxa053R2xINDZ3WHJLcGVJaExYeE9BaTd2VC1lcmpoNGZEVGpsR3AzdTB2dVFfNldCMEhkdXlSVnVIQjFQRFk?oc=5",
+       "date": "2026-11-22T17:10+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Samsung confirme 10 contrats sur la mémoire, le 2029 épuisé est celui de SK hynix",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUm1RbHBrMGRvaEJjbGNJVmJfOHlBaUhqZmFVWTBmemZ0QXlGOU94ZnJLSjJTczJxb3hlRlk0RFFaMUduX2dyRWl1aVhGZWFrcHdXNktWTkpHVG9ZWVFUQmxRMU80LTgzbU54dTBDcGFvdmRHSUhnYW9lbjNXSU5BUVFJNUExQkZmdXRUZnZPS1EtRmp1RXhjVDkyMDZJUy1fREtJ?oc=5",
+       "date": "2026-11-22T14:26+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nvidia maintient sa stratégie IA open source après Jensen Huang",
+       "source": "BlogNT",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNjYxWmJiRkFWYXZROG4zMkx5cEI0QVE0aE13djgyNklqZG1nOXh5eENGYklxSkJqVWVKSWwzWXlnSjVRM2h5ZEhOS0VUNXBLWWdIRHRYLVN1QW4wZl9VVDJRX0JOakdHcF9EeUJPdW9lQnhIamQ0VlUtSWRBQXpvbERxYkl1T1FQZ0NYeVFRU1VBVXc4MGpCVTlGNGt2NHlN?oc=5",
+       "date": "2026-11-22T08:45+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "luxe",
+   "titre": "Luxe",
+   "sujets": [
+    {
+     "id": "maisons",
+     "titre": "Maisons & groupes",
+     "resume": "LVMH se retire de la course à la succession Armani : L'Oréal vise 10 % du capital. Paolo Bulgari, qui a fait de Bvlgari une marque mondiale, est mort à 89 ans. Chanel prépare l'ouverture d'un établissement dans une station de ski suisse.",
+     "points": [
+      "LVMH renonce à Armani, L'Oréal en tête.",
+      "Décès de Paolo Bulgari à 89 ans."
+     ],
+     "articles": [
+      {
+       "titre": "L’Oréal, qui fabrique Acqua di Giò, veut 10 % d’Armani et LVMH se retire",
+       "source": "Essential Homme",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPci0zakV0TnV0LVdWeV9fZHhFc1N3TVdZSU9OYjVNOVNtQ2hGaUU2Y3hMeURxVmswRlp1UTZTY3BxaUJJT3ZLZkNZQ2JIcHdOdUxjbmRJSzhMR3piOEpyRzIxRW1jVmhHakJPeDJBZWszNFA0VERqM2FuZV9YY0ZEWQ?oc=5",
+       "date": "2026-11-22T09:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Paolo Bulgari, architect of jeweller’s rise to global luxury brand, dies at 89",
+       "source": "WTVB",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1lhN3F4VXFDVGlfZC1odlhXYXRtYTFITWhJczhsaTVXVlc5NDVlUE5yTG44aVh4a2FYQTh1MmU1dTJxdnh1T2oxTGRqeF9hRzRldkhDSklKXzFuUHpmTXNkNGRwUnVWemMtaFZvbS0wRFZMcFFoRDdad1FHVy04T3YtZkI1b2pJaVdNMDFwU0FxZ3V1RjBLODNjeTk4VzZMaGNrdTZRVG1tUQ?oc=5",
+       "date": "2026-11-22T14:08+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Succession Armani : L’Oréal en tête, LVMH loin derrière",
+       "source": "L'Essentiel de l'Éco",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdjl6ems0LVdmVTQtdVA3Q3BuQmlzVGlKTExYY05qY1ZjRFBrclZpRGM0alRsc1NSOUswUEN5enBGamlLRkZIbjJubFF0bjRBOG5SeUZtWjJoSU54dUpmQkhuN0J2MlpXV1NhakdwTlotdFI5S0hFQlh0bVRKWEU1RjhjM0FFSkFmYkE0eVlB?oc=5",
+       "date": "2026-11-22T13:52+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Dior Holders to Vote on Agache Merger as LVMH Shares Sag on US Wealth Jitters",
+       "source": "ad-hoc-news.de",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTkZoVU1VVUdNdHcwQXJVQUpzcXlRLUFMdDFSRGNTbVRDTmptb1ZIbV9saFFVbXFsS1QxZjJxdXJLc1padmVyR1YxdkotNG1HcjBDZXBnaTJHX0JTUTRIajd6YTdyQlRMQ0lRN0pvUFppcDRRaUVsdDhmZFNWM2tJRUdheFFwa0JVeDh6aElSVVJhR0Vsem1IdUV6SEJPeUdKeVJUV1dncFVGLUFwWklidzM4YWx4WE9ZdXhmczBYemY4N3B6M2o3VlBwNEhqOGNqRVRHT2hET29nQ0xTck5MMDd4RQ?oc=5",
+       "date": "2026-11-22T02:31+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "parfumerie",
+     "titre": "Parfumerie",
+     "resume": "Louis Vuitton lancera le 1er janvier 2027 une collection de trois parfums avec Keith Haring. Francis Kurkdjian s'est exprimé sur ICON(S). Pour le reste, peu de faits nouveaux.",
+     "points": [
+      "Louis Vuitton x Keith Haring : trois parfums le 1er janvier 2027."
+     ],
+     "articles": [
+      {
+       "titre": "Louis Vuitton x Keith Haring Fragrance Collection: 3 Scents, January 1, 2027 Release",
+       "source": "stupidDOPE",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRllKM2tIejJRd1MyRmNpN1JFSHlvb2JsQWNBalZId2tWV2lKaXFXTWpkMDNLVWUzUFhwN1h2UjV4Q2xQdlA3ZjNIN3hVWFY0VFVsLWhoVWNnYmVGTlBMazJNN1JJUXlvXzk3ck9VamMzY1RtY0MzOC1VVERMREluc1BtRmxzNUFrcE4tXzZlMUxBVkljY3hpYVBBcHpQbXBvUk9jUnYyaWJYSjRDajdPR3ZZZktTM3FGbTVOYlJfRWRnaHdkNzR5a2hYbXFBUUNsMmRCM3FacW5LZUFlZ1JVdTh4bW43aWs?oc=5",
+       "date": "2026-11-22T13:45+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Francis Kurkdjian on ICON(S) and Creative Freedom in Perfume",
+       "source": "MEGA Magazine",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWUpieFo3YWdMVXBBQ2l2aW01cEJmT2FGVlNDV0dzUFppY2JULXotS0NYVmFUZWRiRTItcjUycWk0Ym9WM2FtYVVjYmhSdTM5TGdfemwyVk5rZlhSUjA0eGFPTExyMkFlVUJCS1lWSVhBaHpjVG9hdlRZbzNrTndKcktB?oc=5",
+       "date": "2026-11-22T09:27+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "mode",
+     "titre": "Mode",
+     "resume": "Dior nomme Hyunjin, de Stray Kids, nouvel ambassadeur de la marque. Pas d'autre nomination majeure dans les dépêches.",
+     "points": [
+      "Dior : Hyunjin (Stray Kids) nouvel ambassadeur."
+     ],
+     "articles": [
+      {
+       "titre": "Dior Names Stray Kids' Hyunjin as New Brand Ambassador",
+       "source": "Hypebeast",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZnVaeDdOdWJ1ZEVHUHFGVUVENUVyRjRFMWJUNWFwS0wtd0VuMjVHLVoySFZJc1Nqb3FfbTVHTVdXakNuRndJY2kwY0hvUEV1ekJsVUQxOGNtUVNQRzZ2ekZwb0tBNldZOTVLSzdPOGV3cUpZV29ycXRHcmIzLVQ1WkhKNl9wM2FUY1g1eGtiUWtjUTYweFF2NQ?oc=5",
+       "date": "2026-11-22T08:00+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "automobile",
+     "titre": "Automobile de luxe",
+     "resume": "Ferrari dévoile la 296 Challenge Stradale, une version routière de 670 chevaux inspirée de la piste. Lamborghini présente à Los Angeles un Spyder de 907 ch qui atteint 100 km/h en 2,8 secondes. Bentley sort le Torcal, une série limitée à 20 exemplaires signée Hiroshi Fujiwara.",
+     "points": [
+      "Ferrari 296 Challenge Stradale : 670 ch homologuée route.",
+      "Lamborghini Spyder de 907 ch dévoilé à Los Angeles.",
+      "Bentley Torcal : 20 exemplaires."
+     ],
+     "articles": [
+      {
+       "titre": "Ferrari 296 Challenge Stradale : une vraie voiture de course de 670 chevaux homologuée pour la route",
+       "source": "Mobiwisy",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQnc2UEtfalp0cWVqaHFjUzdFbTdMUUlVMGY3MWJwOGZCWkVYQ0JXWGxDVzY2anZHc2UtR0JIMEtLV0Jla3pxYjBoSzFNbFVrQ2ttODloYXFqQmNKX1ZmTHV0ekY0VGM0QUdjUjZ5LWQta2g0LW11dzJMVzNkOGRoTUpkTzFSYWFmVGlKSk1MSDg1U2dRY054TEo4bjE1dXlDa1AwbFFhWVltMFNLT2tHTjFMRlpTQ0R1SnlVZWdGTHlIVzRE?oc=5",
+       "date": "2026-11-22T17:21+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "907-hp Lamborghini Spyder debuts in LA, reaches 62 mph in just 2.8 seconds",
+       "source": "Interesting Engineering",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1pOcHdfWXZWY1FVdl9OMVVpRmZzX3RQUkJPQ2xrWUJGaHBucnltRWtWU0dNRWlWSm1WRlNHbG8tbUhfZFVYenJTdzREZ1lHc2ZBNGd1dlNYM0FIY3FYZldwc05GTXdPWUZiUFZuRkx1SHZTcFRoV1RzbmtvcmVVN2xrWmJZOVh4aHBiMVdFZFp0UQ?oc=5",
+       "date": "2026-11-22T20:17+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Bentley Torcal : Hiroshi Fujiwara signe une série limitée à 20 exemplaires",
+       "source": "4Legend.com",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObmNXMUt2RzZqMk9MX2FKc18yRXh3ckxkajNUcDBKcl9qNWFWMG13clZKM0xDN3hwNmtBSG16TlJjVFBha1NyY3BlQUowT0FGalpVLXdQUVd2dEs5bUg2Q3h6Z1VEYkpad0hjZ3JIVC0tYVhCWGxlVWwwZ3hPTUZDemd6eUhOZzdRV0tCbXRyNFBuTTJzbDd0MzQ4VkUtcTVRNkI4dNIBqgFBVV95cUxNUzVGWS1pWHo2WnJUek9ZWTBTY0t2M3BLQTlXdjItWVQxTExuZ0FxbVlCYTJmeTVOWjI2SXNhY3ZuaUZNaVJza3dQM3RyUmlodFpIbk9jN1ZwRzJWNF9lcUlodk42ZG1MQzk1TlhUekFXbWdoakRRc1hoZ19iMVExd2c4ZGRKT1pKakNpOFNDaTU5N3VIWkRlS3c1d1RyclRldWFfOHl3REx3dw?oc=5",
+       "date": "2026-11-22T18:10+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "hotellerie",
+   "titre": "Hôtellerie",
+   "sujets": [
+    {
+     "id": "hotellerie-luxe",
+     "titre": "Hôtellerie de luxe",
+     "resume": "Le Ritz-Carlton AMAALA a ouvert sur la mer Rouge, en Arabie saoudite : 390 chambres et un spa de 1 225 m², le plus grand resort de la destination selon Red Sea Global. Le Cheval Blanc des Ormes doit rouvrir dans une ambiance rétro.",
+     "points": [
+      "Ritz-Carlton AMAALA : 390 chambres.",
+      "Cheval Blanc Les Ormes : réouverture annoncée."
+     ],
+     "articles": [
+      {
+       "titre": "The Ritz-Carlton, AMAALA opens on Saudi Arabia’s Red Sea coast with 390 rooms and a 1,225 m² spa",
+       "source": "La Revue des Hôtels",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMHAwQkRIYXdpZk9tOHdqcjJRcE0yaWd1MWFoX0hkRi1KNGRzMG9XRmhJRWtaOWdORWRWamU1MkU0VE1vaHhlOXpESDkwaXhyZ2VPR1VqRFlzMkFMQ1RQNFdEb2s3M1VHNUI1YTJYUEU2NC0ycmtmbko2eFFzSFAxY1BJMmI?oc=5",
+       "date": "2026-11-22T13:39+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Red Sea Global opens The Ritz-Carlton, AMAALA, the destination’s largest resort",
+       "source": "Zawya",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaWtVLWpDWUFYZlBkS1l6dDJNMEhrVzNyOFBLN1Y5T2pjVC0wNXlTRFh6TUVzeVczOHJnSVhIM1NmaDEwRVhlNW9tVVd0YzJjOFpkOHIyNHk4SW13blhpaklsblhMTDNybERTSXo0UUc0QVVkTWdYVjZUaWZVZ29tWnRvYTl4R1RzNUlLdVZ4VjRhTTV4eEZrZWZOdE1XNEZXT052U3hLTFhrcDQ4RFBKRENOano3dWdubXRER3Voc3o0ajZtdFlleEhYLVdjZjZWdm1HZw?oc=5",
+       "date": "2026-11-22T12:42+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Les Ormes : Le Cheval Blanc va rouvrir dans une ambiance rétro",
+       "source": "lanouvellerepublique.fr",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQN2VOTjlWYUk1LVdiNFN6UzA1c25hNFk1ZDNRbXlIbElhSzBlbUtLemx0NTBlUzlNN0lUR1NNUFRFQ2NCVFhKNExSOTJVYzBVeUJfWUFVZXlvcUx1VG94VzNKZ3ZKQ2dmV29PNUdCU01KcDdSQmRfSVM3Q3FrWmVXdE9mekZtTGUzMUlqcm04LXVVSVNTdU8yRkNfckhoU0FxQ2ZhdHUtVlNZc2tFMDJTcTVOSDdoMThYb2NFd0hKTk9PcFhiYUlmWHpxYTU?oc=5",
+       "date": "2026-11-22T17:41+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "industrie-hoteliere",
+     "titre": "Industrie hôtelière",
+     "resume": "Deux hôtels Hyatt du centre de Tampa ont été vendus 61,6 millions de dollars. Hyatt prévoit aussi un hôtel Park Hyatt à Brisbane avant les Jeux olympiques de 2032, et IHG baisse plus de 7 100 tarifs d'hôtels.",
+     "points": [
+      "Tampa : deux hôtels Hyatt vendus 61,6 M$.",
+      "Park Hyatt Brisbane confirmé avant 2032."
+     ],
+     "articles": [
+      {
+       "titre": "Downtown Tampa hotels fetch $61.6M in major sale",
+       "source": "Tampa Bay Business & Wealth",
+       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VT3ZtbU8yVEFmNXRlTFVGNFl2aWpMdXU1VVdzOVZ5MS1oZGNzOHpTSnE0YzAwU0NIQlZEN2tjMm1qSWxlRWJEWkNpWHlEbVk3RTNfQWF3UGRQaHJveVlLTHJUM0ZsQVp1?oc=5",
+       "date": "2026-11-22T15:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Hyatt confirms Park Hyatt Brisbane arrival ahead of 2032 Olympics",
+       "source": "LATTE Luxury News",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb29MVzFqWll6N1RFQUg0NEJyalVFM0FyeWNkeXUwWlBKLThlWl9uSkFnQU5pMVkwZFhpLU9WeHgxRlZYR0R3LS1LMEpUcE5iWGh4aEFnRDBLUzBVX0FRQVhQeXFxZkZiQU9FTGdHWkVWU25pdVdKaEJhY2xzd1J4OVRWR25vVm5oUmZDM1Azbw?oc=5",
+       "date": "2026-11-22T11:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Royaume-Uni | Whitbread obtient le feu vert pour deux hub by Premier Inn au cœur de Londres",
+       "source": "La Tribune de l'Hôtellerie",
+       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUFvQ2hRSWNxeGFmeG1UWUxMVGRCVDRySFlyRHk5YTZfYU9zNnoycVpMUUZzMzFrOHVpUXhUa21Rc1lrQjNKem45UmUxVlhpV0kxSE8tNEhnckFjdk1YWHFrR1dIU093VHZ3ZEdsamhZUFo4N2Q5My1yUFJRc09ITVg4Z2phRGp6b0pZV2hTS1dwY3hmSG51MVh3?oc=5",
+       "date": "2026-11-22T11:43+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "marches",
+   "titre": "Marchés",
+   "sujets": [
+    {
+     "id": "bourse",
+     "titre": "Bourse & marchés",
+     "resume": "Vendredi, les marchés ont reculé : le Nasdaq a chuté de 5,28 %, le S&P 500 de 3,7 % et le CAC 40 de 1,89 % à 7 927,75 points. Le Brent perd 2,21 % à 89,95 $ et l'or 4,62 % à 3 515 $. Le taux américain à 10 ans recule à 4,91 %. Donald Trump attribue cette baisse de 6 000 milliards de dollars aux victoires démocrates aux élections de mi-mandat. Barclays met en garde contre un risque de fin d'année pour les actions.",
+     "points": [
+      "S&P 500 -3,7 %, Nasdaq -5,28 %, CAC 40 -1,89 % vendredi.",
+      "Brent 89,95 $, or 3 515 $.",
+      "La BCE élargit ses lignes de swap de devises."
+     ],
+     "articles": [
+      {
+       "titre": "Trump blames $6T stock market slide on Democrats’ midterm wins",
+       "source": "The Hill",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUG51bENLRzF5YU9KMW9ZbGZSOGE4M1JPOGpBSXZDRFIzeGFBWTBQZEdtX1h4M3NjUDNXXzY0WGh6WTQwWU9Qc1FyVTZ5TlV2a1BOVWZiMXRNZ1YwUkxRdDdDUzdWYlN3dHZBVkFmVHVvdkd4Z3MtNjN6YzdVOW9hOFVuSdIBiAFBVV95cUxQNVdNTGpobjVUb2hiNXV4LW5pVTZMSzNuRXpvSTFBc1pMWGg5OU8tdlB2Q2ZlcnR5WElWYTd6cU9TRWwwUWhyNkRqYjl1ZlNWakE1d21zNnVNY3pzS2ZkSWgzVFV1YnJlWjRyYk5OOEJNZ0pYcVRpSFRFNWpBcWo5b1VzNi1ZcHZF?oc=5",
+       "date": "2026-11-22T19:46+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Wall Street's AI Trade Unravels as Anthropic IPO Fizzles and Nasdaq Slips Into Correction",
+       "source": "BigGo Finance",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WUWtfOGJrVWpQeWVNMmJiN3p5X2twbnRYZ1VGOFJOVWYyeThibmlCUGQ3bW5FdFZnOUZiLXFPVGpXOWdBd25kSFo5ZVI5djZuc0JJOUFDd1dNVElxcDg2TjZjVVZvZTlkVy16RU9TWkNpXzJReHc?oc=5",
+       "date": "2026-11-22T19:55+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Barclays signale un risque en fin d'année pour les actions, le soutien de la Fed étant remis en question",
+       "source": "IndexBox",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWGRGTU1RLXlQR0JtX0M3N0xIcmFwc2VvMGFvSVdJT05BWThBUGdzSWdlbGpLRG5tUTU0UEtQZDVfUnNPQUc3QVoyUXdaaEZ5T0ljOXNFcnlmeXdCSkowNTBqTDIzTWRQeFBjU0NXUVJNU1lGLVVCaDIyakRFc0dETWl5M2NTZUNIeGRtUDIxSlhCTzFRRldLNUdJc3FyT1k1LVllYmxFXzdoZ3NtcUE?oc=5",
+       "date": "2026-11-22T18:40+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "La BCE va élargir ses lignes de swap de devises pour protéger la zone euro et renforcer le rôle mondial de l'euro",
+       "source": "IndexBox",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVTBpOU9uMkdlaGNPODZWYTJESnNvS052Yl9GbElQU3ZBVERkZ1lEOWoyenRwZ3FJMldCcF9qN2VHMW4wWC1YeGo0TzBmcDJwN3JXZXhtZE9BeEQzNllRN05nOUhpb3VxajBTSUZya2QtS3B1OFJtdktBMVIxd1NUVmJMRHNBRW0yVERxWTF0RVpMampnYTZESWlqS3pfb1B3U2JkQ0ZTYm9nemI2ODEwTU1EOEU?oc=5",
+       "date": "2026-11-22T18:40+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "crypto",
+     "titre": "Crypto",
+     "resume": "Le bitcoin cote autour de 55 210 € (+0,37 % sur 24 h), l'ether à 1 562 € (+1,73 %). Les ETF bitcoin et ether continuent de subir des milliards de dollars de sorties. Le protocole Chainflip a révélé le vol de 122,9 BTC, pour des pertes de 12 millions de dollars. La plateforme Kalshi est entendue lundi à New York.",
+     "points": [
+      "Sorties d'ETF bitcoin et ether : plusieurs milliards sur la semaine.",
+      "Chainflip : vol de 122,9 BTC.",
+      "Kalshi : audience lundi à New York."
+     ],
+     "articles": [
+      {
+       "titre": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week",
+       "source": "CryptoPotato",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1VoSjlFcHdxTjJtOEFpZE1fLWMwbU1TNURzZkZlU1ZXZGM0XzFiVnFxcHRmaVZ1REFUZXZkUlpCMkJ4aFFzODA5SHFVemxnN0t3d2U5Rm1IRGYtbWRsQ25EZjM2aFZTalJrZDA1bTVEdGgwT3dJNVhRei1Pa1h5ZDF4MFhkWnFqQXJraHNmUzFwM3Z4UUxLdjlkYjVhZw?oc=5",
+       "date": "2026-11-22T18:15+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+       "source": "The Block",
+       "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+       "date": "2026-11-22T18:58+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
+       "source": "The Block",
+       "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+       "date": "2026-11-21T21:17+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  }
+ ],
+ "genere_le": "2026-11-23T06:12+00:00"
+}
