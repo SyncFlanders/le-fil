@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-22T20:45+00:00",
+ "genere_le": "2026-11-23T16:03+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -263,7 +263,7 @@
       "poste": "Course",
       "numero": "13",
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
-      "valeur": "19 courses, 76 yds, 1 TD"
+      "valeur": "19 courses, 75 yds, 1 TD"
      },
      {
       "nom": "Eric Singleton Jr.",
@@ -324,20 +324,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
    "prochains": [
     {
-     "date": "2026-11-22T21:25Z",
-     "competition": "Regular Season",
-     "adversaire": "New York Giants",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-     "domicile": false,
-     "lieu": "MetLife Stadium",
-     "tv": [
-      "CBS"
-     ],
-     "termine": false,
-     "id": "401873069",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-29T18:00Z",
      "competition": "Regular Season",
      "adversaire": "Tennessee Titans",
@@ -364,50 +350,64 @@
      "termine": false,
      "id": "401873100",
      "ligue": ""
+    },
+    {
+     "date": "2026-12-15T01:15Z",
+     "competition": "Regular Season",
+     "adversaire": "Pittsburgh Steelers",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+     "domicile": true,
+     "lieu": "EverBank Stadium",
+     "tv": [
+      "ESPN"
+     ],
+     "termine": false,
+     "id": "401873123",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-15T18:00Z",
+    "date": "2026-11-22T21:25Z",
     "competition": "Regular Season",
-    "adversaire": "Tennessee Titans",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+    "adversaire": "New York Giants",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
     "domicile": false,
-    "lieu": "Nissan Stadium",
+    "lieu": "MetLife Stadium",
     "tv": [
-     "Fox"
+     "CBS"
     ],
     "termine": true,
-    "id": "401873057",
+    "id": "401873069",
     "ligue": "",
-    "score": "40-23",
-    "resultat": "V",
+    "score": "18-23",
+    "resultat": "D",
     "tops": [
      {
       "nom": "Trevor Lawrence",
       "poste": "Passes",
       "numero": "16",
       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
-      "valeur": "25/35, 352 yds, 3 TD, 1 int."
+      "valeur": "25/47, 301 yds, 1 TD, 2 int."
      },
      {
       "nom": "Bhayshul Tuten",
       "poste": "Course",
       "numero": "33",
       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png",
-      "valeur": "26 courses, 88 yds, 1 TD"
+      "valeur": "10 courses, 33 yds"
      },
      {
       "nom": "Parker Washington",
       "poste": "Réception",
       "numero": "11",
       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
-      "valeur": "7 réc., 152 yds, 1 TD"
+      "valeur": "8 réc., 103 yds"
      },
      {
-      "nom": "Antonio Johnson",
+      "nom": "Josh Hines-Allen",
       "poste": "Sacks",
-      "numero": "6",
-      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4429168.png",
+      "numero": "41",
+      "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3915239.png",
       "valeur": "1"
      }
     ]
@@ -543,7 +543,7 @@
        {
         "nom": "Jessie Bates III",
         "poste": "Safety",
-        "numero": "30",
+        "numero": "0",
         "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3919512.png"
        },
        {
@@ -574,20 +574,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
    "prochains": [
     {
-     "date": "2026-11-23T00:00Z",
-     "competition": "Regular Season",
-     "adversaire": "Washington Wizards",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-     "domicile": false,
-     "lieu": "Capital One Arena",
-     "tv": [
-      "MNMT"
-     ],
-     "termine": false,
-     "id": "401910031",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-25T00:00Z",
      "competition": "Regular Season",
      "adversaire": "Detroit Pistons",
@@ -612,43 +598,55 @@
      "termine": false,
      "id": "401910046",
      "ligue": ""
+    },
+    {
+     "date": "2026-11-29T23:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Detroit Pistons",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+     "domicile": false,
+     "lieu": "Little Caesars Arena",
+     "tv": [],
+     "termine": false,
+     "id": "401910055",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-21T00:30Z",
+    "date": "2026-11-23T00:00Z",
     "competition": "Regular Season",
-    "adversaire": "Brooklyn Nets",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+    "adversaire": "Washington Wizards",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
     "domicile": false,
-    "lieu": "Barclays Center",
+    "lieu": "Capital One Arena",
     "tv": [
-     "DAZN (YES)"
+     "MNMT"
     ],
     "termine": true,
-    "id": "401909306",
+    "id": "401910031",
     "ligue": "",
-    "score": "113-111",
-    "resultat": "V",
+    "score": "96-116",
+    "resultat": "D",
     "tops": [
      {
-      "nom": "Franz Wagner",
+      "nom": "Tristan da Silva",
       "poste": "Points",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "35"
+      "numero": "23",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png",
+      "valeur": "18"
      },
      {
       "nom": "Franz Wagner",
       "poste": "Passes déc.",
       "numero": "22",
       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "7"
+      "valeur": "6"
      },
      {
-      "nom": "Nikola Vucevic",
+      "nom": "Franz Wagner",
       "poste": "Rebonds",
-      "numero": "9",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/6478.png",
+      "numero": "22",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
       "valeur": "8"
      }
     ]
@@ -657,10 +655,10 @@
     "type": "liste",
     "titre": "Cinq de départ du dernier match",
     "match": {
-     "adversaire": "Brooklyn Nets",
-     "date": "2026-11-21T00:30Z",
-     "score": "113-111",
-     "resultat": "V",
+     "adversaire": "Washington Wizards",
+     "date": "2026-11-23T00:00Z",
+     "score": "96-116",
+     "resultat": "D",
      "domicile": false
     },
     "joueurs": [
@@ -1991,7 +1989,7 @@
    "nom": "Jessie Bates III",
    "equipe": "jaguars",
    "poste": "Safety",
-   "numero": "30",
+   "numero": "0",
    "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3919512.png",
    "credit": "ESPN"
   },
@@ -2039,7 +2037,7 @@
    "nom": "Davon Godchaux",
    "equipe": "jaguars",
    "poste": "Tackle défensif",
-   "numero": "92",
+   "numero": "94",
    "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3115383.png",
    "credit": "ESPN"
   },
@@ -2199,7 +2197,7 @@
    "nom": "Wesley Williams",
    "equipe": "jaguars",
    "poste": "Défensif de ligne",
-   "numero": "90",
+   "numero": "97",
    "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4832922.png",
    "credit": "ESPN"
   },
@@ -2573,7 +2571,7 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-22T20:45+00:00",
+  "genere_le": "2026-11-23T16:03+00:00",
   "matchs": [
    {
     "id": "401866471",
