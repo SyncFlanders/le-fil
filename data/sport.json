@@ -1,24 +1,10 @@
 {
- "genere_le": "2026-11-24T15:56+00:00",
+ "genere_le": "2026-11-25T01:28+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "prochains": [
-    {
-     "date": "2026-11-24T20:00Z",
-     "competition": "UEFA Champions League",
-     "adversaire": "PSV Eindhoven",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-     "domicile": true,
-     "lieu": "Santiago Bernabéu",
-     "tv": [
-      "Paramount+"
-     ],
-     "termine": false,
-     "id": "401915298",
-     "ligue": "uefa.champions"
-    },
     {
      "date": "2026-11-28T20:00Z",
      "competition": "Spanish LALIGA",
@@ -48,37 +34,73 @@
      "termine": false,
      "id": "401882698",
      "ligue": "esp.1"
+    },
+    {
+     "date": "2026-12-06T15:15Z",
+     "competition": "Spanish LALIGA",
+     "adversaire": "Athletic Club",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+     "domicile": false,
+     "lieu": "San Mamés",
+     "tv": [
+      "ESPN Deportes",
+      "ESPN+"
+     ],
+     "termine": false,
+     "id": "401882785",
+     "ligue": "esp.1"
     }
    ],
    "dernier": {
-    "date": "2026-11-21T20:00Z",
-    "competition": "Spanish LALIGA",
-    "adversaire": "Celta Vigo",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "date": "2026-11-24T20:00Z",
+    "competition": "UEFA Champions League",
+    "adversaire": "PSV Eindhoven",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
     "domicile": true,
     "lieu": "Santiago Bernabéu",
     "tv": [
-     "ESPN Deportes",
-     "ESPN+"
+     "Paramount+"
     ],
     "termine": true,
-    "id": "401882798",
-    "ligue": "esp.1",
-    "score": "2-1",
+    "id": "401915298",
+    "ligue": "uefa.champions",
+    "score": "5-1",
     "resultat": "V",
     "tops": [
+     {
+      "nom": "Federico Valverde",
+      "poste": "But",
+      "numero": "8",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "50'"
+     },
      {
       "nom": "Jude Bellingham",
       "poste": "But",
       "numero": "5",
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "valeur": "66'"
+      "valeur": "60'"
      },
      {
-      "nom": "Carlos Espí",
+      "nom": "Kylian Mbappé",
       "poste": "But",
-      "numero": "19",
-      "valeur": "85'"
+      "numero": "10",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "64'"
+     },
+     {
+      "nom": "Kylian Mbappé",
+      "poste": "But",
+      "numero": "10",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "84'"
+     },
+     {
+      "nom": "Vinícius Júnior",
+      "poste": "But",
+      "numero": "7",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "valeur": "87'"
      }
     ]
    },
@@ -86,13 +108,13 @@
     "type": "terrain",
     "titre": "Titulaires du dernier match",
     "match": {
-     "adversaire": "Celta Vigo",
-     "date": "2026-11-21T20:00Z",
-     "score": "2-1",
+     "adversaire": "PSV Eindhoven",
+     "date": "2026-11-24T20:00Z",
+     "score": "5-1",
      "resultat": "V",
      "domicile": true
     },
-    "formation": "4-1-4-1",
+    "formation": "4-3-3",
     "joueurs": [
      {
       "nom": "Thibaut Courtois",
@@ -103,60 +125,60 @@
       "code": "G"
      },
      {
-      "nom": "Trent Alexander-Arnold",
+      "nom": "Federico Valverde",
       "poste": "Latéral droit",
-      "numero": "12",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "numero": "8",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 2,
       "code": "RB"
      },
      {
-      "nom": "Álvaro Carreras",
+      "nom": "Marc Cucurella",
       "poste": "Latéral gauche",
-      "numero": "18",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/%C3%81lvaroCarreras.jpg/330px-%C3%81lvaroCarreras.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "numero": "17",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg/330px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 3,
       "code": "LB"
      },
      {
-      "nom": "Eduardo Camavinga",
-      "poste": "Milieu défensif",
-      "numero": "6",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "nom": "Aurélien Tchouaméni",
+      "poste": "Milieu",
+      "numero": "14",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg/330px-Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 4,
-      "code": "DM"
+      "code": "CM"
      },
      {
-      "nom": "Ibrahima Konaté",
+      "nom": "Éder Militão",
       "poste": "Défenseur central",
-      "numero": "16",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg/330px-Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "numero": "3",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eder_Militao_2021.jpg/330px-Eder_Militao_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 5,
       "code": "CD-R"
      },
      {
-      "nom": "Dean Huijsen",
+      "nom": "Antonio Rüdiger",
       "poste": "Défenseur central",
-      "numero": "4",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dean_Huijsen_2024.jpg/330px-Dean_Huijsen_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "numero": "22",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg/330px-Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 6,
       "code": "CD-L"
      },
      {
-      "nom": "Arda Güler",
+      "nom": "Bernardo Silva",
       "poste": "Milieu droit",
-      "numero": "15",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/330px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "numero": "20",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg/330px-Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 7,
       "code": "RM"
      },
      {
-      "nom": "Bernardo Silva",
-      "poste": "Milieu",
-      "numero": "20",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg/330px-Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "nom": "Arda Güler",
+      "poste": "Milieu gauche",
+      "numero": "15",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/330px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 8,
-      "code": "CM-R"
+      "code": "LM"
      },
      {
       "nom": "Kylian Mbappé",
@@ -167,51 +189,52 @@
       "code": "F"
      },
      {
-      "nom": "Jude Bellingham",
-      "poste": "Milieu",
-      "numero": "5",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "place": 10,
-      "code": "CM-L"
-     },
-     {
       "nom": "Yan Diomande",
-      "poste": "Milieu gauche",
+      "poste": "RF",
       "numero": "25",
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/330px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "place": 10,
+      "code": "RF"
+     },
+     {
+      "nom": "Vinícius Júnior",
+      "poste": "LF",
+      "numero": "7",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "place": 11,
-      "code": "LM"
+      "code": "LF"
      }
     ],
     "remplacants": [
      {
-      "nom": "Vinícius Júnior",
-      "poste": "Attaquant",
-      "numero": "7",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-     },
-     {
-      "nom": "Federico Valverde",
-      "poste": "Milieu",
-      "numero": "8",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-     },
-     {
-      "nom": "Endrick",
-      "poste": "Attaquant",
-      "numero": "9",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/330px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-     },
-     {
-      "nom": "Marc Cucurella",
+      "nom": "Dean Huijsen",
       "poste": "Défenseur",
-      "numero": "17",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg/330px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "numero": "4",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dean_Huijsen_2024.jpg/330px-Dean_Huijsen_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
      },
      {
-      "nom": "Carlos Espí",
-      "poste": "Attaquant",
-      "numero": "19"
+      "nom": "Brahim Díaz",
+      "poste": "Milieu",
+      "numero": "21",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg/330px-Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+     },
+     {
+      "nom": "Ibrahima Konaté",
+      "poste": "Défenseur",
+      "numero": "16",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg/330px-Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+     },
+     {
+      "nom": "Eduardo Camavinga",
+      "poste": "Milieu",
+      "numero": "6",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+     },
+     {
+      "nom": "Jude Bellingham",
+      "poste": "Milieu",
+      "numero": "5",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
      }
     ]
    }
@@ -653,13 +676,13 @@
    },
    "composition": {
     "type": "liste",
-    "titre": "Cinq de départ du dernier match",
+    "titre": "Cinq de départ",
     "match": {
-     "adversaire": "Washington Wizards",
-     "date": "2026-11-23T00:00Z",
-     "score": "96-116",
-     "resultat": "D",
-     "domicile": false
+     "adversaire": "Detroit Pistons",
+     "date": "2026-11-25T00:00Z",
+     "score": null,
+     "resultat": null,
+     "domicile": true
     },
     "joueurs": [
      {
@@ -2571,14 +2594,14 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-24T15:56+00:00",
+  "genere_le": "2026-11-25T01:28+00:00",
   "matchs": [
    {
     "id": "401866471",
     "date": "2026-11-25T00:00Z",
     "chaine": "ESPN2",
-    "etat": "pre",
-    "detail": "11/24 - 7:00 PM EST",
+    "etat": "in",
+    "detail": "1:01 - 2nd",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2588,7 +2611,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
      "rang": null,
      "bilan": "8-3",
-     "score": null
+     "score": "3"
     },
     "ext": {
      "nom": "Miami (OH)",
@@ -2597,7 +2620,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
      "rang": null,
      "bilan": "7-4",
-     "score": null
+     "score": "14"
     }
    },
    {
