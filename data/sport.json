@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-25T01:28+00:00",
+ "genere_le": "2026-11-25T15:40+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -597,18 +597,6 @@
    "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
    "prochains": [
     {
-     "date": "2026-11-25T00:00Z",
-     "competition": "Regular Season",
-     "adversaire": "Detroit Pistons",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
-     "domicile": true,
-     "lieu": "Kia Center",
-     "tv": [],
-     "termine": false,
-     "id": "401909314",
-     "ligue": ""
-    },
-    {
      "date": "2026-11-28T22:00Z",
      "competition": "Regular Season",
      "adversaire": "Washington Wizards",
@@ -633,30 +621,43 @@
      "termine": false,
      "id": "401910055",
      "ligue": ""
+    },
+    {
+     "date": "2026-12-03T01:00Z",
+     "competition": "Regular Season",
+     "adversaire": "Dallas Mavericks",
+     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+     "domicile": false,
+     "lieu": "American Airlines Center",
+     "tv": [
+      "KFAA-TV",
+      "MavsTV"
+     ],
+     "termine": false,
+     "id": "401910079",
+     "ligue": ""
     }
    ],
    "dernier": {
-    "date": "2026-11-23T00:00Z",
+    "date": "2026-11-25T00:00Z",
     "competition": "Regular Season",
-    "adversaire": "Washington Wizards",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-    "domicile": false,
-    "lieu": "Capital One Arena",
-    "tv": [
-     "MNMT"
-    ],
+    "adversaire": "Detroit Pistons",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+    "domicile": true,
+    "lieu": "Kia Center",
+    "tv": [],
     "termine": true,
-    "id": "401910031",
+    "id": "401909314",
     "ligue": "",
-    "score": "96-116",
+    "score": "86-104",
     "resultat": "D",
     "tops": [
      {
-      "nom": "Tristan da Silva",
+      "nom": "Desmond Bane",
       "poste": "Points",
-      "numero": "23",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png",
-      "valeur": "18"
+      "numero": "3",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+      "valeur": "21"
      },
      {
       "nom": "Franz Wagner",
@@ -666,22 +667,22 @@
       "valeur": "6"
      },
      {
-      "nom": "Franz Wagner",
+      "nom": "Wendell Carter Jr.",
       "poste": "Rebonds",
-      "numero": "22",
-      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
-      "valeur": "8"
+      "numero": "34",
+      "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png",
+      "valeur": "13"
      }
     ]
    },
    "composition": {
     "type": "liste",
-    "titre": "Cinq de départ",
+    "titre": "Cinq de départ du dernier match",
     "match": {
      "adversaire": "Detroit Pistons",
      "date": "2026-11-25T00:00Z",
-     "score": null,
-     "resultat": null,
+     "score": "86-104",
+     "resultat": "D",
      "domicile": true
     },
     "joueurs": [
@@ -2594,35 +2595,8 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-25T01:28+00:00",
+  "genere_le": "2026-11-25T15:40+00:00",
   "matchs": [
-   {
-    "id": "401866471",
-    "date": "2026-11-25T00:00Z",
-    "chaine": "ESPN2",
-    "etat": "in",
-    "detail": "1:01 - 2nd",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Western Michigan",
-     "surnom": "Broncos",
-     "abr": "WMU",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-     "rang": null,
-     "bilan": "8-3",
-     "score": "3"
-    },
-    "ext": {
-     "nom": "Miami (OH)",
-     "surnom": "RedHawks",
-     "abr": "M-OH",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-     "rang": null,
-     "bilan": "7-4",
-     "score": "14"
-    }
-   },
    {
     "id": "401856879",
     "date": "2026-11-27T01:00Z",
@@ -2636,7 +2610,7 @@
      "surnom": "Red Raiders",
      "abr": "TTU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-     "rang": 12,
+     "rang": 11,
      "bilan": "10-1",
      "score": null
     },
@@ -2663,7 +2637,7 @@
      "surnom": "Rebels",
      "abr": "MISS",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-     "rang": 25,
+     "rang": 22,
      "bilan": "7-4",
      "score": null
     },
@@ -2753,7 +2727,7 @@
      "surnom": "Gators",
      "abr": "FLA",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-     "rang": 24,
+     "rang": 20,
      "bilan": "7-4",
      "score": null
     }
@@ -2807,7 +2781,7 @@
      "surnom": "Longhorns",
      "abr": "TEX",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-     "rang": 5,
+     "rang": 3,
      "bilan": "9-2",
      "score": null
     }
@@ -2834,7 +2808,7 @@
      "surnom": "Fighting Irish",
      "abr": "ND",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-     "rang": 6,
+     "rang": 4,
      "bilan": "10-1",
      "score": null
     }
@@ -2879,7 +2853,7 @@
      "surnom": "Wildcats",
      "abr": "UK",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-     "rang": 16,
+     "rang": null,
      "bilan": "7-4",
      "score": null
     },
@@ -2888,7 +2862,7 @@
      "surnom": "Cardinals",
      "abr": "LOU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-     "rang": 23,
+     "rang": 19,
      "bilan": "8-3",
      "score": null
     }
@@ -3104,7 +3078,7 @@
      "surnom": "Gamecocks",
      "abr": "SC",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-     "rang": 21,
+     "rang": null,
      "bilan": "6-5",
      "score": null
     }
@@ -3149,7 +3123,7 @@
      "surnom": "Demon Deacons",
      "abr": "WAKE",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-     "rang": 11,
+     "rang": 8,
      "bilan": "10-1",
      "score": null
     },
@@ -3257,7 +3231,7 @@
      "surnom": "Tigers",
      "abr": "MIZ",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-     "rang": null,
+     "rang": 23,
      "bilan": "7-4",
      "score": null
     },
@@ -3266,7 +3240,7 @@
      "surnom": "Sooners",
      "abr": "OU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-     "rang": 22,
+     "rang": 17,
      "bilan": "7-4",
      "score": null
     }
@@ -3320,7 +3294,7 @@
      "surnom": "Volunteers",
      "abr": "TENN",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-     "rang": 9,
+     "rang": 5,
      "bilan": "9-2",
      "score": null
     }
@@ -3338,7 +3312,7 @@
      "surnom": "Crimson Tide",
      "abr": "ALA",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-     "rang": 3,
+     "rang": 6,
      "bilan": "9-2",
      "score": null
     },
@@ -3392,7 +3366,7 @@
      "surnom": "Cougars",
      "abr": "HOU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-     "rang": 20,
+     "rang": 18,
      "bilan": "8-3",
      "score": null
     },
