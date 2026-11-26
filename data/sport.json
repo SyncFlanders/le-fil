@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-25T15:40+00:00",
+ "genere_le": "2026-11-26T01:01+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -604,7 +604,7 @@
      "domicile": false,
      "lieu": "Capital One Arena",
      "tv": [
-      "MNMT"
+      "MNMT2"
      ],
      "termine": false,
      "id": "401910046",
@@ -2595,7 +2595,7 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-25T15:40+00:00",
+  "genere_le": "2026-11-26T01:01+00:00",
   "matchs": [
    {
     "id": "401856879",

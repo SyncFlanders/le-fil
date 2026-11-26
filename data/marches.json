@@ -1,108 +1,108 @@
 {
- "genere_le": "2026-11-25T15:41+00:00",
+ "genere_le": "2026-11-26T01:01+00:00",
  "cours": [
   {
    "id": "^FCHI",
    "sujet": "bourse",
    "nom": "CAC 40",
-   "valeur": 8022.46,
+   "valeur": 7980.57,
    "unite": "pts",
-   "variation": -0.22,
-   "maj": "2026-11-25T15:26+00:00"
+   "variation": -0.8,
+   "maj": "2026-11-25T17:05+00:00"
   },
   {
    "id": "^STOXX50E",
    "sujet": "bourse",
    "nom": "Euro Stoxx 50",
-   "valeur": 5920.86,
+   "valeur": 5894.46,
    "unite": "pts",
-   "variation": -1.38,
-   "maj": "2026-11-25T15:26+00:00"
+   "variation": -2.96,
+   "maj": "2026-11-25T17:00+00:00"
   },
   {
    "id": "^GSPC",
    "sujet": "bourse",
    "nom": "S&P 500",
-   "valeur": 7008.72,
+   "valeur": 7182.78,
    "unite": "pts",
-   "variation": -2.67,
-   "maj": "2026-11-25T15:41+00:00"
+   "variation": -0.25,
+   "maj": "2026-11-25T21:32+00:00"
   },
   {
    "id": "^IXIC",
    "sujet": "bourse",
    "nom": "Nasdaq",
-   "valeur": 22783.945,
+   "valeur": 23585.803,
    "unite": "pts",
-   "variation": -4.0,
-   "maj": "2026-11-25T15:41+00:00"
+   "variation": -0.62,
+   "maj": "2026-11-25T22:15+00:00"
   },
   {
    "id": "^TNX",
    "sujet": "bourse",
    "nom": "Taux US 10 ans",
-   "valeur": 4.82,
+   "valeur": 4.848,
    "unite": "%",
-   "variation": -1.71,
-   "maj": "2026-11-25T15:25+00:00",
-   "variation_pb": -8
+   "variation": -1.14,
+   "maj": "2026-11-25T19:59+00:00",
+   "variation_pb": -6
   },
   {
    "id": "EURUSD=X",
    "sujet": "bourse",
    "nom": "Euro / dollar",
-   "valeur": 1.0948,
+   "valeur": 1.0976,
    "unite": "$",
-   "variation": 0.37,
-   "maj": "2026-11-25T15:40+00:00"
+   "variation": 0.13,
+   "maj": "2026-11-26T01:01+00:00"
   },
   {
    "id": "BZ=F",
    "sujet": "bourse",
    "nom": "Pétrole Brent",
-   "valeur": 89.69,
+   "valeur": 90.67,
    "unite": "$",
-   "variation": -1.87,
-   "maj": "2026-11-25T15:30+00:00"
+   "variation": -0.8,
+   "maj": "2026-11-26T00:47+00:00"
   },
   {
    "id": "GC=F",
    "sujet": "bourse",
    "nom": "Or (once)",
-   "valeur": 3468.2,
+   "valeur": 3591.7,
    "unite": "$",
-   "variation": -2.63,
-   "maj": "2026-11-25T15:31+00:00"
+   "variation": 0.84,
+   "maj": "2026-11-26T00:51+00:00"
   },
   {
    "id": "bitcoin",
    "sujet": "crypto",
    "nom": "Bitcoin",
-   "valeur": 53490,
+   "valeur": 55053,
    "unite": "€",
-   "variation": -1.93,
+   "variation": 1.34,
    "sur": "24 h",
-   "maj": "2026-11-25T15:40+00:00"
+   "maj": "2026-11-26T01:01+00:00"
   },
   {
    "id": "ethereum",
    "sujet": "crypto",
    "nom": "Ethereum",
-   "valeur": 1508.1,
+   "valeur": 1543.44,
    "unite": "€",
-   "variation": -1.52,
+   "variation": 1.31,
    "sur": "24 h",
-   "maj": "2026-11-25T15:40+00:00"
+   "maj": "2026-11-26T01:01+00:00"
   },
   {
    "id": "solana",
    "sujet": "crypto",
    "nom": "Solana",
-   "valeur": 61.66,
+   "valeur": 64.43,
    "unite": "€",
-   "variation": -1.88,
+   "variation": 1.57,
    "sur": "24 h",
-   "maj": "2026-11-25T15:40+00:00"
+   "maj": "2026-11-26T01:01+00:00"
   }
  ]
 }
