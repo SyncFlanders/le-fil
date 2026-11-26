@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-26T01:01+00:00",
+ "genere_le": "2026-11-26T15:23+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -2561,6 +2561,14 @@
    "photo": "https://a.espncdn.com/i/headshots/nba/players/full/5214637.png",
    "credit": "ESPN"
   },
+  "kevin porter jr": {
+   "nom": "Kevin Porter Jr.",
+   "equipe": "orlando-magic",
+   "poste": "Arrière",
+   "numero": "7",
+   "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4397140.png",
+   "credit": "ESPN"
+  },
   "jase richardson": {
    "nom": "Jase Richardson",
    "equipe": "orlando-magic",
@@ -2595,7 +2603,7 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-26T01:01+00:00",
+  "genere_le": "2026-11-26T15:23+00:00",
   "matchs": [
    {
     "id": "401856879",
@@ -3377,6 +3385,60 @@
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
      "rang": null,
      "bilan": "6-5",
+     "score": null
+    }
+   },
+   {
+    "id": "401869546",
+    "date": "2026-12-05T00:00Z",
+    "chaine": "ESPN",
+    "etat": "pre",
+    "detail": "12/4 - 7:00 PM EST",
+    "neutre": false,
+    "titre": "Sun Belt Championship",
+    "dom": {
+     "nom": "TBD",
+     "surnom": "TBD",
+     "abr": "TBD",
+     "logo": "",
+     "rang": null,
+     "bilan": "",
+     "score": null
+    },
+    "ext": {
+     "nom": "TBD",
+     "surnom": "Louisiana Tech",
+     "abr": "Louisiana Tech",
+     "logo": "",
+     "rang": null,
+     "bilan": "",
+     "score": null
+    }
+   },
+   {
+    "id": "401869533",
+    "date": "2026-12-05T01:00Z",
+    "chaine": "ABC",
+    "etat": "pre",
+    "detail": "12/4 - 8:00 PM EST",
+    "neutre": true,
+    "titre": "Edward Jones Big 12 Championship",
+    "dom": {
+     "nom": "TBD",
+     "surnom": "Utah",
+     "abr": "Utah",
+     "logo": "",
+     "rang": null,
+     "bilan": "",
+     "score": null
+    },
+    "ext": {
+     "nom": "TBD",
+     "surnom": "TBD",
+     "abr": "TBD",
+     "logo": "",
+     "rang": null,
+     "bilan": "",
      "score": null
     }
    }
