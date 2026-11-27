@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-26T15:23+00:00",
+ "genere_le": "2026-11-27T01:02+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -726,7 +726,7 @@
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "31",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "thibaut courtois": {
    "nom": "Thibaut Courtois",
@@ -749,14 +749,14 @@
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "26",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "illia voloshyn": {
    "nom": "Illia Voloshyn",
    "equipe": "real-madrid",
    "poste": "Gardien",
    "numero": "39",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "antonio rudiger": {
    "nom": "Antonio Rüdiger",
@@ -827,7 +827,7 @@
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "33",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "dean huijsen": {
    "nom": "Dean Huijsen",
@@ -842,21 +842,21 @@
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "2",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "joan martinez": {
    "nom": "Joan Martínez",
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "30",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "jesus fortea": {
    "nom": "Jesús Fortea",
    "equipe": "real-madrid",
    "poste": "Défenseur",
    "numero": "28",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "bernardo silva": {
    "nom": "Bernardo Silva",
@@ -919,28 +919,28 @@
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "27",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "sergio martinez": {
    "nom": "Sergio Martínez",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "38",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "jorge cestero": {
    "nom": "Jorge Cestero",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "29",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "alexis ciria": {
    "nom": "Alexis Ciria",
    "equipe": "real-madrid",
    "poste": "Milieu",
    "numero": "36",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "kylian mbappe": {
    "nom": "Kylian Mbappé",
@@ -979,14 +979,14 @@
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "35",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "carlos espi": {
    "nom": "Carlos Espí",
    "equipe": "real-madrid",
    "poste": "Attaquant",
    "numero": "19",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "yan diomande": {
    "nom": "Yan Diomande",
@@ -1473,7 +1473,7 @@
    "equipe": "florida-gators",
    "poste": "Linebacker",
    "numero": "14",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "myles graham": {
    "nom": "Myles Graham",
@@ -1592,7 +1592,7 @@
    "equipe": "florida-gators",
    "poste": "Ligne défensive",
    "numero": "56",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "onis konanbanny": {
    "nom": "Onis Konanbanny",
@@ -1671,7 +1671,7 @@
    "equipe": "florida-gators",
    "poste": "Linebacker",
    "numero": "50",
-   "essai_wiki": "2026-11-19T23:37+00:00"
+   "essai_wiki": "2026-11-27T01:02+00:00"
   },
   "elijah owens": {
    "nom": "Elijah Owens",
@@ -2603,7 +2603,7 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-26T15:23+00:00",
+  "genere_le": "2026-11-27T01:02+00:00",
   "matchs": [
    {
     "id": "401856879",
