@@ -1,0 +1,892 @@
+{
+ "date": "2026-11-27",
+ "a_la_une": [
+  {
+   "sujet": "anthropic",
+   "titre": "Anthropic : Mousquetaires et JERA",
+   "texte": "Le groupement Mousquetaires déploiera l'IA d'Anthropic dans 500 points de vente dès janvier 2027. Selon le Nikkei, JERA négocie avec Anthropic et Meta pour des centres de données."
+  },
+  {
+   "sujet": "big-tech",
+   "titre": "Nvidia sous pression",
+   "texte": "Les enquêtes d'États s'élargissent et le groupe est examiné au niveau fédéral après le retour de Jensen Huang."
+  },
+  {
+   "sujet": "real-madrid",
+   "titre": "Le Real écrase le PSV 5-1",
+   "texte": "Mbappé a signé un doublé au Bernabéu ; Mourinho est salué pour ses choix."
+  }
+ ],
+ "themes": [
+  {
+   "id": "sport",
+   "titre": "Sport",
+   "sujets": [
+    {
+     "id": "real-madrid",
+     "titre": "Real Madrid",
+     "resume": "Le Real Madrid reste sur un net succès 5-1 contre le PSV Eindhoven en Ligue des champions, avec des buts de Valverde, Bellingham, Mbappé (doublé) et Vinícius. La presse salue les choix tranchés de José Mourinho, tandis que les débats sur le trio Mbappé-Vinícius-Bellingham et les rumeurs de mercato (Nico Paz, Haaland, Olise) occupent les colonnes sans rien de confirmé. Prochain match : Alavés au Bernabéu samedi.",
+     "points": [
+      "Victoire 5-1 face au PSV : Valverde (50'), Bellingham (60'), Mbappé (64', 84'), Vinícius (87').",
+      "Mourinho salué pour ses changements décisifs, selon Diario AS et Managing Madrid.",
+      "Mercato : rumeurs Nico Paz, Haaland (selon Gary Neville) et Olise, aucune confirmation.",
+      "Samedi 28 novembre : Real Madrid-Alavés en Liga."
+     ],
+     "articles": [
+      {
+       "titre": "How Mourinho Changed the Game in Real Madrid’s 5–1 Win Over PSV",
+       "source": "Managing Madrid",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYTlwOWxlc2FISVBya0tjQ3FnbDhha1kzODV4SFpWcld4TlBIaXFfUVRRdkk2dElhd0t2MjhSc1d0TDI1YjFYZGhLU2JtY0NGZHdVeW90a3p2VUluamtzbVJaM0dBd0lZVjZsMFlHVDM4OGlteldYYXptb1VndVl6cXpHNlAzMkRrYUN6RlhpcWxCR2VHRmtOU1dXczVYR3hpdTFISExLc3dSX0g0NFAxd1BTSl9nV2plOXBER0dEX3RiWjNIYzl2b1FpWm9FdjQ?oc=5",
+       "date": "2026-11-26T23:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Mourinho’s winning touch: How his bold decisions keep turning games around for Real Madrid",
+       "source": "Diario AS",
+       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWXZDN0xkX1hrLTl3c3B5RDd4SDhfM09XV1RHQTR2TWpINVlkWHZsZGlfN3JrSTlPOXVzOTRVVDNKWWRhX2VVWUNRSlpSVGFObktod2txeUxJRzJNRFZ3S0xzQTBkUHBEeU82X0ZjT2YzTEs1SzdlTEdFc1ItSkhMbHZ6Y3c2SU1YdmJUQjBHMkowenNkeGZCdy1idzBUaTV3UllZX2lVUkh0RnJrakRVMW5pdDNWbDA2ajZ5LW1yLUNOUdIB1gFBVV95cUxNbXpIblFxUjNndjZxakxxSGFQS3Azb2dZR2pIcHkzcDU1M01aVFA5cGt0U2dzaDY0LWd0SUJaVk9wNmZtdUpLcENqLUc4cVpvOGhROWVxUDdwSGk1XzFDeUNEeDhxeUlqR0otMkVlWWdaRFVGZGRUT3piQmhNSUk4TXk4anBqcW5TTVFLMmRjV2VteXpfQk01MW9aNjl1eEpjZFA1dWJ0QVFYSGs0aXlROTRZRHVaT1lhS01ScXQ1S2ZEdDA3UEdMYmFEMHpObnh4TGE0T3BB?oc=5",
+       "date": "2026-11-26T21:39+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Le Real Madrid commence à avoir un petit problème avec son trio Mbappé-Vinicius-Bellingham",
+       "source": "Foot Mercato",
+       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeVRMTF8taHJHWlRObVFLbk1yNFdSSm1hWENVVVRNcFhEVXM0eDFWQVgtaEpyaEFrblVMcWc2ZHVIcTEwbXlGVS1GQVZWRm91cU81N1Y4emtYaGEyXzZ0QVVWVU5zekJ4N0VQSDRId1lIUGpCWVdiNHh4VGN3OFViR2lLOWJ6NEVwZXlnQUJLR3JCY05oZFRkclhHYkFHQjhLbkZUWEVVY2ZWN0VMMXphOFhSVW8yMF9NYWNjTmRTZldBTjYzLWV6alpJYlBoOGdyVjVTRzNn?oc=5",
+       "date": "2026-11-26T13:15+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Le Real Madrid favori pour rapatrier Nico Paz, mais pour faire quoi ? L’embouteillage qui se dessine pour Mourinho",
+       "source": "TOP Mercato",
+       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaDl6eWJnWDJQblNuc0RrMTdkd1ZSZWZLNmdsSi1iaEVVSFVJN2g0RHpUYkNOSlczUGUzTjM5MHU2QUNwS2Jub2NVaXE5M1Z5eTkzSmJ5cXp1cVFfazJuZTdUN0FBSUlvNXV5VUhSNzgyN19rN1k5UW9CaGdZbWs2Wm9ON3VDQkNkVThhT1F5SlktMmF2cnFfZkt2V3g5RjVhOWcxNW1QSDJHeGxyb0dkdWE1d3kxWm9jUWZEUnVzYUJHRUFieE9rUzZXdnBJazFMM0pLeDZlVllnSzZtdzQ4?oc=5",
+       "date": "2026-11-26T20:44+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Gary Neville prédit qu’Erling Haaland rejoindra le Real Madrid d’ici 18 mois",
+       "source": "Tribuna.com",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZWdGTy15di1WM2Z4bDJ3Uzh0UWJUbC1jVktVcG5xSDRyWmdELVY2RjRhQ1duYUxGTllwWmxuUm5xV2ZTMTJGU0VtTmlwWU1KeE1xbVVFSGZqc3AyYVdDbXVzaFFNQldqUHZ2bl9zZ280WVR0YkJRVkpoVkdIRFEzMkRESlNBRldCRFlHSkZDbGFYRmtxS09QMHp4NjBFem92dTBiZy1DSVRwd1VpeS1yVTdWRVnSAboBQVVfeXFMTUpQMno0ZGtBSWRSWDhTZjZOMkVqZ1NOdzl2am1YV0FiNGlnX3FXamRmTnlVMndteU1ha0gyV3MtOEpzVS0wS2FLRkEyQUozYlJXdk1WLWV5eVZfQUhuNXRXVmgyZ01QUkhPbVpUbG5OWnJTZS1VT01xZW83OC1xQmtWbG5PMnVTUUc1NGxOdTRZYmtUQlh0M0kwTEs1ajlOY0h4dTVBazNjNlRBT1hiMDVWcFQzOU9FV1h3?oc=5",
+       "date": "2026-11-26T21:31+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Kylian Mbappé",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Attaquant",
+       "numero": "10",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "Jude Bellingham",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Milieu",
+       "numero": "5",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "Vinícius Júnior",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Attaquant",
+       "numero": "7",
+       "credit": "Wikimedia Commons"
+      },
+      {
+       "nom": "Federico Valverde",
+       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/330px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+       "poste": "Milieu",
+       "numero": "8",
+       "credit": "Wikimedia Commons"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Le Bernabéu s'offre une soirée à cinq étoiles",
+      "texte": "Le PSV Eindhoven est reparti du Bernabéu avec un 5-1 dans les valises et quelques cauchemars en prime. Federico Valverde a ouvert le bal à la 50e, Jude Bellingham a enchaîné à la 60e, puis Kylian Mbappé a signé un doublé (64e, 84e) avant que Vinícius Júnior ne mette la cerise sur le gâteau à la 87e. Les observateurs y voient la patte de José Mourinho, dont les décisions osées continuent de faire basculer les matchs du bon côté.",
+      "sources": [
+       {
+        "titre": "How Mourinho Changed the Game in Real Madrid’s 5–1 Win Over PSV",
+        "source": "Managing Madrid",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYTlwOWxlc2FISVBya0tjQ3FnbDhha1kzODV4SFpWcld4TlBIaXFfUVRRdkk2dElhd0t2MjhSc1d0TDI1YjFYZGhLU2JtY0NGZHdVeW90a3p2VUluamtzbVJaM0dBd0lZVjZsMFlHVDM4OGlteldYYXptb1VndVl6cXpHNlAzMkRrYUN6RlhpcWxCR2VHRmtOU1dXczVYR3hpdTFISExLc3dSX0g0NFAxd1BTSl9nV2plOXBER0dEX3RiWjNIYzl2b1FpWm9FdjQ?oc=5",
+        "date": "2026-11-26T23:11+00:00",
+        "origine": "presse"
+       },
+       {
+        "titre": "Mourinho’s winning touch: How his bold decisions keep turning games around for Real Madrid",
+        "source": "Diario AS",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWXZDN0xkX1hrLTl3c3B5RDd4SDhfM09XV1RHQTR2TWpINVlkWHZsZGlfN3JrSTlPOXVzOTRVVDNKWWRhX2VVWUNRSlpSVGFObktod2txeUxJRzJNRFZ3S0xzQTBkUHBEeU82X0ZjT2YzTEs1SzdlTEdFc1ItSkhMbHZ6Y3c2SU1YdmJUQjBHMkowenNkeGZCdy1idzBUaTV3UllZX2lVUkh0RnJrakRVMW5pdDNWbDA2ajZ5LW1yLUNOUdIB1gFBVV95cUxNbXpIblFxUjNndjZxakxxSGFQS3Azb2dZR2pIcHkzcDU1M01aVFA5cGt0U2dzaDY0LWd0SUJaVk9wNmZtdUpLcENqLUc4cVpvOGhROWVxUDdwSGk1XzFDeUNEeDhxeUlqR0otMkVlWWdaRFVGZGRUT3piQmhNSUk4TXk4anBqcW5TTVFLMmRjV2VteXpfQk01MW9aNjl1eEpjZFA1dWJ0QVFYSGs0aXlROTRZRHVaT1lhS01ScXQ1S2ZEdDA3UEdMYmFEMHpObnh4TGE0T3BB?oc=5",
+        "date": "2026-11-26T21:39+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    },
+    {
+     "id": "florida-gators",
+     "titre": "Florida Gators",
+     "resume": "Les Gators (n° 20) jouent ce vendredi à Florida State pour clore la saison régulière, un derby où les Seminoles se battent pour une place en bowl. Florida arrive sur une victoire 34-27 contre Vanderbilt. Jadan Baugh est proche d'un record de l'histoire du programme, et Jon Sumrall reste au centre des discussions sur les moyens du club.",
+     "points": [
+      "Vendredi 27 novembre, coup d'envoi 20 h 30 UTC : Florida State-Florida.",
+      "Dernier match : victoire 34-27 contre Vanderbilt.",
+      "Jadan Baugh peut entrer dans l'histoire de Florida lors de ce dernier match de saison régulière.",
+      "Eric Singleton : l'attaquant Buster Faulkner le souhaite en 2027."
+     ],
+     "articles": [
+      {
+       "titre": "The Opening Kickoff: No. 20 Gators at Florida State — A Friday To Run The Baugh",
+       "source": "Florida Gators",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa0tXOVNxU1l4Q1Q4S1lWWXR6ekZEUm1walk2NVVEbDB3cWZObC1QNHlDaU1TMGltU0REbE5rdUFhUjlLOVB0UGQ2cVBOVk5ONzhVb2FHeU5MTDhaNWc5VVZtSHRqTlBuWWxOcUN0WnhfSjd5c00ybHlfY3k0SFpWcDI0LVhSWW85LVlZeEQ2bUZpSzFacW9GZWxjcFhya1RjSFR1VS1SdEZFVmx3enNPQ1FQUF9TajNjWno1Mi1CY1JEVjBUdTVhNjNXcTNjYkhMZFpF?oc=5",
+       "date": "2026-11-26T19:19+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Gators aim to spoil Seminoles’ bowl hopes in rivalry clash",
+       "source": "Yahoo Sports",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTXBXazJZYUFwc3IyRUpVNFVOMXpoYXFyUGI0dEdLX1Bub3lkRmhNanB0aUhmbkg2SDVaUlktSUZiRVB1akxXd2pNdG9OWU5MY2ZsX2Y3eGJSX1l5cDVvWUdCdERyYjdUdmNrc0t5bjVxcGJyUXU4UmVLcFJYelhpX09LTTdRX3k1R3pLU1RIZW4zNWk1RTFwMXdVYlNlZw?oc=5",
+       "date": "2026-11-26T19:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Jadan Baugh on the verge of making Florida history with one regular-season game left - Gator Country",
+       "source": "GatorCountry.com",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTkw2VWxwaEg5RmtiQlZocTZldXFMa2NDMGRHblFKb3NBSVZaWS1WZG9HelJxdE9QdmwyNGNnbi1QWHNOLUxRME1LVHVTSm1qb3hldmN0R21ld2FLMVRTeG9GcjZHRnhUZE1lOXRCQ0Jxd0ZVWjdRQld2MjlrQ1NZaFd2b2dyQmlsLXV3aDl5T1NObE5LM0lLSzVMVTNDWTM0ZHRFa0tDVE9Pdw?oc=5",
+       "date": "2026-11-24T19:52+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Buster Faulkner would like to have Eric Singleton back in 2027: ‘You’re dang right I would’",
+       "source": "On3",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbUdzWDE0VVdnY2NrUFlTOGFaUEdId3RsYlVpejlWUmZIRldrLVZlNXRQems2Wmc5dmk3aks4Y0dYcnN4UUVYV0ZGaHJvVWNoblM0cmYtOEZ5aGdlWURTNEt0c0ZNVjJ4UW1CVjgwNkJNTkJnbk1EMG9qUEZJalB3Z0tJM2FCbzRQaU84eE5LTEM1Zkl2VE40UHd1aERLRTRWM2g3T1FZcU9nX011b0VIZGszZGpWUkVhYUVnQ1F6T3hlcmZlM1V4S1huNWY2UFU?oc=5",
+       "date": "2026-11-26T17:01+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Florida at FSU roundtable",
+       "source": "GatorCountry.com",
+       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtTGtzTG83QVYtVFlHZUFuSFBKbl9EMnhIRmFhWXFJLU5LN3Ewb25DbjNfQXBCUkRUNHZKdmh4T3kwTnhEZXNCbTBPc0N2eDVoYm1zM3lfLXh3UGxPWWZWZFl1ZloxV0FwNi1r?oc=5",
+       "date": "2026-11-26T17:15+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Aaron Philo",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
+       "poste": "Quarterback",
+       "numero": "12",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Jadan Baugh",
+       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+       "poste": "Running back",
+       "numero": "13",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Eric Singleton Jr."
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Vanderbilt tient bon, les Gators tiennent mieux",
+      "texte": "Samedi dernier au Swamp, Florida a dû sortir les crampons pour venir à bout de Vanderbilt, 34-27. Aaron Philo a gardé la barre bien droite (20 passes réussies sur 26, 241 yards), Jadan Baugh a piétiné la défense adverse (19 courses, 75 yards, un touchdown) et Eric Singleton Jr. a servi de cible préférée avec 6 réceptions pour 117 yards. Alfonzo Allen Jr. a ajouté un sack. Une victoire sans fioritures, mais qui compte.",
+      "sources": [
+       {
+        "titre": "Florida Gators Battle Vanderbilt in SEC Thriller",
+        "source": "NGSC Sports -",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CdkFGWFRwekdkdENnSy02SElzWE9uOElLUXk3MHB2VjN4dXRiQWQ5QUNYLUY4b1FxRmdCMGZmM3NESmJrQVFLcFM3ZF9yR0k3QS1tNTRnVW8zQjAtNWVidUpZUzJpOC1zZXAzUzN3ZUdQODI3ZjJQZ3I1ZDI?oc=5",
+        "date": "2026-11-26T18:30+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    },
+    {
+     "id": "jaguars",
+     "titre": "Jacksonville Jaguars",
+     "resume": "Après la défaite 23-18 chez les Giants, les Jaguars reçoivent les Titans dimanche pour la semaine 12 et le site officiel parle d'un besoin de « réponse ». Parker Washington apparaît sur le rapport de blessés de jeudi. Liam Coen est salué pour son travail dans la presse locale.",
+     "points": [
+      "Dimanche 29 novembre : Jaguars-Titans à Jacksonville.",
+      "Parker Washington figure sur le rapport de blessés de jeudi.",
+      "Dernier match : défaite 18-23 à New York contre les Giants."
+     ],
+     "articles": [
+      {
+       "titre": "Parker Washington Pops Up on Jaguars-Titans Thursday Injury Report",
+       "source": "Big Cat Country",
+       "url": "https://www.bigcatcountry.com/jacksonville-jaguars-news/91926/parker-washington-pops-up-on-jaguars-titans-thursday-injury-report",
+       "date": "2026-11-26T22:17+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Quick Thoughts Before Jaguars' Week 12 vs. Titans: \"Really, Really Need a Response\"",
+       "source": "Jaguars.com (officiel)",
+       "url": "https://www.jaguars.com/news/quick-thoughts-before-jaguars-week-12-vs-titans-really-really-need-a-response",
+       "date": "2026-11-26T15:00+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Liam Coen has been the gravy on top of Jaguars' Thanksgiving feast",
+       "source": "Black and Teal",
+       "url": "https://blackandteal.com/liam-coen-has-been-the-gravy-on-top-of-jaguars-thanksgiving-feast-success?utm_source=RSS",
+       "date": "2026-11-26T18:00+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Thursday Quick Hits: \"Only Get Better and Better...\"",
+       "source": "Jaguars.com (officiel)",
+       "url": "https://www.jaguars.com/news/thursday-quick-hits-only-get-better-and-better",
+       "date": "2026-11-26T21:50+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Trevor Lawrence",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
+       "poste": "Quarterback",
+       "numero": "16",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Parker Washington",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
+       "poste": "Receveur",
+       "numero": "11",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Bhayshul Tuten",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png",
+       "poste": "Running back",
+       "numero": "33",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Josh Hines-Allen",
+       "photo": "https://a.espncdn.com/i/headshots/nfl/players/full/3915239.png",
+       "poste": "Défensif de ligne",
+       "numero": "41",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Les Giants gâchent la sortie new-yorkaise des Jaguars",
+      "texte": "Direction le MetLife Stadium, retour avec une défaite 23-18 : les Jaguars ont laissé filer un match qui se jouait à peu de choses. Trevor Lawrence a beaucoup donné (25/47, 301 yards, un touchdown) mais a aussi offert deux interceptions, ce qui pique toujours à ce niveau. Parker Washington a été le meilleur ami du quarterback avec 8 réceptions pour 103 yards, Bhayshul Tuten n'a pu cumuler que 33 yards au sol en 10 courses, et Josh Hines-Allen a glané un sack. Les Titans arrivent dimanche : l'heure de la revanche.",
+      "sources": [
+       {
+        "titre": "Quick Thoughts Before Jaguars' Week 12 vs. Titans: \"Really, Really Need a Response\"",
+        "source": "Jaguars.com (officiel)",
+        "url": "https://www.jaguars.com/news/quick-thoughts-before-jaguars-week-12-vs-titans-really-really-need-a-response",
+        "date": "2026-11-26T15:00+00:00",
+        "origine": "passionnes"
+       }
+      ]
+     }
+    },
+    {
+     "id": "orlando-magic",
+     "titre": "Orlando Magic",
+     "resume": "Le Magic a signé le meneur Kevin Porter Jr. pour deux ans, une décision que Jeff Weltman a expliquée. Orlando vient de perdre 86-104 contre Detroit, privé de Cade Cunningham côté Pistons. Prochains matchs : Washington samedi, puis Detroit dimanche.",
+     "points": [
+      "Kevin Porter Jr. signe pour deux ans.",
+      "Défaite 86-104 contre les Pistons, Desmond Bane meilleur marqueur (21 points).",
+      "Samedi 28 novembre à Washington, dimanche 29 à Detroit."
+     ],
+     "articles": [
+      {
+       "titre": "Kevin Porter Jr. signe au Orlando Magic pour deux ans",
+       "source": "TrashTalk",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd1U4RmZkVVNiVnFGVldTRzJfbFVCSlRkYlotdTBObzdLaVlwZ2tvbUZwMk1uZUtraUJlZGZXTzZRUklSQnNnamR5R0R0QkpVbzAtMDZtSGNpd1A2eHhvUXdFZmZPOVhzTjlHNWFXUW9HeDZGWDlJX0ZSOGpQMklOTEZERmk4OERsaGQ5NmRB?oc=5",
+       "date": "2026-11-26T10:57+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Magic’s Jeff Weltman explains decision to sign guard Kevin Porter Jr.",
+       "source": "Orlando Sentinel",
+       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQW5Fd2JkSXlBV2o0MExENHBva3RlNHZ4UHdHVlJQYndGcTQ2Q0tWaVZ6OUM1YVJ5ZTcwdW9uODhVU1dGLUYyUXJsangyRnljeldiWGJDSC1UajRIODY0TnZnYnRRcTJrLUNMdzJRTUFtZTRiZWJDVWQ2am5YRFQ4ZG8zYlVpY0VKNjQ3dUxmWVlfd2pXUmUyZ2VacXctZk9EejVTZi1PRzQteVFlNXV0NkthcklWMnI2MHAxU0tkTDdfeWMxaWxRczV6OWppSUVMeThoSGcyT2Y4Nnl2d0RaM3AzRQ?oc=5",
+       "date": "2026-11-26T20:02+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Daniss Jenkins: Detroit Pistons Used Physicality To Topple Orlando Magic",
+       "source": "roundtable.io",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnFyNXNuakxYN3oyS1dkRWVpMl9OU3A1b0tZV20xVkRHVDVIX2ZmSVRFTWhLdnI2SlZnWk9RSkFJVnlwcmxITXFrMkdqNWxGcm1uLVh2cmYyTktYbmo5RkZKclV5T3gxT3V2V01DdXpUMWUtMTNPbU95Qm84RlJYM0RSWDJwLUJVaVdGNlQ0cEhya3NKVS1HaGd6czRuT0xLN2Rad0o5ZkM2cEVnUk8tVmR5SmpHRUtpUWhXMw?oc=5",
+       "date": "2026-11-26T20:07+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Trust the Process? Magic Players Weigh in on Sweeney's New Offense",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTnNBUW1NR0ZBelJnY01XN2FpWTRldGN5SDhpZjg5TERNU2swaDhoSWcwRGxNT09BMVNLUjlRTVJBMkRBakd2TEZnWXF3QXdLRG9oTFhMTDVHNUY2QzBFRzdNcHJ6U0xicmhGdHowamRoVXEydEhHTGFsYXo1QXZFLUx2dXJsbWlvV0gteHBJMlQxNWpzSHJGSi1nUTZ2eUFNaFlKd0FXVUg1U291QmM3TzNn?oc=5",
+       "date": "2026-11-26T17:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Orlando Magic's Updated Cap Sheet After Signing Kevin Porter Jr.",
+       "source": "Sports Illustrated",
+       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZXVPTzhIWnB4OTREZ2g5UVNHeHRjdTd6V2RRUmxORlZ6ZXpRb1VnYXFPdkduNVBCVDVQaFNKMDVYNXFsSnlmZWRmZi1EM3ZOOUlZTGJkd1NJOGx0Rlp2SWtIN280SE9peFlHbzZLX1liSXgzcjhLQWtVQzVtb0dmTlRyZXRaeWVLUnVFRFVENVlodjdkY2VZUU4tbXg4RkoxQzJvOUktbTlFYzNlQUJV?oc=5",
+       "date": "2026-11-26T20:00+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": [
+      {
+       "nom": "Kevin Porter Jr.",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4397140.png",
+       "poste": "Arrière",
+       "numero": "7",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Desmond Bane",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4066320.png",
+       "poste": "Arrière",
+       "numero": "3",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Franz Wagner",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png",
+       "poste": "Ailier",
+       "numero": "22",
+       "credit": "ESPN"
+      },
+      {
+       "nom": "Wendell Carter Jr.",
+       "photo": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png",
+       "poste": "Pivot",
+       "numero": "34",
+       "credit": "ESPN"
+      }
+     ],
+     "compte_rendu": {
+      "titre": "Detroit remet le Magic à sa place",
+      "texte": "Mardi soir au Kia Center, les Pistons ont fait ce qu'ils savent faire : durcir le ton. Résultat, 104-86 pour Detroit, et un Magic qui n'a jamais trouvé la clé, même sans Cade Cunningham en face. Desmond Bane a sauvé l'honneur avec 21 points, Franz Wagner a distribué 6 passes et Wendell Carter Jr. a fait le ménage au rebond (13). Tout cela dans un contexte de nouvelle attaque à digérer sous Sean Sweeney. Les Pistons ont maintenant des airs de kryptonite.",
+      "sources": [
+       {
+        "titre": "Match du 24 novembre 2026 : Orlando Magic vs Detroit Pistons",
+        "source": "TrashTalk",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DT2NwWUdlZEtfMy1jTUhHNTVHa18xVzdJaGcwcDJqQU5PdWxpd2FTRjB4U1Bma0JqTjl6VFRFbFlWYjJNSGFSMnVIcUgyVmhGT3BMNFJTTk9TY3BadmxCSU4yV3NUaDQ?oc=5",
+        "date": "2026-11-25T02:26+00:00",
+        "origine": "passionnes"
+       },
+       {
+        "titre": "Daniss Jenkins: Detroit Pistons Used Physicality To Topple Orlando Magic",
+        "source": "roundtable.io",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnFyNXNuakxYN3oyS1dkRWVpMl9OU3A1b0tZV20xVkRHVDVIX2ZmSVRFTWhLdnI2SlZnWk9RSkFJVnlwcmxITXFrMkdqNWxGcm1uLVh2cmYyTktYbmo5RkZKclV5T3gxT3V2V01DdXpUMWUtMTNPbU95Qm84RlJYM0RSWDJwLUJVaVdGNlQ0cEhya3NKVS1HaGd6czRuT0xLN2Rad0o5ZkM2cEVnUk8tVmR5SmpHRUtpUWhXMw?oc=5",
+        "date": "2026-11-26T20:07+00:00",
+        "origine": "presse"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "titre": "IA & tech",
+   "sujets": [
+    {
+     "id": "anthropic",
+     "titre": "Anthropic",
+     "resume": "Selon le Nikkei, le japonais JERA entame des discussions avec Anthropic et Meta pour construire des centres de données. En France, le groupement Mousquetaires a choisi Anthropic pour déployer l'IA dans 500 points de vente et auprès de 300 salariés des fonctions support dès janvier 2027. Côté produits, Anthropic lance Skills over MCP en bêta publique et Claude Ship pour automatiser la revue de code.",
+     "points": [
+      "JERA en discussion avec Anthropic et Meta (source : Nikkei, à confirmer).",
+      "Mousquetaires : 500 points de vente équipés dès janvier 2027.",
+      "Skills over MCP en bêta publique sur Claude et Claude Code ; lancement de Claude Ship.",
+      "Anthropic se retire de l'accord H200 alors que SpaceX baisse ses prix de GPU Blackwell, selon Dataconomy."
+     ],
+     "articles": [
+      {
+       "titre": "JERA entame des discussions avec Anthropic et Meta pour construire des centres de données, rapporte Nikkei",
+       "source": "Zonebourse Suisse",
+       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTnJ1THU5TllZZmlUdTdoZWgzR29XajFSSGpvM1c2aEQ0ak1pRGdBQWlSclFiVi01WWpNOUtibzFDb3J6R0JxdDVxdExrNzUyY3hzQWx5elZmc0JkRHJucXBwOHFVOEVGYm5jR1RNQVBTSzdQQ0l0UGw4eVVHNzVpQ05fSndlekxzX2JnSktUVEgxV1h0RktlbEtUa3hpcGZCbzhVNzB4NGR2S2xfaUczWWk5dTNYbDhYNTF6T2FzdFZpQzZzLVpMazVORlZmMW9pUXV6QzJiUGs5ekJFcWt1dkJJdU1iWllBeDZET2djQQ?oc=5",
+       "date": "2026-11-26T22:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Le groupement mousquetaires choisi Anthropic pour déployer l'IA dans 500 points de vente",
+       "source": "Le Monde Informatique",
+       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTWs1RDllUGxmbWlENUladlRPYVZORVJOZURfb2UtSnEyZHc0SVpYYk1yX1Y2VmdsRGtka2hUcFNSdWFmVEFuMFp3bkV5MEpnaFFTLWVaOWwyekE1OFRzbGlkbnh1Y2lEbXRYaFM5eWtJZXU1NU5jOW5iOEgyODhqWlQ3Zk9iZGdpTVYtN01Vd3FkbmJOUi0zSHFrSHREZU96Qm1NTzlDRXlUU3NkMzhNMndQRkdjZ2J0UkdpZWZjWE9YQmZYbml5QzluY3U4YXBqZnNtMlUtSmtUcmwy?oc=5",
+       "date": "2026-11-26T15:34+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Anthropic ajoute Skills over MCP à Claude et à la bêta de Claude Code",
+       "source": "Dataconomy",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVElLUS1RRDBBNDE2eVk1YXJyZE5yMThWWE9MNEhJRnlRSkw5cmZ6UVVnX0paRUpxcHNtdkdPOG5EODhIeERlWTFRdXUtdEYxQjVmaWp5TTV3WUZRaHk5aFUyZ1F3V1Vyc3BTUkN4cUFsRjB2NEJIdU1SRzFOV2tZTExWcHowZ1I1ZzNRUDJFb0c0N2JhREVkU3lHMFlVeUNZbWFKOFdLOWczQ2c?oc=5",
+       "date": "2026-11-26T14:13+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Intelligence artificielle : lancement de Claude Ship par Anthropic pour automatiser la revue du code",
+       "source": "La Revue Tech",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMm9NRjJzSnI3a2dKQlFoLTlMdXZ3OUwyZ3BTNUZmZ3B5MGZpaENSVmV0RnFQUE9xTFB6bTZnUU9sWE02aWJLaEEzRkNRcU41ajRRaUEyci0zRHlJZXZ4X0FPLW5ZcjZrVWU1Rk1PeXdwTXV0Rjd1OHAyTE1VQ3U3VHlscEpIQmlFQUxkSlpZVFp3eFc1WVFPMEppY3gyLWQ0YmpTZWhvSVl4RWllaTh6Mm1rRk94UEdDMlcwVE9GOA?oc=5",
+       "date": "2026-11-26T14:11+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "SpaceX réduit les prix au comptant des GPU Blackwell alors qu’Anthropic se retire de l’accord H200",
+       "source": "Dataconomy",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObU4tNm4tTHVYNGJkUXlKeFJKYmFNRGZJbHJOc25yU3hxM3ZZQ2dvZ3pKVXdZVjk4QlZGcEtyTy13RmZpQWxfTVBtTUwwTlBKcmJtZC13ZHdWa3Z4OTJGUW9qOXpZNXNZaVNMTnBmS1hBSW5HR0tWNXVCOFNyU01pUE1hVFhDOFJPbzZzb2pPdFRHaDB6RU1yTm9ELWtJdnFJSVNCcmJTMUtXeFh3cWhLNjNjenhCOVROeHVNbWYwbDFQY1UzX3ltbWFFVExJd1E?oc=5",
+       "date": "2026-11-26T14:18+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "big-tech",
+     "titre": "Grands groupes tech",
+     "resume": "Nvidia reste sous pression après le retour de Jensen Huang à la direction : les enquêtes d'États s'élargissent et le groupe est sous la loupe fédérale, selon CBS News et News8000. Singapour et la Malaisie ferment la porte aux puces Nvidia détournées vers la Chine. Au Congrès américain, les efforts bipartisans pour réguler l'IA gagnent du terrain mais restent difficiles, selon Techmeme.",
+     "points": [
+      "Enquêtes d'États élargies sur Nvidia ; examen fédéral après la réintégration de Jensen Huang.",
+      "Singapour et la Malaisie bloquent les puces Nvidia détournées vers la Chine.",
+      "Réguler l'IA : élan bipartisan au Congrès, mais parcours semé d'embûches."
+     ],
+     "articles": [
+      {
+       "titre": "State Investigations into Nvidia Widen",
+       "source": "news8000.com",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenZQTlhVTGRlb2VVbmFmUWNrVEQ3YkJZQnlMS2JMU3AxMzRGVHM5S3k4aXlqNUZkVGdkazQxYk1HM1dpTDJPRTdOSkNtS0JaSm14b2VFQVo3eDB6WnE1dFQtMWRvVjhPM0hqNDZILTlEdFFlMEdXaGc3THRxamt3aDk5UW1na2tENjZmcVZYZzFzMmVBNkU2Y1BqUTNiWUNSbU1fbGx5WmE4bHp6bURVQVhFcXgzNjA?oc=5",
+       "date": "2026-11-27T00:20+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "NVIDIA under federal microscope following reinstatement of CEO Jensen Huang",
+       "source": "CBS News",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTEJtdHdvZ2NFSWtBQlotdG5KQ1gtenZRcC03Qjl6amZKeThHUWMtYkhSRkdXU21TUm8zMk9pbDE4aUhHTTlsNmM2b1JYQ1hBMG1od04xYUpKdXpuYVBkcTJfOXJBR1lianFWb281bVJacmgtbU1BZ1VLampDcHhTN2VWajY0MnZkNGphVjRwWk03dWgwSUtaQ3VpSDJjYWJGcVdxZTd1c2g1OVk3TVBOaGxRWW0?oc=5",
+       "date": "2026-11-26T23:32+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Singapour et la Malaisie ferment la porte aux puces Nvidia détournées vers la Chine",
+       "source": "Le Singulier",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdjVhYmxwbnotbS15ZV9JLWhkblBWVkYwbUcyNUVSOGlCRmVSdTNxM3Jlc183Y2hnU0R2WE9XZHZXTFZZWk1SdFNuSjN4TXViWnJjaUFObEw0WFFFLWhFN1kxZktXdnU2a0U4V0o0WUt5aFpXUDEwQnY4bjJDRkxYYjZqd1hTOUh3cy1GZ3d3TmNZb3h3X0R6SUo1QnZ0Q2VVOTRXai1zNGljSzh5b2FpLQ?oc=5",
+       "date": "2026-11-26T23:33+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Bipartisan efforts in Congress to regulate AI are gaining momentum, but they face an uphill climb due to the slow pace of legislative work and turf battles (New York Times)",
+       "source": "Techmeme",
+       "url": "https://www.techmeme.com/261126/p26#a261126p26",
+       "date": "2026-11-27T00:30+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "OpenAI chief scientist proposes shared limits on frontier AI development",
+       "source": "EdTech Innovation Hub",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkZOVGpNbTJJRlpCYTA4eHFzQXo5NHJ2RTdnRk5Hc3dzV29pX2ZSV1BLN2kxbGNfY2xnbjZvcUVDVVVCd05UUEx0U0JJeUh6bzFMMmI4dGhCNlFxQlQweF9Pazgyd2dPLTNYYlV3XzNOWU16YmdJRnpEamhzdlQ2S0d1WW0tUF9UZWxkeWl0VzVabVRKbzk1Zms0anVxLXZxcmdETy1UTHNZXzNTZEdpUTdjVQ?oc=5",
+       "date": "2026-11-27T00:33+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "ia-monde",
+     "titre": "IA dans le monde",
+     "resume": "Crédit Agricole mise 500 millions d'euros sur l'IA souveraine. Nvidia aurait suspendu des livraisons de serveurs d'IA vers l'Asie du Sud-Est, selon Brief IA (source unique). Côté sécurité, PolinRider aurait infecté plus de 7 600 dépôts GitHub.",
+     "points": [
+      "Crédit Agricole : 500 M€ pour l'IA souveraine.",
+      "Nvidia interromprait l'envoi de puces IA en Asie du Sud-Est (Brief IA, à confirmer).",
+      "PolinRider : plus de 7 600 dépôts GitHub infectés."
+     ],
+     "articles": [
+      {
+       "titre": "Crédit Agricole mise 500 millions d'euros sur l'IA souveraine",
+       "source": "Dosya Haber",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLU1RRmtsVXdvN3k2WWtqUlM1R2g2QmRvdjBpeWV0cl9Vd1Q0U21iT19DQ3N0TEwwN0phdXdMMmRtOXRDNmsxcGdFWlNlRVM2aDlSeWVpb01mLXBENmFIWkJGdEtrNGVNVktpdjh3WDY1S080LTk5clVmOXgyVk1NcV9tN1FtZkVsUzcxTXk5bllHNWF6aXBGNmJuWjM2bU1BSkpncEI1UQ?oc=5",
+       "date": "2026-11-26T20:45+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Nvidia interrompt l'envoi de puces IA en Asie du Sud-Est",
+       "source": "Brief IA",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSDNVQWl4VjBkWkJZZ2xfZ29iOGl3N3IzbFdDQktKTDcxaGRxMllPVmtlWkdUWDI1VmVHaXlnenN4RERWZWtVVVhsbWtPRWstQjN4N2JYUFNwMWRzSS1JRldUc3JTNEdxYjB2WGZhMG9venZSLThmajhzU2hXM3lSMTZyWlRRd1VRRzFlNDE3bGE?oc=5",
+       "date": "2026-11-26T16:08+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "PolinRider infecte plus de 7 600 dépôts GitHub, quels tokens révoquer",
+       "source": "Pasquale Pillitteri",
+       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc3ZGN1o4OEczamg2OWxvVm95bXM3c1Z0b0JTU0o3WlRXSExmRG9lZWtOMXU2bDZUVHhIUy1GVnNESjRlSHpNSlJRSGEtRXY4Vy1pVV84TWVKQklMUmpfMWUtR1dOX0MxWVZXY0poYndoSUVpdjlfcEVEVU13TTFIT3BVeDN6WFV6WXE4U3BjMA?oc=5",
+       "date": "2026-11-26T22:43+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "La Poste signe un premier accord consacré à l'accompagnement des usages de l'intelligence artificielle",
+       "source": "AEF info",
+       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLUd6ejJlZ3duS1NQX01qcnFaS3k1a3dMOG5lRE0tWTZyREVyOUZmVERQeW5YejZ0cDBUY0JmazlTLTNkQ1dYdWp3TzRlZ3AxenQ0R250R01HTU14dXVzN0hZRVdxeXplTnRrOUE2SVJyVC1CN2VDRjdFenJwTkVNT2RxVnFiajNvREo1cUdvMG1DaURVS1BoOGppQm5tLUt4ZllId0NEdEVhamtzUHdYVlF0SGxjN2o1TmQ1bUV6RjhWcm03c1ExeGZ6Zm5ReXlYVnlaUg?oc=5",
+       "date": "2026-11-26T20:29+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "luxe",
+   "titre": "Luxe",
+   "sujets": [
+    {
+     "id": "maisons",
+     "titre": "Maisons & groupes",
+     "resume": "LVMH rebondit de 3 %, parmi les plus fortes hausses du CAC 40, et la SCA Agache dépasse 5 % de son capital. Bernard Arnault pourra garder le contrôle du groupe jusqu'en 2044, d'après La Nouvelle Tribune. UBS reste positif sur LVMH et Richemont. Hermès perd près de 18 % et Kering 27 % sur le trimestre.",
+     "points": [
+      "LVMH +3 % ; La SCA Agache dépasse les 5 % du capital.",
+      "Arnault pourrait conserver le contrôle jusqu'en 2044.",
+      "UBS positif sur LVMH et Richemont pour 2027.",
+      "Moët Hennessy confie sa distribution new-yorkaise à Southern Glazer's."
+     ],
+     "articles": [
+      {
+       "titre": "L'action LVMH rebondit de 3 %, parmi les plus fortes hausses du CAC 40",
+       "source": "Idéal Investisseur",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTRDSG5xXzctVFF1SkJQNjRvUFBHdmlQa0hTSFVWdkpxS1BCVjlDRjFxbXBlT0tRel9tS0VrZkNSWnJ4b1NmUnczVHlLTHRVS3Q2MkRfN0kwM29TaWxGUDJXY2hoWGVzb1JkNnNtM3o5MmxGTGJPSFBEQUdXYVJndFdzSUpBTTFyRzhoWl9UMkpyZXdUcWdWdTZMQUszWmdVeXhyYkF6Q2x6SFVUZ0I2S1V4dHplSl9MQUpMTHFB?oc=5",
+       "date": "2026-11-26T11:04+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "La SCA Agache dépasse les 5% du capital de LVMH",
+       "source": "Zonebourse",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMWkxSGliMEhzOFlNMGphSGo5MDdSRUc2dEVTb0JJLWQxSmc3c0hDcjVPd2hpZXdhYmZVTjA4Y0E3cnhHOTJUclQ5RUFvbDNtM09kMUp2eUUtUnRaSW5NS1NBdlpOM08zRGtRYlY2amQ0SjNnb1A5Mjl3SFJiV1VJbWdsTWhMRXZIc3IxeUlxcVlfZU5VUVlra2xjVVp2dThWMnVWLXI1V2l0Y28?oc=5",
+       "date": "2026-11-26T11:07+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "LVMH : Bernard Arnault pourra garder le contrôle du groupe jusqu’en 2044",
+       "source": "La Nouvelle Tribune",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTks4ZUh3NDNUbUZibTZYM3c5WWFDeWpKRFQ3Z1N6T2tzYWZVMUh3bUVkMUppLVRxQlBGY3pTZjFHeGFuSHVna3pveU9DWHFQMU1seWpJSUR3dW9yT01reXRSUkQxdmU2MXVmWEwxWW4xcjdyM202a0RRcG9oay04YThCYVpJWkVmVGZ6M3RNeWptWW5ianYtY1BienlsVktuMzBwSVZOTlA0ZmVnLVE?oc=5",
+       "date": "2026-11-26T12:54+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "UBS mise sur Richemont, Ferrari et Watches of Switzerland pour le luxe européen en 2027",
+       "source": "Luxus+",
+       "url": "https://luxus-plus.com/ubs-mise-sur-richemont-ferrari-et-watches-of-switzerland-pour-le-luxe-europeen-en-2027/",
+       "date": "2026-11-26T11:57+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Moët Hennessy confie sa distribution new-yorkaise à Southern Glazer’s",
+       "source": "Luxus+",
+       "url": "https://luxus-plus.com/moet-hennessy-confie-sa-distribution-new-yorkaise-a-southern-glazers/",
+       "date": "2026-11-26T12:58+00:00",
+       "origine": "passionnes"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "parfumerie",
+     "titre": "Parfumerie",
+     "resume": "Weinberg Capital Partners rachète la maison de parfum de niche État Libre d'Orange. Puig serait proche de conclure l'achat de Parfums de Marly pour environ 2 milliards de dollars, selon Personal Care Insights (à confirmer). L'Artisan Parfumeur lance son premier talent show, Le Nez.",
+     "points": [
+      "Weinberg Capital Partners achète État Libre d'Orange.",
+      "Puig, proche de Parfums de Marly pour près de 2 Md$ (rumeur).",
+      "Neymar devient ambassadeur d'Armaf."
+     ],
+     "articles": [
+      {
+       "titre": "Weinberg Capital Partners s’offre les parfums État Libre d’Orange",
+       "source": "Premium Beauty News",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRkJyU0RHbURlLU1ZNndEVERPbmtLb3d4UGZWcTdxMllUcXVoU0MzU2ZJZEh1b0V2QWhvOHRTdFpwUTRWSHFsUmRsS3Y4cG15eTBGdHQxYTdqZERPWnAwVkhqYkF2VGIwMVpZMHI3N21mYmtuRmFnaTVUdkhhMC1zQlR3?oc=5",
+       "date": "2026-11-26T18:30+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Weinberg Capital Partners acquires niche perfume house Etat Libre d’Orange",
+       "source": "Premium Beauty News",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWWtvbW5HRHRpNUJ5aFd5MHh4RWwtYTZFVjBsMmZzS1VhcFVCZTdoUWRHck42M3FrZEY4WXdFWXhCbERBa0pZYV9BNS1feWhRVWxfZjVyd1h3cHc0VTgwN2ZsWmJYWDF2X0tXdWcxZjRPQnNSaHlGaEgzaU9SMGxEdVJTRQ?oc=5",
+       "date": "2026-11-26T19:19+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Puig reportedly nears US$2B Parfums de Marly deal as fragrance race heats up",
+       "source": "Personal Care Insights",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVzBNRGRBS1VnLXp0MTd5VVBBSU1sVEtFVmdLOU1oSXQ2N0VnUzBNRXZJV0dXX19ZY2JZMVJFMGdRMEVoQ1BRdFZTSkRkTDJSQ1ZldjMxSDh5b1VSbXJuM3FOeXI2d3pLR0s5bUxER0xUY0RZRTNSREtRMXJ4VThqZlZ6Vjh1WnF6aF83aDJTUk1BVUNuY21wOGs3ZW0?oc=5",
+       "date": "2026-11-26T15:03+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "L'Artisan Parfumeur dévoile son premier talent show Le Nez",
+       "source": "Numéro Magazine",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSWl3R2JtZFhJNmZNeGZ1c3UzN3VBZGl6dVo4RzZFWS1fOUZONG80dl8zNjRuQ21RZmZYRG1QT3ZYc2ljdmxaX1JJcktsRDhTUG5lOE9DZDRZaURnTjNLWTJ4Z3JwdmJIeFhYRmNzbzB5dGEwYkpTcFRVYTc0NkVHUkphNHV4TFE?oc=5",
+       "date": "2026-11-26T19:25+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Neymar Jr. devient ambassadeur d'Armaf : le parfumeur de Dubaï mise sur la star brésilienne",
+       "source": "selecta bisso",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOW84SEdRY25DQzJIcmlaY2dmZXg5cEJkNzhpQlNBWDhQbFlQWnFQSG5YTktiYk9MUXRqbi03QmxtU3U3a2R2LU1tWlFLOTYxSlZqampaa3VvcWNXUjBFNmxrSm5QOFNKRHp6UTlBbEZpZHRuZUx4MlBYS2M2MGdCZElScDViSm9fNXpLeEthNHZXRktMWE5qQWlFLTVxa1FkcVQ3cU9MVDdyWVhJQmxMQTBPNA?oc=5",
+       "date": "2026-11-26T22:00+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "mode",
+     "titre": "Mode",
+     "resume": "Peuterey nomme Michele Rafferty directrice créative. Louis Vuitton organise un concert à Shanghai avec la pianiste Yuja Wang, et Pasquale Bruni ouvre une boutique amirale à Paris, rue du Faubourg Saint-Honoré.",
+     "points": [
+      "Peuterey : Michele Rafferty nommée creative director.",
+      "Louis Vuitton : concert à Shanghai avec Yuja Wang.",
+      "Pasquale Bruni ouvre son flagship parisien."
+     ],
+     "articles": [
+      {
+       "titre": "Peuterey appoints Michele Rafferty as creative director",
+       "source": "FashionNetwork India",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbGh5ODNuY09UeGVqYks2dzdOS1BRNU95SGh2ZFlyS21McXBRT0ppSVc3bjllbEs4T0phSnA3TEt1SWZFUkhGOTctYjJsaml3OF9vLXY2a0ZubV9pYzdvT2ptRWNWQ2trcFlGMWpoOVgwbXpnR3hES0lQLXdDcnFPbEZkWUV0bi0yaXlvYWdGNm5NNVdmdWFpRVpGYjFHVVU5aVBsMWhn?oc=5",
+       "date": "2026-11-26T14:46+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Louis Vuitton Stages a Shanghai Concert With Yuja Wang",
+       "source": "WWD",
+       "url": "https://wwd.com/fashion-news/designer-luxury/louis-vuitton-the-louis-yuja-wang-concert-1239467077/",
+       "date": "2026-11-26T16:48+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Pasquale Bruni Opens Paris Flagship on Faubourg Saint-Honoré",
+       "source": "WWD",
+       "url": "https://wwd.com/accessories-news/jewelry/pasquale-bruni-paris-flagship-opening-european-expansion-1239466929/",
+       "date": "2026-11-26T15:47+00:00",
+       "origine": "passionnes"
+      },
+      {
+       "titre": "Carolina Herrera Opens a New Flagship in the Miami Design District",
+       "source": "RESIDENT™ | A Luxury Lifestyle Magazine",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOW5kOWZ1enF3Si1SRjhNamJMbzdGTTFEZmtnQ0ljd1BGVmFKQlM4VU4yQWpqZGVwRUU4eWlHTjlTQ28zX01IMk5kalBNSVlaZ3FNUlAwUzN5bXM5MTRwTlMwVnVpYUVQSEhqcm0wU3hYRmF0NXR1Si1ScV9RcENoM201RHVhVDdQeDdBem85ZEwxTkJkV2c?oc=5",
+       "date": "2026-11-26T17:16+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "automobile",
+     "titre": "Automobile de luxe",
+     "resume": "Bugatti a failli remplacer la Chiron par un SUV électrique, projet auquel Mate Rimac s'est opposé, selon autoevolution. À Monaco, une sculpture Bugatti a été adjugée 87 000 € lors de la première vente de biens confisqués (330 620 € au total). Charles Leclerc affirme ne pas être le numéro un chez Ferrari, d'après l'AFP.",
+     "points": [
+      "Bugatti : un SUV électrique envisagé à la place de la Chiron.",
+      "Monaco : sculpture Bugatti vendue 87 000 €.",
+      "Leclerc : « pas numéro un » chez Ferrari (AFP)."
+     ],
+     "articles": [
+      {
+       "titre": "Bugatti Nearly Replaced the Chiron With an Electric SUV, Mate Rimac Fought Against It",
+       "source": "autoevolution",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc2dBMUVqdHF0R3dQZEFBb0d5dEJPR2E4MlphTUVROFRycENqam5VclNGXzJ4MnZ6VTcxVHNEeWhPM1Q2bFlBSEh4bjI4b2Q5NzgwNDhuRllLVDVQWWkxX2trWE0yXzUweFdCSG01NjEwMnN5VkhuYk01cU54ejZaUS1lTHdoRVNoSnhyQTViYnlrZGJFc2MwajR3am45aWMxN2FKbmlDUkR0OVpobWdJTUt1eHRGV1J0bTUwVkprSUhCTW50VVdLclo0Zw?oc=5",
+       "date": "2026-11-26T22:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Monaco’s First Auction of Confiscated Assets Raises €330,620 as Bugatti Sculpture Fetches €87,000",
+       "source": "Nice-Matin",
+       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT09hZnBEWWwtSk9NTVpTSzBrOUxPbG5EbVNKWkRvNnA1NWRxdGdoVnotc2Z3aW5qQndmT2lvTjE4TlR2Q2NCUGdkLTJzSmE4WC1JNGpwWlBkNjc5Vm5sSXFaay1FYzJCWjdrOC1maTZqd2M5R2FlZmNlYXgtTkNQblZUaTVISEw5dEx3UUQxdlRPbUdCMHMweXd1TVRpOEk3cGRELUdUazNGdmxTdHBYcTZ3dlY4d0JrRWJiTGdOaXpJdHlsaWpJQ09OSGdtT0lIdU9MUnlNdnA?oc=5",
+       "date": "2026-11-26T19:25+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Leclerc says he is not Ferrari number one as team regroup",
+       "source": "AFP.com",
+       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5WUXFCVEhiMjBTYzZqRjdPMUx0TDlqaVl5bVo3cUlLX2lIQWI3bzg1ZkNZV1NvbldpSVFGc1JpWVhjaVk4ellsV2VYQQ?oc=5",
+       "date": "2026-11-26T19:21+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "24 Heures du Mans. Soixante ans après son triplé historique face à Ferrari, Ford dévoile sa GT41 et rêve de renouer avec la victoire",
+       "source": "maville.com",
+       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPWjFENmFQbzY1VWFXdUxLRFNsVFVlNEp2VTBnVkN0SzFCV09KV0RfVFZmd3dVN3JSVkRkWG5QSS1TbFBMLTJacWQ3LTFzMklRWXZnVWF6aUVKU2JGY3FzaDk2b3dueG1DY3dGZzk0a1dEc3Z6cGV2V2YyZHA0TmxrSDBnajVCTU5YQ2dLZW81N3M4Q0E0VW16VTNoUWk0QzMtZ0ljSmxNSDJkM0d6VXMzQUtoT255Q3I4aTdZbkhzYmxrZnZ6MVY5QlNaS19Hekp2aGpwMVhmdTdROGt2T0E4VGVDcW5lSjQ5NE1LUVlWbENUeTdiRlBCT2pWbHh4Z1dtelE3dGUtYnJYS2N5N3VWQkg4RldSQmd3YWJqdg?oc=5",
+       "date": "2026-11-26T19:30+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "hotellerie",
+   "titre": "Hôtellerie",
+   "sujets": [
+    {
+     "id": "hotellerie-luxe",
+     "titre": "Hôtellerie de luxe",
+     "resume": "Le Ritz-Carlton ouvre à AMAALA, sur la mer Rouge saoudienne, présenté comme le plus grand resort du projet, malgré les attaques houthies. Marriott prévoit des Ritz-Carlton Residences à Brooklyn Heights.",
+     "points": [
+      "Ritz-Carlton AMAALA ouvre sur la côte saoudienne de la mer Rouge.",
+      "Marriott : Ritz-Carlton Residences prévues à Brooklyn Heights."
+     ],
+     "articles": [
+      {
+       "titre": "The Ritz-Carlton opens as AMAALA's largest resort on Saudi Arabia's Red Sea",
+       "source": "Markets of Tomorrow",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVURmUXFrVUJoajFUeGxaSTZPZkRzYmM0VzdtU3Nzai1XV0dGNVI0cGJad2hjR0JCcVdJNUtCNnc5NEFnck9zNzFRamtOVU1qYUNqM0VLQWlMTjJtbHMySmMtUy1tbGRhQVh4TWcyODVvZnU1V3o4TWhNaDZvdEZlclBRV1pteXhRRGo2MHFSSXMyQkdlVG80TFpOOHVQSk9pVHVjXzRB?oc=5",
+       "date": "2026-11-27T00:22+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Ritz-Carlton Amaala Opens on Saudi Red Sea Coast",
+       "source": "Wisevoter",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWGtyZ3RBOTh0b0hrUFgyQjVJNEVrNXpHcUMtQ1ZWcGk3N29Obm9HNGNkQWVKVFIzNEpJYXFrWTJQb3UxYkVFTUFZaW1ZSmZBUVFNTWdLSDhoX2ZnSFJORS1LOXVJQjlvcG5NSFB3OTVpNjNMRzdURExmdlI2QUozV3VTUUdDWVpyNzhYTA?oc=5",
+       "date": "2026-11-26T09:47+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Red Sea Ritz-Carlton opens in spite of Houthi attacks",
+       "source": "Arabian Gulf Business Insight | AGBI",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjVjN1EzUlBwYVd0dE5relBIdzVUOU5fdGxKcFpYRWI2OUVWZzVyaXNjMm9iS1dCdHZoVE15UjVRa3g1YzdzVzdnbkd3bzg2YjEyUlhOZE9NQmFqcEVsRERiYXcyaFNTZmhoQmRkaXpJU3p0WXA3S3NfTEREcHViVWRKcG9yZFdIX0hobXJxbmN2aWV2cmxySGhoeDZQWXIwN0l1TTZB?oc=5",
+       "date": "2026-11-26T07:42+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Marriott Plans Ritz-Carlton Residences in Brooklyn Heights",
+       "source": "https://safariindia.com/",
+       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KOENaVm5qOFItQUhNMVBIS3FLb29QbTZYYkotWVBMQzJTYzdhb1l0WURXR25UYmFUZ0EzOVBSOS1fUE5MZ1RsRmtEc205ZmNMRHdacmpERUU3VTB3SzEzdEItQUxpN0JSN180TVVHeFl4Sjg?oc=5",
+       "date": "2026-11-26T15:15+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "industrie-hoteliere",
+     "titre": "Industrie hôtelière",
+     "resume": "Hyatt annonce un Hyatt Regency Gold Coast pour 2030 en Australie, et IHG étoffe sa Vignette Collection. En France, les défaillances dans l'hôtellerie-restauration ont augmenté de 56,3 % depuis 2019, à 9 474, selon Vinetur.",
+     "points": [
+      "Hyatt Regency Gold Coast attendu en 2030.",
+      "IHG ajoute un hôtel à Vignette Collection.",
+      "Défaillances hôtellerie-restauration : +56,3 % depuis 2019."
+     ],
+     "articles": [
+      {
+       "titre": "Hyatt Regency Gold Coast set for 2030 debut",
+       "source": "www.hotelmanagement.com.au",
+       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRGs1ZGR5NnljSEFfcXpfeFFyNERnNkkwVEpFOEFWajRpOUh1Q2ZWb1ZMblp1ZTM1WldwMDVIcHR3RlFZdVhKVUdybFZpOWpkRVVqOTdZOWxOc0ZxMkRCODZBbFhLcDhlc21pc1ZjSlN2TUpiWmZyQUh1eUJQampacVNaVW5mSzZ1djFxTFBsT3BZQkRk?oc=5",
+       "date": "2026-11-26T22:24+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Hyatt signs agreement with SIDG to develop hotel at Gold Coast",
+       "source": "Hotel Management Network",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaS1CSnpnWnhKQkxvS3FDc1BGVlIta3ctc2Z6T05ua2wzQ2tDMVhJNmZ0SW4wMURvdHZneE95ZVVrRGk0NXVJX2ZHLVl5UmVDdXYyVElqSTZkNGRyREVTUFpPOTNJTEpQMnFad0ZDbjVfQTF4N3RGY3Q1UE51MEZZYkZZMHgyM1UxSDhleHhEcDhRN1VwRWkxTlhfY0ZkaUV6Q0RtaWc5eHNhTl9xVGkyWHB1QndwdnZoaUE?oc=5",
+       "date": "2026-11-26T18:54+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "IHG expands Vignette Collection with latest addition",
+       "source": "www.hotelmanagement.com.au",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFNxNHF5dFdCM1pEQkhINnhIb01TS3dTQVFVNGNBeWlZbzd6U0pvYmhqdW1tZXN0bmVEckQ2Y3puX0VSQ1ptTG9GNVJCcmZrYl9fcHc4MUpzaWNaeXJRMjhwTzc3Ui1kSC1IUDU3azZpUTJ1dW9PSFZnbTk0QUpSVHNWX09GZVBzVkFLLVVwUFpUNmZXRmJuekZjbGlaWUVX?oc=5",
+       "date": "2026-11-27T00:24+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Les défaillances dans l’hôtellerie-restauration française ont augmenté de 56,3 % depuis 2019, à 9 474",
+       "source": "Vinetur",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGl3VWhXRFVVejRnZjBVWk84NHFfYkRNalFfSlN1UHlKOEQzV1JvOTlOOXVRaHhDQzBfX205TnN5RzBGRDJuR2hIZnVLUU9qdHR6QTFFMjhrSzFiU2J1a0ZfZTBhZnZqc0N2VVQ1N1JBUXFKeVFuakxuWnRqeHBKeVZNWEZ3REZXRXBld0lpZXRCbHAtQnFsdDNqRjlUeV8wYkZPWE9CTzA2Vzlnc1BKNWs5VdIBuAFBVV95cUxNZXhlSDRaRlJVVlVsdzVTb25iVWVKYkZldGxkSlFScTFrRnJEdWJZOEYyc0NrQ09qTXNmZ2ZqQ2xLLW1KMklEaXRXcF9XWlQyTUh6Tm5wM294ZFJaUHp6Y1h0MnQ2UTd5NnRnZF9hMFJyb212NWNkcWVESUJaVFQ2V2FtbUFfVm5jYzV2YWtBQUVNc055TWxEMmRCajhMSl9Fd2FCLTNHdk50amhUMHBTUktqM2EwZWkt?oc=5",
+       "date": "2026-11-26T18:02+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  },
+  {
+   "id": "marches",
+   "titre": "Marchés",
+   "sujets": [
+    {
+     "id": "bourse",
+     "titre": "Bourse & marchés",
+     "resume": "Le CAC 40 a gagné 0,85 % à 8 108,74 points jeudi, et les Bourses européennes ont progressé. À Wall Street, les craintes sur l'IA ont pesé cette semaine (S&P 500 -0,25 % et Nasdaq -0,62 % mercredi), avant un rebond des contrats à terme. L'inflation américaine est à 3,3 %, ce qui ravive les craintes d'une Fed plus ferme. Le Brent recule de 2,77 % à 91,99 $, l'or gagne 1,41 % à 3 585,8 $. L'Espagnol Pablo Hernández de Cos doit succéder à Christine Lagarde à la BCE, d'après Le Télégramme.",
+     "points": [
+      "CAC 40 : +0,85 % à 8 108,74.",
+      "Brent -2,77 % à 91,99 $ ; or +1,41 % à 3 585,8 $.",
+      "Inflation américaine à 3,3 %.",
+      "BCE : Hernández de Cos pressenti pour succéder à Lagarde."
+     ],
+     "articles": [
+      {
+       "titre": "Inflation américaine à 3,3 %, peut-on y lire la politique de la Fed pour 2027 ?",
+       "source": "IDNFinancials",
+       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeXhZQy1kOFU0YXRzUlM2THdacnVrWTFzSXNXYUlMLTlSNEpwMzdYaW9wcDJJNktoM1ZPZDNDN3dKZ3BIV2xQU1Y0eEpSdEtsanNqY0hrcVZHWm9WYUZfb2xvSEk5S3ItMExxNmN4X08xemtwVkM5cnhQdlk5NlRpVE5rbWh5bnE1azhiSGNFai15dGUzSTlXT2NJZU01WktFU3J4aWQ5OGhmZTNHQXFlQm5TblRzZmZBWDdoQ3F1Y2xpekZreEdz?oc=5",
+       "date": "2026-11-27T00:40+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Wall Street Flips From AI Euphoria to Gloom",
+       "source": "Bloomberg.com",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ3dMUTlPVV9IdUJTQ0NWSjV2ZEZLbmNnWWtoMEpQT05KdzZSX0d5cjRtNzBCYTZMdzBVZmQ0QU14a3B3dnRncGxPMmMyR0I3djQycmp0VWtWV0NqY3NQdHdPQlhDZGZuX2MwSHFFRmI2N3NydV9Bb3BRR1ZzUUs5NWNucklfOEZVNzczamJQdEY1OHRzRGdNdGZjb2ZYdw?oc=5",
+       "date": "2026-11-27T00:28+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "L’Espagnol Pablo Hernandez de Cos va succéder à Christine Lagarde à la BCE",
+       "source": "Le Télégramme",
+       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaVhPUDJQRE5lZE1yWkxJWnhZNUoxZ3dETFdPTkFkQ1FPYzF2Y3pVc2Z0WnNBMmRrN0dtNjRtU0piNTdOSWtKekx0WlY3WmVEeGc2RGVHQkFfQkl5MDE0QkRCOE1TWGlPbVZ2X1hhTXhCTGFqT3JzOFdKY1gtZlZfSmlNTTBjUVlqZkFXczhJXzVsWmV4TzlFRHpSVHRKTkU2MGF3S3ZESGdDVWUzOUt5ZENZaDdreDE3Z3ctM0lSVlE0TVlDX09Ka2JGajBVcjYtSjA1TVdhMA?oc=5",
+       "date": "2026-11-26T21:42+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "European stocks surge, S&P 500 futures finish higher in Thanksgiving trading",
+       "source": "investingLive",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2RSbUxfYXUxbTBnTXNyWWFlLUpDZWRkREdZMFJETTRIcHd6MjRweEZiamdicW4xbVFQY2tBemdfa3QyeFBjQTZCc29sMVpTV25SQVRtdjU5RWtFZVJMaDhWVWRqMGoxU0tuNktzT05GUGUwa1hpdnVtdEJnS2ZYbTRUZnQybzVvTmFPVUpvWHZlanR6bzRaZk1iNWNUeldiSFlXTmwxX3RfYnY3VXc?oc=5",
+       "date": "2026-11-26T19:41+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    },
+    {
+     "id": "crypto",
+     "titre": "Crypto",
+     "resume": "Le Bitcoin repasse au-dessus de 60 000 $ malgré des sorties record des ETF au comptant. Binance a rétabli les retraits sur la quasi-totalité des réseaux quatre semaines après un piratage record de 6,3 milliards de dollars. La Suisse a lancé son premier ETF Bitcoin au comptant.",
+     "points": [
+      "Bitcoin au-dessus de 60 000 $, sorties record des ETF.",
+      "Binance rétablit les retraits après le hack de 6,3 Md$.",
+      "Suisse : premier ETF Bitcoin au comptant coté."
+     ],
+     "articles": [
+      {
+       "titre": "Bitcoin Rebounds Above $60,000 as Spot ETF Outflows Hit Record",
+       "source": "Businesskorea",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Za0tFM1djcmcwd1V0b3VJR0xuZVZzYjVud2xZMjVVSHd1WVUzSXd0cmxBRHh2N0ZLVmczN1J1VG5Cc25QNnAtVGZTTGZIbXRNSlFia2J4NlE5YXZlS2FhVmRtaXZjSnRIM18xSFFMakRnYmVn?oc=5",
+       "date": "2026-11-27T00:36+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
+       "source": "TradingView",
+       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamRPQnZtZGczYnh0dXpWTFFvQXJRWnNPNmt0MkRsYlQwTjU1WHlJOEtYVFBVOEFVZWNXc3pxTnd0eGMwT3NYMTNEUDhjeWdTQkVuQkYxM3p1bzh4T0ZEelV1R0M4MmVkMDkxU3N2aC00SlRJUXN2c3BRdVBfQTVIMVRVM1VXMmJWSnRaYlZLNkNHanJCbzZaUUM2ZUIxTHBRZV9wNUhMYW0yTi1WcGRkakJqZGFkeTlKRlQzQWVmUlBIdk9xYVlFOFhTRTF5NjhFdTU3WERTWkQ3QmdfeTU1Vk1mR1gydlNpUUE?oc=5",
+       "date": "2026-11-26T21:43+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "Switzerland's First Spot Bitcoin ETF Listed, Managing Assets of 350 BTC (Equivalent to 3.3 Billion Yen)",
+       "source": "Iolite（アイオライト）",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fQ3pNakxwNzJWYmJpY1VLVndiWnlhUjc2RGlYdGJNVFBvU3VmaXJ5bUs1bVFmaFFGc2FNdldReWVJamhpNjZzZzRsclJfWUhSUzkyMQ?oc=5",
+       "date": "2026-11-26T23:00+00:00",
+       "origine": "presse"
+      },
+      {
+       "titre": "JPMorgan sees bitcoin capitulation in record Strategy discount, but 3 risks cloud the call",
+       "source": "investingLive",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZlRZcjVSTkZmMTBWT3dPZWhXS2dTR0U1LVVTdHppeDBrbVNKMlRzSEt0VUU5RzMxcWpORmdDSkU3bDRpX19RSmpXQzBQVG03TmJJTDJMRU1sYng4WVBVcFBqZlZ5cVhjZ0w3SHJYeXJHWVFNRDdiNkpERjNLZlA1RFR2dFNYaUdoa3dEd2RDaWw3YTJCajNOQXpFdGhWalA5cUhEeC1UVFp5YmNDWmZxT3NzYXFyMTgtYTZjLVFMU0hab3Y1ajR3c1g4Yw?oc=5",
+       "date": "2026-11-26T22:28+00:00",
+       "origine": "presse"
+      }
+     ],
+     "joueurs": []
+    }
+   ]
+  }
+ ],
+ "genere_le": "2026-11-27T06:12+00:00"
+}
