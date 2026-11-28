@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-28T00:34+00:00",
+ "genere_le": "2026-11-28T14:16+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -2588,170 +2588,8 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-28T00:34+00:00",
+  "genere_le": "2026-11-28T14:16+00:00",
   "matchs": [
-   {
-    "id": "401856762",
-    "date": "2026-11-27T17:00Z",
-    "chaine": "ABC",
-    "etat": "post",
-    "detail": "Final",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Ole Miss",
-     "surnom": "Rebels",
-     "abr": "MISS",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-     "rang": 22,
-     "bilan": "8-4",
-     "score": "41"
-    },
-    "ext": {
-     "nom": "Mississippi State",
-     "surnom": "Bulldogs",
-     "abr": "MSST",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-     "rang": null,
-     "bilan": "5-7",
-     "score": "17"
-    }
-   },
-   {
-    "id": "401862840",
-    "date": "2026-11-27T17:00Z",
-    "chaine": "ESPN",
-    "etat": "post",
-    "detail": "Final",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "UTSA",
-     "surnom": "Roadrunners",
-     "abr": "UTSA",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
-     "rang": null,
-     "bilan": "10-2",
-     "score": "28"
-    },
-    "ext": {
-     "nom": "Tulsa",
-     "surnom": "Golden Hurricane",
-     "abr": "TLSA",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-     "rang": null,
-     "bilan": "7-5",
-     "score": "22"
-    }
-   },
-   {
-    "id": "401866473",
-    "date": "2026-11-27T17:00Z",
-    "chaine": "ESPNU",
-    "etat": "post",
-    "detail": "Final",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Ohio",
-     "surnom": "Bobcats",
-     "abr": "OHIO",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-     "rang": null,
-     "bilan": "8-4",
-     "score": "31"
-    },
-    "ext": {
-     "nom": "Toledo",
-     "surnom": "Rockets",
-     "abr": "TOL",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
-     "rang": null,
-     "bilan": "10-2",
-     "score": "34"
-    }
-   },
-   {
-    "id": "401856759",
-    "date": "2026-11-27T20:30Z",
-    "chaine": "ABC",
-    "etat": "post",
-    "detail": "Final",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Florida State",
-     "surnom": "Seminoles",
-     "abr": "FSU",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-     "rang": null,
-     "bilan": "5-7",
-     "score": "10"
-    },
-    "ext": {
-     "nom": "Florida",
-     "surnom": "Gators",
-     "abr": "FLA",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-     "rang": 20,
-     "bilan": "8-4",
-     "score": "26"
-    }
-   },
-   {
-    "id": "401862838",
-    "date": "2026-11-27T20:30Z",
-    "chaine": "ESPN",
-    "etat": "post",
-    "detail": "Final",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Memphis",
-     "surnom": "Tigers",
-     "abr": "MEM",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-     "rang": null,
-     "bilan": "8-4",
-     "score": "31"
-    },
-    "ext": {
-     "nom": "Temple",
-     "surnom": "Owls",
-     "abr": "TEM",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-     "rang": null,
-     "bilan": "3-9",
-     "score": "35"
-    }
-   },
-   {
-    "id": "401856756",
-    "date": "2026-11-28T00:30Z",
-    "chaine": "ABC",
-    "etat": "pre",
-    "detail": "11/27 - 7:30 PM EST",
-    "neutre": false,
-    "titre": "",
-    "dom": {
-     "nom": "Texas A&M",
-     "surnom": "Aggies",
-     "abr": "TA&M",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-     "rang": null,
-     "bilan": "4-7",
-     "score": null
-    },
-    "ext": {
-     "nom": "Texas",
-     "surnom": "Longhorns",
-     "abr": "TEX",
-     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-     "rang": 3,
-     "bilan": "9-2",
-     "score": null
-    }
-   },
    {
     "id": "401858314",
     "date": "2026-11-28T17:00Z",
@@ -3387,7 +3225,7 @@
      "abr": "UTAH",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
      "rang": 2,
-     "bilan": "11-0",
+     "bilan": "12-0",
      "score": null
     },
     "ext": {
@@ -3472,12 +3310,12 @@
      "score": null
     },
     "ext": {
-     "nom": "TBD",
-     "surnom": "TBD",
-     "abr": "TBD",
-     "logo": "",
-     "rang": null,
-     "bilan": "",
+     "nom": "Texas",
+     "surnom": "Longhorns",
+     "abr": "TEX",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+     "rang": 3,
+     "bilan": "10-2",
      "score": null
     }
    },
@@ -3490,12 +3328,12 @@
     "neutre": false,
     "titre": "American Championship",
     "dom": {
-     "nom": "TBD",
-     "surnom": "TBD",
-     "abr": "TBD",
-     "logo": "",
+     "nom": "UTSA",
+     "surnom": "Roadrunners",
+     "abr": "UTSA",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
      "rang": null,
-     "bilan": "",
+     "bilan": "10-2",
      "score": null
     },
     "ext": {

@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-28T00:34+00:00",
+ "genere_le": "2026-11-28T14:16+00:00",
  "cours": [
   {
    "id": "^FCHI",
@@ -7,7 +7,7 @@
    "nom": "CAC 40",
    "valeur": 8156.09,
    "unite": "pts",
-   "variation": 2.2,
+   "variation": 0.58,
    "maj": "2026-11-27T17:05+00:00"
   },
   {
@@ -16,7 +16,7 @@
    "nom": "Euro Stoxx 50",
    "valeur": 6089.2,
    "unite": "pts",
-   "variation": 3.3,
+   "variation": 1.24,
    "maj": "2026-11-27T17:00+00:00"
   },
   {
@@ -78,31 +78,31 @@
    "id": "bitcoin",
    "sujet": "crypto",
    "nom": "Bitcoin",
-   "valeur": 54755,
+   "valeur": 53967,
    "unite": "€",
-   "variation": -0.84,
+   "variation": -3.84,
    "sur": "24 h",
-   "maj": "2026-11-28T00:33+00:00"
+   "maj": "2026-11-28T14:15+00:00"
   },
   {
    "id": "ethereum",
    "sujet": "crypto",
    "nom": "Ethereum",
-   "valeur": 1519.56,
+   "valeur": 1499.79,
    "unite": "€",
-   "variation": -1.45,
+   "variation": -4.68,
    "sur": "24 h",
-   "maj": "2026-11-28T00:33+00:00"
+   "maj": "2026-11-28T14:15+00:00"
   },
   {
    "id": "solana",
    "sujet": "crypto",
    "nom": "Solana",
-   "valeur": 65.47,
+   "valeur": 64.2,
    "unite": "€",
-   "variation": 0.95,
+   "variation": -3.92,
    "sur": "24 h",
-   "maj": "2026-11-28T00:33+00:00"
+   "maj": "2026-11-28T14:15+00:00"
   }
  ]
 }
