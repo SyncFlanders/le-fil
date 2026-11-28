@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-27T15:10+00:00",
+ "genere_le": "2026-11-28T00:34+00:00",
  "equipes": {
   "real-madrid": {
    "nom": "Real Madrid",
@@ -242,36 +242,21 @@
   "florida-gators": {
    "nom": "Florida Gators",
    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-   "prochains": [
-    {
-     "date": "2026-11-27T20:30Z",
-     "competition": "Regular Season",
-     "adversaire": "Florida State Seminoles",
-     "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-     "domicile": false,
-     "lieu": "Doak Campbell Stadium",
-     "tv": [
-      "ABC"
-     ],
-     "termine": false,
-     "id": "401856759",
-     "ligue": ""
-    }
-   ],
+   "prochains": [],
    "dernier": {
-    "date": "2026-11-21T17:00Z",
+    "date": "2026-11-27T20:30Z",
     "competition": "Regular Season",
-    "adversaire": "Vanderbilt Commodores",
-    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-    "domicile": true,
-    "lieu": "Ben Hill Griffin Stadium",
+    "adversaire": "Florida State Seminoles",
+    "logo_adversaire": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+    "domicile": false,
+    "lieu": "Doak Campbell Stadium",
     "tv": [
-     "SEC Network"
+     "ABC"
     ],
     "termine": true,
-    "id": "401856748",
+    "id": "401856759",
     "ligue": "",
-    "score": "34-27",
+    "score": "26-10",
     "resultat": "V",
     "tops": [
      {
@@ -279,28 +264,28 @@
       "poste": "Passes",
       "numero": "12",
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5132812.png",
-      "valeur": "20/26, 241 yds"
+      "valeur": "9/12, 127 yds"
      },
      {
       "nom": "Jadan Baugh",
       "poste": "Course",
       "numero": "13",
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
-      "valeur": "19 courses, 75 yds, 1 TD"
+      "valeur": "19 courses, 77 yds, 1 TD"
      },
      {
       "nom": "Eric Singleton Jr.",
       "poste": "Réception",
       "numero": "2",
       "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5095360.png",
-      "valeur": "6 réc., 117 yds"
+      "valeur": "4 réc., 71 yds"
      },
      {
-      "nom": "Alfonzo Allen Jr.",
+      "nom": "Jayden Woods",
       "poste": "Sacks",
-      "numero": "43",
-      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/4685238.png",
-      "valeur": "1"
+      "numero": "0",
+      "photo": "https://a.espncdn.com/i/headshots/college-football/players/full/5141766.png",
+      "valeur": "3"
      }
     ]
    },
@@ -308,11 +293,11 @@
     "type": "liste",
     "titre": "Joueurs clés du dernier match",
     "match": {
-     "adversaire": "Vanderbilt Commodores",
-     "date": "2026-11-21T17:00Z",
-     "score": "34-27",
+     "adversaire": "Florida State Seminoles",
+     "date": "2026-11-27T20:30Z",
+     "score": "26-10",
      "resultat": "V",
-     "domicile": true
+     "domicile": false
     },
     "joueurs": [
      {
@@ -2603,14 +2588,14 @@
   }
  },
  "college_disney": {
-  "genere_le": "2026-11-27T15:10+00:00",
+  "genere_le": "2026-11-28T00:34+00:00",
   "matchs": [
    {
     "id": "401856762",
     "date": "2026-11-27T17:00Z",
     "chaine": "ABC",
-    "etat": "pre",
-    "detail": "11/27 - 12:00 PM EST",
+    "etat": "post",
+    "detail": "Final",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2619,8 +2604,8 @@
      "abr": "MISS",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
      "rang": 22,
-     "bilan": "7-4",
-     "score": null
+     "bilan": "8-4",
+     "score": "41"
     },
     "ext": {
      "nom": "Mississippi State",
@@ -2628,16 +2613,16 @@
      "abr": "MSST",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
      "rang": null,
-     "bilan": "5-6",
-     "score": null
+     "bilan": "5-7",
+     "score": "17"
     }
    },
    {
     "id": "401862840",
     "date": "2026-11-27T17:00Z",
     "chaine": "ESPN",
-    "etat": "pre",
-    "detail": "11/27 - 12:00 PM EST",
+    "etat": "post",
+    "detail": "Final",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2646,8 +2631,8 @@
      "abr": "UTSA",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
      "rang": null,
-     "bilan": "9-2",
-     "score": null
+     "bilan": "10-2",
+     "score": "28"
     },
     "ext": {
      "nom": "Tulsa",
@@ -2655,16 +2640,16 @@
      "abr": "TLSA",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
      "rang": null,
-     "bilan": "7-4",
-     "score": null
+     "bilan": "7-5",
+     "score": "22"
     }
    },
    {
     "id": "401866473",
     "date": "2026-11-27T17:00Z",
     "chaine": "ESPNU",
-    "etat": "pre",
-    "detail": "11/27 - 12:00 PM EST",
+    "etat": "post",
+    "detail": "Final",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2673,8 +2658,8 @@
      "abr": "OHIO",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
      "rang": null,
-     "bilan": "8-3",
-     "score": null
+     "bilan": "8-4",
+     "score": "31"
     },
     "ext": {
      "nom": "Toledo",
@@ -2682,16 +2667,16 @@
      "abr": "TOL",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
      "rang": null,
-     "bilan": "9-2",
-     "score": null
+     "bilan": "10-2",
+     "score": "34"
     }
    },
    {
     "id": "401856759",
     "date": "2026-11-27T20:30Z",
     "chaine": "ABC",
-    "etat": "pre",
-    "detail": "11/27 - 3:30 PM EST",
+    "etat": "post",
+    "detail": "Final",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2700,8 +2685,8 @@
      "abr": "FSU",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
      "rang": null,
-     "bilan": "5-6",
-     "score": null
+     "bilan": "5-7",
+     "score": "10"
     },
     "ext": {
      "nom": "Florida",
@@ -2709,16 +2694,16 @@
      "abr": "FLA",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
      "rang": 20,
-     "bilan": "7-4",
-     "score": null
+     "bilan": "8-4",
+     "score": "26"
     }
    },
    {
     "id": "401862838",
     "date": "2026-11-27T20:30Z",
     "chaine": "ESPN",
-    "etat": "pre",
-    "detail": "11/27 - 3:30 PM EST",
+    "etat": "post",
+    "detail": "Final",
     "neutre": false,
     "titre": "",
     "dom": {
@@ -2727,8 +2712,8 @@
      "abr": "MEM",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
      "rang": null,
-     "bilan": "8-3",
-     "score": null
+     "bilan": "8-4",
+     "score": "31"
     },
     "ext": {
      "nom": "Temple",
@@ -2736,8 +2721,8 @@
      "abr": "TEM",
      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
      "rang": null,
-     "bilan": "2-9",
-     "score": null
+     "bilan": "3-9",
+     "score": "35"
     }
    },
    {
@@ -3451,21 +3436,21 @@
     "neutre": true,
     "titre": "MAC Championship",
     "dom": {
-     "nom": "TBD",
-     "surnom": "TBD",
-     "abr": "TBD",
-     "logo": "",
+     "nom": "Buffalo",
+     "surnom": "Bulls",
+     "abr": "BUFF",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
      "rang": null,
-     "bilan": "",
+     "bilan": "9-3",
      "score": null
     },
     "ext": {
-     "nom": "TBD",
-     "surnom": "TBD",
-     "abr": "TBD",
-     "logo": "",
+     "nom": "Toledo",
+     "surnom": "Rockets",
+     "abr": "TOL",
+     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
      "rang": null,
-     "bilan": "",
+     "bilan": "10-2",
      "score": null
     }
    },
